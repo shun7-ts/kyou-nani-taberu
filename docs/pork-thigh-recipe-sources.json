@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-10-21",
+  "scope": "豚もも肉1件・8料理。原文の転載ではなく、家庭向け1人分・一般調味料・工程ごとの時間を独自編集。実調理は未検証。",
+  "cookingSafety": {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01_00008.html",
+    "note": "中心75℃・1分以上を加熱の目安とし、工程時間だけでは保証しない。"
+  },
+  "recipes": [
+    {
+      "key": "pork_thigh_ginger",
+      "title": "豚ももの生姜焼き",
+      "referenceURL": "https://www.kikkoman.co.jp/homecook/washoku/011/",
+      "adaptation": "しょうが焼きの調理法ともも肉利用の記載を参考。切り落としと玉ねぎを使い独自配合。"
+    },
+    {
+      "key": "pork_thigh_cabbage_miso",
+      "title": "豚ももとキャベツのみそ炒め",
+      "referenceURL": "https://park.ajinomoto.co.jp/recipe/card/710284/",
+      "adaptation": "肉とキャベツを炒める組み合わせを参考。甜麺醤を使わず、みそ・酒・みりん等の独自配合。"
+    },
+    {
+      "key": "pork_thigh_pepper_stir",
+      "title": "豚ももとピーマンの細切り炒め",
+      "referenceURL": "https://park.ajinomoto.co.jp/recipe/card/703692/",
+      "adaptation": "豚もも薄切りとピーマンの細切りを参考。赤ピーマンやしめじを省き、オイスター風味の独自配合。"
+    },
+    {
+      "key": "pork_thigh_napa_simmer",
+      "title": "豚ももと白菜のうま煮",
+      "referenceURL": "https://park.ajinomoto.co.jp/recipe/card/805489/print/",
+      "adaptation": "白菜と豚肉のとろみ煮という組み合わせを参考。ひき肉・専用鍋調味料・ご飯を使わず、豚もも・にんじん・しめじの主菜へ。"
+    },
+    {
+      "key": "pork_thigh_sprout_steam",
+      "title": "豚ももともやしの蒸ししゃぶ",
+      "referenceURL": "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=21047",
+      "adaptation": "肉を重ねずもやしと蒸す考え方を参考。豚バラと電子レンジから豚ももとフライパン蒸しへ変更。"
+    },
+    {
+      "key": "pork_thigh_mushroom_ponzu",
+      "title": "豚ももときのこのポン酢炒め",
+      "referenceURL": "https://www.tohto-coop.or.jp/recipe/recipe.php?cd=21090402",
+      "adaptation": "きのこ数種とポン酢炒めを参考。豚もも・しめじ・えのきに絞り、バター等を省いた独自配合。"
+    },
+    {
+      "key": "pork_thigh_bowl",
+      "title": "豚ももの豚丼",
+      "referenceURL": "https://www.kikkoman.co.jp/homecook/search/recipe/00058397/",
+      "adaptation": "豚肉と玉ねぎを甘辛くしてご飯にのせる組み合わせを参考。普通のしょうゆで独自配合。栄養値は転載しない。"
+    },
+    {
+      "key": "pork_thigh_daikon_simmer",
+      "title": "豚ももと大根の甘辛煮",
+      "referenceURL": "https://www.kikkoman.co.jp/homecook/search/recipe/00002961/",
+      "adaptation": "大根と豚肉の煮物を参考。薄い大根を先に下煮し豚ももを後入れ。にんじん・うずら卵等は使わない独自配合。"
+    }
+  ]
+}

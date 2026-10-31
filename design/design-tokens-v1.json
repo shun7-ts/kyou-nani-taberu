@@ -1,0 +1,107 @@
+{
+  "version": "1.4.0",
+  "product": "今日何食べる？",
+  "principles": [
+    "今日の一品を最初に決めやすくする",
+    "食材情報は高密度でも読み飛ばせる階層にする",
+    "警告は必要な場面だけに限定し不安をあおらない",
+    "入力修正は可能な限り一画面で完結させる"
+  ],
+  "colors": {
+    "light": {
+      "background": "#FFFCF8",
+      "surface": "#FFFDFB",
+      "surfaceSoft": "#F3ECE6",
+      "textPrimary": "#2E211C",
+      "textSecondary": "#77665E",
+      "border": "#E5DDD6",
+      "accent": "#CF413A",
+      "accentPressed": "#BF342F",
+      "accentSoft": "#FFECE6",
+      "onAccent": "#FFFFFF",
+      "warning": "#965B00",
+      "warningSoft": "#FFF1D7",
+      "danger": "#A03B35",
+      "dangerSoft": "#FBE3E1",
+      "accentFill": "#D23F3A",
+      "illustration": "#FF5652",
+      "mealAddFill": "#E65445",
+      "tabAccent": "#F23829"
+    },
+    "dark": {
+      "background": "#181311",
+      "surface": "#241B18",
+      "surfaceSoft": "#2A201C",
+      "textPrimary": "#F7F0EB",
+      "textSecondary": "#C0AEA4",
+      "border": "#4D3931",
+      "accent": "#FF8B80",
+      "accentPressed": "#BF342F",
+      "accentSoft": "#402521",
+      "onAccent": "#FFFFFF",
+      "warning": "#F2BD66",
+      "warningSoft": "#3C2C12",
+      "danger": "#F28A83",
+      "dangerSoft": "#44201E",
+      "accentFill": "#D23F3A",
+      "illustration": "#FF8B80",
+      "mealAddFill": "#E65445",
+      "tabAccent": "#F23829"
+    }
+  },
+  "typography": {
+    "fontFamily": "system",
+    "display": {
+      "size": 30,
+      "weight": "semibold",
+      "lineHeight": 36
+    },
+    "title": {
+      "size": 22,
+      "weight": "semibold",
+      "lineHeight": 28
+    },
+    "headline": {
+      "size": 17,
+      "weight": "semibold",
+      "lineHeight": 22
+    },
+    "body": {
+      "size": 15,
+      "weight": "regular",
+      "lineHeight": 21
+    },
+    "subheadline": {
+      "size": 13,
+      "weight": "regular",
+      "lineHeight": 18
+    },
+    "caption": {
+      "size": 12,
+      "weight": "regular",
+      "lineHeight": 16
+    }
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 20,
+    "2xl": 24,
+    "3xl": 32
+  },
+  "radius": {
+    "small": 10,
+    "medium": 14,
+    "large": 20,
+    "pill": 999
+  },
+  "sizes": {
+    "minimumTapTarget": 44,
+    "compactRowMinimumHeight": 52,
+    "primaryButtonHeight": 44,
+    "bottomNavigationHeight": 64,
+    "contentHorizontalPadding": 16
+  }
+}

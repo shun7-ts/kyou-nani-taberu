@@ -1,0 +1,133 @@
+{
+  "capturedAt": "2026-10-15",
+  "locale": "ja-JP",
+  "data": "isolated in-memory fictional inventory",
+  "images": [
+    {
+      "file": "iphone-1206x2622/01-home.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "bytes": 964564,
+      "sha256": "ec4c2c6387a1ca8b9b829e480af4b0975e7422566bbb5729593087910cd41717"
+    },
+    {
+      "file": "iphone-1206x2622/02-meal-tray.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "bytes": 1306039,
+      "sha256": "add255e930d0beee76b5415d084dee3d2d251a64d12b4484919c0ec7201f1a88"
+    },
+    {
+      "file": "iphone-1206x2622/03-materials.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "bytes": 272850,
+      "sha256": "de0865dda4e5eddbf3e0bf23a062895d4906745023dfc14b27263c6ce1c44c2e"
+    },
+    {
+      "file": "iphone-1206x2622/04-shopping.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "bytes": 250281,
+      "sha256": "8d1435b2547895da2a3359c68dca1fa5fa93f31bc65cde1bb205a5c85bde2dd0"
+    },
+    {
+      "file": "iphone-1206x2622/05-fridge.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "bytes": 311902,
+      "sha256": "bea7056125ca4cdab258156d5e3681ddbea2f13ecd2a56495acb69923fd7ea12"
+    },
+    {
+      "file": "iphone-1206x2622/06-recipe.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "bytes": 1191894,
+      "sha256": "619de54cf8cfd7228050bf9f92c659dd1538c946be5fcbe65bfb93fe639d716e"
+    },
+    {
+      "file": "iphone-1206x2622/07-steps.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "bytes": 472737,
+      "sha256": "ec68304e6c2cc0ed9ac6454486c15f806521d015eb4776b067f696024080e20c"
+    },
+    {
+      "file": "ipad-2064x2752/01-home.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "bytes": 1268654,
+      "sha256": "2f259d4dd97492dab336ac8c96c57dd701a980f3287f24f7f27c4cd8b9d098b8"
+    },
+    {
+      "file": "ipad-2064x2752/02-meal-tray.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "bytes": 2638455,
+      "sha256": "a4e900f23d08c15c5d5f8c613ce58b89119d80d5c36a5bc62ca23f3f11ca90ae"
+    },
+    {
+      "file": "ipad-2064x2752/03-materials.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "bytes": 300317,
+      "sha256": "787b60b751086fa0a25aa8ac3025161853e643f7feb2f628e600fd7209d648ad"
+    },
+    {
+      "file": "ipad-2064x2752/04-shopping.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "bytes": 216163,
+      "sha256": "016fec4574e0ba9bad08df5542a0bc3d0dabe3436a7360015c59c187b646be64"
+    },
+    {
+      "file": "ipad-2064x2752/05-fridge.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "bytes": 369042,
+      "sha256": "ba5055b8bc1ceead5bbc4718b6008529b5aefb723d96425cce881d3f9f7451e0"
+    },
+    {
+      "file": "ipad-2064x2752/06-recipe.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "bytes": 1507376,
+      "sha256": "4b8af7be37a811b6e9737c67febd9ca130b17d3f01f617856be7979443b1ddd0"
+    },
+    {
+      "file": "ipad-2064x2752/07-steps.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "bytes": 891827,
+      "sha256": "84ccbf4b0de9be18262ccebcaf82b31726aaea4d6f28bc4d76cfa5819491f869"
+    }
+  ]
+}

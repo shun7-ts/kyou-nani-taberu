@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-14",
+  "note": "公式資料で料理の組み合わせと調理方法を確認し、1人分・一般調味料・工程別の時間を含む独自原稿として編集。実調理は未検証。",
+  "sources": [
+    {
+      "url": "https://www.kikkoman.co.jp/homecook/theme/popular/hakusai_butabara.html",
+      "recipes": [
+        "napa_pork_layered_pot"
+      ]
+    },
+    {
+      "url": "https://park.ajinomoto.co.jp/recipe/card/030199/",
+      "recipes": [
+        "napa_tuna_simmer"
+      ]
+    },
+    {
+      "url": "https://park.ajinomoto.co.jp/recipe/menu/card/?main=709085&sub1=708074&sub2=707256",
+      "recipes": [
+        "napa_atsuage_simmer"
+      ]
+    },
+    {
+      "url": "https://park.ajinomoto.co.jp/recipe/card/800077/",
+      "recipes": [
+        "napa_sesame_side"
+      ]
+    },
+    {
+      "url": "https://park.ajinomoto.co.jp/recipe/card/800143/",
+      "recipes": [
+        "napa_bacon_soup"
+      ]
+    },
+    {
+      "url": "https://park.ajinomoto.co.jp/recipe/card/801937/",
+      "recipes": [
+        "napa_enoki_miso_soup"
+      ]
+    }
+  ]
+}

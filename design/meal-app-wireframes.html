@@ -1,0 +1,2152 @@
+<style>
+  #kyf-wireframes {
+    color-scheme: light dark;
+    --kyf-bg: light-dark(#fffcf8, #181311);
+    --kyf-surface: light-dark(#fffdfb, #241b18);
+    --kyf-surface-soft: light-dark(#f3ece6, #2a201c);
+    --kyf-text: light-dark(#2e211c, #f7f0eb);
+    --kyf-muted: light-dark(#77665e, #c0aea4);
+    --kyf-line: light-dark(#e5ddd6, #4d3931);
+    --kyf-accent: light-dark(#cf413a, #ff8b80);
+    --kyf-meal-add-fill: #e65445;
+    --kyf-tab-accent: #f23829;
+    --kyf-accent-fill: light-dark(#d23f3a, #d23f3a);
+    --kyf-accent-soft: light-dark(#ffece6, #402521);
+    --kyf-on-accent: light-dark(#ffffff, #ffffff);
+    --kyf-warn: light-dark(#965b00, #f2bd66);
+    --kyf-warn-soft: light-dark(#fff1d7, #3c2c12);
+    --kyf-danger: light-dark(#a03b35, #f28a83);
+    --kyf-radius: 20px;
+    display: grid;
+    gap: 14px;
+    width: 100%;
+  }
+
+  #kyf-wireframes .kyf-screen-switcher {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+
+  #kyf-wireframes .kyf-switch {
+    min-height: 40px;
+    padding: 8px 12px;
+    border: 1px solid var(--kyf-line);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--kyf-text);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-switch[aria-selected="true"] {
+    background: var(--kyf-accent-fill);
+    color: var(--kyf-on-accent);
+    border-color: transparent;
+  }
+
+  #kyf-wireframes .kyf-stage {
+    display: grid;
+    place-items: start center;
+  }
+
+  #kyf-wireframes .kyf-panel[hidden] {
+    display: none;
+  }
+
+  #kyf-wireframes .kyf-stock-row[hidden] {
+    display: none;
+  }
+
+  #kyf-wireframes .kyf-bulk-panel[hidden],
+  #kyf-wireframes .kyf-specialty-list[hidden],
+  #kyf-wireframes .kyf-bulk-complete[hidden] {
+    display: none;
+  }
+
+  #kyf-wireframes .kyf-phone {
+    width: min(100%, 390px);
+    min-height: 720px;
+    overflow: hidden;
+    border-radius: var(--kyf-radius);
+    background: var(--kyf-bg);
+    color: var(--kyf-text);
+    box-shadow: 0 12px 32px light-dark(rgba(18, 40, 22, 0.13), rgba(0, 0, 0, 0.34));
+    border: 1px solid var(--kyf-line);
+    display: flex;
+    flex-direction: column;
+  }
+
+  #kyf-wireframes.kyf-compact .kyf-phone {
+    min-height: 650px;
+  }
+
+  #kyf-wireframes .kyf-status {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 18px 4px;
+    color: var(--kyf-muted);
+    font-size: 12px;
+  }
+
+  #kyf-wireframes .kyf-page-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 18px 10px;
+  }
+
+  #kyf-wireframes .kyf-page-head h2,
+  #kyf-wireframes .kyf-page-head h3,
+  #kyf-wireframes .kyf-content h3,
+  #kyf-wireframes .kyf-content p {
+    margin: 0;
+  }
+
+  #kyf-wireframes .kyf-phone strong {
+    font-weight: 500;
+  }
+
+  #kyf-wireframes .kyf-page-head h2 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  #kyf-wireframes .kyf-page-head h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  #kyf-wireframes .kyf-subtitle {
+    color: var(--kyf-muted);
+    font-size: 13px;
+    margin-top: 3px;
+  }
+
+  #kyf-wireframes .kyf-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px 16px 16px;
+  }
+
+  #kyf-wireframes.kyf-compact .kyf-content {
+    gap: 8px;
+  }
+
+  #kyf-wireframes .kyf-surface {
+    padding: 14px;
+    border-radius: calc(var(--kyf-radius) - 7px);
+    background: var(--kyf-surface);
+    border: 1px solid var(--kyf-line);
+  }
+
+  #kyf-wireframes .kyf-soft {
+    background: var(--kyf-surface-soft);
+    border-color: transparent;
+  }
+
+  #kyf-wireframes .kyf-alert {
+    background: var(--kyf-warn-soft);
+    border-color: transparent;
+  }
+
+  #kyf-wireframes .kyf-section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  #kyf-wireframes .kyf-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #kyf-wireframes .kyf-between {
+    justify-content: space-between;
+  }
+
+  #kyf-wireframes .kyf-grow {
+    flex: 1;
+    min-width: 0;
+  }
+
+  #kyf-wireframes .kyf-meta {
+    color: var(--kyf-muted);
+    font-size: 12px;
+  }
+
+  #kyf-wireframes .kyf-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: var(--kyf-accent-soft);
+    color: var(--kyf-accent);
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  #kyf-wireframes .kyf-badge.warn {
+    background: var(--kyf-warn-soft);
+    color: var(--kyf-warn);
+  }
+
+  #kyf-wireframes .kyf-icon-button {
+    width: 42px;
+    height: 42px;
+    border: 1px solid var(--kyf-line);
+    border-radius: 50%;
+    background: var(--kyf-surface);
+    color: var(--kyf-text);
+    display: inline-grid;
+    place-items: center;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-primary,
+  #kyf-wireframes .kyf-secondary {
+    min-height: 46px;
+    padding: 11px 15px;
+    border-radius: calc(var(--kyf-radius) - 8px);
+    font: inherit;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-primary {
+    border: 0;
+    background: var(--kyf-accent-fill);
+    color: light-dark(#ffffff, #102014);
+  }
+
+  #kyf-wireframes .kyf-secondary {
+    border: 1px solid var(--kyf-line);
+    background: var(--kyf-surface);
+    color: var(--kyf-text);
+  }
+
+  #kyf-wireframes .kyf-block {
+    width: 100%;
+  }
+
+  #kyf-wireframes .kyf-recipe-feature {
+    display: grid;
+    gap: 12px;
+  }
+
+  #kyf-wireframes .kyf-home-hero {
+    padding: 16px;
+  }
+
+  #kyf-wireframes .kyf-home-hero .kyf-food-placeholder {
+    min-height: 228px;
+    position: relative;
+  }
+
+  #kyf-wireframes .kyf-hero-label {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 9px;
+    border-radius: 999px;
+    background: var(--kyf-accent-fill);
+    color: light-dark(#ffffff, #102014);
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  #kyf-wireframes .kyf-match-reason {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--kyf-accent);
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  #kyf-wireframes .kyf-missing {
+    color: var(--kyf-warn);
+    font-size: 12px;
+  }
+
+  #kyf-wireframes .kyf-food-placeholder {
+    min-height: 112px;
+    border-radius: calc(var(--kyf-radius) - 8px);
+    background: linear-gradient(135deg, var(--kyf-accent-soft), var(--kyf-surface-soft));
+    display: grid;
+    place-items: center;
+    color: var(--kyf-accent);
+  }
+
+  #kyf-wireframes .kyf-mini-list {
+    display: grid;
+    gap: 8px;
+  }
+
+  #kyf-wireframes .kyf-mini-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--kyf-line);
+  }
+
+  #kyf-wireframes .kyf-mini-item:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  #kyf-wireframes .kyf-alt-trigger {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    color: var(--kyf-text);
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-alt-trigger:hover,
+  #kyf-wireframes .kyf-alt-trigger:focus-visible {
+    background: var(--kyf-accent-soft);
+  }
+
+  #kyf-wireframes .kyf-alt-expanded {
+    margin-top: 12px;
+  }
+
+  #kyf-wireframes .kyf-alt-slide-card {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    padding: 12px;
+    border: 1px solid var(--kyf-line);
+    border-radius: calc(var(--kyf-radius) - 8px);
+    background: var(--kyf-surface);
+    color: var(--kyf-text);
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-alt-slide-visual {
+    min-height: 118px;
+    display: grid;
+    place-items: center;
+    border-radius: calc(var(--kyf-radius) - 11px);
+    background: linear-gradient(135deg, var(--kyf-accent-soft), var(--kyf-warn-soft));
+    color: var(--kyf-accent);
+  }
+
+  #kyf-wireframes .kyf-expiry-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+
+  #kyf-wireframes .kyf-expiry-item {
+    display: grid;
+    place-items: center;
+    gap: 5px;
+    min-width: 0;
+    padding: 10px 6px;
+    border-radius: calc(var(--kyf-radius) - 10px);
+    background: var(--kyf-warn-soft);
+    text-align: center;
+  }
+
+  #kyf-wireframes .kyf-expiry-item strong,
+  #kyf-wireframes .kyf-expiry-item span {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  #kyf-wireframes .kyf-expiry-item span {
+    color: var(--kyf-warn);
+    font-size: 11px;
+  }
+
+  #kyf-wireframes .kyf-text-button {
+    min-height: 36px;
+    padding: 6px 8px;
+    border: 0;
+    background: transparent;
+    color: var(--kyf-accent);
+    font: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-upgrade {
+    background: linear-gradient(135deg, var(--kyf-surface-soft), var(--kyf-accent-soft));
+    border-color: transparent;
+  }
+
+  #kyf-wireframes .kyf-filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  #kyf-wireframes .kyf-filter {
+    padding: 8px 11px;
+    border: 1px solid var(--kyf-line);
+    border-radius: 999px;
+    background: var(--kyf-surface);
+    color: var(--kyf-text);
+    white-space: nowrap;
+    font: inherit;
+    font-size: 13px;
+  }
+
+  #kyf-wireframes .kyf-filter.active {
+    background: var(--kyf-accent-soft);
+    color: var(--kyf-accent);
+    border-color: transparent;
+  }
+
+  #kyf-wireframes .kyf-stock-row {
+    display: grid;
+    grid-template-columns: 36px 1fr auto;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--kyf-line);
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-stock-row:last-child {
+    border-bottom: 0;
+  }
+
+  #kyf-wireframes .kyf-bulk-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  #kyf-wireframes .kyf-check-tile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    padding: 9px 10px;
+    border: 1px solid var(--kyf-line);
+    border-radius: 10px;
+    background: var(--kyf-surface);
+    color: var(--kyf-text);
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-check-tile:has(input:checked) {
+    border-color: var(--kyf-accent);
+    background: var(--kyf-accent-soft);
+  }
+
+  #kyf-wireframes .kyf-check-tile input {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    accent-color: var(--kyf-accent);
+  }
+
+  #kyf-wireframes .kyf-bulk-category + .kyf-bulk-category {
+    margin-top: 16px;
+  }
+
+  #kyf-wireframes .kyf-bulk-selected {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding: 2px 0;
+  }
+
+  #kyf-wireframes .kyf-selected-chip {
+    flex: 0 0 auto;
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: var(--kyf-accent-soft);
+    color: var(--kyf-accent);
+    font-size: 12px;
+  }
+
+  #kyf-wireframes button.kyf-selected-chip {
+    border: 0;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-dense-list .kyf-stock-row {
+    grid-template-columns: 30px 1fr auto;
+    gap: 8px;
+    padding: 7px 0;
+  }
+
+  #kyf-wireframes .kyf-dense-list .kyf-food-dot {
+    width: 28px;
+    height: 28px;
+  }
+
+  #kyf-wireframes .kyf-stock-side {
+    text-align: right;
+  }
+
+  #kyf-wireframes .kyf-mini-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 3px;
+  }
+
+  #kyf-wireframes .kyf-tag-tiny {
+    padding: 2px 5px;
+    border-radius: 999px;
+    background: var(--kyf-surface-soft);
+    color: var(--kyf-muted);
+    font-size: 10px;
+  }
+
+  #kyf-wireframes .kyf-fridge-tools {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  #kyf-wireframes .kyf-sort-select {
+    min-height: 36px;
+    padding: 6px 28px 6px 9px;
+    border: 1px solid var(--kyf-line);
+    border-radius: 10px;
+    background: var(--kyf-surface);
+    color: var(--kyf-text);
+    font: inherit;
+    font-size: 13px;
+  }
+
+  #kyf-wireframes .kyf-food-dot {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: var(--kyf-surface-soft);
+    color: var(--kyf-accent);
+    display: grid;
+    place-items: center;
+  }
+
+  #kyf-wireframes .kyf-hero {
+    min-height: 150px;
+    margin: 0 16px;
+    border-radius: calc(var(--kyf-radius) - 5px);
+    background: linear-gradient(145deg, var(--kyf-accent-soft), var(--kyf-warn-soft));
+    display: grid;
+    place-items: center;
+    color: var(--kyf-accent);
+  }
+
+  #kyf-wireframes .kyf-recipe-hero {
+    min-height: 176px;
+    margin: 0 16px;
+    padding: 16px;
+    border-radius: calc(var(--kyf-radius) - 5px);
+    background: linear-gradient(145deg, var(--kyf-accent-soft), var(--kyf-warn-soft));
+    color: var(--kyf-accent);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  #kyf-wireframes .kyf-recipe-hero svg {
+    width: 52px;
+    height: 52px;
+  }
+
+  #kyf-wireframes .kyf-recipe-hero-note {
+    max-width: 200px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background: var(--kyf-surface);
+    color: var(--kyf-text);
+    font-size: 12px;
+  }
+
+  #kyf-wireframes .kyf-serving-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  #kyf-wireframes .kyf-stepper {
+    display: grid;
+    grid-template-columns: 42px minmax(64px, auto) 42px;
+    align-items: center;
+    border: 1px solid var(--kyf-line);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--kyf-surface);
+  }
+
+  #kyf-wireframes .kyf-stepper button {
+    min-height: 42px;
+    border: 0;
+    background: transparent;
+    color: var(--kyf-text);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-stepper strong {
+    text-align: center;
+    font-weight: 500;
+  }
+
+  #kyf-wireframes .kyf-stock-summary {
+    display: grid;
+    gap: 9px;
+  }
+
+  #kyf-wireframes .kyf-stock-meter {
+    height: 7px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: var(--kyf-line);
+  }
+
+  #kyf-wireframes .kyf-stock-meter > span {
+    display: block;
+    height: 100%;
+    background: var(--kyf-accent-fill);
+    transition: width 180ms ease;
+  }
+
+  #kyf-wireframes .kyf-recipe-tabs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+    padding: 4px;
+    border-radius: 12px;
+    background: var(--kyf-surface-soft);
+  }
+
+  #kyf-wireframes .kyf-recipe-tab {
+    min-height: 42px;
+    border: 0;
+    border-radius: 9px;
+    background: transparent;
+    color: var(--kyf-muted);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-recipe-tab.active {
+    background: var(--kyf-surface);
+    color: var(--kyf-text);
+    box-shadow: 0 1px 4px color-mix(in srgb, var(--kyf-text) 10%, transparent);
+  }
+
+  #kyf-wireframes .kyf-ingredient {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 8px;
+    align-items: center;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--kyf-line);
+    font-size: 14px;
+  }
+
+  #kyf-wireframes .kyf-ingredient-main {
+    display: grid;
+    gap: 3px;
+  }
+
+  #kyf-wireframes .kyf-ingredient-side {
+    display: grid;
+    justify-items: end;
+    gap: 3px;
+    text-align: right;
+  }
+
+  #kyf-wireframes .kyf-ingredient:last-child {
+    border-bottom: 0;
+  }
+
+  #kyf-wireframes .kyf-ok { color: var(--kyf-accent); }
+  #kyf-wireframes .kyf-short { color: var(--kyf-danger); }
+
+  #kyf-wireframes .kyf-step-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 32px 1fr 20px;
+    gap: 10px;
+    align-items: start;
+    padding: 12px 0;
+    border: 0;
+    border-bottom: 1px solid var(--kyf-line);
+    background: transparent;
+    color: var(--kyf-text);
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-step-row:last-child {
+    border-bottom: 0;
+  }
+
+  #kyf-wireframes .kyf-step-number {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--kyf-accent-soft);
+    color: var(--kyf-accent);
+    display: grid;
+    place-items: center;
+    font-size: 13px;
+  }
+
+  #kyf-wireframes .kyf-step-row[aria-pressed="true"] .kyf-step-text {
+    color: var(--kyf-muted);
+    text-decoration: line-through;
+  }
+
+  #kyf-wireframes .kyf-step-check {
+    color: var(--kyf-muted);
+  }
+
+  #kyf-wireframes .kyf-step-row[aria-pressed="true"] .kyf-step-check {
+    color: var(--kyf-accent);
+  }
+
+  #kyf-wireframes .kyf-selection-result {
+    display: grid;
+    gap: 10px;
+  }
+
+  #kyf-wireframes .kyf-recipe-action {
+    display: grid;
+    gap: 8px;
+    padding: 12px 16px 16px;
+    border-top: 1px solid var(--kyf-line);
+    background: var(--kyf-surface);
+  }
+
+  #kyf-wireframes .kyf-check-row {
+    display: grid;
+    grid-template-columns: 24px 1fr auto;
+    gap: 10px;
+    align-items: center;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--kyf-line);
+  }
+
+  #kyf-wireframes .kyf-check-row:last-child {
+    border-bottom: 0;
+  }
+
+  #kyf-wireframes .kyf-check-row input {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--kyf-accent);
+  }
+
+  #kyf-wireframes .kyf-field {
+    display: grid;
+    gap: 5px;
+  }
+
+  #kyf-wireframes .kyf-field label {
+    color: var(--kyf-muted);
+    font-size: 12px;
+  }
+
+  #kyf-wireframes .kyf-field input,
+  #kyf-wireframes .kyf-field select {
+    width: 100%;
+    min-height: 42px;
+    padding: 8px 10px;
+    border: 1px solid var(--kyf-line);
+    border-radius: 10px;
+    background: var(--kyf-bg);
+    color: var(--kyf-text);
+    font: inherit;
+    font-size: 16px;
+  }
+
+  #kyf-wireframes .kyf-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    gap: 8px;
+  }
+
+  #kyf-wireframes .kyf-shopping-summary {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 12px;
+  }
+
+  #kyf-wireframes .kyf-shopping-section {
+    padding-top: 12px;
+    padding-bottom: 4px;
+  }
+
+  #kyf-wireframes .kyf-shopping-row[hidden] {
+    display: none;
+  }
+
+  #kyf-wireframes .kyf-shopping-row.is-purchased strong,
+  #kyf-wireframes .kyf-shopping-row.is-purchased .kyf-meta {
+    color: var(--kyf-muted);
+    text-decoration: line-through;
+  }
+
+  #kyf-wireframes .kyf-item-source {
+    display: inline-flex;
+    margin-bottom: 4px;
+    color: var(--kyf-accent);
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  #kyf-wireframes .kyf-field-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+  #kyf-wireframes .kyf-quantity-grid {
+    display: grid;
+    grid-template-columns: 1fr 92px;
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+  #kyf-wireframes .kyf-inline-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: var(--kyf-surface-soft);
+    font-size: 13px;
+  }
+
+  #kyf-wireframes .kyf-inline-check input {
+    width: 18px;
+    height: 18px;
+    flex: 0 0 auto;
+    accent-color: var(--kyf-accent);
+  }
+
+  #kyf-wireframes .kyf-recognition-item {
+    border-left: 3px solid var(--kyf-accent);
+  }
+
+  #kyf-wireframes .kyf-recognition-item.needs-check {
+    border-left-color: var(--kyf-warn);
+  }
+
+  #kyf-wireframes .kyf-purchase-item {
+    border-left: 3px solid var(--kyf-accent);
+  }
+
+  #kyf-wireframes .kyf-purchase-item.merge {
+    border-left-color: var(--kyf-warn);
+  }
+
+  #kyf-wireframes .kyf-purchase-lead {
+    display: grid;
+    grid-template-columns: 34px 1fr auto;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #kyf-wireframes .kyf-purchase-lead .kyf-food-dot {
+    width: 34px;
+    height: 34px;
+  }
+
+  #kyf-wireframes .kyf-purchase-action {
+    display: grid;
+    gap: 8px;
+    padding: 12px 16px 16px;
+    border-top: 1px solid var(--kyf-line);
+    background: var(--kyf-surface);
+  }
+
+  #kyf-wireframes .kyf-purchase-complete {
+    display: grid;
+    gap: 10px;
+  }
+
+  #kyf-wireframes .kyf-brand-mark {
+    width: 76px;
+    height: 76px;
+    margin: 18px auto 4px;
+    border-radius: 24px;
+    display: grid;
+    place-items: center;
+    background: var(--kyf-accent-soft);
+    color: var(--kyf-accent);
+  }
+
+  #kyf-wireframes .kyf-brand-mark svg {
+    width: 38px;
+    height: 38px;
+  }
+
+  #kyf-wireframes .kyf-centered-copy {
+    text-align: center;
+  }
+
+  #kyf-wireframes .kyf-benefit-list {
+    display: grid;
+    gap: 10px;
+  }
+
+  #kyf-wireframes .kyf-benefit-row {
+    display: grid;
+    grid-template-columns: 34px 1fr;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #kyf-wireframes .kyf-choice-list {
+    display: grid;
+    gap: 10px;
+  }
+
+  #kyf-wireframes .kyf-choice-card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 42px 1fr 20px;
+    align-items: center;
+    gap: 12px;
+    padding: 14px;
+    border: 1px solid var(--kyf-line);
+    border-radius: 14px;
+    background: var(--kyf-surface);
+    color: var(--kyf-text);
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-choice-card .kyf-food-dot {
+    width: 42px;
+    height: 42px;
+  }
+
+  #kyf-wireframes .kyf-candidate-row {
+    display: grid;
+    grid-template-columns: 54px 1fr auto;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--kyf-line);
+  }
+
+  #kyf-wireframes .kyf-candidate-row:last-child {
+    border-bottom: 0;
+  }
+
+  #kyf-wireframes .kyf-candidate-row .kyf-food-placeholder {
+    width: 54px;
+    height: 54px;
+  }
+
+  #kyf-wireframes .kyf-mode-tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    padding: 4px;
+    border-radius: 12px;
+    background: var(--kyf-surface-soft);
+  }
+
+  #kyf-wireframes .kyf-mode-tab {
+    min-height: 42px;
+    border: 0;
+    border-radius: 9px;
+    background: transparent;
+    color: var(--kyf-muted);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-mode-tab.active {
+    background: var(--kyf-surface);
+    color: var(--kyf-text);
+    box-shadow: 0 1px 4px color-mix(in srgb, var(--kyf-text) 10%, transparent);
+  }
+
+  #kyf-wireframes .kyf-record-area {
+    display: grid;
+    place-items: center;
+    gap: 14px;
+    padding: 28px 10px;
+    text-align: center;
+  }
+
+  #kyf-wireframes .kyf-record-button {
+    width: 84px;
+    height: 84px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--kyf-accent-fill);
+    color: var(--kyf-surface);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-record-button.recording {
+    background: var(--kyf-danger);
+  }
+
+  #kyf-wireframes .kyf-record-button svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  #kyf-wireframes .kyf-camera-zone {
+    min-height: 190px;
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    padding: 24px;
+    border: 1px dashed var(--kyf-line);
+    border-radius: 14px;
+    color: var(--kyf-muted);
+    text-align: center;
+  }
+
+  #kyf-wireframes .kyf-camera-zone svg {
+    width: 42px;
+    height: 42px;
+  }
+
+  #kyf-wireframes .kyf-segment {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+    padding: 4px;
+    border-radius: 12px;
+    background: var(--kyf-surface-soft);
+  }
+
+  #kyf-wireframes .kyf-segment button {
+    min-height: 40px;
+    border: 0;
+    border-radius: 9px;
+    background: transparent;
+    color: var(--kyf-muted);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  #kyf-wireframes .kyf-segment button.active {
+    background: var(--kyf-surface);
+    color: var(--kyf-text);
+  }
+
+  #kyf-wireframes .kyf-consumption-row {
+    display: grid;
+    gap: 9px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--kyf-line);
+  }
+
+  #kyf-wireframes .kyf-consumption-row:last-child {
+    border-bottom: 0;
+  }
+
+  #kyf-wireframes .kyf-settings-row {
+    display: grid;
+    grid-template-columns: 32px 1fr auto;
+    gap: 10px;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--kyf-line);
+  }
+
+  #kyf-wireframes .kyf-settings-row:last-child {
+    border-bottom: 0;
+  }
+
+  #kyf-wireframes .kyf-native-switch {
+    width: 42px;
+    height: 24px;
+    accent-color: var(--kyf-accent);
+  }
+
+  #kyf-wireframes .kyf-danger-text {
+    color: var(--kyf-danger);
+  }
+
+  #kyf-wireframes .kyf-source-strip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--kyf-muted);
+    font-size: 13px;
+  }
+
+  #kyf-wireframes .kyf-bottom-nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--kyf-line);
+    background: var(--kyf-surface);
+    margin-top: auto;
+  }
+
+  #kyf-wireframes .kyf-bottom-nav button {
+    min-height: 58px;
+    border: 0;
+    background: transparent;
+    color: var(--kyf-muted);
+    display: grid;
+    place-items: center;
+    gap: 2px;
+    font: inherit;
+    font-size: 10px;
+  }
+
+  #kyf-wireframes .kyf-bottom-nav button.active {
+    color: var(--kyf-accent);
+  }
+
+  #kyf-wireframes .kyf-bottom-nav svg,
+  #kyf-wireframes .kyf-row svg,
+  #kyf-wireframes .kyf-icon-button svg,
+  #kyf-wireframes .kyf-food-dot svg,
+  #kyf-wireframes .kyf-food-placeholder svg,
+  #kyf-wireframes .kyf-hero svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  #kyf-wireframes .kyf-food-placeholder svg,
+  #kyf-wireframes .kyf-hero svg {
+    width: 42px;
+    height: 42px;
+  }
+
+  #kyf-wireframes .kyf-caption {
+    text-align: center;
+    color: var(--kyf-muted);
+    font-size: 12px;
+  }
+
+  @media (max-width: 480px) {
+    #kyf-wireframes .kyf-switch {
+      flex: 1 1 calc(33% - 8px);
+    }
+    #kyf-wireframes .kyf-phone {
+      border-radius: 16px;
+      min-height: 680px;
+    }
+  }
+</style>
+
+<div id="kyf-wireframes" aria-label="今日何食べる？全14画面のワイヤーフレーム">
+  <div class="kyf-screen-switcher" role="tablist" aria-label="画面を選択">
+    <button class="kyf-switch" type="button" role="tab" aria-selected="true" aria-controls="kyf-onboarding-panel" data-screen="onboarding">初回案内</button>
+    <button class="kyf-switch" type="button" role="tab" aria-selected="false" aria-controls="kyf-initial-stock-panel" data-screen="initial-stock">初期在庫</button>
+    <button class="kyf-switch" type="button" role="tab" aria-selected="false" aria-controls="kyf-home-panel" data-screen="home">ホーム</button>
+    <button class="kyf-switch" type="button" role="tab" aria-selected="false" aria-controls="kyf-candidates-panel" data-screen="candidates">献立候補</button>
+    <button class="kyf-switch" type="button" role="tab" aria-selected="false" aria-controls="kyf-recipe-panel" data-screen="recipe">レシピ詳細</button>
+    <button class="kyf-switch" type="button" role="tab" aria-selected="false" aria-controls="kyf-shopping-panel" data-screen="shopping">買い物</button>
+    <button class="kyf-switch" type="button" role="tab" aria-selected="false" aria-controls="kyf-purchase-panel" data-screen="purchase">購入登録</button>
+    <button class="kyf-switch" type="button" role="tab" aria-selected="false" aria-controls="kyf-fridge-panel" data-screen="fridge">冷蔵庫</button>
+    <button class="kyf-switch" type="button" role="tab" aria-selected="false" aria-controls="kyf-add-method-panel" data-screen="add-method">登録方法</button>
+    <button class="kyf-switch" type="button" role="tab" aria-selected="false" aria-controls="kyf-capture-panel" data-screen="capture">食材入力</button>
+    <button class="kyf-switch" type="button" role="tab" aria-selected="false" aria-controls="kyf-review-panel" data-screen="review">認識確認</button>
+    <button class="kyf-switch" type="button" role="tab" aria-selected="false" aria-controls="kyf-food-detail-panel" data-screen="food-detail">食材編集</button>
+    <button class="kyf-switch" type="button" role="tab" aria-selected="false" aria-controls="kyf-cooking-panel" data-screen="cooking">調理完了</button>
+    <button class="kyf-switch" type="button" role="tab" aria-selected="false" aria-controls="kyf-settings-panel" data-screen="settings">設定</button>
+  </div>
+
+  <div class="kyf-stage" aria-live="polite">
+    <section class="kyf-panel" id="kyf-onboarding-panel" role="tabpanel" aria-label="初回案内・同意画面">
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <main class="kyf-content">
+          <div class="kyf-brand-mark"><i data-lucide="cooking-pot" aria-hidden="true"></i></div>
+          <section class="kyf-centered-copy"><div class="kyf-subtitle">冷蔵庫から、今日の答えを</div><h2 style="margin:6px 0">今日何食べる？</h2><p class="kyf-meta">一人暮らしの献立決めと買い物を、ひとつの流れで簡単にします。</p></section>
+          <section class="kyf-surface kyf-benefit-list" aria-label="できること">
+            <div class="kyf-benefit-row"><div class="kyf-food-dot"><i data-lucide="refrigerator" aria-hidden="true"></i></div><div><strong>冷蔵庫から献立を提案</strong><div class="kyf-meta">ある食材と不足品がすぐ分かります</div></div></div>
+            <div class="kyf-benefit-row"><div class="kyf-food-dot"><i data-lucide="shopping-basket" aria-hidden="true"></i></div><div><strong>不足分だけ買い物へ</strong><div class="kyf-meta">在庫を差し引いてリストを作ります</div></div></div>
+            <div class="kyf-benefit-row"><div class="kyf-food-dot"><i data-lucide="bell-ring" aria-hidden="true"></i></div><div><strong>期限前にお知らせ</strong><div class="kyf-meta">期限が近い食材の使い忘れを防ぎます</div></div></div>
+          </section>
+          <section class="kyf-surface kyf-soft"><div class="kyf-row" style="align-items:flex-start"><i data-lucide="shield-check" aria-hidden="true"></i><div><strong>認識データについて</strong><div class="kyf-meta">音声データとレシート画像は認識処理後に削除します。手入力だけでも利用できます。</div></div></div><label class="kyf-inline-check"><input id="kyf-policy-consent" type="checkbox"><span><strong>プライバシーポリシーに同意する（必須）</strong><br><span class="kyf-meta">端末内データを含む取扱いを確認しました</span></span></label><label class="kyf-inline-check"><input id="kyf-recognition-consent" type="checkbox"><span><strong>音声・レシート認識を利用する</strong><br><span class="kyf-meta">認識機能を使う場合だけ同意します</span></span></label><button class="kyf-text-button" type="button">内容を読む</button></section>
+          <button class="kyf-primary kyf-block" id="kyf-start-app" type="button" data-open-screen="initial-stock" disabled>認識機能も使って始める</button>
+          <button class="kyf-secondary kyf-block" id="kyf-start-manual" type="button" data-open-screen="initial-stock" disabled>認識機能を使わず始める</button>
+        </main>
+      </div>
+    </section>
+
+    <section class="kyf-panel" id="kyf-initial-stock-panel" role="tabpanel" aria-label="初期在庫一括登録画面" hidden>
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <header class="kyf-page-head"><button class="kyf-icon-button" type="button" aria-label="初回案内へ戻る" data-open-screen="onboarding"><i data-lucide="arrow-left" aria-hidden="true"></i></button><div><div class="kyf-subtitle">最初だけ、まとめて登録</div><h2>家にあるものを選ぶ</h2></div><button class="kyf-text-button" type="button" data-open-screen="home">あとで</button></header>
+        <main class="kyf-content">
+          <section class="kyf-surface kyf-soft"><div class="kyf-row" style="align-items:flex-start"><i data-lucide="check-check" aria-hidden="true"></i><div><strong>量はあとから直せます</strong><div class="kyf-meta">ここでは「家にある」ものだけ選択。選んだ品は在庫状態「ある」でまとめて登録します。</div></div></div></section>
+          <div class="kyf-mode-tabs" role="tablist" aria-label="一括登録する種類"><button class="kyf-mode-tab active" type="button" role="tab" aria-selected="true" data-bulk-mode="seasonings">調味料</button><button class="kyf-mode-tab" type="button" role="tab" aria-selected="false" data-bulk-mode="foods">よくある食材</button></div>
+          <div class="kyf-field"><label for="kyf-bulk-search">名前で探す</label><input id="kyf-bulk-search" type="search" placeholder="例：ナンプラー、キャベツ"></div>
+
+          <section class="kyf-bulk-panel" data-bulk-panel="seasonings">
+            <div class="kyf-bulk-category"><div class="kyf-section-title"><span>基本の調味料</span><button class="kyf-text-button" type="button" data-select-group="basic">このまとまりを選択</button></div><div class="kyf-bulk-grid">
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="salt" data-bulk-name="塩" data-bulk-group="basic"><span>塩</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="sugar" data-bulk-name="砂糖" data-bulk-group="basic"><span>砂糖</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="soy_sauce" data-bulk-name="しょうゆ" data-bulk-group="basic"><span>しょうゆ</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="miso" data-bulk-name="みそ" data-bulk-group="basic"><span>みそ</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="vinegar" data-bulk-name="酢" data-bulk-group="basic"><span>酢</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="mirin" data-bulk-name="みりん" data-bulk-group="basic"><span>みりん</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="cooking_sake" data-bulk-name="料理酒" data-bulk-group="basic"><span>料理酒</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="black_pepper" data-bulk-name="こしょう" data-bulk-group="basic"><span>こしょう</span></label>
+            </div></div>
+            <div class="kyf-bulk-category"><div class="kyf-section-title"><span>油・ソース</span><span class="kyf-meta">複数選択できます</span></div><div class="kyf-bulk-grid">
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="neutral_oil" data-bulk-name="サラダ油"><span>サラダ油</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="sesame_oil" data-bulk-name="ごま油"><span>ごま油</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="olive_oil" data-bulk-name="オリーブ油"><span>オリーブ油</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="mayonnaise" data-bulk-name="マヨネーズ"><span>マヨネーズ</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="ketchup" data-bulk-name="ケチャップ"><span>ケチャップ</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="chuno_sauce" data-bulk-name="中濃ソース"><span>中濃ソース</span></label>
+            </div></div>
+            <div class="kyf-bulk-category"><button class="kyf-secondary kyf-block" id="kyf-show-specialty" type="button" aria-expanded="false"><i data-lucide="sparkles" aria-hidden="true"></i> こだわり・海外調味料も見る</button><div class="kyf-specialty-list" id="kyf-specialty-list" hidden><div class="kyf-bulk-grid" style="margin-top:8px">
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="oyster_sauce" data-bulk-name="オイスターソース"><span>オイスターソース</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="fish_sauce" data-bulk-name="ナンプラー"><span>ナンプラー</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="doubanjiang" data-bulk-name="豆板醤"><span>豆板醤</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="gochujang" data-bulk-name="コチュジャン"><span>コチュジャン</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="whole_grain_mustard" data-bulk-name="粒マスタード"><span>粒マスタード</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="balsamic_vinegar" data-bulk-name="バルサミコ酢"><span>バルサミコ酢</span></label>
+            </div></div></div>
+          </section>
+
+          <section class="kyf-bulk-panel" data-bulk-panel="foods" hidden>
+            <div class="kyf-bulk-category"><div class="kyf-section-title"><span>冷蔵庫によくあるもの</span><span class="kyf-meta">まずは有無だけ</span></div><div class="kyf-bulk-grid">
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="egg" data-bulk-name="卵"><span>卵</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="milk" data-bulk-name="牛乳"><span>牛乳</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="tofu" data-bulk-name="豆腐"><span>豆腐</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="natto" data-bulk-name="納豆"><span>納豆</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="cabbage" data-bulk-name="キャベツ"><span>キャベツ</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="carrot" data-bulk-name="にんじん"><span>にんじん</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="onion" data-bulk-name="玉ねぎ"><span>玉ねぎ</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="potato" data-bulk-name="じゃがいも"><span>じゃがいも</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="green_onion" data-bulk-name="長ねぎ"><span>長ねぎ</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="frozen_udon" data-bulk-name="冷凍うどん"><span>冷凍うどん</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="chicken_thigh" data-bulk-name="鶏もも肉"><span>鶏もも肉</span></label>
+              <label class="kyf-check-tile" data-bulk-item><input type="checkbox" data-ingredient-key="pork_slices" data-bulk-name="豚こま切れ肉"><span>豚こま切れ肉</span></label>
+            </div></div>
+          </section>
+
+          <section class="kyf-surface"><div class="kyf-section-title"><span>見つからないもの</span><span class="kyf-meta">自分用に追加</span></div><div class="kyf-row"><div class="kyf-field kyf-grow"><label for="kyf-custom-ingredient">食材・調味料名</label><input id="kyf-custom-ingredient" placeholder="例：花椒油"></div><button class="kyf-secondary" id="kyf-add-custom" type="button">追加</button></div></section>
+          <section class="kyf-surface kyf-soft"><div class="kyf-section-title"><span id="kyf-bulk-count">0品を選択中</span><span class="kyf-meta">登録後も編集できます</span></div><div class="kyf-bulk-selected" id="kyf-bulk-selected" aria-live="polite"><span class="kyf-meta">選ぶとここに表示されます</span></div></section>
+          <section class="kyf-surface kyf-soft kyf-bulk-complete" id="kyf-bulk-complete" aria-live="polite" hidden><strong id="kyf-bulk-complete-title">登録しました</strong><div class="kyf-meta">すべて在庫状態「ある」で保存しました。量や期限は冷蔵庫から変更できます。</div><button class="kyf-secondary kyf-block" type="button" data-open-screen="home">ホームへ進む</button></section>
+          <button class="kyf-primary kyf-block" id="kyf-register-bulk" type="button" disabled>選択した品をまとめて登録</button>
+          <button class="kyf-secondary kyf-block" type="button" data-open-screen="home">今は登録しない</button>
+        </main>
+      </div>
+    </section>
+
+    <section class="kyf-panel" id="kyf-home-panel" role="tabpanel" aria-label="ホーム画面" hidden>
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <header class="kyf-page-head">
+          <div><div class="kyf-subtitle">9月17日・木曜日</div><h2>今日何食べる？</h2></div>
+          <button class="kyf-icon-button" type="button" aria-label="食材を追加" data-open-screen="add-method"><i data-lucide="plus" aria-hidden="true"></i></button>
+        </header>
+        <main class="kyf-content">
+          <section class="kyf-surface kyf-recipe-feature kyf-home-hero">
+            <div class="kyf-section-title"><span>冷蔵庫から一番近いレシピ</span><span class="kyf-badge">一致度 100%</span></div>
+            <div class="kyf-food-placeholder"><span class="kyf-hero-label"><i data-lucide="sparkles" aria-hidden="true"></i>今日のおすすめ No.1</span><i data-lucide="utensils" aria-hidden="true"></i></div>
+            <div>
+              <h3>豆腐と卵のふわとろ丼</h3>
+              <div class="kyf-match-reason"><i data-lucide="badge-check" aria-hidden="true"></i>冷蔵庫にあるものだけで作れます</div>
+              <div class="kyf-meta">豆腐・卵・長ねぎを使用／15分</div>
+            </div>
+            <button class="kyf-primary kyf-block" type="button" data-candidate-key="tofuEgg">レシピを見て決める</button>
+          </section>
+          <section class="kyf-surface kyf-soft">
+            <div class="kyf-section-title"><span>その他のおすすめ</span><button class="kyf-text-button" type="button" data-open-screen="candidates">すべて見る</button></div>
+            <div class="kyf-mini-list">
+              <button class="kyf-mini-item kyf-alt-trigger" type="button" data-alt-recipe="ginger"><div class="kyf-food-dot"><i data-lucide="drumstick" aria-hidden="true"></i></div><div class="kyf-grow"><strong>豚肉と玉ねぎの生姜焼き</strong><div class="kyf-missing">足りないもの：しょうが 1片</div></div><span class="kyf-badge">90%</span></button>
+              <button class="kyf-mini-item kyf-alt-trigger" type="button" data-alt-recipe="miso"><div class="kyf-food-dot"><i data-lucide="soup" aria-hidden="true"></i></div><div class="kyf-grow"><strong>豆腐とわかめの味噌汁</strong><div class="kyf-missing">足りないもの：乾燥わかめ</div></div><span class="kyf-badge">85%</span></button>
+              <button class="kyf-mini-item kyf-alt-trigger" type="button" data-alt-recipe="tuna"><div class="kyf-food-dot"><i data-lucide="salad" aria-hidden="true"></i></div><div class="kyf-grow"><strong>ツナ野菜丼</strong><div class="kyf-missing">足りないもの：ツナ・レタス</div></div><span class="kyf-badge">70%</span></button>
+            </div>
+            <div class="kyf-alt-expanded" id="kyf-alt-expanded" hidden>
+              <button class="kyf-alt-slide-card" id="kyf-alt-slide-card" type="button" aria-label="選択したおすすめのレシピ詳細を開く">
+                <div class="kyf-alt-slide-visual"><i data-lucide="utensils" aria-hidden="true"></i></div>
+                <div class="kyf-row kyf-between"><div><strong id="kyf-alt-title">豚肉と玉ねぎの生姜焼き</strong><div class="kyf-missing" id="kyf-alt-missing">足りないもの：しょうが 1片</div></div><span class="kyf-badge" id="kyf-alt-match">90%</span></div>
+                <div class="kyf-row kyf-between"><span class="kyf-meta">左右にスライドして比較</span><span class="kyf-text-button">タップでレシピへ</span></div>
+              </button>
+            </div>
+          </section>
+          <section class="kyf-surface">
+            <div class="kyf-section-title"><span>期限が近い食材</span><button class="kyf-text-button" type="button" data-open-screen="fridge">冷蔵庫を見る</button></div>
+            <div class="kyf-expiry-grid">
+              <div class="kyf-expiry-item"><div class="kyf-food-dot"><i data-lucide="box" aria-hidden="true"></i></div><strong>豆腐</strong><span>明日まで</span></div>
+              <div class="kyf-expiry-item"><div class="kyf-food-dot"><i data-lucide="milk" aria-hidden="true"></i></div><strong>牛乳</strong><span>あと2日</span></div>
+              <div class="kyf-expiry-item"><div class="kyf-food-dot"><i data-lucide="leaf" aria-hidden="true"></i></div><strong>小松菜</strong><span>あと3日</span></div>
+            </div>
+          </section>
+          <section class="kyf-surface">
+            <div class="kyf-section-title"><span>買い物リスト</span><button class="kyf-text-button" type="button" data-open-screen="shopping">リストを開く</button></div>
+            <div class="kyf-row kyf-between"><div class="kyf-row"><i data-lucide="shopping-basket" aria-hidden="true"></i><div><strong>しょうが・小ねぎ・マヨネーズ</strong><div class="kyf-meta">未購入3品／要確認1品</div></div></div><i data-lucide="chevron-right" aria-hidden="true"></i></div>
+          </section>
+        </main>
+        <nav class="kyf-bottom-nav" aria-label="メインナビゲーション"><button class="active" type="button" data-open-screen="home"><i data-lucide="house" aria-hidden="true"></i>ホーム</button><button type="button" data-open-screen="fridge"><i data-lucide="refrigerator" aria-hidden="true"></i>冷蔵庫</button><button type="button" data-open-screen="shopping"><i data-lucide="shopping-basket" aria-hidden="true"></i>買い物</button><button type="button" data-open-screen="settings"><i data-lucide="settings" aria-hidden="true"></i>設定</button></nav>
+      </div>
+    </section>
+
+    <section class="kyf-panel" id="kyf-fridge-panel" role="tabpanel" aria-label="冷蔵庫画面" hidden>
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <header class="kyf-page-head"><div><div class="kyf-subtitle">8品・期限間近2品</div><h2>冷蔵庫</h2></div><button class="kyf-icon-button" type="button" aria-label="食材を追加" data-open-screen="add-method"><i data-lucide="plus" aria-hidden="true"></i></button></header>
+        <main class="kyf-content">
+          <div class="kyf-filter-row" aria-label="保存状態で絞り込み"><button class="kyf-filter active" type="button" data-fridge-storage="all">すべて 8</button><button class="kyf-filter" type="button" data-fridge-storage="cold">冷蔵 5</button><button class="kyf-filter" type="button" data-fridge-storage="frozen">冷凍 2</button><button class="kyf-filter" type="button" data-fridge-storage="room">常温 1</button></div>
+          <div class="kyf-filter-row" aria-label="食材の種類で絞り込み"><button class="kyf-filter active" type="button" data-fridge-category="all">全種類</button><button class="kyf-filter" type="button" data-fridge-category="vegetable">野菜</button><button class="kyf-filter" type="button" data-fridge-category="meat">肉・魚</button><button class="kyf-filter" type="button" data-fridge-category="dairy">乳・卵</button><button class="kyf-filter" type="button" data-fridge-category="seasoning">調味料</button><button class="kyf-filter" type="button" data-fridge-category="soy">豆・加工品</button><button class="kyf-filter" type="button" data-fridge-category="grain">麺・穀類</button></div>
+          <div class="kyf-fridge-tools"><span class="kyf-meta" id="kyf-fridge-count">8件を表示</span><label class="sr-only" for="kyf-sort-select">並び順</label><select class="kyf-sort-select" id="kyf-sort-select"><option value="expiry">期限が近い順</option><option value="category">種類ごと</option><option value="name">名前順</option><option value="recent">登録が新しい順</option></select></div>
+          <section class="kyf-surface kyf-dense-list" id="kyf-fridge-list" aria-label="冷蔵庫内の食材一覧">
+            <button class="kyf-stock-row" type="button" data-open-screen="food-detail" data-storage="cold" data-category="soy" data-expiry="1" data-order="8" data-name="豆腐"><div class="kyf-food-dot"><i data-lucide="box" aria-hidden="true"></i></div><div><strong>豆腐</strong><div class="kyf-mini-tags"><span class="kyf-tag-tiny">冷蔵</span><span class="kyf-tag-tiny">豆・加工品</span></div></div><div class="kyf-stock-side"><strong>1丁</strong><div class="kyf-missing">明日まで</div></div></button>
+            <button class="kyf-stock-row" type="button" data-open-screen="food-detail" data-storage="cold" data-category="dairy" data-expiry="2" data-order="7" data-name="牛乳"><div class="kyf-food-dot"><i data-lucide="milk" aria-hidden="true"></i></div><div><strong>牛乳</strong><div class="kyf-mini-tags"><span class="kyf-tag-tiny">冷蔵</span><span class="kyf-tag-tiny">乳製品</span></div></div><div class="kyf-stock-side"><strong>少ない</strong><div class="kyf-missing">あと2日</div></div></button>
+            <button class="kyf-stock-row" type="button" data-open-screen="food-detail" data-storage="cold" data-category="vegetable" data-expiry="3" data-order="6" data-name="小松菜"><div class="kyf-food-dot"><i data-lucide="leaf" aria-hidden="true"></i></div><div><strong>小松菜</strong><div class="kyf-mini-tags"><span class="kyf-tag-tiny">冷蔵</span><span class="kyf-tag-tiny">野菜</span></div></div><div class="kyf-stock-side"><strong>1/2袋</strong><div class="kyf-meta">あと3日</div></div></button>
+            <button class="kyf-stock-row" type="button" data-open-screen="food-detail" data-storage="cold" data-category="dairy" data-expiry="5" data-order="5" data-name="卵"><div class="kyf-food-dot"><i data-lucide="egg" aria-hidden="true"></i></div><div><strong>卵</strong><div class="kyf-mini-tags"><span class="kyf-tag-tiny">冷蔵</span><span class="kyf-tag-tiny">卵</span></div></div><div class="kyf-stock-side"><strong>4個</strong><div class="kyf-meta">あと5日</div></div></button>
+            <button class="kyf-stock-row" type="button" data-open-screen="food-detail" data-storage="frozen" data-category="meat" data-expiry="20" data-order="4" data-name="豚こま肉"><div class="kyf-food-dot"><i data-lucide="drumstick" aria-hidden="true"></i></div><div><strong>豚こま肉</strong><div class="kyf-mini-tags"><span class="kyf-tag-tiny">冷凍</span><span class="kyf-tag-tiny">肉</span></div></div><div class="kyf-stock-side"><strong>200g</strong><div class="kyf-meta">あと20日</div></div></button>
+            <button class="kyf-stock-row" type="button" data-open-screen="food-detail" data-storage="room" data-category="seasoning" data-expiry="90" data-order="3" data-name="みそ"><div class="kyf-food-dot"><i data-lucide="package" aria-hidden="true"></i></div><div><strong>みそ</strong><div class="kyf-mini-tags"><span class="kyf-tag-tiny">常温</span><span class="kyf-tag-tiny">調味料</span></div></div><div class="kyf-stock-side"><strong>ある</strong><div class="kyf-meta">あと90日</div></div></button>
+            <button class="kyf-stock-row" type="button" data-open-screen="food-detail" data-storage="cold" data-category="seasoning" data-expiry="45" data-order="2" data-name="マヨネーズ"><div class="kyf-food-dot"><i data-lucide="package" aria-hidden="true"></i></div><div><strong>マヨネーズ</strong><div class="kyf-mini-tags"><span class="kyf-tag-tiny">冷蔵</span><span class="kyf-tag-tiny">調味料</span></div></div><div class="kyf-stock-side"><strong>少ない</strong><div class="kyf-meta">あと45日</div></div></button>
+            <button class="kyf-stock-row" type="button" data-open-screen="food-detail" data-storage="frozen" data-category="grain" data-expiry="999" data-order="1" data-name="冷凍うどん"><div class="kyf-food-dot"><i data-lucide="wheat" aria-hidden="true"></i></div><div><strong>冷凍うどん</strong><div class="kyf-mini-tags"><span class="kyf-tag-tiny">冷凍</span><span class="kyf-tag-tiny">麺</span></div></div><div class="kyf-stock-side"><strong>2玉</strong><div class="kyf-meta">期限なし</div></div></button>
+          </section>
+        </main>
+        <nav class="kyf-bottom-nav" aria-label="メインナビゲーション"><button type="button" data-open-screen="home"><i data-lucide="house" aria-hidden="true"></i>ホーム</button><button class="active" type="button" data-open-screen="fridge"><i data-lucide="refrigerator" aria-hidden="true"></i>冷蔵庫</button><button type="button" data-open-screen="shopping"><i data-lucide="shopping-basket" aria-hidden="true"></i>買い物</button><button type="button" data-open-screen="settings"><i data-lucide="settings" aria-hidden="true"></i>設定</button></nav>
+      </div>
+    </section>
+
+    <section class="kyf-panel" id="kyf-recipe-panel" role="tabpanel" aria-label="レシピ詳細画面" hidden>
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <header class="kyf-page-head"><button class="kyf-icon-button" type="button" aria-label="候補一覧へ戻る" data-open-screen="candidates"><i data-lucide="arrow-left" aria-hidden="true"></i></button><h3>レシピ詳細</h3><button class="kyf-icon-button" id="kyf-recipe-save" type="button" aria-label="レシピを保存" aria-pressed="false"><i data-lucide="bookmark" aria-hidden="true"></i></button></header>
+        <div class="kyf-recipe-hero"><i data-lucide="utensils" aria-hidden="true"></i><div class="kyf-recipe-hero-note"><strong id="kyf-recipe-match">在庫一致 90%</strong><div class="kyf-meta">冷蔵庫にあるものを優先した候補</div></div></div>
+        <main class="kyf-content">
+          <section><h2 id="kyf-recipe-title" style="margin:0 0 6px;font-size:22px;font-weight:500">豚肉と玉ねぎの生姜焼き</h2><div class="kyf-row"><span class="kyf-badge"><i data-lucide="clock" aria-hidden="true"></i><span id="kyf-recipe-time">18分</span></span><span class="kyf-badge" id="kyf-recipe-difficulty">かんたん</span><span class="kyf-badge warn" id="kyf-recipe-missing">あと1品</span></div></section>
+          <section class="kyf-surface kyf-serving-control"><div><strong>作る人数</strong><div class="kyf-meta">材料の必要量を自動調整</div></div><div class="kyf-stepper" aria-label="作る人数"><button id="kyf-serving-minus" type="button" aria-label="人数を1人減らす"><i data-lucide="minus" aria-hidden="true"></i></button><strong id="kyf-serving-count" aria-live="polite">1人分</strong><button id="kyf-serving-plus" type="button" aria-label="人数を1人増やす"><i data-lucide="plus" aria-hidden="true"></i></button></div></section>
+          <section class="kyf-surface kyf-stock-summary" aria-live="polite"><div class="kyf-row kyf-between"><div><strong id="kyf-stock-summary-title">4品中3品はあります</strong><div class="kyf-meta" id="kyf-stock-summary-detail">不足：しょうが 1片</div></div><span class="kyf-badge" id="kyf-stock-summary-rate">75%</span></div><div class="kyf-stock-meter" aria-hidden="true"><span id="kyf-stock-meter-fill" style="width:75%"></span></div></section>
+          <div class="kyf-recipe-tabs" role="tablist" aria-label="レシピ情報"><button class="kyf-recipe-tab active" id="kyf-materials-tab" type="button" role="tab" aria-selected="true" aria-controls="kyf-materials-panel" data-recipe-tab="materials">材料・在庫</button><button class="kyf-recipe-tab" id="kyf-steps-tab" type="button" role="tab" aria-selected="false" aria-controls="kyf-steps-panel" data-recipe-tab="steps">作り方</button></div>
+          <section class="kyf-surface" id="kyf-materials-panel" role="tabpanel" aria-labelledby="kyf-materials-tab">
+            <div class="kyf-section-title"><span>材料と冷蔵庫</span><span class="kyf-meta">必要量／現在庫</span></div>
+            <div id="kyf-recipe-ingredients"></div>
+          </section>
+          <section class="kyf-surface" id="kyf-steps-panel" role="tabpanel" aria-labelledby="kyf-steps-tab" hidden>
+            <div class="kyf-section-title"><span>作り方</span><span class="kyf-meta">タップで完了</span></div>
+            <div id="kyf-recipe-steps"></div>
+          </section>
+          <section class="kyf-surface kyf-soft kyf-selection-result" id="kyf-selection-result" aria-live="polite" hidden><div><strong id="kyf-selection-title">今日の献立に決定しました</strong><div class="kyf-meta" id="kyf-selection-detail">不足1品を買い物リストへ追加しました</div></div><button class="kyf-secondary kyf-block" type="button" data-open-screen="shopping">買い物リストを見る</button><button class="kyf-secondary kyf-block" type="button" data-open-screen="cooking">作ったので在庫を更新</button></section>
+        </main>
+        <div class="kyf-recipe-action">
+          <button class="kyf-primary kyf-block" id="kyf-select-meal" type="button">この献立にする</button>
+          <button class="kyf-secondary kyf-block" type="button" data-open-screen="home">別の候補を見る</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="kyf-panel" id="kyf-shopping-panel" role="tabpanel" aria-label="買い物リスト画面" hidden>
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <header class="kyf-page-head"><div><div class="kyf-subtitle">必要なものだけ、迷わず確認</div><h2>買い物リスト</h2></div><button class="kyf-icon-button" type="button" aria-label="商品を追加"><i data-lucide="plus" aria-hidden="true"></i></button></header>
+        <main class="kyf-content">
+          <section class="kyf-surface kyf-soft kyf-shopping-summary"><div><strong id="kyf-shopping-progress">1 / 5 品を購入済み</strong><div class="kyf-meta">献立の不足分と手動追加をまとめて確認</div></div><span class="kyf-badge" id="kyf-shopping-percent">20%</span></section>
+          <div class="kyf-filter-row" role="group" aria-label="買い物リストの絞り込み"><button class="kyf-filter active" type="button" data-shopping-filter="all">すべて</button><button class="kyf-filter" type="button" data-shopping-filter="open">未購入</button><button class="kyf-filter" type="button" data-shopping-filter="done">購入済み</button></div>
+          <section class="kyf-surface kyf-shopping-section" data-shopping-group>
+            <div class="kyf-section-title"><span><i data-lucide="utensils" aria-hidden="true"></i> 献立から</span><span class="kyf-meta" data-group-count>3品</span></div>
+            <label class="kyf-check-row kyf-shopping-row is-purchased" data-purchased="true"><input type="checkbox" checked><span><span class="kyf-item-source">豚肉と玉ねぎの生姜焼き</span><strong>しょうが</strong><div class="kyf-meta">必要 1片・冷蔵庫に在庫なし</div></span><button class="kyf-icon-button" type="button" aria-label="しょうがを編集"><i data-lucide="pencil" aria-hidden="true"></i></button></label>
+            <label class="kyf-check-row kyf-shopping-row" data-purchased="false"><input type="checkbox"><span><span class="kyf-item-source">豆腐とわかめの味噌汁</span><strong>乾燥わかめ</strong><div class="kyf-meta">必要 2g・冷蔵庫に在庫なし</div></span><button class="kyf-icon-button" type="button" aria-label="乾燥わかめを編集"><i data-lucide="pencil" aria-hidden="true"></i></button></label>
+            <label class="kyf-check-row kyf-shopping-row" data-purchased="false"><input type="checkbox"><span><span class="kyf-item-source">豚肉と玉ねぎの生姜焼き</span><strong>マヨネーズ</strong><div class="kyf-meta">必要 大さじ1・在庫が少ないため確認</div></span><span class="kyf-badge warn">要確認</span></label>
+          </section>
+          <section class="kyf-surface kyf-shopping-section" data-shopping-group>
+            <div class="kyf-section-title"><span><i data-lucide="list-plus" aria-hidden="true"></i> 自分で追加</span><span class="kyf-meta" data-group-count>2品</span></div>
+            <label class="kyf-check-row kyf-shopping-row is-purchased" data-purchased="true"><input type="checkbox" checked><span><strong>小ねぎ</strong><div class="kyf-meta">1束</div></span><button class="kyf-icon-button" type="button" aria-label="小ねぎを編集"><i data-lucide="pencil" aria-hidden="true"></i></button></label>
+            <label class="kyf-check-row kyf-shopping-row is-purchased" data-purchased="true"><input type="checkbox" checked><span><strong>卵</strong><div class="kyf-meta">10個</div></span><button class="kyf-icon-button" type="button" aria-label="卵を編集"><i data-lucide="pencil" aria-hidden="true"></i></button></label>
+          </section>
+          <button class="kyf-secondary kyf-block" type="button"><i data-lucide="plus" aria-hidden="true"></i> 商品を追加</button>
+          <button class="kyf-primary kyf-block" type="button" data-open-screen="purchase">買い物を完了して在庫へ</button>
+        </main>
+        <nav class="kyf-bottom-nav" aria-label="メインナビゲーション"><button type="button" data-open-screen="home"><i data-lucide="house" aria-hidden="true"></i>ホーム</button><button type="button" data-open-screen="fridge"><i data-lucide="refrigerator" aria-hidden="true"></i>冷蔵庫</button><button class="active" type="button" data-open-screen="shopping"><i data-lucide="shopping-basket" aria-hidden="true"></i>買い物</button><button type="button" data-open-screen="settings"><i data-lucide="settings" aria-hidden="true"></i>設定</button></nav>
+      </div>
+    </section>
+
+    <section class="kyf-panel" id="kyf-purchase-panel" role="tabpanel" aria-label="買い物完了・在庫登録確認画面" hidden>
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <header class="kyf-page-head"><button class="kyf-icon-button" type="button" aria-label="買い物リストへ戻る" data-open-screen="shopping"><i data-lucide="arrow-left" aria-hidden="true"></i></button><div><div class="kyf-subtitle">購入した内容をまとめて確認</div><h2>冷蔵庫へ追加</h2></div><span class="kyf-badge" id="kyf-purchase-count">3品</span></header>
+        <main class="kyf-content">
+          <div class="kyf-source-strip"><i data-lucide="shopping-basket" aria-hidden="true"></i><span>購入済み3品を表示・未購入2品はリストに残ります</span></div>
+          <section class="kyf-surface kyf-soft">
+            <div class="kyf-section-title"><span>共通設定</span><span class="kyf-meta">変更すると全商品へ反映</span></div>
+            <div class="kyf-field-grid"><div class="kyf-field"><label for="kyf-purchase-common-date">購入日</label><input id="kyf-purchase-common-date" type="date" value="2026-09-17"></div><div class="kyf-field"><label for="kyf-purchase-common-storage">標準の保存方法</label><select id="kyf-purchase-common-storage"><option selected>冷蔵</option><option>冷凍</option><option>常温</option></select></div></div>
+          </section>
+
+          <section class="kyf-surface kyf-purchase-item">
+            <div class="kyf-purchase-lead"><div class="kyf-food-dot"><i data-lucide="leaf" aria-hidden="true"></i></div><div><strong>しょうが</strong><div class="kyf-meta">生姜焼き用・新しい在庫として追加</div></div><span class="kyf-badge">新規</span></div>
+            <div class="kyf-quantity-grid"><div class="kyf-field"><label for="kyf-purchase-qty-1">購入量</label><input id="kyf-purchase-qty-1" data-purchase-quantity inputmode="decimal" value="1"></div><div class="kyf-field"><label for="kyf-purchase-unit-1">単位</label><select id="kyf-purchase-unit-1"><option>個</option><option>g</option><option>ml</option><option>本</option><option>束</option><option selected>袋</option><option>パック</option></select></div></div>
+            <div class="kyf-field-grid"><div class="kyf-field"><label for="kyf-purchase-storage-1">保存方法</label><select id="kyf-purchase-storage-1" data-purchase-storage><option selected>冷蔵</option><option>冷凍</option><option>常温</option></select></div><div class="kyf-field"><label for="kyf-purchase-expiry-1">期限（任意）</label><input id="kyf-purchase-expiry-1" type="date"></div></div>
+            <div class="kyf-field" style="margin-top:8px"><label for="kyf-purchase-date-1">購入日</label><input id="kyf-purchase-date-1" data-purchase-date type="date" value="2026-09-17"></div>
+          </section>
+
+          <section class="kyf-surface kyf-purchase-item">
+            <div class="kyf-purchase-lead"><div class="kyf-food-dot"><i data-lucide="sprout" aria-hidden="true"></i></div><div><strong>小ねぎ</strong><div class="kyf-meta">自分で追加・新しい在庫として追加</div></div><span class="kyf-badge">新規</span></div>
+            <div class="kyf-quantity-grid"><div class="kyf-field"><label for="kyf-purchase-qty-2">購入量</label><input id="kyf-purchase-qty-2" data-purchase-quantity inputmode="decimal" value="1"></div><div class="kyf-field"><label for="kyf-purchase-unit-2">単位</label><select id="kyf-purchase-unit-2"><option>個</option><option>g</option><option>ml</option><option>本</option><option selected>束</option><option>袋</option><option>パック</option></select></div></div>
+            <div class="kyf-field-grid"><div class="kyf-field"><label for="kyf-purchase-storage-2">保存方法</label><select id="kyf-purchase-storage-2" data-purchase-storage><option selected>冷蔵</option><option>冷凍</option><option>常温</option></select></div><div class="kyf-field"><label for="kyf-purchase-expiry-2">期限（任意）</label><input id="kyf-purchase-expiry-2" type="date"></div></div>
+            <div class="kyf-field" style="margin-top:8px"><label for="kyf-purchase-date-2">購入日</label><input id="kyf-purchase-date-2" data-purchase-date type="date" value="2026-09-17"></div>
+          </section>
+
+          <section class="kyf-surface kyf-purchase-item merge">
+            <div class="kyf-purchase-lead"><div class="kyf-food-dot"><i data-lucide="egg" aria-hidden="true"></i></div><div><strong>卵</strong><div class="kyf-meta">既存在庫4個があります</div></div><span class="kyf-badge warn">合算</span></div>
+            <div class="kyf-quantity-grid"><div class="kyf-field"><label for="kyf-purchase-qty-3">購入量</label><input id="kyf-purchase-qty-3" data-purchase-quantity inputmode="decimal" value="10"></div><div class="kyf-field"><label for="kyf-purchase-unit-3">単位</label><select id="kyf-purchase-unit-3"><option selected>個</option><option>g</option><option>ml</option><option>本</option><option>束</option><option>袋</option><option>パック</option></select></div></div>
+            <div class="kyf-field-grid"><div class="kyf-field"><label for="kyf-purchase-storage-3">保存方法</label><select id="kyf-purchase-storage-3" data-purchase-storage><option selected>冷蔵</option><option>冷凍</option><option>常温</option></select></div><div class="kyf-field"><label for="kyf-purchase-expiry-3">期限（任意）</label><input id="kyf-purchase-expiry-3" type="date" value="2026-09-30"></div></div>
+            <div class="kyf-field" style="margin-top:8px"><label for="kyf-purchase-date-3">購入日</label><input id="kyf-purchase-date-3" data-purchase-date type="date" value="2026-09-17"></div>
+            <label class="kyf-inline-check"><input id="kyf-purchase-merge-eggs" type="checkbox" checked><span><strong>既存在庫と合算する</strong><br><span class="kyf-meta" id="kyf-purchase-merge-preview">現在4個 ＋ 今回10個 ＝ 登録後14個</span></span></label>
+          </section>
+
+          <section class="kyf-surface kyf-soft kyf-purchase-complete" id="kyf-purchase-complete" aria-live="polite" hidden><div><strong>3品を冷蔵庫へ追加しました</strong><div class="kyf-meta">未購入2品は買い物リストに残っています</div></div><div class="kyf-row"><button class="kyf-secondary" type="button" data-open-screen="fridge">冷蔵庫を見る</button><button class="kyf-secondary" type="button" data-open-screen="shopping">リストへ戻る</button></div></section>
+        </main>
+        <div class="kyf-purchase-action"><div class="kyf-meta" id="kyf-purchase-action-note">3品をまとめて登録します</div><button class="kyf-primary kyf-block" id="kyf-register-purchases" type="button">購入した3品を冷蔵庫へ追加</button></div>
+      </div>
+    </section>
+
+    <section class="kyf-panel" id="kyf-review-panel" role="tabpanel" aria-label="認識結果確認画面" hidden>
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <header class="kyf-page-head"><button class="kyf-icon-button" type="button" aria-label="入力へ戻る" data-open-screen="capture"><i data-lucide="x" aria-hidden="true"></i></button><h3>認識結果を確認</h3><span class="kyf-badge">3品</span></header>
+        <main class="kyf-content">
+          <div class="kyf-source-strip"><i data-lucide="receipt-text" aria-hidden="true"></i><span>レシートから読み取り・画像は処理後に削除</span></div>
+          <section class="kyf-surface kyf-soft">
+            <div class="kyf-section-title"><span>共通設定</span><span class="kyf-meta">あとから個別変更できます</span></div>
+            <div class="kyf-field-grid"><div class="kyf-field"><label for="kyf-common-date">購入日</label><input id="kyf-common-date" type="date" value="2026-09-17"></div><div class="kyf-field"><label for="kyf-common-storage">標準の保存方法</label><select id="kyf-common-storage"><option selected>冷蔵</option><option>冷凍</option><option>常温</option></select></div></div>
+          </section>
+          <section class="kyf-surface kyf-recognition-item">
+            <div class="kyf-section-title"><span>1. 豚こま肉</span><span class="kyf-badge">一致</span></div>
+            <div class="kyf-field-grid"><div class="kyf-field"><label for="kyf-item-1">食材名</label><input id="kyf-item-1" value="豚こま肉"></div><div class="kyf-field"><label for="kyf-category-1">食材の種類</label><select id="kyf-category-1"><option selected>肉・魚</option><option>野菜</option><option>乳・卵</option><option>主食</option><option>調味料</option><option>その他</option></select></div></div>
+            <div class="kyf-quantity-grid"><div class="kyf-field"><label for="kyf-qty-1">在庫量</label><input id="kyf-qty-1" inputmode="decimal" value="200"></div><div class="kyf-field"><label for="kyf-unit-1">単位</label><select id="kyf-unit-1"><option>個</option><option selected>g</option><option>ml</option><option>本</option><option>袋</option><option>パック</option></select></div></div>
+            <div class="kyf-field-grid"><div class="kyf-field"><label for="kyf-storage-1">保存方法</label><select id="kyf-storage-1" data-recognition-storage data-overridden="true"><option>冷蔵</option><option selected>冷凍</option><option>常温</option></select></div><div class="kyf-field"><label for="kyf-purchase-1">購入日</label><input id="kyf-purchase-1" data-recognition-date type="date" value="2026-09-17"></div></div>
+            <div class="kyf-field" style="margin-top:8px"><label for="kyf-expiry-1">期限（任意）</label><input id="kyf-expiry-1" type="date" value="2026-09-21"></div>
+          </section>
+          <section class="kyf-surface kyf-recognition-item needs-check">
+            <div class="kyf-section-title"><span>2. 卵</span><span class="kyf-badge warn">要確認</span></div>
+            <div class="kyf-field-grid"><div class="kyf-field"><label for="kyf-item-2">食材名</label><input id="kyf-item-2" value="卵"></div><div class="kyf-field"><label for="kyf-category-2">食材の種類</label><select id="kyf-category-2"><option>肉・魚</option><option>野菜</option><option selected>乳・卵</option><option>主食</option><option>調味料</option><option>その他</option></select></div></div>
+            <div class="kyf-quantity-grid"><div class="kyf-field"><label for="kyf-qty-2">在庫量</label><input id="kyf-qty-2" inputmode="decimal" value="10"></div><div class="kyf-field"><label for="kyf-unit-2">単位</label><select id="kyf-unit-2"><option selected>個</option><option>g</option><option>ml</option><option>本</option><option>袋</option><option>パック</option></select></div></div>
+            <div class="kyf-field-grid"><div class="kyf-field"><label for="kyf-storage-2">保存方法</label><select id="kyf-storage-2" data-recognition-storage><option selected>冷蔵</option><option>冷凍</option><option>常温</option></select></div><div class="kyf-field"><label for="kyf-purchase-2">購入日</label><input id="kyf-purchase-2" data-recognition-date type="date" value="2026-09-17"></div></div>
+            <div class="kyf-field" style="margin-top:8px"><label for="kyf-expiry-2">期限（任意）</label><input id="kyf-expiry-2" type="date" value="2026-09-30"></div>
+            <label class="kyf-inline-check"><input id="kyf-merge-eggs" type="checkbox" checked><span><strong>既存在庫と合算する</strong><br><span class="kyf-meta" id="kyf-merge-preview">現在4個 ＋ 今回10個 ＝ 保存後14個</span></span></label>
+          </section>
+          <section class="kyf-surface kyf-alert"><div class="kyf-row kyf-between"><div><strong>キッチンペーパー</strong><div class="kyf-meta">食品ではない候補</div></div><button class="kyf-secondary" type="button">除外</button></div></section>
+          <button class="kyf-secondary kyf-block" type="button"><i data-lucide="plus" aria-hidden="true"></i> 読み取れない商品を追加</button>
+          <button class="kyf-primary kyf-block" type="button" data-open-screen="fridge">確認した2品を冷蔵庫へ保存</button>
+        </main>
+      </div>
+    </section>
+
+    <section class="kyf-panel" id="kyf-candidates-panel" role="tabpanel" aria-label="献立候補一覧画面" hidden>
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <header class="kyf-page-head"><button class="kyf-icon-button" type="button" aria-label="ホームへ戻る" data-open-screen="home"><i data-lucide="arrow-left" aria-hidden="true"></i></button><div><div class="kyf-subtitle">冷蔵庫の在庫から提案</div><h2>今日の献立候補</h2></div><span class="kyf-badge">4件</span></header>
+        <main class="kyf-content">
+          <section class="kyf-surface kyf-soft"><div class="kyf-row"><i data-lucide="info" aria-hidden="true"></i><div class="kyf-meta">在庫との一致度、買い足し、調理時間をまとめて比較できます。</div></div></section>
+          <section class="kyf-surface">
+            <div class="kyf-section-title"><span>おすすめ順</span><span class="kyf-meta">1人分</span></div>
+            <button class="kyf-choice-card" type="button" data-candidate-key="ginger"><div class="kyf-food-dot"><i data-lucide="utensils" aria-hidden="true"></i></div><div><div class="kyf-row"><strong>豚肉と玉ねぎの生姜焼き</strong><span class="kyf-badge">90%</span></div><div class="kyf-meta">18分・不足：しょうが1片</div><div class="kyf-missing">買い足しが1品だけ</div></div><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+            <div class="kyf-candidate-row"><div class="kyf-food-placeholder"><i data-lucide="soup" aria-hidden="true"></i></div><div><strong>豆腐とわかめの味噌汁</strong><div class="kyf-meta">10分・不足：乾燥わかめ2g</div><div class="kyf-match-reason">期限が近い豆腐を使えます</div></div><button class="kyf-icon-button" type="button" aria-label="豆腐とわかめの味噌汁を見る" data-candidate-key="miso"><i data-lucide="chevron-right" aria-hidden="true"></i></button></div>
+            <div class="kyf-candidate-row"><div class="kyf-food-placeholder"><i data-lucide="salad" aria-hidden="true"></i></div><div><strong>ツナ野菜丼</strong><div class="kyf-meta">12分・不足：ツナ缶、レタス</div><div class="kyf-meta">在庫一致70%</div></div><button class="kyf-icon-button" type="button" aria-label="ツナ野菜丼を見る" data-candidate-key="tuna"><i data-lucide="chevron-right" aria-hidden="true"></i></button></div>
+            <div class="kyf-candidate-row"><div class="kyf-food-placeholder"><i data-lucide="egg" aria-hidden="true"></i></div><div><strong>卵と小松菜の炒め物</strong><div class="kyf-meta">10分・買い足しなし</div><div class="kyf-match-reason">冷蔵庫だけで作れます</div></div><button class="kyf-icon-button" type="button" aria-label="卵と小松菜の炒め物を見る" data-candidate-key="greensEgg"><i data-lucide="chevron-right" aria-hidden="true"></i></button></div>
+          </section>
+        </main>
+      </div>
+    </section>
+
+    <section class="kyf-panel" id="kyf-add-method-panel" role="tabpanel" aria-label="食材登録方法選択画面" hidden>
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <header class="kyf-page-head"><button class="kyf-icon-button" type="button" aria-label="閉じる" data-open-screen="fridge"><i data-lucide="x" aria-hidden="true"></i></button><div><div class="kyf-subtitle">登録しやすい方法を選択</div><h2>食材を追加</h2></div><span></span></header>
+        <main class="kyf-content">
+          <div class="kyf-choice-list">
+            <button class="kyf-choice-card" type="button" data-input-mode="voice"><div class="kyf-food-dot"><i data-lucide="mic" aria-hidden="true"></i></div><div><strong>音声でまとめて登録</strong><div class="kyf-meta">「卵10個と豚肉200g」のように話します</div></div><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+            <button class="kyf-choice-card" type="button" data-input-mode="receipt"><div class="kyf-food-dot"><i data-lucide="receipt-text" aria-hidden="true"></i></div><div><strong>レシートから読み取る</strong><div class="kyf-meta">買った食材をまとめて取り込みます</div></div><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+            <button class="kyf-choice-card" type="button" data-input-mode="manual"><div class="kyf-food-dot"><i data-lucide="keyboard" aria-hidden="true"></i></div><div><strong>手入力する</strong><div class="kyf-meta">食材名と量を自分で入力します</div></div><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+          </div>
+          <section class="kyf-surface kyf-soft"><div class="kyf-row" style="align-items:flex-start"><i data-lucide="shield-check" aria-hidden="true"></i><div><strong>音声・画像は処理後に削除</strong><div class="kyf-meta">認識結果だけを確認後に保存します。認識に失敗しても手入力へ切り替えられます。</div></div></div></section>
+        </main>
+      </div>
+    </section>
+
+    <section class="kyf-panel" id="kyf-capture-panel" role="tabpanel" aria-label="音声・レシート・手入力画面" hidden>
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <header class="kyf-page-head"><button class="kyf-icon-button" type="button" aria-label="登録方法へ戻る" data-open-screen="add-method"><i data-lucide="arrow-left" aria-hidden="true"></i></button><h3>食材を取り込む</h3><span></span></header>
+        <main class="kyf-content">
+          <div class="kyf-mode-tabs" role="tablist" aria-label="入力方法"><button class="kyf-mode-tab active" type="button" role="tab" aria-selected="true" data-capture-mode="voice">音声</button><button class="kyf-mode-tab" type="button" role="tab" aria-selected="false" data-capture-mode="receipt">レシート</button><button class="kyf-mode-tab" type="button" role="tab" aria-selected="false" data-capture-mode="manual">手入力</button></div>
+          <section class="kyf-surface" id="kyf-capture-voice" data-capture-panel="voice"><div class="kyf-record-area"><button class="kyf-record-button" id="kyf-record-button" type="button" aria-pressed="false" aria-label="録音を開始"><i data-lucide="mic" aria-hidden="true"></i></button><div><strong id="kyf-record-title">タップして話す</strong><div class="kyf-meta" id="kyf-record-detail">例：卵10個、豚こま肉200グラム</div></div></div></section>
+          <section class="kyf-surface" id="kyf-capture-receipt" data-capture-panel="receipt" hidden><div class="kyf-camera-zone"><i data-lucide="camera" aria-hidden="true"></i><div><strong>レシート全体を撮影</strong><div class="kyf-meta">明るい場所で、四隅が入るように撮影してください</div></div><button class="kyf-secondary" type="button">カメラを開く</button></div></section>
+          <section class="kyf-surface" id="kyf-capture-manual" data-capture-panel="manual" hidden><div class="kyf-field"><label for="kyf-manual-name">食材名</label><input id="kyf-manual-name" value="玉ねぎ"></div><div class="kyf-quantity-grid"><div class="kyf-field"><label for="kyf-manual-qty">在庫量</label><input id="kyf-manual-qty" inputmode="decimal" value="2"></div><div class="kyf-field"><label for="kyf-manual-unit">単位</label><select id="kyf-manual-unit"><option selected>個</option><option>g</option><option>ml</option><option>本</option><option>袋</option></select></div></div><div class="kyf-field-grid"><div class="kyf-field"><label for="kyf-manual-storage">保存方法</label><select id="kyf-manual-storage"><option selected>冷蔵</option><option>冷凍</option><option>常温</option></select></div><div class="kyf-field"><label for="kyf-manual-date">購入日</label><input id="kyf-manual-date" type="date" value="2026-09-17"></div></div><button class="kyf-secondary kyf-block" type="button"><i data-lucide="plus" aria-hidden="true"></i> もう1品追加</button></section>
+          <button class="kyf-primary kyf-block" id="kyf-capture-confirm" type="button" data-open-screen="review">認識結果を確認</button>
+        </main>
+      </div>
+    </section>
+
+    <section class="kyf-panel" id="kyf-food-detail-panel" role="tabpanel" aria-label="食材詳細・編集画面" hidden>
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <header class="kyf-page-head"><button class="kyf-icon-button" type="button" aria-label="冷蔵庫へ戻る" data-open-screen="fridge"><i data-lucide="arrow-left" aria-hidden="true"></i></button><h3>食材を編集</h3><button class="kyf-icon-button" type="button" aria-label="その他の操作"><i data-lucide="ellipsis" aria-hidden="true"></i></button></header>
+        <main class="kyf-content">
+          <section class="kyf-surface"><div class="kyf-field-grid"><div class="kyf-field"><label for="kyf-food-name">食材名</label><input id="kyf-food-name" value="豚こま肉"></div><div class="kyf-field"><label for="kyf-food-category">種類</label><select id="kyf-food-category"><option selected>肉・魚</option><option>野菜</option><option>乳・卵</option><option>調味料</option></select></div></div><div class="kyf-section-title" style="margin-top:14px"><span>在庫の管理方法</span><span></span></div><div class="kyf-segment" role="group" aria-label="在庫の管理方法"><button class="active" type="button" data-stock-mode="exact">数量で管理</button><button type="button" data-stock-mode="rough">状態で管理</button></div><div id="kyf-exact-stock"><div class="kyf-quantity-grid"><div class="kyf-field"><label for="kyf-food-qty">在庫量</label><input id="kyf-food-qty" inputmode="decimal" value="200"></div><div class="kyf-field"><label for="kyf-food-unit">単位</label><select id="kyf-food-unit"><option selected>g</option><option>個</option><option>ml</option><option>パック</option></select></div></div></div><div id="kyf-rough-stock" hidden><div class="kyf-field" style="margin-top:8px"><label for="kyf-food-rough">在庫状態</label><select id="kyf-food-rough"><option>ある</option><option>少ない</option><option>ない</option></select></div></div><div class="kyf-field-grid"><div class="kyf-field"><label for="kyf-food-storage">保存方法</label><select id="kyf-food-storage"><option>冷蔵</option><option selected>冷凍</option><option>常温</option></select></div><div class="kyf-field"><label for="kyf-food-purchase-date">購入日</label><input id="kyf-food-purchase-date" type="date" value="2026-09-17"></div></div><div class="kyf-field" style="margin-top:8px"><label for="kyf-food-expiry">期限（任意）</label><input id="kyf-food-expiry" type="date" value="2026-10-07"></div></section>
+          <section class="kyf-surface"><div class="kyf-section-title"><span>在庫を更新</span><span class="kyf-meta">履歴に残ります</span></div><div class="kyf-row"><button class="kyf-secondary" type="button">使った</button><button class="kyf-secondary" type="button">冷蔵へ移動</button><button class="kyf-secondary kyf-danger-text" type="button">廃棄</button></div></section>
+          <button class="kyf-primary kyf-block" type="button">変更を保存</button>
+        </main>
+      </div>
+    </section>
+
+    <section class="kyf-panel" id="kyf-cooking-panel" role="tabpanel" aria-label="調理完了・使用量確認画面" hidden>
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <header class="kyf-page-head"><button class="kyf-icon-button" type="button" aria-label="レシピへ戻る" data-open-screen="recipe"><i data-lucide="arrow-left" aria-hidden="true"></i></button><div><div class="kyf-subtitle">豚肉と玉ねぎの生姜焼き</div><h2>使った量を確認</h2></div><span class="kyf-badge">3品</span></header>
+        <main class="kyf-content">
+          <section class="kyf-surface kyf-soft"><div class="kyf-row"><i data-lucide="info" aria-hidden="true"></i><div class="kyf-meta">予定量を入れています。実際に使った量だけ直して、まとめて在庫を更新できます。</div></div></section>
+          <section class="kyf-surface" id="kyf-cooking-list">
+            <div class="kyf-consumption-row"><div class="kyf-row kyf-between"><div><strong>豚こま肉</strong><div class="kyf-meta">予定使用量 150g・現在庫200g</div></div><span class="kyf-badge" data-cook-status>残り50g</span></div><div class="kyf-quantity-grid"><div class="kyf-field"><label for="kyf-cook-qty-1">実際の使用量</label><input id="kyf-cook-qty-1" data-cook-qty data-current="200" data-unit="g" inputmode="decimal" value="150"></div><div class="kyf-field"><label for="kyf-cook-unit-1">単位</label><select id="kyf-cook-unit-1"><option selected>g</option></select></div></div></div>
+            <div class="kyf-consumption-row"><div class="kyf-row kyf-between"><div><strong>玉ねぎ</strong><div class="kyf-meta">予定使用量0.5個・現在庫1個</div></div><span class="kyf-badge" data-cook-status>残り0.5個</span></div><div class="kyf-quantity-grid"><div class="kyf-field"><label for="kyf-cook-qty-2">実際の使用量</label><input id="kyf-cook-qty-2" data-cook-qty data-current="1" data-unit="個" inputmode="decimal" value="0.5"></div><div class="kyf-field"><label for="kyf-cook-unit-2">単位</label><select id="kyf-cook-unit-2"><option selected>個</option></select></div></div></div>
+            <div class="kyf-consumption-row"><div class="kyf-row kyf-between"><div><strong>しょうが</strong><div class="kyf-meta">予定使用量1片・現在庫1片</div></div><span class="kyf-badge" data-cook-status>残り0片</span></div><div class="kyf-quantity-grid"><div class="kyf-field"><label for="kyf-cook-qty-3">実際の使用量</label><input id="kyf-cook-qty-3" data-cook-qty data-current="1" data-unit="片" inputmode="decimal" value="1"></div><div class="kyf-field"><label for="kyf-cook-unit-3">単位</label><select id="kyf-cook-unit-3"><option selected>片</option></select></div></div></div>
+          </section>
+          <section class="kyf-surface kyf-soft" id="kyf-cooking-complete" aria-live="polite" hidden><strong>在庫を更新しました</strong><div class="kyf-meta">今日の調理記録を保存しました</div><div class="kyf-row" style="margin-top:10px"><button class="kyf-secondary" type="button" data-open-screen="home">ホームへ</button><button class="kyf-secondary" type="button" data-open-screen="fridge">冷蔵庫を見る</button></div></section>
+        </main>
+        <div class="kyf-purchase-action"><div class="kyf-meta" id="kyf-cooking-note">3品の在庫を更新します</div><button class="kyf-primary kyf-block" id="kyf-finish-cooking" type="button">調理を完了して在庫を更新</button></div>
+      </div>
+    </section>
+
+    <section class="kyf-panel" id="kyf-settings-panel" role="tabpanel" aria-label="設定・プライバシー画面" hidden>
+      <div class="kyf-phone">
+        <div class="kyf-status"><span>9:41</span><span>5G　▰</span></div>
+        <header class="kyf-page-head"><div><div class="kyf-subtitle">通知とデータ管理</div><h2>設定</h2></div><span></span></header>
+        <main class="kyf-content">
+          <section class="kyf-surface"><div class="kyf-section-title"><span>期限通知</span><span class="kyf-badge">MVP</span></div><label class="kyf-settings-row"><i data-lucide="bell-ring" aria-hidden="true"></i><span><strong>期限が近い食材を通知</strong><span class="kyf-meta">登録した期限をもとに通知します</span></span><input class="kyf-native-switch" type="checkbox" checked aria-label="期限通知を有効にする"></label><div class="kyf-settings-row"><i data-lucide="calendar-clock" aria-hidden="true"></i><div><strong>通知する時期</strong><div class="kyf-meta">期限の何日前に知らせるか</div></div><select class="kyf-sort-select" aria-label="通知時期"><option>1日前</option><option selected>2日前</option><option>3日前</option></select></div></section>
+          <section class="kyf-surface"><div class="kyf-section-title"><span>プライバシー</span><span></span></div><button class="kyf-settings-row" type="button" style="width:100%;border-top:0;border-left:0;border-right:0;background:transparent;color:inherit;text-align:left"><i data-lucide="file-text" aria-hidden="true"></i><span><strong>プライバシーポリシー</strong><span class="kyf-meta">音声・画像・端末内データの取扱い</span></span><i data-lucide="chevron-right" aria-hidden="true"></i></button><div class="kyf-settings-row"><i data-lucide="mic" aria-hidden="true"></i><div><strong>認識機能の利用</strong><div class="kyf-meta">音声とレシート画像は処理後に削除</div></div><span class="kyf-badge">同意済み</span></div></section>
+          <section class="kyf-surface"><div class="kyf-section-title"><span>データ</span><span class="kyf-meta">この端末内</span></div><div class="kyf-settings-row"><i data-lucide="smartphone" aria-hidden="true"></i><div><strong>アカウントなしで利用中</strong><div class="kyf-meta">在庫と設定はこの端末に保存</div></div><span class="kyf-badge">ローカル</span></div><button class="kyf-settings-row kyf-danger-text" type="button" style="width:100%;border-top:0;border-left:0;border-right:0;background:transparent;text-align:left"><i data-lucide="trash-2" aria-hidden="true"></i><span><strong>端末内データを削除</strong><span class="kyf-meta">確認後、在庫・献立・設定を削除</span></span><i data-lucide="chevron-right" aria-hidden="true"></i></button></section>
+        </main>
+        <nav class="kyf-bottom-nav" aria-label="メインナビゲーション"><button type="button" data-open-screen="home"><i data-lucide="house" aria-hidden="true"></i>ホーム</button><button type="button" data-open-screen="fridge"><i data-lucide="refrigerator" aria-hidden="true"></i>冷蔵庫</button><button type="button" data-open-screen="shopping"><i data-lucide="shopping-basket" aria-hidden="true"></i>買い物</button><button class="active" type="button"><i data-lucide="settings" aria-hidden="true"></i>設定</button></nav>
+      </div>
+    </section>
+  </div>
+  <div class="kyf-caption">上のタブで全14画面を切り替えられます。初期在庫の一括登録から調理後の在庫更新まで、中心フローを一通り確認できます。</div>
+</div>
+
+<script>
+(() => {
+  const root = document.getElementById('kyf-wireframes');
+  const switches = [...root.querySelectorAll('.kyf-switch')];
+  const panels = [...root.querySelectorAll('.kyf-panel')];
+
+  function selectScreen(name) {
+    switches.forEach((button) => {
+      const selected = button.dataset.screen === name;
+      button.setAttribute('aria-selected', String(selected));
+    });
+    panels.forEach((panel) => {
+      panel.hidden = panel.id !== `kyf-${name}-panel`;
+    });
+  }
+
+  switches.forEach((button) => {
+    button.addEventListener('click', () => selectScreen(button.dataset.screen));
+  });
+
+  const alternateRecipes = {
+    tofuEgg: {
+      title: '豆腐と卵のふわとろ丼', match: '100%', missing: '買い足しなし', time: '15分', difficulty: 'かんたん',
+      ingredients: [
+        { name: '豆腐', amount: 0.5, unit: '丁', stock: 1 },
+        { name: '卵', amount: 2, unit: '個', stock: 4 },
+        { name: '長ねぎ', amount: 0.25, unit: '本', stock: 1 },
+        { name: 'ごはん', amount: 1, unit: '膳', stock: 1 }
+      ],
+      steps: ['豆腐と長ねぎを食べやすく切る。', '豆腐を温め、溶いた卵を回し入れる。', '卵が半熟になったらごはんにのせる。']
+    },
+    ginger: {
+      title: '豚肉と玉ねぎの生姜焼き', match: '90%', missing: '足りないもの：しょうが 1片', time: '18分', difficulty: 'かんたん',
+      ingredients: [
+        { name: '豚こま肉', amount: 150, unit: 'g', stock: 200 },
+        { name: '玉ねぎ', amount: 0.5, unit: '個', stock: 1 },
+        { name: 'しょうが', amount: 1, unit: '片', stock: 0 },
+        { name: 'しょうゆ', amount: 1, unit: '大さじ', pantry: true }
+      ],
+      steps: ['玉ねぎを薄切りにし、しょうがをすりおろす。', '豚肉を中火で炒め、色が変わったら玉ねぎを加える。', 'しょうゆとしょうがを加え、汁気が少なくなるまで炒める。']
+    },
+    miso: {
+      title: '豆腐とわかめの味噌汁', match: '85%', missing: '足りないもの：乾燥わかめ 2g', time: '10分', difficulty: 'とても簡単',
+      ingredients: [
+        { name: '豆腐', amount: 0.5, unit: '丁', stock: 1 },
+        { name: '乾燥わかめ', amount: 2, unit: 'g', stock: 0 },
+        { name: 'みそ', amount: 1, unit: '大さじ', pantry: true },
+        { name: 'だし', amount: 1, unit: '適量', pantry: true, fixedLabel: '適量' }
+      ],
+      steps: ['豆腐を食べやすい大きさに切る。', '鍋にだしを沸かし、豆腐とわかめを加える。', '火を弱めてみそを溶き、沸騰直前で火を止める。']
+    },
+    tuna: {
+      title: 'ツナ野菜丼', match: '70%', missing: '足りないもの：ツナ缶・レタス', time: '12分', difficulty: 'かんたん',
+      ingredients: [
+        { name: 'ごはん', amount: 1, unit: '膳', stock: 1 },
+        { name: 'ツナ缶', amount: 1, unit: '缶', stock: 0 },
+        { name: 'レタス', amount: 2, unit: '枚', stock: 0 },
+        { name: '卵', amount: 1, unit: '個', stock: 4 }
+      ],
+      steps: ['レタスを食べやすい大きさにちぎる。', '温かいごはんにレタス、油を切ったツナをのせる。', '卵をのせ、好みの調味料をかける。']
+    },
+    greensEgg: {
+      title: '卵と小松菜の炒め物', match: '100%', missing: '買い足しなし', time: '10分', difficulty: 'かんたん',
+      ingredients: [
+        { name: '卵', amount: 2, unit: '個', stock: 4 },
+        { name: '小松菜', amount: 0.5, unit: '袋', stock: 0.5 },
+        { name: 'しょうゆ', amount: 1, unit: '小さじ', pantry: true }
+      ],
+      steps: ['小松菜を食べやすい長さに切る。', '小松菜を炒め、しんなりしたら溶き卵を加える。', 'しょうゆで味を整える。']
+    }
+  };
+  let selectedAlternate = 'ginger';
+  const expanded = root.querySelector('#kyf-alt-expanded');
+  root.querySelectorAll('[data-alt-recipe]').forEach((button) => {
+    button.addEventListener('click', () => {
+      selectedAlternate = button.dataset.altRecipe;
+      const recipe = alternateRecipes[selectedAlternate];
+      root.querySelector('#kyf-alt-title').textContent = recipe.title;
+      root.querySelector('#kyf-alt-missing').textContent = recipe.missing;
+      root.querySelector('#kyf-alt-match').textContent = recipe.match;
+      expanded.hidden = false;
+    });
+  });
+  root.querySelector('#kyf-alt-slide-card').addEventListener('click', () => {
+    currentRecipeKey = selectedAlternate;
+    servings = 1;
+    renderRecipe();
+    selectScreen('recipe');
+  });
+  root.querySelectorAll('[data-open-screen]').forEach((button) => {
+    button.addEventListener('click', () => selectScreen(button.dataset.openScreen));
+  });
+
+  const policyConsent = root.querySelector('#kyf-policy-consent');
+  const recognitionConsent = root.querySelector('#kyf-recognition-consent');
+  function renderConsent() {
+    root.querySelector('#kyf-start-app').disabled = !policyConsent.checked || !recognitionConsent.checked;
+    root.querySelector('#kyf-start-manual').disabled = !policyConsent.checked;
+  }
+  policyConsent.addEventListener('change', renderConsent);
+  recognitionConsent.addEventListener('change', renderConsent);
+  renderConsent();
+
+  let bulkMode = 'seasonings';
+  const customBulkNames = [];
+  const bulkSearch = root.querySelector('#kyf-bulk-search');
+  const bulkCheckboxes = [...root.querySelectorAll('[data-ingredient-key]')];
+  const bulkRegister = root.querySelector('#kyf-register-bulk');
+  const bulkComplete = root.querySelector('#kyf-bulk-complete');
+
+  function renderBulkSelection() {
+    const selected = bulkCheckboxes.filter((checkbox) => checkbox.checked);
+    const total = selected.length + customBulkNames.length;
+    const selectedContainer = root.querySelector('#kyf-bulk-selected');
+    root.querySelector('#kyf-bulk-count').textContent = `${total}品を選択中`;
+    selectedContainer.replaceChildren();
+    selected.forEach((checkbox) => {
+      const chip = document.createElement('span');
+      chip.className = 'kyf-selected-chip';
+      chip.textContent = checkbox.dataset.bulkName;
+      selectedContainer.appendChild(chip);
+    });
+    customBulkNames.forEach((name, index) => {
+      const chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'kyf-selected-chip';
+      chip.dataset.removeCustom = String(index);
+      chip.setAttribute('aria-label', `${name}を選択から外す`);
+      chip.textContent = `${name}（自分用） ×`;
+      selectedContainer.appendChild(chip);
+    });
+    if (!total) {
+      const empty = document.createElement('span');
+      empty.className = 'kyf-meta';
+      empty.textContent = '選ぶとここに表示されます';
+      selectedContainer.appendChild(empty);
+    }
+    bulkRegister.disabled = total === 0;
+    bulkRegister.textContent = total ? `選択した${total}品をまとめて登録` : '選択した品をまとめて登録';
+    bulkComplete.hidden = true;
+  }
+
+  function renderBulkFilter() {
+    const query = bulkSearch.value.trim().toLocaleLowerCase('ja');
+    root.querySelectorAll('[data-bulk-item]').forEach((item) => {
+      const inActivePanel = item.closest('[data-bulk-panel]')?.dataset.bulkPanel === bulkMode;
+      item.hidden = !inActivePanel || (query && !item.textContent.toLocaleLowerCase('ja').includes(query));
+    });
+  }
+
+  root.querySelectorAll('[data-bulk-mode]').forEach((button) => {
+    button.addEventListener('click', () => {
+      bulkMode = button.dataset.bulkMode;
+      root.querySelectorAll('[data-bulk-mode]').forEach((item) => {
+        const selected = item === button;
+        item.classList.toggle('active', selected);
+        item.setAttribute('aria-selected', String(selected));
+      });
+      root.querySelectorAll('[data-bulk-panel]').forEach((panel) => { panel.hidden = panel.dataset.bulkPanel !== bulkMode; });
+      renderBulkFilter();
+    });
+  });
+  bulkCheckboxes.forEach((checkbox) => checkbox.addEventListener('change', renderBulkSelection));
+  root.querySelectorAll('[data-select-group]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const group = button.dataset.selectGroup;
+      const grouped = bulkCheckboxes.filter((checkbox) => checkbox.dataset.bulkGroup === group);
+      const shouldSelect = grouped.some((checkbox) => !checkbox.checked);
+      grouped.forEach((checkbox) => { checkbox.checked = shouldSelect; });
+      button.textContent = shouldSelect ? '選択を解除' : 'このまとまりを選択';
+      renderBulkSelection();
+    });
+  });
+  bulkSearch.addEventListener('input', renderBulkFilter);
+  root.querySelector('#kyf-show-specialty').addEventListener('click', (event) => {
+    const list = root.querySelector('#kyf-specialty-list');
+    const expandedState = list.hidden;
+    list.hidden = !expandedState;
+    event.currentTarget.setAttribute('aria-expanded', String(expandedState));
+    event.currentTarget.textContent = expandedState ? 'こだわり調味料を閉じる' : 'こだわり・海外調味料も見る';
+    if (globalThis.lucide) lucide.createIcons({ attrs: { width: 18, height: 18 } });
+  });
+  root.querySelector('#kyf-add-custom').addEventListener('click', () => {
+    const input = root.querySelector('#kyf-custom-ingredient');
+    const name = input.value.trim();
+    if (!name || customBulkNames.includes(name)) return;
+    customBulkNames.push(name);
+    input.value = '';
+    renderBulkSelection();
+  });
+  root.querySelector('#kyf-bulk-selected').addEventListener('click', (event) => {
+    const chip = event.target.closest('[data-remove-custom]');
+    if (!chip) return;
+    customBulkNames.splice(Number(chip.dataset.removeCustom), 1);
+    renderBulkSelection();
+  });
+  bulkRegister.addEventListener('click', () => {
+    const count = bulkCheckboxes.filter((checkbox) => checkbox.checked).length + customBulkNames.length;
+    if (!count) return;
+    root.querySelector('#kyf-bulk-complete-title').textContent = `${count}品を冷蔵庫へ登録しました`;
+    bulkComplete.hidden = false;
+    bulkRegister.disabled = true;
+    bulkRegister.textContent = '登録済み';
+  });
+  renderBulkSelection();
+
+  function setCaptureMode(mode) {
+    root.querySelectorAll('[data-capture-mode]').forEach((button) => {
+      const selected = button.dataset.captureMode === mode;
+      button.classList.toggle('active', selected);
+      button.setAttribute('aria-selected', String(selected));
+    });
+    root.querySelectorAll('[data-capture-panel]').forEach((panel) => {
+      panel.hidden = panel.dataset.capturePanel !== mode;
+    });
+    root.querySelector('#kyf-capture-confirm').textContent = mode === 'manual' ? '入力内容を確認' : '認識結果を確認';
+  }
+  root.querySelectorAll('[data-capture-mode]').forEach((button) => {
+    button.addEventListener('click', () => setCaptureMode(button.dataset.captureMode));
+  });
+  root.querySelectorAll('[data-input-mode]').forEach((button) => {
+    button.addEventListener('click', () => {
+      setCaptureMode(button.dataset.inputMode);
+      selectScreen('capture');
+    });
+  });
+  const recordButton = root.querySelector('#kyf-record-button');
+  recordButton.addEventListener('click', () => {
+    const recording = recordButton.getAttribute('aria-pressed') !== 'true';
+    recordButton.setAttribute('aria-pressed', String(recording));
+    recordButton.setAttribute('aria-label', recording ? '録音を停止' : '録音を開始');
+    recordButton.classList.toggle('recording', recording);
+    root.querySelector('#kyf-record-title').textContent = recording ? '聞いています…' : 'タップして話す';
+    root.querySelector('#kyf-record-detail').textContent = recording ? '話し終わったらもう一度タップ' : '例：卵10個、豚こま肉200グラム';
+  });
+
+  root.querySelectorAll('[data-stock-mode]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const exact = button.dataset.stockMode === 'exact';
+      root.querySelectorAll('[data-stock-mode]').forEach((item) => item.classList.toggle('active', item === button));
+      root.querySelector('#kyf-exact-stock').hidden = !exact;
+      root.querySelector('#kyf-rough-stock').hidden = exact;
+    });
+  });
+
+  let currentRecipeKey = 'ginger';
+  let servings = 1;
+
+  function formatAmount(value) {
+    return Number.isInteger(value) ? String(value) : String(Math.round(value * 10) / 10);
+  }
+
+  function formatQuantity(ingredient, value) {
+    if (ingredient.fixedLabel) return ingredient.fixedLabel;
+    const amount = formatAmount(value);
+    return ingredient.unit === '大さじ' || ingredient.unit === '小さじ' ? `${ingredient.unit}${amount}` : `${amount}${ingredient.unit}`;
+  }
+
+  function getRecipeState() {
+    const recipe = alternateRecipes[currentRecipeKey];
+    const items = recipe.ingredients.map((ingredient) => {
+      const needed = ingredient.amount * servings;
+      const available = ingredient.pantry || ingredient.stock >= needed;
+      return { ingredient, needed, available, shortage: ingredient.pantry ? 0 : Math.max(0, needed - ingredient.stock) };
+    });
+    return { recipe, items, missing: items.filter((item) => !item.available) };
+  }
+
+  function renderRecipe() {
+    const { recipe, items, missing } = getRecipeState();
+    const availableCount = items.length - missing.length;
+    const rate = Math.round((availableCount / items.length) * 100);
+
+    root.querySelector('#kyf-recipe-title').textContent = recipe.title;
+    root.querySelector('#kyf-recipe-time').textContent = recipe.time;
+    root.querySelector('#kyf-recipe-difficulty').textContent = recipe.difficulty;
+    root.querySelector('#kyf-recipe-match').textContent = `在庫一致 ${recipe.match}`;
+    root.querySelector('#kyf-serving-count').textContent = `${servings}人分`;
+    root.querySelector('#kyf-serving-minus').disabled = servings === 1;
+    root.querySelector('#kyf-serving-plus').disabled = servings === 4;
+
+    const missingBadge = root.querySelector('#kyf-recipe-missing');
+    missingBadge.textContent = missing.length ? `あと${missing.length}品` : '在庫で作れます';
+    missingBadge.classList.toggle('warn', missing.length > 0);
+
+    root.querySelector('#kyf-stock-summary-title').textContent = `${items.length}品中${availableCount}品はあります`;
+    root.querySelector('#kyf-stock-summary-detail').textContent = missing.length
+      ? `不足：${missing.map((item) => `${item.ingredient.name} ${formatQuantity(item.ingredient, item.shortage)}`).join('、')}`
+      : '買い足しなしで作れます';
+    root.querySelector('#kyf-stock-summary-rate').textContent = `${rate}%`;
+    root.querySelector('#kyf-stock-meter-fill').style.width = `${rate}%`;
+
+    root.querySelector('#kyf-recipe-ingredients').innerHTML = items.map(({ ingredient, needed, available, shortage }) => {
+      const stockText = ingredient.pantry ? '在庫：常備品' : `在庫：${formatQuantity(ingredient, ingredient.stock)}`;
+      const status = available ? (ingredient.pantry ? '常備品' : 'あります') : `不足 ${formatQuantity(ingredient, shortage)}`;
+      const statusClass = available ? 'kyf-ok' : 'kyf-short';
+      return `<div class="kyf-ingredient"><div class="kyf-ingredient-main"><strong>${ingredient.name}</strong><span class="kyf-meta">${stockText}</span></div><div class="kyf-ingredient-side"><strong>必要 ${formatQuantity(ingredient, needed)}</strong><span class="${statusClass}">${status}</span></div></div>`;
+    }).join('');
+
+    root.querySelector('#kyf-recipe-steps').innerHTML = recipe.steps.map((step, index) => `<button class="kyf-step-row" type="button" aria-pressed="false" data-recipe-step="${index}"><span class="kyf-step-number">${index + 1}</span><span class="kyf-step-text">${step}</span><span class="kyf-step-check"><i data-lucide="check" aria-hidden="true"></i></span></button>`).join('');
+    root.querySelector('#kyf-selection-result').hidden = true;
+    const selectMeal = root.querySelector('#kyf-select-meal');
+    selectMeal.textContent = 'この献立にする';
+    selectMeal.setAttribute('aria-pressed', 'false');
+    if (globalThis.lucide) lucide.createIcons({ attrs: { width: 18, height: 18 } });
+  }
+
+  root.querySelector('#kyf-serving-minus').addEventListener('click', () => {
+    if (servings > 1) {
+      servings -= 1;
+      renderRecipe();
+    }
+  });
+  root.querySelector('#kyf-serving-plus').addEventListener('click', () => {
+    if (servings < 4) {
+      servings += 1;
+      renderRecipe();
+    }
+  });
+
+  root.querySelectorAll('[data-recipe-tab]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const isMaterials = button.dataset.recipeTab === 'materials';
+      root.querySelectorAll('[data-recipe-tab]').forEach((tab) => {
+        const selected = tab === button;
+        tab.classList.toggle('active', selected);
+        tab.setAttribute('aria-selected', String(selected));
+      });
+      root.querySelector('#kyf-materials-panel').hidden = !isMaterials;
+      root.querySelector('#kyf-steps-panel').hidden = isMaterials;
+    });
+  });
+
+  root.querySelector('#kyf-recipe-steps').addEventListener('click', (event) => {
+    const step = event.target.closest('[data-recipe-step]');
+    if (!step) return;
+    step.setAttribute('aria-pressed', String(step.getAttribute('aria-pressed') !== 'true'));
+  });
+
+  root.querySelector('#kyf-select-meal').addEventListener('click', (event) => {
+    const { missing } = getRecipeState();
+    root.querySelector('#kyf-selection-title').textContent = '今日の献立に決定しました';
+    root.querySelector('#kyf-selection-detail').textContent = missing.length
+      ? `不足${missing.length}品を買い物リストへ追加しました`
+      : '買い足しなしで作れます';
+    root.querySelector('#kyf-selection-result').hidden = false;
+    event.currentTarget.textContent = '献立に決定済み';
+    event.currentTarget.setAttribute('aria-pressed', 'true');
+  });
+
+  root.querySelector('#kyf-recipe-save').addEventListener('click', (event) => {
+    const saved = event.currentTarget.getAttribute('aria-pressed') !== 'true';
+    event.currentTarget.setAttribute('aria-pressed', String(saved));
+    event.currentTarget.setAttribute('aria-label', saved ? 'レシピの保存を解除' : 'レシピを保存');
+    event.currentTarget.innerHTML = `<i data-lucide="${saved ? 'bookmark-check' : 'bookmark'}" aria-hidden="true"></i>`;
+    if (globalThis.lucide) lucide.createIcons({ attrs: { width: 18, height: 18 } });
+  });
+
+  renderRecipe();
+
+  root.querySelectorAll('[data-candidate-key]').forEach((button) => {
+    button.addEventListener('click', () => {
+      currentRecipeKey = button.dataset.candidateKey;
+      servings = 1;
+      renderRecipe();
+      selectScreen('recipe');
+    });
+  });
+
+  const fridgeState = { storage: 'all', category: 'all', sort: 'expiry' };
+  const fridgeList = root.querySelector('#kyf-fridge-list');
+  const fridgeRows = [...fridgeList.querySelectorAll('.kyf-stock-row')];
+  function renderFridge() {
+    const visible = fridgeRows.filter((row) =>
+      (fridgeState.storage === 'all' || row.dataset.storage === fridgeState.storage) &&
+      (fridgeState.category === 'all' || row.dataset.category === fridgeState.category)
+    );
+    const sorted = [...visible].sort((a, b) => {
+      if (fridgeState.sort === 'category') return a.dataset.category.localeCompare(b.dataset.category, 'ja') || Number(a.dataset.expiry) - Number(b.dataset.expiry);
+      if (fridgeState.sort === 'name') return a.dataset.name.localeCompare(b.dataset.name, 'ja');
+      if (fridgeState.sort === 'recent') return Number(b.dataset.order) - Number(a.dataset.order);
+      return Number(a.dataset.expiry) - Number(b.dataset.expiry);
+    });
+    fridgeRows.forEach((row) => { row.hidden = !visible.includes(row); });
+    sorted.forEach((row) => fridgeList.appendChild(row));
+    root.querySelector('#kyf-fridge-count').textContent = `${visible.length}件を表示`;
+  }
+  root.querySelectorAll('[data-fridge-storage]').forEach((button) => {
+    button.addEventListener('click', () => {
+      fridgeState.storage = button.dataset.fridgeStorage;
+      root.querySelectorAll('[data-fridge-storage]').forEach((item) => item.classList.toggle('active', item === button));
+      renderFridge();
+    });
+  });
+  root.querySelectorAll('[data-fridge-category]').forEach((button) => {
+    button.addEventListener('click', () => {
+      fridgeState.category = button.dataset.fridgeCategory;
+      root.querySelectorAll('[data-fridge-category]').forEach((item) => item.classList.toggle('active', item === button));
+      renderFridge();
+    });
+  });
+  root.querySelector('#kyf-sort-select').addEventListener('change', (event) => {
+    fridgeState.sort = event.target.value;
+    renderFridge();
+  });
+  renderFridge();
+
+  let shoppingFilter = 'all';
+  const shoppingRows = [...root.querySelectorAll('.kyf-shopping-row')];
+  function renderShopping() {
+    const completed = shoppingRows.filter((row) => row.dataset.purchased === 'true').length;
+    root.querySelector('#kyf-shopping-progress').textContent = `${completed} / ${shoppingRows.length} 品を購入済み`;
+    root.querySelector('#kyf-shopping-percent').textContent = `${Math.round((completed / shoppingRows.length) * 100)}%`;
+    shoppingRows.forEach((row) => {
+      const purchased = row.dataset.purchased === 'true';
+      row.classList.toggle('is-purchased', purchased);
+      row.hidden = shoppingFilter === 'open' ? purchased : shoppingFilter === 'done' ? !purchased : false;
+    });
+    root.querySelectorAll('[data-shopping-group]').forEach((group) => {
+      const visibleCount = [...group.querySelectorAll('.kyf-shopping-row')].filter((row) => !row.hidden).length;
+      group.querySelector('[data-group-count]').textContent = `${visibleCount}品`;
+      group.hidden = visibleCount === 0;
+    });
+  }
+  shoppingRows.forEach((row) => {
+    const checkbox = row.querySelector('input[type="checkbox"]');
+    checkbox.addEventListener('change', () => {
+      row.dataset.purchased = String(checkbox.checked);
+      renderShopping();
+    });
+  });
+  root.querySelectorAll('[data-shopping-filter]').forEach((button) => {
+    button.addEventListener('click', () => {
+      shoppingFilter = button.dataset.shoppingFilter;
+      root.querySelectorAll('[data-shopping-filter]').forEach((item) => item.classList.toggle('active', item === button));
+      renderShopping();
+    });
+  });
+  renderShopping();
+
+  const recognitionCommonDate = root.querySelector('#kyf-common-date');
+  const recognitionCommonStorage = root.querySelector('#kyf-common-storage');
+  root.querySelectorAll('[data-recognition-date], [data-recognition-storage]').forEach((control) => {
+    control.addEventListener('input', () => { control.dataset.overridden = 'true'; });
+  });
+  recognitionCommonDate.addEventListener('change', () => {
+    root.querySelectorAll('[data-recognition-date]').forEach((input) => {
+      if (input.dataset.overridden !== 'true') input.value = recognitionCommonDate.value;
+    });
+  });
+  recognitionCommonStorage.addEventListener('change', () => {
+    root.querySelectorAll('[data-recognition-storage]').forEach((select) => {
+      if (select.dataset.overridden !== 'true') select.value = recognitionCommonStorage.value;
+    });
+  });
+
+  const mergeEggs = root.querySelector('#kyf-merge-eggs');
+  const eggQuantity = root.querySelector('#kyf-qty-2');
+  function renderEggMerge() {
+    const quantity = Number(eggQuantity.value) || 0;
+    root.querySelector('#kyf-merge-preview').textContent = mergeEggs.checked
+      ? `現在4個 ＋ 今回${quantity}個 ＝ 保存後${quantity + 4}個`
+      : `今回分${quantity}個を別の在庫として保存`;
+  }
+  mergeEggs.addEventListener('change', renderEggMerge);
+  eggQuantity.addEventListener('input', renderEggMerge);
+  renderEggMerge();
+
+  const purchaseCommonDate = root.querySelector('#kyf-purchase-common-date');
+  const purchaseCommonStorage = root.querySelector('#kyf-purchase-common-storage');
+  const purchaseMergeEggs = root.querySelector('#kyf-purchase-merge-eggs');
+  const purchaseEggQuantity = root.querySelector('#kyf-purchase-qty-3');
+  const registerPurchases = root.querySelector('#kyf-register-purchases');
+
+  function renderPurchaseMerge() {
+    const quantity = Number(purchaseEggQuantity.value) || 0;
+    root.querySelector('#kyf-purchase-merge-preview').textContent = purchaseMergeEggs.checked
+      ? `現在4個 ＋ 今回${quantity}個 ＝ 登録後${quantity + 4}個`
+      : `今回分${quantity}個を別の在庫として登録`;
+  }
+
+  function resetPurchaseCompletion() {
+    root.querySelector('#kyf-purchase-complete').hidden = true;
+    registerPurchases.disabled = false;
+    registerPurchases.textContent = '購入した3品を冷蔵庫へ追加';
+    registerPurchases.setAttribute('aria-pressed', 'false');
+  }
+
+  function validatePurchases() {
+    const valid = [...root.querySelectorAll('[data-purchase-quantity]')].every((input) => Number(input.value) > 0);
+    registerPurchases.disabled = !valid;
+    root.querySelector('#kyf-purchase-action-note').textContent = valid
+      ? '3品をまとめて登録します'
+      : '購入量が未入力の商品があります';
+    return valid;
+  }
+
+  purchaseCommonDate.addEventListener('change', () => {
+    root.querySelectorAll('[data-purchase-date]').forEach((input) => { input.value = purchaseCommonDate.value; });
+    resetPurchaseCompletion();
+    validatePurchases();
+  });
+  purchaseCommonStorage.addEventListener('change', () => {
+    root.querySelectorAll('[data-purchase-storage]').forEach((select) => { select.value = purchaseCommonStorage.value; });
+    resetPurchaseCompletion();
+    validatePurchases();
+  });
+  root.querySelectorAll('#kyf-purchase-panel input, #kyf-purchase-panel select').forEach((control) => {
+    control.addEventListener('input', () => {
+      resetPurchaseCompletion();
+      renderPurchaseMerge();
+      validatePurchases();
+    });
+  });
+  purchaseMergeEggs.addEventListener('change', renderPurchaseMerge);
+  registerPurchases.addEventListener('click', () => {
+    if (!validatePurchases()) return;
+    root.querySelector('#kyf-purchase-complete').hidden = false;
+    root.querySelector('#kyf-purchase-action-note').textContent = '登録が完了しました';
+    registerPurchases.disabled = true;
+    registerPurchases.textContent = '冷蔵庫へ追加済み';
+    registerPurchases.setAttribute('aria-pressed', 'true');
+  });
+  renderPurchaseMerge();
+  validatePurchases();
+
+  const cookingInputs = [...root.querySelectorAll('[data-cook-qty]')];
+  const finishCooking = root.querySelector('#kyf-finish-cooking');
+  function renderCooking() {
+    let valid = true;
+    cookingInputs.forEach((input) => {
+      const used = Number(input.value);
+      const current = Number(input.dataset.current);
+      const unit = input.dataset.unit;
+      const status = input.closest('.kyf-consumption-row').querySelector('[data-cook-status]');
+      const remaining = current - used;
+      if (!Number.isFinite(used) || used < 0 || remaining < 0) {
+        valid = false;
+        status.textContent = remaining < 0 ? `不足 ${formatAmount(Math.abs(remaining))}${unit}` : '要確認';
+        status.classList.add('warn');
+      } else {
+        status.textContent = `残り${formatAmount(remaining)}${unit}`;
+        status.classList.remove('warn');
+      }
+    });
+    finishCooking.disabled = !valid;
+    root.querySelector('#kyf-cooking-note').textContent = valid ? '3品の在庫を更新します' : '使用量が在庫を超えている食材があります';
+    return valid;
+  }
+  cookingInputs.forEach((input) => {
+    input.addEventListener('input', () => {
+      root.querySelector('#kyf-cooking-complete').hidden = true;
+      finishCooking.textContent = '調理を完了して在庫を更新';
+      finishCooking.setAttribute('aria-pressed', 'false');
+      renderCooking();
+    });
+  });
+  finishCooking.addEventListener('click', () => {
+    if (!renderCooking()) return;
+    root.querySelector('#kyf-cooking-complete').hidden = false;
+    root.querySelector('#kyf-cooking-note').textContent = '在庫更新が完了しました';
+    finishCooking.disabled = true;
+    finishCooking.textContent = '在庫更新済み';
+    finishCooking.setAttribute('aria-pressed', 'true');
+  });
+  renderCooking();
+
+  const state = { radius: 20, compact: false };
+  function renderOptions() {
+    root.style.setProperty('--kyf-radius', `${state.radius}px`);
+    root.classList.toggle('kyf-compact', state.compact);
+  }
+  renderOptions();
+
+  if (globalThis.Tweak) {
+    const tweak = new Tweak({ container: root, onChange: renderOptions });
+    tweak.addSlider(state, 'radius', { label: '画面の角丸', min: 8, max: 28, unit: 'px', reference: '--kyf-radius' });
+    tweak.addToggle(state, 'compact', { label: 'コンパクト表示', reference: 'layout.compact' });
+  }
+
+  if (globalThis.lucide) {
+    lucide.createIcons({ attrs: { width: 18, height: 18 } });
+  }
+})();
+</script>

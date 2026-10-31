@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "recipeCatalogVersion": "1.2.0",
+  "unitConversions": [
+    { "id": "UC001", "sourceQuantity": 0.2, "sourceUnit": "kilogram", "targetUnit": "gram", "expectedStatus": "converted", "expectedQuantity": 200 },
+    { "id": "UC002", "sourceQuantity": 1500, "sourceUnit": "gram", "targetUnit": "kilogram", "expectedStatus": "converted", "expectedQuantity": 1.5 },
+    { "id": "UC003", "sourceQuantity": 1.25, "sourceUnit": "liter", "targetUnit": "milliliter", "expectedStatus": "converted", "expectedQuantity": 1250 },
+    { "id": "UC004", "sourceQuantity": 500, "sourceUnit": "milliliter", "targetUnit": "liter", "expectedStatus": "converted", "expectedQuantity": 0.5 },
+    { "id": "UC005", "sourceQuantity": 1, "sourceUnit": "piece", "targetUnit": "gram", "expectedStatus": "unsupported" },
+    { "id": "UC006", "sourceQuantity": 1, "sourceUnit": "tablespoon", "targetUnit": "milliliter", "expectedStatus": "unsupported" }
+  ],
+  "scalingCases": [
+    { "id": "SC001", "recipeKey": "oyakodon", "servings": 2, "ingredientKey": "chicken_thigh", "expectedQuantity": 240, "expectedUnit": "gram" },
+    { "id": "SC002", "recipeKey": "oyakodon", "servings": 3, "ingredientKey": "egg", "expectedQuantity": 6, "expectedUnit": "piece" },
+    { "id": "SC003", "recipeKey": "curry_udon", "servings": 4, "ingredientKey": "frozen_udon", "expectedQuantity": 4, "expectedUnit": "portion" },
+    { "id": "SC004", "recipeKey": "butter_soy_salmon", "servings": 4, "ingredientKey": "salmon_fillet", "expectedQuantity": 4, "expectedUnit": "piece" },
+    { "id": "SC005", "recipeKey": "tofu_egg_bowl", "servings": 2, "ingredientKey": "soy_sauce", "expectedQuantity": 2, "expectedUnit": "tablespoon" },
+    { "id": "SC006", "recipeKey": "pork_kimchi_hotpot", "servings": 3, "ingredientKey": "water", "expectedQuantity": 1200, "expectedUnit": "milliliter" }
+  ],
+  "availabilityCases": [
+    {
+      "id": "AC001",
+      "recipeKey": "egg_fried_rice",
+      "servings": 1,
+      "ingredientKey": "egg",
+      "lots": [
+        { "id": "egg-lot", "quantity": 6, "unit": "piece", "expiresInDays": 5, "storage": "refrigerated" }
+      ],
+      "expected": { "status": "available", "shortageQuantity": 0, "unit": "piece", "consumptionOrder": ["egg-lot"], "thawing": "none" }
+    },
+    {
+      "id": "AC002",
+      "recipeKey": "pork_ginger",
+      "servings": 1,
+      "ingredientKey": "pork_slices",
+      "lots": [
+        { "id": "pork-small", "quantity": 100, "unit": "gram", "expiresInDays": 2, "storage": "refrigerated" }
+      ],
+      "expected": { "status": "shortage", "shortageQuantity": 50, "unit": "gram", "consumptionOrder": ["pork-small"], "thawing": "none" }
+    },
+    {
+      "id": "AC003",
+      "recipeKey": "pork_ginger",
+      "servings": 1,
+      "ingredientKey": "pork_slices",
+      "lots": [
+        { "id": "pork-kg", "quantity": 0.2, "unit": "kilogram", "expiresInDays": 3, "storage": "refrigerated" }
+      ],
+      "expected": { "status": "available", "shortageQuantity": 0, "unit": "gram", "consumptionOrder": ["pork-kg"], "thawing": "none" }
+    },
+    {
+      "id": "AC004",
+      "recipeKey": "tofu_egg_bowl",
+      "servings": 1,
+      "ingredientKey": "tofu",
+      "lots": [
+        { "id": "tofu-block", "quantity": 1, "unit": "block", "expiresInDays": 2, "storage": "refrigerated" }
+      ],
+      "expected": { "status": "confirmation", "shortageQuantity": 150, "unit": "gram", "consumptionOrder": [], "thawing": "none" }
+    },
+    {
+      "id": "AC005",
+      "recipeKey": "teriyaki_chicken",
+      "servings": 1,
+      "ingredientKey": "soy_sauce",
+      "lots": [
+        { "id": "soy-rough", "roughState": "available", "storage": "room_temperature" }
+      ],
+      "expected": { "status": "available", "thawing": "none" }
+    },
+    {
+      "id": "AC006",
+      "recipeKey": "teriyaki_chicken",
+      "servings": 1,
+      "ingredientKey": "soy_sauce",
+      "lots": [
+        { "id": "soy-low", "roughState": "low", "storage": "room_temperature" }
+      ],
+      "expected": { "status": "confirmation", "thawing": "none" }
+    },
+    {
+      "id": "AC007",
+      "recipeKey": "teriyaki_chicken",
+      "servings": 1,
+      "ingredientKey": "soy_sauce",
+      "lots": [
+        { "id": "soy-none", "roughState": "none", "storage": "room_temperature" }
+      ],
+      "expected": { "status": "shortage", "thawing": "none" }
+    },
+    {
+      "id": "AC008",
+      "recipeKey": "teriyaki_chicken",
+      "servings": 1,
+      "ingredientKey": "chicken_thigh",
+      "lots": [
+        { "id": "expired-chicken", "quantity": 200, "unit": "gram", "expiresInDays": -1, "storage": "refrigerated" }
+      ],
+      "expected": { "status": "shortage", "shortageQuantity": 180, "unit": "gram", "consumptionOrder": [], "thawing": "none" }
+    },
+    {
+      "id": "AC009",
+      "recipeKey": "teriyaki_chicken",
+      "servings": 1,
+      "ingredientKey": "chicken_thigh",
+      "lots": [
+        { "id": "chicken-later", "quantity": 100, "unit": "gram", "expiresInDays": 5, "storage": "refrigerated" },
+        { "id": "chicken-sooner", "quantity": 100, "unit": "gram", "expiresInDays": 1, "storage": "refrigerated" }
+      ],
+      "expected": { "status": "available", "shortageQuantity": 0, "unit": "gram", "consumptionOrder": ["chicken-sooner", "chicken-later"], "thawing": "none" }
+    },
+    {
+      "id": "AC010",
+      "recipeKey": "curry_udon",
+      "servings": 1,
+      "ingredientKey": "frozen_udon",
+      "lots": [
+        { "id": "udon-frozen", "quantity": 1, "unit": "portion", "expiresInDays": 30, "storage": "frozen" }
+      ],
+      "expected": { "status": "available", "shortageQuantity": 0, "unit": "portion", "consumptionOrder": ["udon-frozen"], "thawing": "cook_from_frozen" }
+    },
+    {
+      "id": "AC011",
+      "recipeKey": "tofu_egg_bowl",
+      "servings": 1,
+      "ingredientKey": "green_onion",
+      "lots": [],
+      "expected": { "status": "optional_missing", "shortageQuantity": 0, "unit": "stalk", "consumptionOrder": [], "thawing": "none" }
+    },
+    {
+      "id": "AC012",
+      "recipeKey": "tofu_egg_bowl",
+      "servings": 1,
+      "ingredientKey": "water",
+      "lots": [],
+      "expected": { "status": "ignored", "thawing": "none" }
+    }
+  ]
+}

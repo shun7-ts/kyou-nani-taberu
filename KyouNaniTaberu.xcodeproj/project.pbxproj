@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE2026101400000000000001 /* CategoryIcons in Resources */ = {isa = PBXBuildFile; fileRef = BE2026101400000000000002 /* CategoryIcons */; };
+		BD2026100800000000000001 /* App/Resources/fonts in Resources */ = {isa = PBXBuildFile; fileRef = BD2026100800000000000002 /* App/Resources/fonts */; };
+		003DC5A28960FD4590DBD1C8 /* App/Data/InventoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D610F5CAF2409360BAC2AF5 /* App/Data/InventoryService.swift */; };
+		09D8563C9B00A4801BA3C3CB /* AppUITests/VoiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0881D86B7CA76D28FC2192 /* AppUITests/VoiceUITests.swift */; };
+		0DCE9C584A7A474CBE9022D8 /* App/Domain/Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6186D34DEE8E0B3DBB58F3C /* App/Domain/Recipes.swift */; };
+		104EBC631F25FD89AD1B07BA /* App/Notifications/NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1126C75885289F0C30B1D6B /* App/Notifications/NotificationSettingsView.swift */; };
+		1243942ED82BAA0EE51563AF /* AppTests/CalculationFixtureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7125063C23D427A3199A49 /* AppTests/CalculationFixtureTests.swift */; };
+		1E9E522E62AFF5D2F0A6E9E3 /* App/Data/InventoryPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484496580239AC70933DC1AA /* App/Data/InventoryPresets.swift */; };
+		2003FC86CCE6EEFCB2B8B72E /* App/Features/RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6427F3077D8F3A6ACE827E31 /* App/Features/RootView.swift */; };
+		2727F32CCFB35736359183E6 /* AppUITests/RecipeSuggestionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1860647B0736C929E966A /* AppUITests/RecipeSuggestionUITests.swift */; };
+		27DF1630E5A3765C68861E9B /* data/calculation-test-cases-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = D8C30BF752AA3D7F0033D214 /* data/calculation-test-cases-v1.json */; };
+		35C296B55A4F016075A018C9 /* AppUITests/ReceiptCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BFE594860E12181D98D51B /* AppUITests/ReceiptCameraUITests.swift */; };
+		3990334D39A0F94F3EBD9059 /* App/Features/DeleteDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CB064F30C5A5D4865CBDDF /* App/Features/DeleteDataView.swift */; };
+		3F0753D3566D9634FD00FCFA /* AppTests/RecipeSuggestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C524FDE276628DB1B7BFFDAC /* AppTests/RecipeSuggestionTests.swift */; };
+		459611512B4C6FF7BF1EBDB6 /* App/Data/IngredientMasterImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ECB0342B0D995F5BED1651 /* App/Data/IngredientMasterImporter.swift */; };
+		45BBE020C7C5E3D8D04B5705 /* App/Domain/Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83B21C405A67CD75B82E24 /* App/Domain/Units.swift */; };
+		4B8F91BD96AEABD5C15E708B /* App/Models/InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB27E63527FD95AFCA220C11 /* App/Models/InventoryItem.swift */; };
+		4CA00630A45718A0EEDEFBF1 /* App/Recognition/ReceiptImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF8625AC3D91EBCF8EE9B37 /* App/Recognition/ReceiptImportService.swift */; };
+		52CC5A557144AE25197DABE1 /* App/Data/UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3CFDF29730ABFF2025BFAA /* App/Data/UserDataService.swift */; };
+		57F627DB45A0AD3AB6D54C53 /* App/Features/ShoppingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF0D4C6BFE2444BFC5D31D /* App/Features/ShoppingViews.swift */; };
+		597D363B6A11A82E252CDEC6 /* AppUITests/InventoryUndoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406939ACC3E78EFC2FF5E92 /* AppUITests/InventoryUndoUITests.swift */; };
+		5CE4401C78B9BA8654C9C264 /* App/Domain/RecipeSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FA3D83CC806BBD66E1DBB /* App/Domain/RecipeSuggestions.swift */; };
+		61CA9E5F4BEF1E166CC5DFDE /* App/Recognition/ReceiptParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C63A40CD7BCF6230A4C /* App/Recognition/ReceiptParser.swift */; };
+		67A89D189E7665A5D027C11F /* AppUITests/InventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D70B55F942DA8C9EC33E7 /* AppUITests/InventoryUITests.swift */; };
+		67F64208C662A924EF180ADD /* App/Features/RecipeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02403A3C507708F92810F5FC /* App/Features/RecipeViews.swift */; };
+		6940C5A9E63019CD84D53AD3 /* AppTests/InventoryFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCC038A133615388FEE140 /* AppTests/InventoryFlowTests.swift */; };
+		6A0C5EAD7D40BCA7CD4FEBDE /* App/Models/IngredientMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A4AB29BDFDA10C8F0D993E /* App/Models/IngredientMaster.swift */; };
+		6F315502FAAA3493E58D9EAF /* App/Models/CustomIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47508E8F4886318D71C9A306 /* App/Models/CustomIngredient.swift */; };
+		6F6A9C665037A9E90B04646C /* App/Features/Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B063C1CEF92717460CAF7FE /* App/Features/Theme.swift */; };
+		78544EE1043C4B57F8C4B73F /* App/Models/InventoryEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCEF8CC3DF77A8BFEA59D6F /* App/Models/InventoryEvent.swift */; };
+		78BEFBF596CD05B03481D08C /* App/Recognition/ReceiptOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F00B940D6BE6C4B7CE766 /* App/Recognition/ReceiptOCR.swift */; };
+		8568CA9FED003F0955E82C96 /* AppUITests/PrivacyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46178B4DE0E57D349B2281AC /* AppUITests/PrivacyUITests.swift */; };
+		87855A425A1603811887556C /* App/Data/IngredientCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486F703A100792D02EB6779 /* App/Data/IngredientCatalog.swift */; };
+		8BCA4F55C153891766EAB3F4 /* data/recipe-seed-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = C2B79A2C14182E4DF645A5B8 /* data/recipe-seed-v1.json */; };
+		90BEA939A017455CED5E205F /* App/KyouNaniTaberuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B93F2AEDFCD29C0CDA6D04 /* App/KyouNaniTaberuApp.swift */; };
+		91EE1C19E55AD98D21A80902 /* App/Models/IngredientTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE4434B382DC034A71228B /* App/Models/IngredientTypes.swift */; };
+		92354F13C2BEB6D6C08DC547 /* AppTests/ReceiptCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A535A5A5EF519CC8EFF11B3C /* AppTests/ReceiptCameraTests.swift */; };
+		99F4B7A9415C6A47EFD79F77 /* App/Notifications/ExpiryNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BC444CBC2F54BDD565AD3 /* App/Notifications/ExpiryNotifications.swift */; };
+		9B3B574DE9A7CB82DC07C453 /* AppTests/ReceiptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73C54F0D84A31A9456081C9 /* AppTests/ReceiptTests.swift */; };
+		9BB79B31FA84EB0162ABDFC1 /* App/Data/InventoryUndo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7C102C6EB96890FF27E20 /* App/Data/InventoryUndo.swift */; };
+		A275EAE81FCFFCB6507D1F05 /* App/Recognition/ReceiptViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDCCA765553EC1EA967A163 /* App/Recognition/ReceiptViews.swift */; };
+		A2791674A46A312F8E6491CC /* App/Resources/recipe-additions-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = 458A6B322F569179B8376FA1 /* App/Resources/recipe-additions-v1.json */; };
+		A33A570ACEF41284FF3C0EE0 /* AppTests/InventoryUndoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB94E229A55DB7AFD0B7DB7 /* AppTests/InventoryUndoTests.swift */; };
+		A5FB1F53F9DE2B96B1D476C3 /* App/Recognition/VoiceViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691D868764B888B1A30AF81 /* App/Recognition/VoiceViews.swift */; };
+		A6038E99A32D4C58112CD53F /* App/Features/InventoryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDF46800C80C712F0B8A16D /* App/Features/InventoryViews.swift */; };
+		A8DE8FC533786F8495143FAD /* AppTests/PrivacyDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37ADD804F5DA4E60B38E7DC /* AppTests/PrivacyDataTests.swift */; };
+		AC0000000000000000000001 /* App/Resources/shared-meal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000002 /* App/Resources/shared-meal.jpg */; };
+		AC0000000000000000000003 /* App/Resources/ingredient-additions-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000004 /* App/Resources/ingredient-additions-v1.json */; };
+		AD2026100500000000000001 /* App/Resources/recipe-instructions-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = AD2026100500000000000002 /* App/Resources/recipe-instructions-v1.json */; };
+		AF2026100600000000000001 /* App/Resources/meal-images in Resources */ = {isa = PBXBuildFile; fileRef = AF2026100600000000000002 /* App/Resources/meal-images */; };
+		BA2026100700000000000001 /* App/Data/ShoppingChecks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2026100700000000000002 /* App/Data/ShoppingChecks.swift */; };
+		BA2026100800000000000001 /* App/Domain/MealPlanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2026100800000000000002 /* App/Domain/MealPlanning.swift */; };
+		BA2026100800000000000003 /* App/Features/MealPlanViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2026100800000000000004 /* App/Features/MealPlanViews.swift */; };
+		BD4CDCE4615378D3F9B2FBF1 /* App/Recognition/VoiceRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573D0B0B285387B4DDCE60A7 /* App/Recognition/VoiceRecorder.swift */; };
+		C0D645A01B0655BFA8FC5404 /* App/Recognition/VoiceImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2480089318E36AA28B23F8BF /* App/Recognition/VoiceImportService.swift */; };
+		CFEC64006D18F6DFDC12A619 /* AppTests/DataFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4255D7672D56582570A6F /* AppTests/DataFoundationTests.swift */; };
+		D1C62CC6020A5E8F727F522E /* App/Data/MealService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5139FB6F537B59CE993F2 /* App/Data/MealService.swift */; };
+		D306CD2B20706BF7A015480A /* App/Models/ShoppingListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205D1B990BD91639D652F64 /* App/Models/ShoppingListItem.swift */; };
+		D67690D4E87FFA2298DDCEF6 /* App/Features/PrivacyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE72ECA489A11447DC9572 /* App/Features/PrivacyViews.swift */; };
+		D6BF9D45BCB4507F313CC4B9 /* App/Data/StockSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4C7A6079D608EBB5AF4BC /* App/Data/StockSnapshot.swift */; };
+		DB802D54A57635E93D19D6F6 /* data/initial-inventory-presets-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = D552ACA20824AF98CCC45A62 /* data/initial-inventory-presets-v1.json */; };
+		DE107DD825EEF955D6F5F841 /* App/Models/MealSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E91D286DE32095CC0F781C6 /* App/Models/MealSelection.swift */; };
+		E396F4CFFAF9F3954F961124 /* App/Recognition/VoiceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C17F304501A1F59192FCAC9 /* App/Recognition/VoiceParser.swift */; };
+		E3F9756E91EA7A8A496B4F8C /* AppTests/ExpiryNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D105D51B418713595696E7E5 /* AppTests/ExpiryNotificationTests.swift */; };
+		ED08F086763AFB5A5264200B /* App/Data/AppPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148D55D030EE0911DDA2A66 /* App/Data/AppPreferences.swift */; };
+		F1F07AC04B0BA8A9E999221B /* data/ingredient-master-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CD571DC9BB954D6FF4569F6 /* data/ingredient-master-v1.json */; };
+		F32B0A1C4797466F59A65E2A /* App/Recognition/ReceiptCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543889F986F9D9AFF67C3D36 /* App/Recognition/ReceiptCamera.swift */; };
+		F472B880702797920F5A4962 /* AppTests/VoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A492D69BDD8E6489FB597B9 /* AppTests/VoiceTests.swift */; };
+		F88A2EFAFCB62A4200E6351D /* App/Data/AppPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3DE32AF9CA9B91B70E0F8E /* App/Data/AppPersistence.swift */; };
+		BF2026101500000000000001 /* App/Resources/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BF2026101500000000000002 /* App/Resources/PrivacyInfo.xcprivacy */; };
+		BF2026101500000000000003 /* AppUITests/StoreScreenshotCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2026101500000000000004 /* AppUITests/StoreScreenshotCapture.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D799BAE6088A90139B415FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C13732C8E715C9BEE4FA51C9;
+			remoteInfo = KyouNaniTaberu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE2026101400000000000002 /* CategoryIcons */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "App/Resources/CategoryIcons.xcassets"; sourceTree = SOURCE_ROOT; };
+		BD2026100800000000000002 /* App/Resources/fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "App/Resources/fonts"; sourceTree = SOURCE_ROOT; };
+		02403A3C507708F92810F5FC /* App/Features/RecipeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Features/RecipeViews.swift; sourceTree = SOURCE_ROOT; };
+		0406939ACC3E78EFC2FF5E92 /* AppUITests/InventoryUndoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests/InventoryUndoUITests.swift; sourceTree = SOURCE_ROOT; };
+		0B063C1CEF92717460CAF7FE /* App/Features/Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Features/Theme.swift; sourceTree = SOURCE_ROOT; };
+		0D610F5CAF2409360BAC2AF5 /* App/Data/InventoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Data/InventoryService.swift; sourceTree = SOURCE_ROOT; };
+		0E91D286DE32095CC0F781C6 /* App/Models/MealSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Models/MealSelection.swift; sourceTree = SOURCE_ROOT; };
+		1A492D69BDD8E6489FB597B9 /* AppTests/VoiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests/VoiceTests.swift; sourceTree = SOURCE_ROOT; };
+		1E7125063C23D427A3199A49 /* AppTests/CalculationFixtureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests/CalculationFixtureTests.swift; sourceTree = SOURCE_ROOT; };
+		2480089318E36AA28B23F8BF /* App/Recognition/VoiceImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Recognition/VoiceImportService.swift; sourceTree = SOURCE_ROOT; };
+		2DCEF8CC3DF77A8BFEA59D6F /* App/Models/InventoryEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Models/InventoryEvent.swift; sourceTree = SOURCE_ROOT; };
+		2F83B21C405A67CD75B82E24 /* App/Domain/Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Domain/Units.swift; sourceTree = SOURCE_ROOT; };
+		32BE4434B382DC034A71228B /* App/Models/IngredientTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Models/IngredientTypes.swift; sourceTree = SOURCE_ROOT; };
+		38A4AB29BDFDA10C8F0D993E /* App/Models/IngredientMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Models/IngredientMaster.swift; sourceTree = SOURCE_ROOT; };
+		3CE7C102C6EB96890FF27E20 /* App/Data/InventoryUndo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Data/InventoryUndo.swift; sourceTree = SOURCE_ROOT; };
+		3D3CFDF29730ABFF2025BFAA /* App/Data/UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Data/UserDataService.swift; sourceTree = SOURCE_ROOT; };
+		458A6B322F569179B8376FA1 /* App/Resources/recipe-additions-v1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "App/Resources/recipe-additions-v1.json"; sourceTree = SOURCE_ROOT; };
+		46178B4DE0E57D349B2281AC /* AppUITests/PrivacyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests/PrivacyUITests.swift; sourceTree = SOURCE_ROOT; };
+		47508E8F4886318D71C9A306 /* App/Models/CustomIngredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Models/CustomIngredient.swift; sourceTree = SOURCE_ROOT; };
+		484496580239AC70933DC1AA /* App/Data/InventoryPresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Data/InventoryPresets.swift; sourceTree = SOURCE_ROOT; };
+		50F4C7A6079D608EBB5AF4BC /* App/Data/StockSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Data/StockSnapshot.swift; sourceTree = SOURCE_ROOT; };
+		5205D1B990BD91639D652F64 /* App/Models/ShoppingListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Models/ShoppingListItem.swift; sourceTree = SOURCE_ROOT; };
+		543889F986F9D9AFF67C3D36 /* App/Recognition/ReceiptCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Recognition/ReceiptCamera.swift; sourceTree = SOURCE_ROOT; };
+		573D0B0B285387B4DDCE60A7 /* App/Recognition/VoiceRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Recognition/VoiceRecorder.swift; sourceTree = SOURCE_ROOT; };
+		59FF0D4C6BFE2444BFC5D31D /* App/Features/ShoppingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Features/ShoppingViews.swift; sourceTree = SOURCE_ROOT; };
+		5C0881D86B7CA76D28FC2192 /* AppUITests/VoiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests/VoiceUITests.swift; sourceTree = SOURCE_ROOT; };
+		5C17F304501A1F59192FCAC9 /* App/Recognition/VoiceParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Recognition/VoiceParser.swift; sourceTree = SOURCE_ROOT; };
+		5CD571DC9BB954D6FF4569F6 /* data/ingredient-master-v1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "data/ingredient-master-v1.json"; sourceTree = SOURCE_ROOT; };
+		5CF8625AC3D91EBCF8EE9B37 /* App/Recognition/ReceiptImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Recognition/ReceiptImportService.swift; sourceTree = SOURCE_ROOT; };
+		5EDCCA765553EC1EA967A163 /* App/Recognition/ReceiptViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Recognition/ReceiptViews.swift; sourceTree = SOURCE_ROOT; };
+		605BC444CBC2F54BDD565AD3 /* App/Notifications/ExpiryNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Notifications/ExpiryNotifications.swift; sourceTree = SOURCE_ROOT; };
+		62B93F2AEDFCD29C0CDA6D04 /* App/KyouNaniTaberuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/KyouNaniTaberuApp.swift; sourceTree = SOURCE_ROOT; };
+		6427F3077D8F3A6ACE827E31 /* App/Features/RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Features/RootView.swift; sourceTree = SOURCE_ROOT; };
+		6486F703A100792D02EB6779 /* App/Data/IngredientCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Data/IngredientCatalog.swift; sourceTree = SOURCE_ROOT; };
+		6C3D70B55F942DA8C9EC33E7 /* AppUITests/InventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests/InventoryUITests.swift; sourceTree = SOURCE_ROOT; };
+		6E3FA3D83CC806BBD66E1DBB /* App/Domain/RecipeSuggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Domain/RecipeSuggestions.swift; sourceTree = SOURCE_ROOT; };
+		7BD5139FB6F537B59CE993F2 /* App/Data/MealService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Data/MealService.swift; sourceTree = SOURCE_ROOT; };
+		85BFE594860E12181D98D51B /* AppUITests/ReceiptCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests/ReceiptCameraUITests.swift; sourceTree = SOURCE_ROOT; };
+		85F4255D7672D56582570A6F /* AppTests/DataFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests/DataFoundationTests.swift; sourceTree = SOURCE_ROOT; };
+		8BCD5BC4CDFDF0918087C782 /* KyouNaniTaberu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = KyouNaniTaberu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED44C63A40CD7BCF6230A4C /* App/Recognition/ReceiptParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Recognition/ReceiptParser.swift; sourceTree = SOURCE_ROOT; };
+		A1ECB0342B0D995F5BED1651 /* App/Data/IngredientMasterImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Data/IngredientMasterImporter.swift; sourceTree = SOURCE_ROOT; };
+		A2CCC038A133615388FEE140 /* AppTests/InventoryFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests/InventoryFlowTests.swift; sourceTree = SOURCE_ROOT; };
+		A535A5A5EF519CC8EFF11B3C /* AppTests/ReceiptCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests/ReceiptCameraTests.swift; sourceTree = SOURCE_ROOT; };
+		A7C9FD69DA095A3BF0CB4587 /* KyouNaniTaberuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = KyouNaniTaberuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0000000000000000000002 /* App/Resources/shared-meal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "App/Resources/shared-meal.jpg"; sourceTree = "<group>"; };
+		AC0000000000000000000004 /* App/Resources/ingredient-additions-v1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "App/Resources/ingredient-additions-v1.json"; sourceTree = "<group>"; };
+		AD2026100500000000000002 /* App/Resources/recipe-instructions-v1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "App/Resources/recipe-instructions-v1.json"; sourceTree = SOURCE_ROOT; };
+		AF2026100600000000000002 /* App/Resources/meal-images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "App/Resources/meal-images"; sourceTree = "<group>"; };
+		B148D55D030EE0911DDA2A66 /* App/Data/AppPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Data/AppPreferences.swift; sourceTree = SOURCE_ROOT; };
+		B37ADD804F5DA4E60B38E7DC /* AppTests/PrivacyDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests/PrivacyDataTests.swift; sourceTree = SOURCE_ROOT; };
+		B8CB064F30C5A5D4865CBDDF /* App/Features/DeleteDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Features/DeleteDataView.swift; sourceTree = SOURCE_ROOT; };
+		BA2026100700000000000002 /* App/Data/ShoppingChecks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Data/ShoppingChecks.swift; sourceTree = SOURCE_ROOT; };
+		BA2026100800000000000002 /* App/Domain/MealPlanning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Domain/MealPlanning.swift; sourceTree = SOURCE_ROOT; };
+		BA2026100800000000000004 /* App/Features/MealPlanViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Features/MealPlanViews.swift; sourceTree = SOURCE_ROOT; };
+		BB27E63527FD95AFCA220C11 /* App/Models/InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Models/InventoryItem.swift; sourceTree = SOURCE_ROOT; };
+		BFDF46800C80C712F0B8A16D /* App/Features/InventoryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Features/InventoryViews.swift; sourceTree = SOURCE_ROOT; };
+		C2B79A2C14182E4DF645A5B8 /* data/recipe-seed-v1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "data/recipe-seed-v1.json"; sourceTree = SOURCE_ROOT; };
+		C524FDE276628DB1B7BFFDAC /* AppTests/RecipeSuggestionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests/RecipeSuggestionTests.swift; sourceTree = SOURCE_ROOT; };
+		C6186D34DEE8E0B3DBB58F3C /* App/Domain/Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Domain/Recipes.swift; sourceTree = SOURCE_ROOT; };
+		C691D868764B888B1A30AF81 /* App/Recognition/VoiceViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Recognition/VoiceViews.swift; sourceTree = SOURCE_ROOT; };
+		D105D51B418713595696E7E5 /* AppTests/ExpiryNotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests/ExpiryNotificationTests.swift; sourceTree = SOURCE_ROOT; };
+		D552ACA20824AF98CCC45A62 /* data/initial-inventory-presets-v1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "data/initial-inventory-presets-v1.json"; sourceTree = SOURCE_ROOT; };
+		D6CE72ECA489A11447DC9572 /* App/Features/PrivacyViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Features/PrivacyViews.swift; sourceTree = SOURCE_ROOT; };
+		D8C30BF752AA3D7F0033D214 /* data/calculation-test-cases-v1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "data/calculation-test-cases-v1.json"; sourceTree = SOURCE_ROOT; };
+		DC3DE32AF9CA9B91B70E0F8E /* App/Data/AppPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Data/AppPersistence.swift; sourceTree = SOURCE_ROOT; };
+		E73C54F0D84A31A9456081C9 /* AppTests/ReceiptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests/ReceiptTests.swift; sourceTree = SOURCE_ROOT; };
+		EFB94E229A55DB7AFD0B7DB7 /* AppTests/InventoryUndoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests/InventoryUndoTests.swift; sourceTree = SOURCE_ROOT; };
+		F1126C75885289F0C30B1D6B /* App/Notifications/NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Notifications/NotificationSettingsView.swift; sourceTree = SOURCE_ROOT; };
+		F219C0274590DA45E4BEF1EA /* KyouNaniTaberuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = KyouNaniTaberuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43F00B940D6BE6C4B7CE766 /* App/Recognition/ReceiptOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Recognition/ReceiptOCR.swift; sourceTree = SOURCE_ROOT; };
+		FCF1860647B0736C929E966A /* AppUITests/RecipeSuggestionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests/RecipeSuggestionUITests.swift; sourceTree = SOURCE_ROOT; };
+		BF2026101500000000000002 /* App/Resources/PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "App/Resources/PrivacyInfo.xcprivacy"; sourceTree = SOURCE_ROOT; };
+		BF2026101500000000000004 /* AppUITests/StoreScreenshotCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppUITests/StoreScreenshotCapture.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABF84E55BD30AC2CEF8FC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AE8C6BEB2A40A6D824CCEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8390B7595BCD2F6FEF17F197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F97E10D1020E3BEF961AF77B = {
+			isa = PBXGroup;
+			children = (
+				FCF1860647B0736C929E966A /* AppUITests/RecipeSuggestionUITests.swift */,
+				C524FDE276628DB1B7BFFDAC /* AppTests/RecipeSuggestionTests.swift */,
+				6E3FA3D83CC806BBD66E1DBB /* App/Domain/RecipeSuggestions.swift */,
+				0406939ACC3E78EFC2FF5E92 /* AppUITests/InventoryUndoUITests.swift */,
+				EFB94E229A55DB7AFD0B7DB7 /* AppTests/InventoryUndoTests.swift */,
+				3CE7C102C6EB96890FF27E20 /* App/Data/InventoryUndo.swift */,
+				85BFE594860E12181D98D51B /* AppUITests/ReceiptCameraUITests.swift */,
+				A535A5A5EF519CC8EFF11B3C /* AppTests/ReceiptCameraTests.swift */,
+				543889F986F9D9AFF67C3D36 /* App/Recognition/ReceiptCamera.swift */,
+				46178B4DE0E57D349B2281AC /* AppUITests/PrivacyUITests.swift */,
+				B37ADD804F5DA4E60B38E7DC /* AppTests/PrivacyDataTests.swift */,
+				B8CB064F30C5A5D4865CBDDF /* App/Features/DeleteDataView.swift */,
+				D6CE72ECA489A11447DC9572 /* App/Features/PrivacyViews.swift */,
+				3D3CFDF29730ABFF2025BFAA /* App/Data/UserDataService.swift */,
+				B148D55D030EE0911DDA2A66 /* App/Data/AppPreferences.swift */,
+				5C0881D86B7CA76D28FC2192 /* AppUITests/VoiceUITests.swift */,
+				1A492D69BDD8E6489FB597B9 /* AppTests/VoiceTests.swift */,
+				C691D868764B888B1A30AF81 /* App/Recognition/VoiceViews.swift */,
+				573D0B0B285387B4DDCE60A7 /* App/Recognition/VoiceRecorder.swift */,
+				2480089318E36AA28B23F8BF /* App/Recognition/VoiceImportService.swift */,
+				5C17F304501A1F59192FCAC9 /* App/Recognition/VoiceParser.swift */,
+				E73C54F0D84A31A9456081C9 /* AppTests/ReceiptTests.swift */,
+				5EDCCA765553EC1EA967A163 /* App/Recognition/ReceiptViews.swift */,
+				5CF8625AC3D91EBCF8EE9B37 /* App/Recognition/ReceiptImportService.swift */,
+				F43F00B940D6BE6C4B7CE766 /* App/Recognition/ReceiptOCR.swift */,
+				8ED44C63A40CD7BCF6230A4C /* App/Recognition/ReceiptParser.swift */,
+				D105D51B418713595696E7E5 /* AppTests/ExpiryNotificationTests.swift */,
+				F1126C75885289F0C30B1D6B /* App/Notifications/NotificationSettingsView.swift */,
+				605BC444CBC2F54BDD565AD3 /* App/Notifications/ExpiryNotifications.swift */,
+				DC3DE32AF9CA9B91B70E0F8E /* App/Data/AppPersistence.swift */,
+				6486F703A100792D02EB6779 /* App/Data/IngredientCatalog.swift */,
+				A1ECB0342B0D995F5BED1651 /* App/Data/IngredientMasterImporter.swift */,
+				62B93F2AEDFCD29C0CDA6D04 /* App/KyouNaniTaberuApp.swift */,
+				47508E8F4886318D71C9A306 /* App/Models/CustomIngredient.swift */,
+				38A4AB29BDFDA10C8F0D993E /* App/Models/IngredientMaster.swift */,
+				32BE4434B382DC034A71228B /* App/Models/IngredientTypes.swift */,
+				BB27E63527FD95AFCA220C11 /* App/Models/InventoryItem.swift */,
+				85F4255D7672D56582570A6F /* AppTests/DataFoundationTests.swift */,
+				BE2026101400000000000002 /* CategoryIcons */,
+				AF2026100600000000000002 /* App/Resources/meal-images */,
+				BF2026101500000000000002 /* App/Resources/PrivacyInfo.xcprivacy */,
+				BD2026100800000000000002 /* App/Resources/fonts */,
+				AC0000000000000000000002 /* App/Resources/shared-meal.jpg */,
+				AC0000000000000000000004 /* App/Resources/ingredient-additions-v1.json */,
+				5CD571DC9BB954D6FF4569F6 /* data/ingredient-master-v1.json */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+				BA2026100800000000000002 /* App/Domain/MealPlanning.swift */,
+				BA2026100800000000000004 /* App/Features/MealPlanViews.swift */,
+				02403A3C507708F92810F5FC /* App/Features/RecipeViews.swift */,
+				6427F3077D8F3A6ACE827E31 /* App/Features/RootView.swift */,
+				0B063C1CEF92717460CAF7FE /* App/Features/Theme.swift */,
+				59FF0D4C6BFE2444BFC5D31D /* App/Features/ShoppingViews.swift */,
+				BFDF46800C80C712F0B8A16D /* App/Features/InventoryViews.swift */,
+				2DCEF8CC3DF77A8BFEA59D6F /* App/Models/InventoryEvent.swift */,
+				0E91D286DE32095CC0F781C6 /* App/Models/MealSelection.swift */,
+				5205D1B990BD91639D652F64 /* App/Models/ShoppingListItem.swift */,
+				0D610F5CAF2409360BAC2AF5 /* App/Data/InventoryService.swift */,
+				484496580239AC70933DC1AA /* App/Data/InventoryPresets.swift */,
+				7BD5139FB6F537B59CE993F2 /* App/Data/MealService.swift */,
+				BA2026100700000000000002 /* App/Data/ShoppingChecks.swift */,
+				C6186D34DEE8E0B3DBB58F3C /* App/Domain/Recipes.swift */,
+				2F83B21C405A67CD75B82E24 /* App/Domain/Units.swift */,
+				D552ACA20824AF98CCC45A62 /* data/initial-inventory-presets-v1.json */,
+				458A6B322F569179B8376FA1 /* App/Resources/recipe-additions-v1.json */,
+				AD2026100500000000000002 /* App/Resources/recipe-instructions-v1.json */,
+				C2B79A2C14182E4DF645A5B8 /* data/recipe-seed-v1.json */,
+				A2CCC038A133615388FEE140 /* AppTests/InventoryFlowTests.swift */,
+				1E7125063C23D427A3199A49 /* AppTests/CalculationFixtureTests.swift */,
+				6C3D70B55F942DA8C9EC33E7 /* AppUITests/InventoryUITests.swift */,
+				BF2026101500000000000004 /* AppUITests/StoreScreenshotCapture.swift */,
+				D8C30BF752AA3D7F0033D214 /* data/calculation-test-cases-v1.json */,
+				50F4C7A6079D608EBB5AF4BC /* App/Data/StockSnapshot.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BCD5BC4CDFDF0918087C782 /* KyouNaniTaberu.app */,
+				F219C0274590DA45E4BEF1EA /* KyouNaniTaberuTests.xctest */,
+				A7C9FD69DA095A3BF0CB4587 /* KyouNaniTaberuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A84779F73F7B6419BDB1882 /* KyouNaniTaberuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED4B730112F3401C4D7AC6B /* Build configuration list for PBXNativeTarget "KyouNaniTaberuUITests" */;
+			buildPhases = (
+				3F0002D04A541FE103F80CF6 /* Sources */,
+				8390B7595BCD2F6FEF17F197 /* Frameworks */,
+				43A098B05C43B6CE676DA934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE58E2B17C19600779694943 /* PBXTargetDependency */,
+			);
+			name = KyouNaniTaberuUITests;
+			productName = KyouNaniTaberuUITests;
+			productReference = A7C9FD69DA095A3BF0CB4587 /* KyouNaniTaberuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		64BCB755386F844C96A2A5B0 /* KyouNaniTaberuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C322F0960ECAD6090B486F /* Build configuration list for PBXNativeTarget "KyouNaniTaberuTests" */;
+			buildPhases = (
+				6E431EB0650617AA1756B320 /* Sources */,
+				1ABF84E55BD30AC2CEF8FC42 /* Frameworks */,
+				7DED7670B79BEA8B7480B1FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE58E2B17C19600779694943 /* PBXTargetDependency */,
+			);
+			name = KyouNaniTaberuTests;
+			productName = KyouNaniTaberuTests;
+			productReference = F219C0274590DA45E4BEF1EA /* KyouNaniTaberuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C13732C8E715C9BEE4FA51C9 /* KyouNaniTaberu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A8642C6B28662881237D956 /* Build configuration list for PBXNativeTarget "KyouNaniTaberu" */;
+			buildPhases = (
+				971ED9D05B25DB6C4D7680D4 /* Sources */,
+				78AE8C6BEB2A40A6D824CCEE /* Frameworks */,
+				364863F9F2E558B0F50473FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KyouNaniTaberu;
+			productName = KyouNaniTaberu;
+			productReference = 8BCD5BC4CDFDF0918087C782 /* KyouNaniTaberu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = 49EA05A46B1A86EA7E413B43 /* Build configuration list for PBXProject "KyouNaniTaberu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+				en,
+				Base,
+			);
+			mainGroup = F97E10D1020E3BEF961AF77B;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C13732C8E715C9BEE4FA51C9 /* KyouNaniTaberu */,
+				64BCB755386F844C96A2A5B0 /* KyouNaniTaberuTests */,
+				5A84779F73F7B6419BDB1882 /* KyouNaniTaberuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		364863F9F2E558B0F50473FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2026101400000000000001 /* CategoryIcons in Resources */,
+				AF2026100600000000000001 /* App/Resources/meal-images in Resources */,
+				BF2026101500000000000001 /* App/Resources/PrivacyInfo.xcprivacy in Resources */,
+				BD2026100800000000000001 /* App/Resources/fonts in Resources */,
+				AC0000000000000000000001 /* App/Resources/shared-meal.jpg in Resources */,
+				AC0000000000000000000003 /* App/Resources/ingredient-additions-v1.json in Resources */,
+				F1F07AC04B0BA8A9E999221B /* data/ingredient-master-v1.json in Resources */,
+				DB802D54A57635E93D19D6F6 /* data/initial-inventory-presets-v1.json in Resources */,
+				A2791674A46A312F8E6491CC /* App/Resources/recipe-additions-v1.json in Resources */,
+				AD2026100500000000000001 /* App/Resources/recipe-instructions-v1.json in Resources */,
+				8BCA4F55C153891766EAB3F4 /* data/recipe-seed-v1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A098B05C43B6CE676DA934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DED7670B79BEA8B7480B1FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DF1630E5A3765C68861E9B /* data/calculation-test-cases-v1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0002D04A541FE103F80CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2727F32CCFB35736359183E6 /* AppUITests/RecipeSuggestionUITests.swift in Sources */,
+				597D363B6A11A82E252CDEC6 /* AppUITests/InventoryUndoUITests.swift in Sources */,
+				35C296B55A4F016075A018C9 /* AppUITests/ReceiptCameraUITests.swift in Sources */,
+				8568CA9FED003F0955E82C96 /* AppUITests/PrivacyUITests.swift in Sources */,
+				09D8563C9B00A4801BA3C3CB /* AppUITests/VoiceUITests.swift in Sources */,
+				67A89D189E7665A5D027C11F /* AppUITests/InventoryUITests.swift in Sources */,
+				BF2026101500000000000003 /* AppUITests/StoreScreenshotCapture.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E431EB0650617AA1756B320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0753D3566D9634FD00FCFA /* AppTests/RecipeSuggestionTests.swift in Sources */,
+				A33A570ACEF41284FF3C0EE0 /* AppTests/InventoryUndoTests.swift in Sources */,
+				92354F13C2BEB6D6C08DC547 /* AppTests/ReceiptCameraTests.swift in Sources */,
+				A8DE8FC533786F8495143FAD /* AppTests/PrivacyDataTests.swift in Sources */,
+				F472B880702797920F5A4962 /* AppTests/VoiceTests.swift in Sources */,
+				9B3B574DE9A7CB82DC07C453 /* AppTests/ReceiptTests.swift in Sources */,
+				E3F9756E91EA7A8A496B4F8C /* AppTests/ExpiryNotificationTests.swift in Sources */,
+				CFEC64006D18F6DFDC12A619 /* AppTests/DataFoundationTests.swift in Sources */,
+				6940C5A9E63019CD84D53AD3 /* AppTests/InventoryFlowTests.swift in Sources */,
+				1243942ED82BAA0EE51563AF /* AppTests/CalculationFixtureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971ED9D05B25DB6C4D7680D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE4401C78B9BA8654C9C264 /* App/Domain/RecipeSuggestions.swift in Sources */,
+				9BB79B31FA84EB0162ABDFC1 /* App/Data/InventoryUndo.swift in Sources */,
+				F32B0A1C4797466F59A65E2A /* App/Recognition/ReceiptCamera.swift in Sources */,
+				3990334D39A0F94F3EBD9059 /* App/Features/DeleteDataView.swift in Sources */,
+				D67690D4E87FFA2298DDCEF6 /* App/Features/PrivacyViews.swift in Sources */,
+				52CC5A557144AE25197DABE1 /* App/Data/UserDataService.swift in Sources */,
+				ED08F086763AFB5A5264200B /* App/Data/AppPreferences.swift in Sources */,
+				A5FB1F53F9DE2B96B1D476C3 /* App/Recognition/VoiceViews.swift in Sources */,
+				BD4CDCE4615378D3F9B2FBF1 /* App/Recognition/VoiceRecorder.swift in Sources */,
+				C0D645A01B0655BFA8FC5404 /* App/Recognition/VoiceImportService.swift in Sources */,
+				E396F4CFFAF9F3954F961124 /* App/Recognition/VoiceParser.swift in Sources */,
+				A275EAE81FCFFCB6507D1F05 /* App/Recognition/ReceiptViews.swift in Sources */,
+				4CA00630A45718A0EEDEFBF1 /* App/Recognition/ReceiptImportService.swift in Sources */,
+				78BEFBF596CD05B03481D08C /* App/Recognition/ReceiptOCR.swift in Sources */,
+				61CA9E5F4BEF1E166CC5DFDE /* App/Recognition/ReceiptParser.swift in Sources */,
+				104EBC631F25FD89AD1B07BA /* App/Notifications/NotificationSettingsView.swift in Sources */,
+				99F4B7A9415C6A47EFD79F77 /* App/Notifications/ExpiryNotifications.swift in Sources */,
+				F88A2EFAFCB62A4200E6351D /* App/Data/AppPersistence.swift in Sources */,
+				87855A425A1603811887556C /* App/Data/IngredientCatalog.swift in Sources */,
+				459611512B4C6FF7BF1EBDB6 /* App/Data/IngredientMasterImporter.swift in Sources */,
+				90BEA939A017455CED5E205F /* App/KyouNaniTaberuApp.swift in Sources */,
+				6F315502FAAA3493E58D9EAF /* App/Models/CustomIngredient.swift in Sources */,
+				6A0C5EAD7D40BCA7CD4FEBDE /* App/Models/IngredientMaster.swift in Sources */,
+				91EE1C19E55AD98D21A80902 /* App/Models/IngredientTypes.swift in Sources */,
+				4B8F91BD96AEABD5C15E708B /* App/Models/InventoryItem.swift in Sources */,
+				BA2026100800000000000001 /* App/Domain/MealPlanning.swift in Sources */,
+				BA2026100800000000000003 /* App/Features/MealPlanViews.swift in Sources */,
+				67F64208C662A924EF180ADD /* App/Features/RecipeViews.swift in Sources */,
+				2003FC86CCE6EEFCB2B8B72E /* App/Features/RootView.swift in Sources */,
+				6F6A9C665037A9E90B04646C /* App/Features/Theme.swift in Sources */,
+				57F627DB45A0AD3AB6D54C53 /* App/Features/ShoppingViews.swift in Sources */,
+				A6038E99A32D4C58112CD53F /* App/Features/InventoryViews.swift in Sources */,
+				78544EE1043C4B57F8C4B73F /* App/Models/InventoryEvent.swift in Sources */,
+				DE107DD825EEF955D6F5F841 /* App/Models/MealSelection.swift in Sources */,
+				D306CD2B20706BF7A015480A /* App/Models/ShoppingListItem.swift in Sources */,
+				003DC5A28960FD4590DBD1C8 /* App/Data/InventoryService.swift in Sources */,
+				1E9E522E62AFF5D2F0A6E9E3 /* App/Data/InventoryPresets.swift in Sources */,
+				D1C62CC6020A5E8F727F522E /* App/Data/MealService.swift in Sources */,
+				BA2026100700000000000001 /* App/Data/ShoppingChecks.swift in Sources */,
+				0DCE9C584A7A474CBE9022D8 /* App/Domain/Recipes.swift in Sources */,
+				45BBE020C7C5E3D8D04B5705 /* App/Domain/Units.swift in Sources */,
+				D6BF9D45BCB4507F313CC4B9 /* App/Data/StockSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE58E2B17C19600779694943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C13732C8E715C9BEE4FA51C9 /* KyouNaniTaberu */;
+			targetProxy = D799BAE6088A90139B415FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A8C91857F674E16E2724F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "今日何食べる？";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "レシートを撮影して端末内で読み取ります。撮影画像は写真ライブラリやアプリに保存しません。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "食材や使用量の音声入力にマイクを使います。録音ファイルは保存しません。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "食材や使用量を端末内で文字に変換し、保存前に確認します。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyounanitaberu.app;
+				PRODUCT_NAME = KyouNaniTaberu;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		942EEBBACD6C88CAE7F29B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyounanitaberu.app.tests;
+				PRODUCT_NAME = KyouNaniTaberuTests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KyouNaniTaberu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KyouNaniTaberu";
+			};
+			name = Release;
+		};
+		94C1D7A82E2F92E70C5BA5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyounanitaberu.app.uitests;
+				PRODUCT_NAME = KyouNaniTaberuUITests;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KyouNaniTaberu;
+			};
+			name = Debug;
+		};
+		9609A256A79253DD705A918E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyounanitaberu.app.uitests;
+				PRODUCT_NAME = KyouNaniTaberuUITests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KyouNaniTaberu;
+			};
+			name = Release;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9B2E96ABC5F6856F2BE79CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "今日何食べる？";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "レシートを撮影して端末内で読み取ります。撮影画像は写真ライブラリやアプリに保存しません。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "食材や使用量の音声入力にマイクを使います。録音ファイルは保存しません。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "食材や使用量を端末内で文字に変換し、保存前に確認します。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyounanitaberu.app;
+				PRODUCT_NAME = KyouNaniTaberu;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCB48D8F88BCDB0ED9FADFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyounanitaberu.app.tests;
+				PRODUCT_NAME = KyouNaniTaberuTests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KyouNaniTaberu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KyouNaniTaberu";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49EA05A46B1A86EA7E413B43 /* Build configuration list for PBXProject "KyouNaniTaberu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C322F0960ECAD6090B486F /* Build configuration list for PBXNativeTarget "KyouNaniTaberuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB48D8F88BCDB0ED9FADFD7 /* Debug */,
+				942EEBBACD6C88CAE7F29B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A8642C6B28662881237D956 /* Build configuration list for PBXNativeTarget "KyouNaniTaberu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B2E96ABC5F6856F2BE79CF /* Debug */,
+				5A8C91857F674E16E2724F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED4B730112F3401C4D7AC6B /* Build configuration list for PBXNativeTarget "KyouNaniTaberuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C1D7A82E2F92E70C5BA5D8 /* Debug */,
+				9609A256A79253DD705A918E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

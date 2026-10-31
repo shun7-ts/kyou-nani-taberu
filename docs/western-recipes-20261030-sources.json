@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-30",
+  "scope": "洋風10品。組み合わせと基本調理法を参考に、1人分・一般調味料・工程ごとの時間を独自編集。原文・栄養値・写真を転載しない。実調理は未検証。",
+  "cookingSafety": {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01_00008.html",
+    "note": "肉は中心75℃・1分以上を目安に加熱。時間だけで火通りを保証しない。"
+  },
+  "recipes": [
+    {
+      "key": "hamburg_mushroom_stew",
+      "title": "きのこの煮込みハンバーグ",
+      "referenceURL": "https://park.ajinomoto.co.jp/recipe/card/803391/print",
+      "adaptation": "焼いた肉だねをきのことソースで煮る考え方を参考。専用ソースと卵を使わず、パン粉・牛乳・一般調味料で1人分を独自編集。"
+    },
+    {
+      "key": "pork_chap",
+      "title": "ポークチャップ",
+      "referenceURL": "https://www.kikkoman.co.jp/homecook/search/recipe/00051702/",
+      "adaptation": "ケチャップと豚肉の炒め合わせを参考。豚こまから豚ロース薄切りへ変更し、玉ねぎ・一般ソースで独自配合。"
+    },
+    {
+      "key": "chicken_cheese_piccata",
+      "title": "鶏むね肉のチーズピカタ",
+      "referenceURL": "https://uchi.tokyo-gas.co.jp/recipes/topics/8289",
+      "adaptation": "鶏むねのそぎ切りと粉チーズ入り卵衣を参考。牛乳の漬け込みを省き、厚み・両面加熱・残りの衣の加熱を含む独自原稿。"
+    },
+    {
+      "key": "salmon_spinach_cream_pasta",
+      "title": "鮭とほうれん草のクリームパスタ",
+      "referenceURL": "https://www.sbfoods.co.jp/recipe/detail/04699.html",
+      "adaptation": "鮭・ほうれん草と牛乳ソースの組み合わせを参考。ホワイトペッパー・ナツメグ・ディルを省き、1人分の分量と工程時間を独自編集。"
+    },
+    {
+      "key": "shrimp_broccoli_gratin",
+      "title": "えびとブロッコリーのマカロニグラタン",
+      "referenceURL": "https://park.ajinomoto.co.jp/recipe/card/705647/",
+      "adaptation": "バターと粉で作るホワイトソースと焼き仕上げを参考。鶏肉とマッシュルームからえび・ブロッコリーへ変更し、1人分の牛乳ソースへ独自編集。"
+    },
+    {
+      "key": "beef_mushroom_hayashi",
+      "title": "牛肉ときのこのハヤシライス",
+      "referenceURL": "https://park.ajinomoto.co.jp/recipe/card/701160/",
+      "adaptation": "牛肉・玉ねぎ・粉でとろみを付ける考え方を参考。赤ワイン・ローリエ等を使わず、一般的な調味料とマッシュルームで独自配合。"
+    },
+    {
+      "key": "cod_lemon_meuniere",
+      "title": "たらのムニエル レモンバター",
+      "referenceURL": "https://housefoods.jp/recipe/rcp_00007751.html",
+      "adaptation": "小麦粉を付けて焼くムニエルとレモンバターの組み合わせを参考。たら単品・一般調味料の1人分として独自編集。"
+    },
+    {
+      "key": "german_potato",
+      "title": "ジャーマンポテト",
+      "referenceURL": "https://park.ajinomoto.co.jp/recipe/card/707279/",
+      "adaptation": "じゃがいもを下加熱してベーコンと炒める調理法を参考。コンソメを使わず、塩こしょうと玉ねぎで独自配合。"
+    },
+    {
+      "key": "mushroom_marinade",
+      "title": "きのこのマリネ",
+      "referenceURL": "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=13299",
+      "adaptation": "加熱したきのこに酸味をなじませる考え方を参考。専用調味料を使わず、酢・塩・砂糖と2種類のきのこで独自編集。"
+    },
+    {
+      "key": "corn_potage",
+      "title": "コーンポタージュ",
+      "referenceURL": "https://park.ajinomoto.co.jp/recipe/card/700984/",
+      "adaptation": "コーン・玉ねぎ・牛乳の組み合わせを参考。コーン缶を使用し、熱い液体をミキサーへ入れず冷たい牛乳と先にかくはんする独自手順。"
+    }
+  ]
+}

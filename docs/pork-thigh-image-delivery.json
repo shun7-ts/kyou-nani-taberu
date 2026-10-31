@@ -1,0 +1,161 @@
+{
+  "maxEdge": 1280,
+  "jpegQuality": 84,
+  "beforeFolderBytes": 19209354,
+  "afterFolderBytes": 2437634,
+  "removedUnusedFiles": [],
+  "images": [
+    {
+      "recipeKey": "pork_thigh_ginger",
+      "originalFile": "pork_thigh_ginger.png",
+      "file": "pork_thigh_ginger.jpg",
+      "originalBytes": 2406633,
+      "bytes": 315903,
+      "originalSHA256": "e1ecb7caab7031da091c015122c2cc000517cb6f7154606f4aee9e09c1811e5b",
+      "sha256": "94cdd74addf2286fe1c7c80ec990a640b0de98affd8ea8342816810087410420",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_thigh_cabbage_miso",
+      "originalFile": "pork_thigh_cabbage_miso.png",
+      "file": "pork_thigh_cabbage_miso.jpg",
+      "originalBytes": 2546664,
+      "bytes": 334929,
+      "originalSHA256": "794223aba8c9139bc619363c8b5766e4bd26a5c2a4af750ea0340e19929feb36",
+      "sha256": "c8f602c8aa7216e1989e9df673483bb58468cc4ce130a98ff259b1adffad584a",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_thigh_pepper_stir",
+      "originalFile": "pork_thigh_pepper_stir.png",
+      "file": "pork_thigh_pepper_stir.jpg",
+      "originalBytes": 2353430,
+      "bytes": 306595,
+      "originalSHA256": "0b1a30484acf96dcb9a618df6b71364184723d571a3c75ff141f71a2578bad22",
+      "sha256": "ca213cdd6238d7ac5fa02f5b5abe79fafbfdd3b68b602913c459648e421bb3ce",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_thigh_napa_simmer",
+      "originalFile": "pork_thigh_napa_simmer.png",
+      "file": "pork_thigh_napa_simmer.jpg",
+      "originalBytes": 2389399,
+      "bytes": 303252,
+      "originalSHA256": "dd019dbdccb2c9315535e8e12cf1cec714229ad0839d550b5a64453ca8bb06d0",
+      "sha256": "e731efbf711df13bc1fe69fe1b7b00ee0dc16dfc0a6a78b860e75b198ae14f20",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_thigh_sprout_steam",
+      "originalFile": "pork_thigh_sprout_steam.png",
+      "file": "pork_thigh_sprout_steam.jpg",
+      "originalBytes": 2468574,
+      "bytes": 314030,
+      "originalSHA256": "4c02a5758cddf5cfb999e7a44da923c123b94bca87372ca07b17bd890d572f1e",
+      "sha256": "594274b721943e195ea4f7f3b568361ed4789df3a3fe742a7b1148cae148525c",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_thigh_mushroom_ponzu",
+      "originalFile": "pork_thigh_mushroom_ponzu.png",
+      "file": "pork_thigh_mushroom_ponzu.jpg",
+      "originalBytes": 2281226,
+      "bytes": 284164,
+      "originalSHA256": "63d86e010c64176f3c9a1b38b66708fe2af940e027a1bc575ad84f902aa71564",
+      "sha256": "57156f822dd292cc498e47aaf3ab2303774ca52815603e128bcae0a2f657d11d",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_thigh_bowl",
+      "originalFile": "pork_thigh_bowl.png",
+      "file": "pork_thigh_bowl.jpg",
+      "originalBytes": 2207055,
+      "bytes": 259539,
+      "originalSHA256": "8098d00ec34f790cd1f77f162cc1b50ac77e6a263fc90b1d23325ad960567d18",
+      "sha256": "b6deaccd17688cc6c2491265136c6427225356049afa4c9ebc668b0641f191b6",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_thigh_daikon_simmer",
+      "originalFile": "pork_thigh_daikon_simmer.png",
+      "file": "pork_thigh_daikon_simmer.jpg",
+      "originalBytes": 2554087,
+      "bytes": 316936,
+      "originalSHA256": "f7e02868960884db37fcd60147c69ac5db04eb0427da78045d597e8beb8b45a2",
+      "sha256": "2d1fecf9414f61b1561cb3b97b171d12514facd4d826ffc3a5e65ac8018724e9",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-30",
+  "files": {
+    "subtitle.txt": {
+      "characters": 12,
+      "utf8Bytes": 36,
+      "limit": 30,
+      "limitUnit": "characters",
+      "sha256": "bf2297603d9e32e8cb634f9dd3c24884a6eff0dc89ad6652ec26bf16601e403e"
+    },
+    "keywords.txt": {
+      "characters": 28,
+      "utf8Bytes": 72,
+      "limit": 100,
+      "limitUnit": "UTF-8 bytes",
+      "sha256": "652fa01bfb56787e3b2e41d631019d305e6e7e6f362574d175c785477b7981de"
+    },
+    "name.txt": {
+      "characters": 7,
+      "utf8Bytes": 21,
+      "limit": 30,
+      "limitUnit": "characters",
+      "sha256": "8883a84b5bcd8b99f682705204e906bf2b79a62c7ce99aa6d8e17aa5102c7285"
+    },
+    "promotional-text.txt": {
+      "characters": 69,
+      "utf8Bytes": 207,
+      "limit": 170,
+      "limitUnit": "characters",
+      "sha256": "1ddac243e3d0eda53b0813658401dc5107586a3ff2d7a36313bdb8f1601e55f6"
+    },
+    "description.txt": {
+      "characters": 990,
+      "utf8Bytes": 2850,
+      "limit": 4000,
+      "limitUnit": "characters",
+      "sha256": "813689b7405ebf50034776db49f0f53e84be6ebfab431617e8b4eb7c5d685df0"
+    }
+  }
+}

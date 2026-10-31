@@ -1,0 +1,59 @@
+[
+  {
+    "recipeKey": "caesar_salad",
+    "title": "シーザーサラダ",
+    "url": "https://www.kewpie.co.jp/recipes/basicsalad/salad06/",
+    "checkedAt": "2026-10-13",
+    "adaptation": "水気を取る・クルトン・手作りドレッシングの基本を確認。アンチョビーと生卵を使わず、牛乳とマヨネーズで作る1人分へ独自編集。"
+  },
+  {
+    "recipeKey": "choregi_salad",
+    "title": "チョレギサラダ",
+    "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00056604/",
+    "checkedAt": "2026-10-13",
+    "adaptation": "ごま油・しょうゆ・酢の味付けを確認。水菜版をレタス・きゅうり・のりに変え、にんにくとすりごまを加えた家庭向けの1人分へ独自編集。"
+  },
+  {
+    "recipeKey": "burdock_sesame_salad",
+    "title": "ごぼうサラダ",
+    "url": "https://www.kewpie.co.jp/recipes/basicsalad/salad03/",
+    "checkedAt": "2026-10-13",
+    "adaptation": "切り方と水切りの基本を確認。きゅうりを省き、すりごま・酢・砂糖入りの1人分へ変更。太さと火通りに応じたゆで時間を独自記述。"
+  },
+  {
+    "recipeKey": "pumpkin_salad",
+    "title": "かぼちゃサラダ",
+    "url": "https://www.kewpie.co.jp/recipes/basicsalad/salad04/",
+    "checkedAt": "2026-10-13",
+    "adaptation": "電子レンジ加熱と冷ましてから和える基本を確認。玉ねぎをきゅうりに置き換え、ヨーグルトを使った1人分へ独自編集。"
+  },
+  {
+    "recipeKey": "daikon_salad",
+    "title": "大根サラダ",
+    "url": "https://www.kewpie.co.jp/recipes/basicsalad/salad08/",
+    "checkedAt": "2026-10-13",
+    "adaptation": "繊維に沿う切り方・水切り・和風だれを確認。かいわれを省き、1人分の大根に合わせた調味料へ独自調整。"
+  },
+  {
+    "recipeKey": "chinese_glass_noodle_salad",
+    "title": "中華風春雨サラダ",
+    "url": "https://www.kewpie.co.jp/recipes/basicsalad/salad09/",
+    "checkedAt": "2026-10-13",
+    "adaptation": "ゆで戻し・水切り・具材から和える基本を確認。にんじんを加え、調味料と量を1人分へ独自調整。既存のえび入りタイ風春雨サラダとは別の甘酢しょうゆ味。"
+  },
+  {
+    "recipeKey": "tofu_wakame_salad",
+    "title": "豆腐とわかめのサラダ",
+    "url": "https://park.ajinomoto.co.jp/recipe/card/703409/",
+    "checkedAt": "2026-10-13",
+    "adaptation": "豆腐とわかめ・ごま油の組み合わせを確認。乾燥わかめとトマトを使い、だし・ねぎを省いた1人分へ独自編集。"
+  },
+  {
+    "recipeKey": "cobb_salad",
+    "title": "コブサラダ",
+    "url": "https://www.kewpie.co.jp/recipes/basicsalad/salad10/",
+    "checkedAt": "2026-10-13",
+    "adaptation": "彩りよく具を並べる基本を確認。ベーコン・ブルーチーズ・辛味を省き、加熱した鶏むね肉とヨーグルト入りソースを使う1人分へ独自編集。",
+    "heatingReference": "https://www.maff.go.jp/j/fs/campylobacter.html"
+  }
+]

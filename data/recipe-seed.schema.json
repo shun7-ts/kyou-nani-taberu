@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kyounanitaberu.local/schemas/recipe-seed.schema.json",
+  "title": "今日何食べる？ Recipe Seed",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "catalogVersion",
+    "ingredientCatalogVersion",
+    "locale",
+    "recipes"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "catalogVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "ingredientCatalogVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "locale": { "const": "ja-JP" },
+    "recipes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/recipe" }
+    }
+  },
+  "$defs": {
+    "unit": {
+      "enum": [
+        "piece",
+        "gram",
+        "kilogram",
+        "milliliter",
+        "liter",
+        "pack",
+        "bag",
+        "can",
+        "block",
+        "bunch",
+        "stalk",
+        "clove",
+        "slice",
+        "serving",
+        "portion",
+        "tablespoon",
+        "teaspoon"
+      ]
+    },
+    "recipeIngredient": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ingredientKey",
+        "quantity",
+        "unit",
+        "requirement",
+        "inventoryMode",
+        "scaling",
+        "thawing"
+      ],
+      "properties": {
+        "ingredientKey": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "quantity": { "type": "number", "exclusiveMinimum": 0 },
+        "unit": { "$ref": "#/$defs/unit" },
+        "requirement": { "enum": ["required", "optional"] },
+        "inventoryMode": { "enum": ["exact", "presence", "ignored"] },
+        "scaling": { "enum": ["linear", "fixed"] },
+        "thawing": {
+          "enum": ["none", "cook_from_frozen", "thaw_before_cooking"]
+        },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "step": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["order", "text", "timerMinutes"],
+      "properties": {
+        "order": { "type": "integer", "minimum": 1 },
+        "text": { "type": "string", "minLength": 1 },
+        "timerMinutes": {
+          "oneOf": [
+            { "type": "integer", "minimum": 1 },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "recipe": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "key",
+        "title",
+        "summary",
+        "role",
+        "baseServings",
+        "prepMinutes",
+        "cookMinutes",
+        "difficulty",
+        "tags",
+        "equipment",
+        "ingredients",
+        "steps",
+        "allergens",
+        "imageRef",
+        "status"
+      ],
+      "properties": {
+        "id": { "type": "string", "format": "uuid" },
+        "key": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string", "minLength": 1 },
+        "role": { "enum": ["main", "side"] },
+        "baseServings": { "const": 1 },
+        "prepMinutes": { "type": "integer", "minimum": 0 },
+        "cookMinutes": { "type": "integer", "minimum": 1 },
+        "difficulty": { "enum": ["easy", "normal"] },
+        "tags": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "equipment": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "ingredients": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/recipeIngredient" }
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/step" }
+        },
+        "allergens": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "imageRef": {
+          "type": "string",
+          "pattern": "^recipe/[a-z][a-z0-9_]*$"
+        },
+        "status": { "enum": ["active", "deprecated"] }
+      }
+    }
+  }
+}

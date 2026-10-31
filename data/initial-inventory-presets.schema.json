@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kyounanitaberu.local/schemas/initial-inventory-presets.schema.json",
+  "title": "今日何食べる？ Initial Inventory Presets",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "catalogVersion", "ingredientCatalogVersion", "locale", "sections"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "catalogVersion": { "type": "string" },
+    "ingredientCatalogVersion": { "type": "string" },
+    "locale": { "const": "ja-JP" },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "mode", "title", "order", "collapsedByDefault", "groupSelectionEnabled", "items"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+          "mode": { "enum": ["seasonings", "foods"] },
+          "title": { "type": "string", "minLength": 1 },
+          "order": { "type": "integer", "minimum": 1 },
+          "collapsedByDefault": { "type": "boolean" },
+          "groupSelectionEnabled": { "type": "boolean" },
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["ingredientKey", "label", "initialInventoryMode", "roughState", "storageStrategy"],
+              "properties": {
+                "ingredientKey": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+                "label": { "type": "string", "minLength": 1 },
+                "initialInventoryMode": { "const": "rough" },
+                "roughState": { "const": "available" },
+                "storageStrategy": { "const": "master_default" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

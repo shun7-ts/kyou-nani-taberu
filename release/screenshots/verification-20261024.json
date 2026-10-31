@@ -1,0 +1,274 @@
+{
+  "date": "2026-10-24",
+  "screenshots": [
+    {
+      "path": "screenshots/iphone-1206x2622/01-home.png",
+      "width": 1206,
+      "height": 2622,
+      "alpha": false,
+      "sha256": "2bb1dff75b2559375a2a941b2f35960be373c8dc5b9aa01fdbc105c46a8d0053"
+    },
+    {
+      "path": "screenshots/iphone-1206x2622/02-meal-tray.png",
+      "width": 1206,
+      "height": 2622,
+      "alpha": false,
+      "sha256": "c489bbd25445e07b6e0dc377446ccc6f83abbf4998c5cb52d48ec1ba7a73ea4a"
+    },
+    {
+      "path": "screenshots/iphone-1206x2622/03-materials.png",
+      "width": 1206,
+      "height": 2622,
+      "alpha": false,
+      "sha256": "929baf122396950bc955e5df9e809bd863606c8cc23476f85947a772f052ef77"
+    },
+    {
+      "path": "screenshots/iphone-1206x2622/04-shopping.png",
+      "width": 1206,
+      "height": 2622,
+      "alpha": false,
+      "sha256": "6fce6faa64b845b783993a7e0e67176a85fcf672e16550c4a7cf87f8b4de75b1"
+    },
+    {
+      "path": "screenshots/iphone-1206x2622/05-fridge.png",
+      "width": 1206,
+      "height": 2622,
+      "alpha": false,
+      "sha256": "8589ab4398ef8a1383e6554c1e06731c4adb974ba2794061352ddf8fb7954fe1"
+    },
+    {
+      "path": "screenshots/iphone-1206x2622/06-recipe.png",
+      "width": 1206,
+      "height": 2622,
+      "alpha": false,
+      "sha256": "a3a7b05d5bfce338a095c46157a4264ace1430b4779b7c4a29f6a75801b0b9a2"
+    },
+    {
+      "path": "screenshots/iphone-1206x2622/07-steps.png",
+      "width": 1206,
+      "height": 2622,
+      "alpha": false,
+      "sha256": "36cc52c6382ba37ebe9f7665931613a4901959ac2e32c0a0e5f742119579057d"
+    },
+    {
+      "path": "screenshots/iphone-1320x2868/01-home.png",
+      "width": 1320,
+      "height": 2868,
+      "alpha": false,
+      "sha256": "5f3fb87cdc0207ca7ce71696e29fc6085bf6b769da696977cdd447f3056957b5"
+    },
+    {
+      "path": "screenshots/iphone-1320x2868/02-meal-tray.png",
+      "width": 1320,
+      "height": 2868,
+      "alpha": false,
+      "sha256": "64827b6f965eac365719616f0ad9d743768e69520489444e314ee1c3eae17dbb"
+    },
+    {
+      "path": "screenshots/iphone-1320x2868/03-materials.png",
+      "width": 1320,
+      "height": 2868,
+      "alpha": false,
+      "sha256": "40cc56cd60172e44eef279a6f94411b0a30fd11a641b8a5ee8bcaaf1cb2fe007"
+    },
+    {
+      "path": "screenshots/iphone-1320x2868/04-shopping.png",
+      "width": 1320,
+      "height": 2868,
+      "alpha": false,
+      "sha256": "673a9097ce4ec1d9e71ec524cc14678f8301c887a88a3f135c89e3bcd37a59c1"
+    },
+    {
+      "path": "screenshots/iphone-1320x2868/05-fridge.png",
+      "width": 1320,
+      "height": 2868,
+      "alpha": false,
+      "sha256": "4da42d0b29eeddd09d774c65b973b00334cdc814583122c6e12036a6e2842f10"
+    },
+    {
+      "path": "screenshots/iphone-1320x2868/06-recipe.png",
+      "width": 1320,
+      "height": 2868,
+      "alpha": false,
+      "sha256": "4bb757ade8fbf87d48545b0df65e7cc9b0c6c4b8a3749c1f36d45215bdb540dd"
+    },
+    {
+      "path": "screenshots/iphone-1320x2868/07-steps.png",
+      "width": 1320,
+      "height": 2868,
+      "alpha": false,
+      "sha256": "f2c9ea7a2529dcbb91c01de3a8b26fc8feb6a2a566225166436fffb26b90ae28"
+    },
+    {
+      "path": "screenshots/ipad-2064x2752/01-home.png",
+      "width": 2064,
+      "height": 2752,
+      "alpha": false,
+      "sha256": "3ea8f4c138bdd730c91a82b7f17228226b95467063521f998dc76afc0232a4a5"
+    },
+    {
+      "path": "screenshots/ipad-2064x2752/02-meal-tray.png",
+      "width": 2064,
+      "height": 2752,
+      "alpha": false,
+      "sha256": "cdcb813194a08f8d4ecdce2e00c8aa2cd11fa98cdc3f2cd56f8f0904329057e6"
+    },
+    {
+      "path": "screenshots/ipad-2064x2752/03-materials.png",
+      "width": 2064,
+      "height": 2752,
+      "alpha": false,
+      "sha256": "1313ee1bd8bd378d413b5775d5370d7721b454869918a60e6cc113c66e24a33b"
+    },
+    {
+      "path": "screenshots/ipad-2064x2752/04-shopping.png",
+      "width": 2064,
+      "height": 2752,
+      "alpha": false,
+      "sha256": "26613e17492570e3b126ca76f5091f3bc3786aad8d27f8c1af24f197ec4edf85"
+    },
+    {
+      "path": "screenshots/ipad-2064x2752/05-fridge.png",
+      "width": 2064,
+      "height": 2752,
+      "alpha": false,
+      "sha256": "796cf79c8abfe308a127d35ece28afe13e7f2926824b56482c4ad6702ba6bcbc"
+    },
+    {
+      "path": "screenshots/ipad-2064x2752/06-recipe.png",
+      "width": 2064,
+      "height": 2752,
+      "alpha": false,
+      "sha256": "a8cad0622b55687c5c6ada732b33ff9ebb01cf4590c74ffb35b7bc75e57f0eba"
+    },
+    {
+      "path": "screenshots/ipad-2064x2752/07-steps.png",
+      "width": 2064,
+      "height": 2752,
+      "alpha": false,
+      "sha256": "428bbf2b084cebca8ddaa65da0fe9a2174686d915c43c397e8ffebe1b85a9eea"
+    }
+  ],
+  "captureSummaries": {
+    "iphone": {
+      "devicesAndConfigurations": [
+        {
+          "device": {
+            "architecture": "arm64",
+            "deviceId": "90D63296-8CD6-493D-B4FC-A9D879DC4E8E",
+            "deviceName": "iPhone 18 Pro",
+            "modelName": "iPhone 18 Pro",
+            "osBuildNumber": "24A434",
+            "osVersion": "27.0",
+            "platform": "iOS Simulator"
+          },
+          "expectedFailures": 0,
+          "failedTests": 0,
+          "passedTests": 1,
+          "skippedTests": 0,
+          "testPlanConfiguration": {
+            "configurationId": "1",
+            "configurationName": "Test Scheme Action"
+          }
+        }
+      ],
+      "environmentDescription": "KyouNaniTaberu · Built with macOS 26.6.2",
+      "expectedFailures": 0,
+      "failedTests": 0,
+      "finishTime": 1792830472.218,
+      "passedTests": 1,
+      "result": "Passed",
+      "runtimeWarnings": [],
+      "skippedTests": 0,
+      "startTime": 1792830369.424,
+      "statistics": [],
+      "testFailures": [],
+      "title": "Test - KyouNaniTaberu",
+      "topInsights": [],
+      "totalTestCount": 1
+    },
+    "iphone-large": {
+      "devicesAndConfigurations": [
+        {
+          "device": {
+            "architecture": "arm64",
+            "deviceId": "D2EEB4E0-BB4C-41BA-98E5-834FD7813605",
+            "deviceName": "iPhone 18 Pro Max",
+            "modelName": "iPhone 18 Pro Max",
+            "osBuildNumber": "24A434",
+            "osVersion": "27.0",
+            "platform": "iOS Simulator"
+          },
+          "expectedFailures": 0,
+          "failedTests": 0,
+          "passedTests": 1,
+          "skippedTests": 0,
+          "testPlanConfiguration": {
+            "configurationId": "1",
+            "configurationName": "Test Scheme Action"
+          }
+        }
+      ],
+      "environmentDescription": "KyouNaniTaberu · Built with macOS 26.6.2",
+      "expectedFailures": 0,
+      "failedTests": 0,
+      "finishTime": 1792830756.576,
+      "passedTests": 1,
+      "result": "Passed",
+      "runtimeWarnings": [],
+      "skippedTests": 0,
+      "startTime": 1792830648.605,
+      "statistics": [],
+      "testFailures": [],
+      "title": "Test - KyouNaniTaberu",
+      "topInsights": [],
+      "totalTestCount": 1
+    },
+    "ipad": {
+      "devicesAndConfigurations": [
+        {
+          "device": {
+            "architecture": "arm64",
+            "deviceId": "91A6F395-4D1E-4FCD-B854-54B876357700",
+            "deviceName": "iPad Pro 13-inch (M5)",
+            "modelName": "iPad Pro 13-inch (M5)",
+            "osBuildNumber": "24A434",
+            "osVersion": "27.0",
+            "platform": "iOS Simulator"
+          },
+          "expectedFailures": 0,
+          "failedTests": 0,
+          "passedTests": 1,
+          "skippedTests": 0,
+          "testPlanConfiguration": {
+            "configurationId": "1",
+            "configurationName": "Test Scheme Action"
+          }
+        }
+      ],
+      "environmentDescription": "KyouNaniTaberu · Built with macOS 26.6.2",
+      "expectedFailures": 0,
+      "failedTests": 0,
+      "finishTime": 1792830628.741,
+      "passedTests": 1,
+      "result": "Passed",
+      "runtimeWarnings": [
+        {
+          "issueType": "Runtime Warning",
+          "message": "Update the Info.plist: Support for all orientations will soon be required."
+        }
+      ],
+      "skippedTests": 0,
+      "startTime": 1792830508.651,
+      "statistics": [],
+      "testFailures": [],
+      "title": "Test - KyouNaniTaberu",
+      "topInsights": [],
+      "totalTestCount": 1
+    }
+  },
+  "source": "latest working tree, not only HEAD b87aafa",
+  "fixture": "dedicated in-memory UI testing store; 18 fictitious lots and 4 dishes selected through the app",
+  "visualReview": "all 21 screenshots inspected in contact sheets; recipe steps use inline view on Pro/iPad and cooking sheet on Pro Max",
+  "officialSpecification": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/"
+}

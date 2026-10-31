@@ -1,0 +1,1086 @@
+[
+  {
+    "recipeKey": "tuna_soy_pasta",
+    "title": "ツナしょうゆパスタ",
+    "file": "App/Resources/meal-images/tuna_soy_pasta.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of ツナしょうゆパスタ. Subject: Japanese spaghetti tossed with flaked canned tuna, thin translucent cooked onion, shimeji mushrooms and a light butter-soy sauce, black pepper. No tomato sauce, seafood other than tuna, no cheese, no parsley. Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person home-cooked portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins so the food remains recognizable in a square thumbnail. Lighting: soft natural window light, subtle shadows, realistic modest home cooking. Constraints: only this finished dish; no people, text, logos, watermark, packaging, collage or unrelated side dishes."
+  },
+  {
+    "recipeKey": "butter_soy_salmon",
+    "title": "鮭のバターしょうゆ焼き",
+    "file": "App/Resources/meal-images/butter_soy_salmon.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of 鮭のバターしょうゆ焼き. Subject: One fully cooked salmon fillet with browned skin and pink-orange opaque flesh, sautéed shimeji mushrooms alongside, glossy brown butter soy sauce. No raw fish, lemon slices, herbs, rice or extra vegetables. Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person home-cooked portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins so the food remains recognizable in a square thumbnail. Lighting: soft natural window light, subtle shadows, realistic modest home cooking. Constraints: only this finished dish; no people, text, logos, watermark, packaging, collage or unrelated side dishes."
+  },
+  {
+    "recipeKey": "natto_egg_rice",
+    "title": "納豆卵ごはん",
+    "file": "App/Resources/meal-images/natto_egg_rice.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of 納豆卵ごはん. Subject: A Japanese rice bowl topped with sticky fermented natto soybeans, two halves of ONE hard-boiled egg with completely firm opaque yellow yolks, sliced green onion. No raw egg, runny yolk, meat or vegetables beyond scallion. Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person home-cooked portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins so the food remains recognizable in a square thumbnail. Lighting: soft natural window light, subtle shadows, realistic modest home cooking. Constraints: only this finished dish; no people, text, logos, watermark, packaging, collage or unrelated side dishes."
+  },
+  {
+    "recipeKey": "salt_pork_bean_sprouts",
+    "title": "豚もやしの塩炒め",
+    "file": "App/Resources/meal-images/salt_pork_bean_sprouts.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: 豚もやしの塩炒め (salt pork bean sprouts). 豚肉ともやしを鶏がら塩味でさっと炒める、安価で短時間の主菜。 レシピに含まれる材料: pork_slices, bean_sprouts, garlic, chicken_stock_powder, salt, black_pepper, sesame_oil. 調理の仕上がり: 豚肉を加えて中火にし、ほぐしながら炒める。重なりをなくし、中心まで十分に火を通す。 強めの中火にし、もやし・鶏がらスープの素・塩を加える。もやしが熱くなり、少し歯ごたえが残るまで底から返して炒める。好みでこしょうを振り、すぐ盛る。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "green_onion_salt_chicken",
+    "title": "鶏のねぎ塩焼き",
+    "file": "App/Resources/meal-images/green_onion_salt_chicken.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of 鶏のねぎ塩焼き. Subject: Bite-sized 2–3 cm fully cooked chicken thigh pieces with golden browned skin, coated in finely chopped wilted Japanese long onion and light sesame-oil lemon salt sauce. No dark teriyaki sauce, rice, or unrelated garnish. Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person home-cooked portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins so the food remains recognizable in a square thumbnail. Lighting: soft natural window light, subtle shadows, realistic modest home cooking. Constraints: only this finished dish; no people, text, logos, watermark, packaging, collage or unrelated side dishes."
+  },
+  {
+    "recipeKey": "tomato_stewed_chicken",
+    "title": "鶏肉のトマト煮",
+    "file": "App/Resources/meal-images/tomato_stewed_chicken.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: 鶏肉のトマト煮 (tomato stewed chicken). 鶏もも肉と玉ねぎをトマト缶で煮込む、パンにもごはんにも合わせやすい主菜。 レシピに含まれる材料: chicken_thigh, canned_tomatoes, onion, garlic, consomme, olive_oil, salt, black_pepper, water. 調理の仕上がり: トマト缶・水・コンソメ・塩を加え、トマトをへらで崩す。煮立ったら弱めの中火にし、ふたを少しずらして煮る。鶏肉の中心まで十分に火を通す。 煮汁が軽くとろりとしたら火を止める。好みでこしょうを振り、鶏肉とソースを一緒に盛る。煮詰まりすぎた場合は水を少し足す。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "tofu_ground_pork_sauce",
+    "title": "豆腐のひき肉あんかけ",
+    "file": "App/Resources/meal-images/tofu_ground_pork_sauce.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: 豆腐のひき肉あんかけ (tofu ground pork sauce). 豆腐に豚ひき肉のだしあんをかける、やわらかく食べやすい主菜。 レシピに含まれる材料: tofu, ground_pork, green_onion, soy_sauce, mirin, dashi_granules, potato_starch, sesame_oil, water. 調理の仕上がり: 残りの水、しょうゆ・みりん・和風だし、豆腐を加える。煮立ったら弱めの中火にし、フライパンを軽く揺すって豆腐の中心まで温める。 水溶き片栗粉を混ぜ直し、煮汁を混ぜながら少しずつ入れる。とろみが付くまで弱めの中火で煮立たせ、盛り付ける。使う場合は長ねぎを散らす。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "steamed_cabbage_tuna",
+    "title": "キャベツとツナの蒸し煮",
+    "file": "App/Resources/meal-images/steamed_cabbage_tuna.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: キャベツとツナの蒸し煮 (steamed cabbage tuna). キャベツとツナ缶をフライパンで蒸し、少ない材料で仕上げる軽めの主菜。 レシピに含まれる材料: cabbage, canned_tuna, soy_sauce, cooking_sake, black_pepper. 調理の仕上がり: フライパンにキャベツを広げ、ツナをのせて酒を回しかける。ふたをして弱めの中火で蒸す。焦げ付きそうなら水を少し足し、キャベツがしんなりするまで加熱する。 ふたを取り、しょうゆを回しかける。底から返して均一に混ぜ、全体が温まったら火を止める。好みでこしょうを振って盛る。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "miso_mackerel_cabbage",
+    "title": "さば缶とキャベツのみそ炒め",
+    "file": "App/Resources/meal-images/miso_mackerel_cabbage.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: さば缶とキャベツのみそ炒め (miso mackerel cabbage). 常温保存できるさば缶とキャベツを、甘めのみそ味で炒める主菜。 レシピに含まれる材料: canned_mackerel, cabbage, miso, mirin, sugar, ginger, neutral_oil. 調理の仕上がり: さば缶を缶汁ごと加え、へらで大きくほぐす。中火で混ぜ、さばの中まで温める。缶の味付けによって仕上がりの濃さが変わります。 混ぜたみそだれを加えて弱めの中火にする。底から返してなじませ、余分な汁気が少なくなったら盛る。焦げないように混ぜ続ける。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "egg_ankake_udon",
+    "title": "卵あんかけうどん",
+    "file": "App/Resources/meal-images/egg_ankake_udon.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: 卵あんかけうどん (egg ankake udon). だしのきいたとろみスープを卵でとじる、体を温めたい日に向くうどん。 レシピに含まれる材料: frozen_udon, egg, green_onion, soy_sauce, mirin, dashi_granules, potato_starch, water. 調理の仕上がり: 冷凍うどんを凍ったまま入れる。袋の表示を目安に煮て、麺がほぐれたら菜箸で混ぜる。うどんの中まで十分に温める。 水溶き片栗粉を混ぜ直して加え、とろみが付くまで煮立たせる。溶き卵を細く回し入れ、すぐに混ぜず、卵が全体に固まるまで加熱する。器に盛り、好みで長ねぎを散らす。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "mushroom_butter_soy_pasta",
+    "title": "きのこのバターしょうゆパスタ",
+    "file": "App/Resources/meal-images/mushroom_butter_soy_pasta.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: きのこのバターしょうゆパスタ (mushroom butter soy pasta). しめじと玉ねぎをバターしょうゆで仕上げる、材料を使い回しやすいパスタ。 レシピに含まれる材料: spaghetti, shimeji, onion, butter, soy_sauce, salt, black_pepper. 調理の仕上がり: フライパンにバターを中火で溶かし、しめじと、使う場合は玉ねぎを加える。きのこがしんなりして火が通るまで炒める。 ゆでた麺としょうゆを加え、底から返して混ぜる。ぱさつく場合はゆで汁を少し足す。好みでこしょうを振り、熱いうちに盛る。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "tonjiru_rice_set",
+    "title": "豚汁ごはんセット",
+    "file": "App/Resources/meal-images/tonjiru_rice_set.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: 豚汁ごはんセット (tonjiru rice set). 豚肉と根菜、豆腐を入れた具だくさんの豚汁をごはんと合わせる一食。 レシピに含まれる材料: cooked_rice, pork_slices, daikon, carrot, potato, tofu, miso, dashi_granules, water. 調理の仕上がり: 豆腐を加えて温め、弱火にする。みそをお玉に取った煮汁で溶いて戻し、沸騰させずに温めて火を止める。 豚汁を器によそい、温かいごはんを別の器に盛って添える。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "minestrone_pasta",
+    "title": "ミネストローネパスタ",
+    "file": "App/Resources/meal-images/minestrone_pasta.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: ミネストローネパスタ (minestrone pasta). 野菜と短く折ったパスタをトマトスープで煮る、一皿で食べられる具だくさんメニュー。 レシピに含まれる材料: spaghetti, canned_tomatoes, cabbage, onion, carrot, potato, consomme, olive_oil, salt, black_pepper, water. 調理の仕上がり: トマト缶・水・コンソメ・塩を加え、トマトを崩す。煮立ったら弱めの中火にし、じゃがいもに竹串がすっと通るまで煮る。 折った麺を加え、袋の表示時間を目安に煮る。底に付かないようにときどき混ぜ、麺の芯がなくなるまで加熱する。水が減りすぎたら少し足し、好みでこしょうを振る。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "tofu_wakame_miso_soup",
+    "title": "豆腐とわかめのみそ汁",
+    "file": "App/Resources/meal-images/tofu_wakame_miso_soup.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: 豆腐とわかめのみそ汁 (tofu wakame miso soup). 豆腐と乾燥わかめで手早く作れる、基本のみそ汁。 レシピに含まれる材料: tofu, dried_wakame, miso, dashi_granules, water. 調理の仕上がり: 鍋に水と和風だしを入れて中火にかける。煮立ったら豆腐・わかめを加え、弱めの中火でわかめが開いて豆腐が温まるまで煮る。 弱火にし、お玉に取った煮汁でみそを溶いて鍋へ戻す。全体を優しく混ぜ、沸騰させずに温めて火を止める。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "egg_green_onion_soup",
+    "title": "卵と長ねぎのスープ",
+    "file": "App/Resources/meal-images/egg_green_onion_soup.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: 卵と長ねぎのスープ (egg green onion soup). 長ねぎと卵を鶏がらスープでまとめる、献立に足しやすい温かい汁物。 レシピに含まれる材料: egg, green_onion, chicken_stock_powder, soy_sauce, potato_starch, sesame_oil, water. 調理の仕上がり: 鍋に残りの水、鶏がらスープの素、しょうゆ、長ねぎを入れて中火にかける。煮立ったら弱めの中火にし、長ねぎがしんなりするまで煮る。 片栗粉を使う場合は混ぜ直して加え、とろみが付くまで煮立たせる。溶き卵を細く回し入れ、卵が全体に固まるまで加熱する。好みでごま油を加えて火を止める。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "komatsuna_sesame_salad",
+    "title": "小松菜のごまあえ",
+    "file": "App/Resources/meal-images/komatsuna_sesame_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: 小松菜のごまあえ (komatsuna sesame salad). 小松菜をゆでて、すりごまとしょうゆであえる定番の副菜。 レシピに含まれる材料: komatsuna, ground_sesame, soy_sauce, sugar. 調理の仕上がり: 冷水に取って冷まし、根元から葉へ向かって水気をしっかり絞る。4cm幅に切り、かたまりをほぐす。 ボウルにすりごま・しょうゆ・砂糖を入れ、砂糖がなじむまで混ぜる。小松菜を加え、全体にたれが付くようにあえる。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "cabbage_coleslaw",
+    "title": "キャベツのコールスロー",
+    "file": "App/Resources/meal-images/cabbage_coleslaw.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: キャベツのコールスロー (cabbage coleslaw). キャベツをマヨネーズと酢であえる、作りやすいさっぱり副菜。 レシピに含まれる材料: cabbage, carrot, mayonnaise, vinegar, sugar, salt. 調理の仕上がり: 野菜を両手で少しずつ取り、出てきた水分をしっかり絞る。ボウルにたまった水分は捨てる。 マヨネーズ・酢・砂糖を混ぜ、絞った野菜を加える。底から返して全体になじませる。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "butter_potato",
+    "title": "じゃがバター",
+    "file": "App/Resources/meal-images/butter_potato.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. A single appetizing realistic food photograph of Japanese butter potatoes, じゃがバター. Recipe appearance: one medium potato has been PEELED completely, CUT into multiple separate irregular 2–3 cm cubes/chunks, microwave steamed until soft, then tossed with 10 g melted butter and a tiny pinch of salt. Show a small shallow ivory bowl filled with these SEPARATE bite-sized pale yellow SKINLESS chunks, gently glistening with melted butter. No whole potato, no cross-cut round potato, no potato skin, no mashed potato, no herbs or unrelated garnish. Landscape 3:2, centered complete bowl with square crop safe margins, 45 degree elevated view, warm off-white table, soft natural window light, modest realistic home cooking portion. No people, text, logos, watermark or other food."
+  },
+  {
+    "recipeKey": "cucumber_sunomono",
+    "title": "きゅうりの酢の物",
+    "file": "App/Resources/meal-images/cucumber_sunomono.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: きゅうりの酢の物 (cucumber sunomono). きゅうりを甘酢であえる、さっぱりした作り置き向きの副菜。 レシピに含まれる材料: cucumber, vinegar, sugar, soy_sauce, salt, dried_wakame. 調理の仕上がり: きゅうりを少量ずつ取り、水気をしっかり絞る。わかめを使う場合も水気を切り、大きければ食べやすく切る。 ボウルで酢・砂糖・しょうゆを混ぜ、砂糖を溶かす。きゅうりと、使う場合はわかめを加え、全体になじむまであえる。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "tomato_cucumber_salad",
+    "title": "トマトときゅうりのさっぱりあえ",
+    "file": "App/Resources/meal-images/tomato_cucumber_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: トマトときゅうりのさっぱりあえ (tomato cucumber salad). トマトときゅうりを酢とごま油でさっぱりと。食べる直前にあえると水っぽくなりにくくなります。 レシピに含まれる材料: tomato, cucumber, vinegar, soy_sauce, sesame_oil. 調理の仕上がり: ボウルに酢・しょうゆ・ごま油を入れる。油と調味料がなじむまでよく混ぜる。 切った野菜をたれへ加え、底から返して全体になじませる。水分が出やすいので食べる直前にあえて盛る。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "wafu_hamburger",
+    "title": "和風ハンバーグ",
+    "file": "App/Resources/meal-images/wafu_hamburger.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: 和風ハンバーグ (wafu hamburger). 合いびき肉で作る定番おかず。大根おろしと甘辛だれでさっぱりと。 レシピに含まれる材料: ground_mixed, onion, egg, breadcrumbs, salt, black_pepper, neutral_oil, daikon, soy_sauce, mirin, water. 調理の仕上がり: フライパンに油を入れて中火で温め、肉だねを約4分焼く。裏返し、ふたをして弱火で約8分焼く。中心まで十分に加熱できたら皿に移す。 余分な脂を拭き、しょうゆ・みりん・水を入れて中火で煮立てる。少しとろみが出たら肉にかけ、大根おろしを添える。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "yellowtail_teriyaki",
+    "title": "ぶりの照り焼き",
+    "file": "App/Resources/meal-images/yellowtail_teriyaki.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: ぶりの照り焼き (yellowtail teriyaki). ぶりに薄く粉をまぶし、甘辛だれを絡めます。皮も香ばしく焼いて。 レシピに含まれる材料: yellowtail_fillet, wheat_flour, neutral_oil, soy_sauce, mirin, cooking_sake. 調理の仕上がり: 裏返して弱めの中火で約4分焼く。身の厚い部分まで不透明になり、ほぐれる状態を確認する。皮は身を支えながら短く焼く。 余分な脂を拭き、たれを加える。中火で煮立て、スプーンでかけながら軽くとろみが付くまで絡める。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "chinjaorosu",
+    "title": "青椒肉絲",
+    "file": "App/Resources/meal-images/chinjaorosu.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: 青椒肉絲 (chinjaorosu). ピーマンと水煮たけのこを細切りにし、豚肉とオイスター味で炒めます。 レシピに含まれる材料: pork_loin, green_pepper, bamboo_shoots, ginger, garlic, potato_starch, cooking_sake, soy_sauce, oyster_sauce, sugar, neutral_oil, sesame_oil. 調理の仕上がり: フライパンに油・しょうが・にんにくを入れて弱火で香りを出す。豚肉を加えて中火にし、ほぐしながら中心まで十分に火を通す。 ピーマンとたけのこを加えて約2分炒める。合わせ調味料を回し入れ、全体になじませる。最後にごま油を加え、汁気が少なくなったら盛る。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "shrimp_chili",
+    "title": "エビチリ",
+    "file": "App/Resources/meal-images/shrimp_chili.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: エビチリ (shrimp chili). えびに甘辛いチリソースを絡めます。豆板醤は好みで加えて辛さを調整。 レシピに含まれる材料: shrimp, green_onion, ginger, garlic, potato_starch, cooking_sake, ketchup, soy_sauce, sugar, doubanjiang, neutral_oil, sesame_oil, water. 調理の仕上がり: 残りの油でしょうが・にんにく・長ねぎを弱火で炒める。好みで豆板醤を加え、ソースを入れて中火で煮立てる。 えびを戻す。水溶き片栗粉を混ぜ直し、少しずつ加えて約1分煮る。えびの中心まで火が通り、ソースにとろみが付いたらごま油を加える。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "agedashi_tofu",
+    "title": "揚げ出し豆腐",
+    "file": "App/Resources/meal-images/agedashi_tofu.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: a single appetizing realistic food photograph of the finished home-cooked dish described here. Subject: 揚げ出し豆腐 (agedashi tofu). 水切りした豆腐を香ばしく揚げ、温かいつゆをかけます。揚げ油の扱いに注意。 レシピに含まれる材料: tofu, potato_starch, neutral_oil, soy_sauce, mirin, dashi_granules, water, daikon, small_green_onion. 調理の仕上がり: 小さめの深い鍋で油を約170℃に温める。豆腐を静かに入れ、衣が固まったら返し、各面を順に計約8分揚げる。網に取って油を切る。 豆腐を器に盛り、温めたつゆをかける。あれば大根おろしと小ねぎをのせる。 Scene/backdrop: a quiet warm off-white tabletop, simple unbranded ivory ceramic dish, one-person portion. Composition: landscape 3:2, 45-degree elevated view, complete dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, subtle shadows, realistic food texture. Constraints: strictly match the recipe ingredients and cooking method; no extra ingredients or unrelated garnish/side dishes, no raw or runny egg where cooked egg is specified. No people, text, logos, watermark, packaging or collage. Soup must be served in a bowl; rice/noodles only when included in the recipe."
+  },
+  {
+    "recipeKey": "spinach_tuna_pasta",
+    "title": "ほうれん草とツナのパスタ",
+    "file": "App/Resources/meal-images/spinach_tuna_pasta.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese-style spaghetti tossed with flaked canned tuna, cooked dark green spinach cut into 3cm lengths and thin garlic slices in a light olive-oil sauce. No cream, tomato, cheese or parsley. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "broccoli_chicken_oyster",
+    "title": "鶏肉とブロッコリーのオイスター炒め",
+    "file": "App/Resources/meal-images/broccoli_chicken_oyster.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese chicken thigh and broccoli oyster-sauce stir-fry. Bite-sized 2cm pieces of thoroughly cooked lightly browned chicken thigh and cooked bright green broccoli florets and sliced stems, glossy brown oyster sauce lightly coating everything. No noodles, rice or other vegetables. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "eggplant_pork_miso",
+    "title": "なすと豚肉のみそ炒め",
+    "file": "App/Resources/meal-images/eggplant_pork_miso.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese eggplant and sliced pork miso stir-fry. Soft glossy purple-skinned eggplant semicircles sliced 5mm thick with thin fully cooked opaque pork slices, lightly coated in a caramel-brown miso-mirin glaze. No bell peppers, rice or sesame garnish. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "tofu_broccoli_ankake",
+    "title": "豆腐とブロッコリーのあんかけ",
+    "file": "App/Resources/meal-images/tofu_broccoli_ankake.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese tofu and broccoli ankake: white tofu cubes cut 2cm and cooked broccoli florets and thin stem slices in a translucent pale golden lightly thickened chicken-stock sauce with sesame oil. One shallow ceramic bowl, not a pureed soup, no meat or garnish. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "lettuce_egg_fried_rice",
+    "title": "レタスと卵のチャーハン",
+    "file": "App/Resources/meal-images/lettuce_egg_fried_rice.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Simple Japanese egg and lettuce fried rice: golden cooked scrambled egg pieces, separate short-grain rice grains and tender bright green lettuce pieces 3-4cm. Light soy-sauce color, modest mound on a plate. Only rice, egg, lettuce, oil, salt and soy sauce; no shrimp, crab, ham, scallion or garnish. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "eggplant_tuna_pasta",
+    "title": "なすとツナのしょうゆパスタ",
+    "file": "App/Resources/meal-images/eggplant_tuna_pasta.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese soy-sauce spaghetti with softened purple-skinned eggplant semicircles 5mm thick, flaked canned tuna and thin garlic slices tossed in a light olive oil and soy sauce glaze. No tomato, cheese, basil or sesame garnish. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "salmon_broccoli_steam",
+    "title": "鮭とブロッコリーの蒸し焼き",
+    "file": "App/Resources/meal-images/salmon_broccoli_steam.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of A fully cooked steamed salmon fillet with visible opaque pink flakes and skin, surrounded by tender bright green broccoli florets, with a small amount of melted butter and soy-sauce juices. One plate, no rice, potatoes, lemon, tomatoes or extra vegetables. Fish is moist gently steamed, not raw or heavily charred. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "broccoli_tuna_salad",
+    "title": "ブロッコリーとツナのサラダ",
+    "file": "App/Resources/meal-images/broccoli_tuna_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of A simple Japanese broccoli and canned tuna mayonnaise salad: tender green broccoli florets mixed with pale tuna flakes and a modest thin coat of mayonnaise in a small ceramic bowl. No tomato, onion, corn, egg or decorative garnish. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "eggplant_ginger_soy",
+    "title": "なすのしょうがしょうゆ",
+    "file": "App/Resources/meal-images/eggplant_ginger_soy.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of A small Japanese side dish of softened glossy eggplant semicircles cut 5mm thick, purple skin and golden interiors, coated in a light soy-sauce glaze with a little grated ginger incorporated. No whole eggplants, chili, sesame, scallion or meat. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "lettuce_sesame_salad",
+    "title": "レタスのごまサラダ",
+    "file": "App/Resources/meal-images/lettuce_sesame_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of A simple Japanese sesame lettuce salad: only torn fresh pale and green lettuce leaves lightly dressed with soy sauce, vinegar and sesame oil and visible fine ground sesame coating, a small side portion in a bowl. No tomatoes, cucumber, meat or other vegetables. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "lotus_root_kinpira",
+    "title": "れんこんのきんぴら",
+    "file": "App/Resources/meal-images/lotus_root_kinpira.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese lotus root kinpira: thin 2-3mm semicircular slices of peeled lotus root with distinctive natural holes, lightly browned and glossy with a soy-sauce mirin sesame-oil glaze. One small side dish, no carrots, chili, sesame seeds or garnish. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "burdock_carrot_kinpira",
+    "title": "ごぼうとにんじんのきんぴら",
+    "file": "App/Resources/meal-images/burdock_carrot_kinpira.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese kinpira gobo: slender 2-3mm julienned burdock root and orange carrot strips, stir-fried and glossy with soy sauce, mirin and sesame oil. Small tangled side portion in a bowl. Only burdock and carrots, no lotus root, aburaage, sesame seeds or chili. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "sweet_potato_lemon",
+    "title": "さつまいものレモン煮",
+    "file": "App/Resources/meal-images/sweet_potato_lemon.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese sweet potatoes simmered with lemon juice and sugar: 1cm-thick round slices with purple skin and soft golden yellow centers, a small amount of clear pale syrup in a shallow bowl. Lemon juice is in the syrup, not lemon wedges or slices; no butter or garnish. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "spinach_tofu_miso_soup",
+    "title": "ほうれん草と豆腐のみそ汁",
+    "file": "App/Resources/meal-images/spinach_tofu_miso_soup.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese spinach and tofu miso soup: a modest individual ceramic bowl of warm cloudy tan miso broth containing white 1.5cm tofu cubes and cooked dark green spinach leaves and stems cut 3cm. No seaweed, scallions, mushrooms or garnish. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "tomato_egg_soup",
+    "title": "トマトと卵のスープ",
+    "file": "App/Resources/meal-images/tomato_egg_soup.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese-style tomato and egg drop soup in chicken stock: clear pale golden broth, soft red tomato chunks cut 2cm and fully cooked yellow-white delicate egg ribbons. A tiny sheen of sesame oil. Individual bowl, no noodles, scallion, green garnish or meat. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "broccoli_consomme_soup",
+    "title": "ブロッコリーのコンソメスープ",
+    "file": "App/Resources/meal-images/broccoli_consomme_soup.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of A clear golden consomme soup with cooked bright green broccoli florets and 3mm thin translucent onion slices in one individual ceramic bowl. The broth is clear, not cream or pureed green broccoli soup. No cheese, milk, potatoes, carrots or garnish. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "burdock_carrot_miso_soup",
+    "title": "ごぼうとにんじんのみそ汁",
+    "file": "App/Resources/meal-images/burdock_carrot_miso_soup.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese miso soup with thin diagonal slices of burdock root 2mm thick and thin orange carrot quarter-rounds 2-3mm thick in cloudy tan dashi miso broth. Individual ceramic bowl. Only these two vegetables, no pork, tofu, seaweed or scallions. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "stuffed_green_peppers",
+    "title": "ピーマンの肉詰め",
+    "file": "App/Resources/meal-images/stuffed_green_peppers.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese piman nikuzume: three small green Japanese sweet peppers cut lengthwise in halves, six halves stuffed with cooked ground chicken mixed with minced onion, egg and breadcrumbs. Filling surfaces lightly pan-browned and a glossy soy-sauce mirin glaze. Open lengthwise halves with green curved skins and fully cooked pale meat filling facing upward, not pepper rings or whole stuffed bell peppers. No rice, tomato sauce, cheese or garnish. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "chicken_banbanji",
+    "title": "棒々鶏",
+    "file": "App/Resources/meal-images/chicken_banbanji.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese banbanji salad: fully poached white chicken breast shredded into bite-sized fibrous strips on finely julienned cucumber and thin fresh tomato slices, drizzled with creamy beige sesame dressing. One plate, no chili oil, crispy fried coating or extra herbs. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "simmered_hijiki",
+    "title": "ひじきの煮物",
+    "file": "App/Resources/meal-images/simmered_hijiki.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese simmered hijiki side dish: short fine black hijiki seaweed strands, thin orange carrot matchsticks and short golden aburaage tofu-pouch strips, simmered in soy sauce, mirin and sugar, lightly moist with little broth. Small bowl. No soybeans, edamame, mushrooms or rice. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "enoki_nametake",
+    "title": "えのきのなめたけ",
+    "file": "App/Resources/meal-images/enoki_nametake.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese homemade nametake: cooked enoki mushrooms cut into 3cm lengths, fine tender tan strands with tiny small mushroom caps in a glossy lightly viscous caramel-brown soy sauce and mirin liquid. Small side portion in a shallow bowl, no raw white enoki, jar, garnish or rice. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "asari_sake_steam",
+    "title": "あさりの酒蒸し",
+    "file": "App/Resources/meal-images/asari_sake_steam.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese asari clams steamed in sake: a modest portion of small striped Manila clams with visibly opened shells and fully cooked meat in a little clear sake-and-soy broth, sprinkled sparsely with finely sliced green onion. One shallow bowl, no pasta, butter, tomatoes, lemon or other foods. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "asparagus_bacon_mustard",
+    "title": "アスパラとベーコンのマスタード炒め",
+    "file": "App/Resources/meal-images/asparagus_bacon_mustard.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Green asparagus and bacon whole-grain mustard stir-fry: tender green asparagus cut 4cm long and fully cooked bacon cut into 1cm strips, glossy lightly coated in grainy mustard and soy sauce, sparse tiny mustard grains visible. One plate, no rice, potatoes, cheese or other vegetables. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "pork_liver_chives",
+    "title": "レバニラ炒め",
+    "file": "App/Resources/meal-images/pork_liver_chives.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese rebanira stir-fry: thoroughly cooked dark brown pork liver slices cut 5mm thick in bite-sized pieces, garlic chives cut 4cm, cooked bean sprouts and fine ginger strips, coated in a light glossy soy and oyster sauce. One plate, no rice or extra vegetables, no pink raw liver. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "pea_shoot_atsuage_namul",
+    "title": "豆苗と厚揚げのナムル",
+    "file": "App/Resources/meal-images/pea_shoot_atsuage_namul.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese pea-shoot and atsuage namul salad: cooked and lightly wilted pea shoots with delicate green leaves and stems cut half length, golden fried thick tofu (atsuage) cut into 1cm strips, white tofu interiors and browned skin, lightly dressed with white dashi, sesame oil, grated garlic and a sparse sprinkle of sesame seeds. Small bowl, no rice or other vegetables. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "okra_nagaimo_ponzu",
+    "title": "オクラと長芋のぽん酢和え",
+    "file": "App/Resources/meal-images/okra_nagaimo_ponzu.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese okra and nagaimo ponzu salad: cooked green okra cut into 1cm star-shaped cross-sections, crisp white peeled nagaimo yam cubes 1cm wide and finely shredded shiso leaves tossed in a small amount of brown ponzu. Small bowl, no mashed yam, tofu, cucumber or sesame. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "mizuna_tenderloin_salad",
+    "title": "水菜とささみのかいわれサラダ",
+    "file": "App/Resources/meal-images/mizuna_tenderloin_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese mizuna and chicken tenderloin salad: raw finely serrated mizuna leaves and stems cut 4cm, small kaiware radish sprouts and shredded fully poached white chicken tenderloin, topped with modest creamy sesame dressing. One side bowl, no tomatoes, carrots or cucumber. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "green_bean_snap_pea_sesame",
+    "title": "いんげんとスナップえんどうのごま和え",
+    "file": "App/Resources/meal-images/green_bean_snap_pea_sesame.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese sesame-dressed green beans and snap peas: cooked green beans cut 3cm and cooked snap pea pods diagonally halved with round peas visible, lightly coated with ground sesame, soy sauce and sugar. Small side bowl, no carrots, spinach, meat or garlic chips. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "three_mushroom_butter",
+    "title": "しいたけ・まいたけ・エリンギのバター炒め",
+    "file": "App/Resources/meal-images/three_mushroom_butter.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of A Japanese three-mushroom butter-soy stir-fry: thin brown shiitake cap slices, delicate feathery maitake clusters and lengthwise 5mm slices of king oyster mushroom (eringi), cooked until tender and lightly browned, glossy butter-soy coating with a tiny amount of ground black pepper. One plate, no creamy curry sauce, onions, herbs or rice. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "corn_edamame_rice",
+    "title": "とうもろこしと枝豆の炊き込みご飯",
+    "file": "App/Resources/meal-images/corn_edamame_rice.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese takikomi rice with corn and edamame: fluffy cooked short-grain white rice mixed throughout with yellow corn kernels and green shelled edamame beans. Modest individual rice bowl, no corn cob, pea pods, seaweed, bacon or garnish. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "cod_mushroom_foil",
+    "title": "たらときのこのホイル蒸し",
+    "file": "App/Resources/meal-images/cod_mushroom_foil.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese cod foil-steam: an opened crinkled aluminium foil packet resting on an ivory plate, fully cooked opaque white cod fillet on thin translucent onion slices with cooked brown-capped shimeji mushroom clusters, a small amount of melted butter and ponzu broth. Foil is opened wide to clearly see fish and mushrooms. No salmon, carrot, lemon, garlic or garnish. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "aji_nanban",
+    "title": "あじの南蛮漬け",
+    "file": "App/Resources/meal-images/aji_nanban.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an iOS cooking app recipe hero and thumbnail. Create one appetizing realistic food photograph of Japanese aji nanbanzuke: golden flour-dusted pan-fried horse mackerel fillet pieces, each fillet cut in half, lightly soaked in soy-vinegar sweet sauce and topped with thin julienned onion and carrot strips. One shallow bowl, cooked fillets without heads, not whole tiny fish, no bell peppers or chili. Finished home-cooked food for one person, restrained realistic portion, natural food textures. A simple unbranded ivory ceramic plate or bowl on a quiet warm off-white tabletop. Landscape 3:2 composition, elevated 45-degree camera view, whole food portion centered with generous clear margin for safe square thumbnail cropping. Soft natural window light, delicate shadows, warm neutral palette matching a terracotta Japanese cooking app. No people, hands, text, logos, watermarks, packaging, collage, utensils or unrelated side dishes. Do not add ingredients or garnish not explicitly listed. This is a finished cooked-dish photograph, not a raw ingredient photo."
+  },
+  {
+    "recipeKey": "milk_carbonara",
+    "title": "牛乳のカルボナーラ",
+    "file": "App/Resources/meal-images/milk_carbonara.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: square food photo for a Japanese home cooking iOS recipe app. Primary request: a single appetizing serving of milk-based spaghetti carbonara on a simple white ceramic plate, with small browned bacon pieces, creamy pale egg-and-parmesan sauce coating spaghetti, finely ground black pepper. Natural realistic food texture, warm soft window daylight, light wooden table, overhead three-quarter view, centered whole plate with room for cropping to landscape. No text, logos, watermark, hands, extra dishes, garnish or props. One coherent dish, not a collage."
+  },
+  {
+    "recipeKey": "pumpkin_potage",
+    "title": "かぼちゃのポタージュ",
+    "file": "App/Resources/meal-images/pumpkin_potage.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: square recipe photo for a Japanese home cooking iOS app. A single serving of homemade kabocha pumpkin potage, warm rich golden orange-yellow soup made from pumpkin, onion, milk and butter, gently mashed smooth with a little natural texture, in one simple white ceramic soup bowl. No cream swirl, herbs, croutons or extra garnish. Warm soft natural window light, quiet pale wooden table, elevated three-quarter view, whole bowl centered with generous margin suitable for landscape and square cropping. Realistic appetizing food photograph. No other dishes, spoon, people, hands, text, logo, watermark, packaging or collage."
+  },
+  {
+    "recipeKey": "drumette_vinegar_simmer",
+    "title": "手羽元のさっぱり煮",
+    "file": "App/Resources/meal-images/drumette_vinegar_simmer.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: square recipe photo for a Japanese home cooking iOS app. One serving of homemade chicken drumettes gently simmered in soy sauce, rice vinegar, sugar and ginger. Three small bone-in drumettes with glistening warm brown cooked skin, a little thin amber-brown reduction at the bottom of one simple white shallow ceramic bowl, a few small ginger slices. Warm soft window daylight, quiet pale wooden table, elevated three-quarter view, whole bowl centered with generous margin for landscape and square cropping. Realistic appetizing cooked food texture. No eggs, herbs, vegetables, extra garnish, utensils, other dishes, people, text, logos, watermark or collage."
+  },
+  {
+    "recipeKey": "saury_salt_grill",
+    "title": "さんまの塩焼き",
+    "file": "App/Resources/meal-images/saury_salt_grill.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish さんまの塩焼き (saury salt grill). さんまをフライパンで香ばしく焼き、大根おろしを添えます。 Recipe ingredients: saury, salt, neutral oil, daikon, soy sauce. Final preparation: フライパンで油を中火で温め、さんまを約6分焼いて返す。弱めの中火で約7分、身の中心まで十分に加熱する。 皿にさんまと大根おろしを盛り、しょうゆを添える。食べるときに小骨を確認する。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it. Anatomical accuracy: Japanese Pacific saury (Cololabis saira), very long and slender narrow-bodied fish, pointed elongated beak and silvery skin; NOT a thick mackerel or sardine. One whole saury about 30 cm long and only 3–4 cm wide, tail and head fully inside the frame on a long oval plate."
+  },
+  {
+    "recipeKey": "squid_celery_stir",
+    "title": "いかとセロリの塩炒め",
+    "file": "App/Resources/meal-images/squid_celery_stir.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish いかとセロリの塩炒め (squid celery stir). いかとセロリを手早く炒める、香りのよいおかず。 Recipe ingredients: squid, celery, ginger, cooking sake, salt, white pepper, neutral oil. Final preparation: 油としょうがを中火で温め、いかを約2分炒める。セロリと酒を加えてさらに約3分炒め、いかの中心まで不透明になるよう加熱する。 塩と白こしょうで味を整え、汁気が多ければ手早く飛ばして盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "octopus_cucumber_sunomono",
+    "title": "たこときゅうりの酢の物",
+    "file": "App/Resources/meal-images/octopus_cucumber_sunomono.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish たこときゅうりの酢の物 (octopus cucumber sunomono). 加熱済みのゆでだこを使う、さっぱりした副菜。 Recipe ingredients: octopus, cucumber, salt, rice vinegar, sugar, soy sauce. Final preparation: ボウルで米酢・砂糖・しょうゆを混ぜ、砂糖を溶かす。きゅうりの水気をよく絞る。 たこときゅうりを甘酢にからめ、器に盛る。食べる直前まで冷蔵庫に置く。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "wings_shichimi_grill",
+    "title": "手羽先の七味しょうゆ焼き",
+    "file": "App/Resources/meal-images/wings_shichimi_grill.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 手羽先の七味しょうゆ焼き (wings shichimi grill). 骨に沿って開いた手羽先を、甘辛だれで香ばしく。 Recipe ingredients: chicken wings, soy sauce, mirin, cooking sake, shichimi, neutral oil. Final preparation: 油を中火で熱し、皮側を約6分焼く。返して弱火にし、ふたをして約10分、骨の周りまで十分に加熱する。 余分な脂を拭き、合わせたたれを加えて約1〜2分煮詰める。七味を振り盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "pork_shoulder_mustard",
+    "title": "豚肩ロースの粒マスタードソテー",
+    "file": "App/Resources/meal-images/pork_shoulder_mustard.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 豚肩ロースの粒マスタードソテー (pork shoulder mustard). 薄切り豚肩ロースに、マスタードとしょうゆのソースを合わせます。 Recipe ingredients: pork shoulder, whole grain mustard, soy sauce, cooking sake, olive oil, cabbage. Final preparation: オリーブ油を中火で温め、豚肉を重ねずに広げる。両面を返しながら中心までしっかり焼く。 余分な脂を拭いてソースを入れ、約1〜2分煮立てて肉にからめる。キャベツと一緒に盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "beef_keema",
+    "title": "牛ひき肉のキーマカレー",
+    "file": "App/Resources/meal-images/beef_keema.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 牛ひき肉のキーマカレー (beef keema). カレー粉とトマトで作る、ルーを使わないひき肉カレー。 Recipe ingredients: ground beef, onion, canned tomatoes, curry powder, worcester sauce, salt, neutral oil, cooked rice, water. Final preparation: 油を中火で熱し、玉ねぎを約3分炒める。牛ひき肉をほぐしながら約5分炒め、カレー粉を加えて混ぜる。 トマト缶・水・ウスターソース・塩を加え、弱めの中火で約10分煮る。混ぜながら水分を減らし、肉の加熱を確認してごはんにのせる。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "steak_balsamic_mushroom",
+    "title": "牛ステーキのバルサミコソース",
+    "file": "App/Resources/meal-images/steak_balsamic_mushroom.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 牛ステーキのバルサミコソース (steak balsamic mushroom). 牛ステーキとマッシュルームを、甘酸っぱいソースで。 Recipe ingredients: beef steak, button mushroom, balsamic vinegar, soy sauce, sugar, olive oil, salt, black pepper. Final preparation: オリーブ油を中火で温め、肉を両面約3〜4分ずつ焼く。中心まで十分に加熱し、皿に移す。同じフライパンできのこを約2分炒める。 バルサミコ酢・しょうゆ・砂糖を加えて約2分煮立てる。肉を食べやすく切り、きのことソースをかける。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "chicken_soba",
+    "title": "鶏南蛮そば",
+    "file": "App/Resources/meal-images/chicken_soba.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 鶏南蛮そば (chicken soba). そばを別ゆでし、鶏と長ねぎの温かいつゆでいただきます。 Recipe ingredients: soba, chicken thigh, green onion, mentsuyu, water. Final preparation: 小鍋で水と3倍濃縮めんつゆを沸かし、鶏肉を入れ弱めの中火で約8分煮る。長ねぎを加えて約2分煮て肉の加熱を確認する。 そばは袋の表示どおり別鍋でゆで、ざるで洗ってぬめりを取る。温かいつゆで短く温め直して器に盛る。めんつゆの希釈は製品のかけつゆ表示を優先する。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "vietnamese_somen",
+    "title": "ナンプラーのベトナム風そうめん",
+    "file": "App/Resources/meal-images/vietnamese_somen.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish ナンプラーのベトナム風そうめん (vietnamese somen). レモン風味のたれと、ゆでえび・野菜をのせる冷たい麺。 Recipe ingredients: somen, shrimp, cucumber, carrot, fish sauce, lemon, sugar, water. Final preparation: えびを沸いた湯で約3分、中心まで不透明になるまでゆでる。清潔な別の湯でそうめんを袋の表示どおりゆで、流水で洗って冷やす。 麺の水気をよく切り、野菜とえびをのせてたれをかける。レモンの種は取り除く。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "koya_shiitake_simmer",
+    "title": "高野豆腐と干ししいたけの含め煮",
+    "file": "App/Resources/meal-images/koya_shiitake_simmer.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 高野豆腐と干ししいたけの含め煮 (koya shiitake simmer). 前日から戻したしいたけを使う煮物。戻し待ち約6時間は別途必要です。 Recipe ingredients: koya tofu, dried shiitake, snow peas, dashi granules, soy sauce, mirin, water. Final preparation: しいたけの硬い軸を落とし、高野豆腐は水を軽く絞って4等分にする。絹さやの筋を取る。しいたけの戻し汁をこし、分量まで水を補ってだし・しょうゆ・みりんを混ぜる。 煮汁を沸かし、高野豆腐としいたけを弱火で約20分煮る。絹さやを加えてさらに約2分煮る。汁を少し残して盛り、煮詰め過ぎない。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "okara_simmer",
+    "title": "おからの炒り煮",
+    "file": "App/Resources/meal-images/okara_simmer.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish おからの炒り煮 (okara simmer). 生おからと野菜を、だしでしっとり煮る副菜。 Recipe ingredients: okara, carrot, shiitake, aburaage, green onion, soy sauce, mirin, dashi granules, water, neutral oil. Final preparation: 油を中火で温め、にんじん・しいたけ・油揚げを約3分炒める。生おからを入れ、かたまりを崩しながら約2分炒める。 水・だし・しょうゆ・みりんを加え、弱めの中火で約8分、焦げないよう混ぜながら煮る。長ねぎを加え約2分加熱し、しっとりした状態で盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "konjac_satsuma_simmer",
+    "title": "こんにゃくとさつま揚げの煮物",
+    "file": "App/Resources/meal-images/konjac_satsuma_simmer.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish こんにゃくとさつま揚げの煮物 (konjac satsuma simmer). 下ゆでしたこんにゃくに、さつま揚げのうまみを含ませます。 Recipe ingredients: konjac, satsuma age, soy sauce, mirin, dashi granules, water. Final preparation: 小鍋に分量の水・しょうゆ・みりん・だしを入れ、こんにゃくとさつま揚げを加えて中火で煮立てる。 落としぶたをして弱めの中火で約10分煮る。火を止め約5分置き、汁ごと盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "beef_shirataki_sukiyaki",
+    "title": "牛バラ肉としらたきのすき煮",
+    "file": "App/Resources/meal-images/beef_shirataki_sukiyaki.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 牛バラ肉としらたきのすき煮 (beef shirataki sukiyaki). しらたき・春菊・豆腐を合わせる、1人分のすき焼き風。 Recipe ingredients: beef belly, shirataki, shungiku, tofu, green onion, soy sauce, mirin, sugar, water. Final preparation: 小鍋で水・しょうゆ・みりん・砂糖を煮立て、牛肉をほぐして入れ中心まで加熱する。 豆腐・しらたき・長ねぎを入れ約5分煮る。春菊を加えさらに約2分、しんなりするまで煮て盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "soy_milk_penne",
+    "title": "豆乳ときのこのクリームペンネ",
+    "file": "App/Resources/meal-images/soy_milk_penne.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 豆乳ときのこのクリームペンネ (soy milk penne). 無調整豆乳で作る、ベーコンときのこのペンネ。 Recipe ingredients: penne, soy milk, button mushroom, bacon, powdered cheese, olive oil, salt, black pepper. Final preparation: 沸いた湯でペンネを袋の表示どおりゆでる。ゆで汁を少量取り分け、ざるに上げる。 フライパンで油を中火で熱しベーコンときのこを約4分炒める。弱火にして豆乳とペンネを入れ約2分温め、粉チーズ・塩・こしょうを混ぜる。濃ければゆで汁を少量補う。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "avocado_tuna_sandwich",
+    "title": "アボカドとツナのチーズサンド",
+    "file": "App/Resources/meal-images/avocado_tuna_sandwich.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish アボカドとツナのチーズサンド (avocado tuna sandwich). アボカド・ツナ・チーズを食パンではさむ、軽い食事。 Recipe ingredients: avocado, canned tuna, sliced cheese, bread, mayonnaise, black pepper. Final preparation: 食パンをトースターで約2〜3分、軽く焼き色が付くまで焼く。機器の表示を優先する。 パンにチーズ・ツナ・アボカドを重ね、もう1枚ではさむ。軽く押さえて半分に切る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "banana_yogurt_oatmeal",
+    "title": "バナナヨーグルトのオートミール",
+    "file": "App/Resources/meal-images/banana_yogurt_oatmeal.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish バナナヨーグルトのオートミール (banana yogurt oatmeal). 温めてふやかしたオーツに、バナナとヨーグルトを添える朝食。 Recipe ingredients: oatmeal, milk, water, banana, plain yogurt, honey. Final preparation: 弱めの中火で温め、煮立ち始めたら弱火にする。混ぜながら約5分煮て、粒が柔らかくなるまでふやかす。水分が足りなければ水を補い、商品の加熱表示を優先する。 器へ移して少し冷まし、ヨーグルトとバナナをのせ、はちみつをかける。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "salmon_can_doria",
+    "title": "さけ缶とコーンの簡単ドリア",
+    "file": "App/Resources/meal-images/salmon_can_doria.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish さけ缶とコーンの簡単ドリア (salmon can doria). さけ缶と冷凍野菜をごはんに合わせ、チーズで焼くドリア。 Recipe ingredients: canned salmon, canned corn, frozen mixed vegetables, shredded cheese, cooked rice, milk, wheat flour, butter. Final preparation: フライパンでバターを弱火で溶かし、小麦粉を約1分炒める。牛乳を少しずつ混ぜ、冷凍野菜・さけ・コーンを加えて約5分、野菜の中心まで火が通るまで煮る。 ごはんにソースをかけ、ピザ用チーズをのせる。トースターで約5〜7分、チーズに焼き色が付くまで焼く。皿が熱いのでミトンで取り出す。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "canned_sardine_tomato",
+    "title": "いわし缶のトマトチーズ煮",
+    "file": "App/Resources/meal-images/canned_sardine_tomato.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish いわし缶のトマトチーズ煮 (canned sardine tomato). 水煮いわし缶をトマトとチーズで温める、手軽な魚料理。 Recipe ingredients: canned sardines, canned tomatoes, onion, shredded cheese, olive oil, black pepper. Final preparation: 油を中火で温め玉ねぎを約3分炒める。トマト缶といわしを加え、弱めの中火で約6分温める。魚を崩し過ぎない。 チーズとこしょうをのせ、ふたをして弱火で約2分、チーズが溶けるまで加熱して盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "chikuwa_cucumber_salad",
+    "title": "ちくわときゅうりのかにかまサラダ",
+    "file": "App/Resources/meal-images/chikuwa_cucumber_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish ちくわときゅうりのかにかまサラダ (chikuwa cucumber salad). ちくわとかにかまを合わせる、火を使わない小さなサラダ。 Recipe ingredients: chikuwa, kani kama, cucumber, mayonnaise, soy sauce, roasted sesame. Final preparation: ボウルにマヨネーズ・しょうゆ・いりごまを混ぜる。 具を加えて全体を混ぜ、器へ盛る。きゅうりから水が出るため作り置きせず、食べる直前に和える。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "scallop_spinach_cream",
+    "title": "ほたてとほうれん草のクリーム煮",
+    "file": "App/Resources/meal-images/scallop_spinach_cream.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish ほたてとほうれん草のクリーム煮 (scallop spinach cream). ほたてを十分に加熱し、クリームでやさしくまとめます。 Recipe ingredients: scallops, spinach, cream, milk, butter, salt, black pepper. Final preparation: バターを中火で溶かし、ほたてを両面約2分ずつ焼く。厚いものは横に半分に切り、中心まで十分に加熱する。 牛乳・生クリーム・ほうれん草を入れて弱火で約3分温める。ほたての中心が不透明になったことを確認し、塩・こしょうで仕上げる。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "tuna_avocado_rice",
+    "title": "まぐろとアボカドの海苔丼",
+    "file": "App/Resources/meal-images/tuna_avocado_rice.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish まぐろとアボカドの海苔丼 (tuna avocado rice). 生食用まぐろとアボカドをのせる、手軽な丼。 Recipe ingredients: fresh tuna, avocado, cooked rice, soy sauce, nori. Final preparation: ごはんを中心まで熱く温め、器に盛る。少し蒸気を逃がし、食べる直前に具をのせる。 まぐろ・アボカド・海苔をのせ、しょうゆを回しかける。盛り付けたら早めにいただく。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "flounder_simmer",
+    "title": "かれいの煮付け",
+    "file": "App/Resources/meal-images/flounder_simmer.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish かれいの煮付け (flounder simmer). かれいの切り身を甘辛い煮汁で、崩さずに煮る定番。 Recipe ingredients: flounder, ginger, soy sauce, mirin, cooking sake, water. Final preparation: 小さめのフライパンで水・酒・しょうゆ・みりん・しょうがを沸かす。魚を皮を上にして入れ、落としぶたをして弱めの中火で約15分煮る。途中で煮汁をかける。 厚い部分の中心まで不透明に火が通ったら、へらで支えて盛る。食べるときに骨を除く。煮汁が少なければ煮る途中で水を補う。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "shirasu_shiso_rice",
+    "title": "しらすと大葉の混ぜご飯",
+    "file": "App/Resources/meal-images/shirasu_shiso_rice.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish しらすと大葉の混ぜご飯 (shirasu shiso rice). 釜揚げしらすと大葉をごはんに混ぜ、香ばしいごまを添えます。 Recipe ingredients: shirasu, shiso, cooked rice, roasted sesame, soy sauce. Final preparation: ごはんを中心まで熱く温め、ボウルに移して蒸気を少し逃がす。 しらす・大葉・いりごま・しょうゆをごはんに混ぜて盛る。しらすの塩気を見てしょうゆを調整する。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "mentaiko_mochi_pizza",
+    "title": "明太もちチーズ焼き",
+    "file": "App/Resources/meal-images/mentaiko_mochi_pizza.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 明太もちチーズ焼き (mentaiko mochi pizza). 切り餅に明太子とチーズをのせて焼く、軽い食事。 Recipe ingredients: rice cake, mentaiko, shredded cheese, mayonnaise, nori. Final preparation: 切り餅をトースター対応のトレーに並べ、約5分焼いて表面を柔らかくする。ソースとチーズをのせ、さらに約5分、餅の中心まで柔らかくなるまで焼く。 トレーをミトンで取り出し、海苔を散らす。餅は熱くのびるため食べやすく小さくしていただく。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "turnip_white_dashi_soup",
+    "title": "かぶと油揚げの白だしスープ",
+    "file": "App/Resources/meal-images/turnip_white_dashi_soup.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish かぶと油揚げの白だしスープ (turnip white dashi soup). かぶを薄く切って柔らかく煮る、やさしい汁物。 Recipe ingredients: turnip, aburaage, white dashi, water. Final preparation: 小鍋に水・白だし・かぶ・油揚げを入れて煮立て、弱火で約7分、かぶに串が通るまで煮る。 白だしの濃さは商品で異なるため、汁物の希釈表示を優先して水で調整する。温かいうちに盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "chicken_seri_soup",
+    "title": "鶏だんごとせりのスープ",
+    "file": "App/Resources/meal-images/chicken_seri_soup.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 鶏だんごとせりのスープ (chicken seri soup). 鶏ひき肉の小さなだんごに、せりの香りを添える汁物。 Recipe ingredients: ground chicken, seri, ginger, potato starch, dashi granules, soy sauce, water. Final preparation: 水とだしを小鍋で沸かし、肉だねをスプーンで厚さ2cm以下の小さなだんごにして落とす。弱めの中火で約8分、中心まで十分に加熱する。 せりとしょうゆを加え約1〜2分煮る。せりがしんなりしたら盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "molokheiya_egg_soup",
+    "title": "モロヘイヤと卵のスープ",
+    "file": "App/Resources/meal-images/molokheiya_egg_soup.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish モロヘイヤと卵のスープ (molokheiya egg soup). 市販の食用葉をゆでて刻み、卵入りスープへ。 Recipe ingredients: molokheiya, egg, chicken stock powder, soy sauce, water. Final preparation: 小鍋で水・鶏がらスープの素・しょうゆを沸かし、刻んだ葉を加える。 煮立ったところに卵を細く回し入れ、少し待ってから混ぜる。卵が全体に固まるまで約1〜2分加熱して盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "beef_round_garlic",
+    "title": "牛もも肉とピーマンのにんにく炒め",
+    "file": "App/Resources/meal-images/beef_round_garlic.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 牛もも肉とピーマンのにんにく炒め (beef round garlic). 薄切り牛もも肉を野菜と炒め、焼肉のたれでまとめます。 Recipe ingredients: beef round, green pepper, onion, garlic, yakiniku sauce, neutral oil. Final preparation: 油とにんにくを弱火で約1分温める。中火にして肉と玉ねぎを炒め、肉の中心まで十分に加熱する。ピーマンを入れてさらに約2分炒める。 焼肉のたれを入れ、全体にからめて約1分煮立てる。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "pork_tenderloin_piccata",
+    "title": "豚ヒレ肉のピカタ",
+    "file": "App/Resources/meal-images/pork_tenderloin_piccata.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 豚ヒレ肉のピカタ (pork tenderloin piccata). 薄く切った豚ヒレに卵と粉チーズの衣を付けて焼きます。 Recipe ingredients: pork tenderloin, egg, powdered cheese, wheat flour, salt, olive oil, ketchup. Final preparation: 油を弱めの中火で温め、肉を卵衣にくぐらせて並べる。片面約4分ずつ焼き、必要ならふたをして中心まで十分に加熱する。余った卵衣は周りに流して完全に固める。 厚い部分の加熱を確認して盛り、ケチャップを添える。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "shrimp_glass_noodle_salad",
+    "title": "えびと春雨のナンプラーサラダ",
+    "file": "App/Resources/meal-images/shrimp_glass_noodle_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish えびと春雨のナンプラーサラダ (shrimp glass noodle salad). ゆでえびと春雨を、レモン入りのさっぱりだれで和えます。 Recipe ingredients: glass noodles, shrimp, cucumber, carrot, fish sauce, lemon, sugar. Final preparation: えびを約3分、中心まで不透明にゆでて取り出す。別の湯で春雨を袋の表示どおりゆで、水で冷やしてよく水を切り、食べやすく切る。 春雨・野菜・えびをたれで和え、レモンの種がないことを確認して盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "rice_vermicelli_stir",
+    "title": "豚肉と野菜の焼きビーフン",
+    "file": "App/Resources/meal-images/rice_vermicelli_stir.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 豚肉と野菜の焼きビーフン (rice vermicelli stir). ビーフンの袋の調理表示を優先し、豚肉と野菜で炒めます。 Recipe ingredients: rice vermicelli, pork slices, cabbage, carrot, soy sauce, oyster sauce, neutral oil, water. Final preparation: 油を中火で温め、豚肉を約4分、中心まで十分に加熱する。にんじんとキャベツを加え約3分炒める。 麺・しょうゆ・オイスターソース・水を加え、ほぐしながら約3分炒める。麺が硬ければ水を少し補い、全体が熱く柔らかくなるまで加熱する。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "lentil_tomato_soup",
+    "title": "レンズ豆のトマトスープ",
+    "file": "App/Resources/meal-images/lentil_tomato_soup.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish レンズ豆のトマトスープ (lentil tomato soup). 乾燥レンズ豆を柔らかく煮る、豆たっぷりのスープ。 Recipe ingredients: dried lentils, canned tomatoes, onion, carrot, garlic, consomme, olive oil, water. Final preparation: 小鍋で油とにんにくを弱火で約1分温め、玉ねぎ・にんじんを約3分炒める。豆・トマト缶・水・コンソメを加え、沸いたら弱火で約15分、時々混ぜて煮る。 豆をつぶして芯がなく柔らかいことを確認する。皮付き豆は袋の表示に従い、水を補ってさらに煮る。好みの濃さにして盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "soybean_curry_salad",
+    "title": "大豆とコーンのカレーサラダ",
+    "file": "App/Resources/meal-images/soybean_curry_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 大豆とコーンのカレーサラダ (soybean curry salad). 水煮大豆とコーンをマヨカレーで和える、手軽な副菜。 Recipe ingredients: boiled soybeans, canned corn, cucumber, mayonnaise, curry powder. Final preparation: ボウルでマヨネーズとカレー粉を混ぜる。辛さが強い商品ならカレー粉を控えめにする。 大豆・コーン・きゅうりを加え、全体を和えて盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "cauliflower_sprout_cheese",
+    "title": "カリフラワーと芽キャベツのチーズ焼き",
+    "file": "App/Resources/meal-images/cauliflower_sprout_cheese.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish カリフラワーと芽キャベツのチーズ焼き (cauliflower sprout cheese). 野菜を下ゆでしてから、チーズの香ばしさを付けます。 Recipe ingredients: cauliflower, brussels sprouts, shredded cheese, olive oil, salt. Final preparation: 沸いた湯に芽キャベツを入れ約1分後、カリフラワーを加えてさらに約3分ゆでる。芯に串が通ったらざるに取り水を切る。 トースター対応耐熱皿に野菜を入れ、オリーブ油・塩・チーズをのせる。約5〜7分、チーズに焼き色が付くまで焼く。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "pork_daikon_simmer",
+    "title": "豚バラ大根",
+    "file": "App/Resources/meal-images/pork_daikon_simmer.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 豚バラ大根 (pork daikon simmer). 大根は先にレンジでやわらかくし、豚バラのうまみを煮含めます。最後にふたを外すと照りよく仕上がります。 Recipe ingredients: pork belly, daikon, ginger, cooking sake, soy sauce, mirin, sugar, water, neutral oil. Final preparation: 弱めの中火にし、小さく泡が出る火加減で煮る。途中で上下を返す。大根に竹串がすっと通り、豚肉の中心まで火が通るまで加熱する。 落としぶたを外して中火にする。煮汁を少し残す程度まで煮詰め、大根と豚肉に絡めて盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "chicken_nanban",
+    "title": "チキン南蛮",
+    "file": "App/Resources/meal-images/chicken_nanban.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish チキン南蛮 (chicken nanban). 鶏むね肉をフライパンで焼き、甘酢を絡めてタルタルを添えます。衣用とタルタル用の卵は分けて準備します。 Recipe ingredients: chicken breast, egg, onion, mayonnaise, vinegar, soy sauce, sugar, wheat flour, neutral oil, salt, black pepper, water. Final preparation: 余分な油をペーパーで拭く。準備した甘酢を加え、弱めの中火で煮立てながら両面に絡める。 鶏肉を器に盛り、作っておいたタルタルを上にのせる。甘酢が残っていれば少量かける。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "salmon_chanchan",
+    "title": "鮭のちゃんちゃん焼き",
+    "file": "App/Resources/meal-images/salmon_chanchan.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 鮭のちゃんちゃん焼き (salmon chanchan). 鮭と野菜をみそだれで蒸し焼きに。ふたを開けたらバターを絡め、野菜も一緒に食べられる一皿にします。 Recipe ingredients: salmon fillet, cabbage, onion, carrot, miso, cooking sake, mirin, sugar, butter, water. Final preparation: 鮭を返して周りに野菜を入れ、みそだれを回しかける。ふたをし、弱めの中火で蒸し焼きにする。鮭の中心まで火が通り、にんじんがやわらかくなるまで加熱する。 ふたを取り、残りのバターを加える。野菜とたれを軽く混ぜ、鮭を崩さないように器に移す。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "atsuage_komatsuna_simmer",
+    "title": "厚揚げと小松菜の煮浸し",
+    "file": "App/Resources/meal-images/atsuage_komatsuna_simmer.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 厚揚げと小松菜の煮浸し (atsuage komatsuna simmer). 厚揚げで食べ応えを足した煮浸し。小松菜は茎から煮て、葉を最後に加えると食感よく仕上がります。 Recipe ingredients: atsuage, komatsuna, soy sauce, mirin, dashi granules, water. Final preparation: 厚揚げと小松菜の茎を入れ、弱めの中火で煮る。厚揚げの中心が温まり、茎がやわらかくなるまで加熱する。 小松菜の葉を加え、煮汁に沈めながらさっと煮る。葉がしんなりしたら火を止め、煮汁ごと器に盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "chicken_yurinchi",
+    "title": "油淋鶏",
+    "file": "App/Resources/meal-images/chicken_yurinchi.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 油淋鶏 (chicken yurinchi). 香ばしく焼いた鶏もも肉に、ねぎとしょうがの甘酢だれをかけます。少量の油で作る家庭向けの一皿。 Recipe ingredients: chicken thigh, green onion, ginger, soy sauce, vinegar, sugar, sesame oil, potato starch, neutral oil. Final preparation: 鶏肉を裏返し、ふたをして弱めの中火で焼く。鶏肉は厚い部分の中心が75℃以上になってから1分以上加熱する。足りなければ追加で加熱する。 火を止めて鶏肉を皿に移し、用意したねぎだれをかける。焼いた直後にかけると香りが広がる。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "chicken_daikon",
+    "title": "鶏大根",
+    "file": "App/Resources/meal-images/chicken_daikon.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 鶏大根 (chicken daikon). 鶏もも肉のうまみを大根に含ませる、しょうゆ味の煮物。大根は薄めに切って煮えやすくします。 Recipe ingredients: chicken thigh, daikon, ginger, soy sauce, mirin, cooking sake, water, neutral oil. Final preparation: 水、しょうが、料理酒、みりん、しょうゆを加えて煮立てる。アクを取り、落としぶたをして弱めの中火で煮る。煮汁が減りすぎたら少量の水を足す。 大根に竹串がすっと通るまで煮る。鶏肉は厚い部分の中心が75℃以上になってから1分以上加熱する。足りなければ追加で加熱する。 煮汁を大根にかけながら味をなじませ、器に盛る。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "chikuzenni",
+    "title": "筑前煮",
+    "file": "App/Resources/meal-images/chikuzenni.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 筑前煮 (chikuzenni). 鶏もも肉と根菜を炒めてから煮る、具だくさんの和風おかず。れんこんとごぼうの食感を楽しめます。 Recipe ingredients: chicken thigh, lotus root, burdock, carrot, shiitake, konjac, soy sauce, mirin, sugar, water, neutral oil. Final preparation: しいたけ、こんにゃく、水、しょうゆ、みりん、砂糖を加える。煮立ったら落としぶたをし、弱めの中火で煮る。水分が減りすぎたら水を少し足す。 根菜に竹串が通ることを確認する。鶏肉は厚い部分の中心が75℃以上になってから1分以上加熱する。足りなければ追加で加熱する。 ふたを外し、鍋を軽くゆすりながら煮汁をからめる。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "chicken_napa_cream",
+    "title": "鶏もも肉と白菜のクリーム煮",
+    "file": "App/Resources/meal-images/chicken_napa_cream.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 鶏もも肉と白菜のクリーム煮 (chicken napa cream). 鶏もも肉と白菜を牛乳でまろやかに煮込みます。小麦粉を具材になじませて、だまを作りにくくします。 Recipe ingredients: chicken thigh, napa cabbage, onion, milk, wheat flour, butter, consomme, salt, black pepper, water. Final preparation: 白菜の葉と牛乳を加えて弱火で温める。鍋底から混ぜ、葉がしんなりするまで煮る。鶏肉は厚い部分の中心が75℃以上になってから1分以上加熱する。足りなければ追加で加熱する。 塩とこしょうを加えて味を整え、火を止める。とろみが強い場合は水を少しずつ足してのばす。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "garlic_chicken_saute",
+    "title": "鶏もも肉のガーリックソテー",
+    "file": "App/Resources/meal-images/garlic_chicken_saute.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 鶏もも肉のガーリックソテー (garlic chicken saute). 皮をじっくり焼き、にんにくの香りを添えるシンプルなソテー。塩とこしょうで鶏肉のうまみを楽しみます。 Recipe ingredients: chicken thigh, garlic, salt, black pepper, neutral oil. Final preparation: 裏返してふたをし、弱火で焼く。鶏肉は厚い部分の中心が75℃以上になってから1分以上加熱する。足りなければ追加で加熱する。 火を止め、清潔なまな板に移して食べやすい幅に切る。皿に盛り、取り出したにんにくを散らす。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "chicken_cabbage_miso",
+    "title": "鶏もも肉とキャベツのみそ炒め",
+    "file": "App/Resources/meal-images/chicken_cabbage_miso.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline iOS recipe hero and thumbnail. Primary request: one appetizing, realistic photograph of the finished Japanese home-cooked dish 鶏もも肉とキャベツのみそ炒め (chicken cabbage miso). 鶏もも肉とキャベツに甘めのみそだれをからめる、ご飯に合うおかず。たれは最後に加えて焦げを防ぎます。 Recipe ingredients: chicken thigh, cabbage, miso, mirin, cooking sake, sugar, neutral oil. Final preparation: キャベツと芯を加え、ふたをして弱めの中火で加熱する。途中で上下を返し、鶏肉を均等に加熱する。鶏肉は厚い部分の中心が75℃以上になってから1分以上加熱する。足りなければ追加で加熱する。 ふたを外して余分な水分を飛ばす。弱めの中火にし、用意したみそだれを加えて鍋底から混ぜる。全体にたれがからんだら火を止める。. Scene: one-person portion in simple unbranded ivory ceramic tableware on a warm off-white tabletop. Composition: landscape 3:2, elevated 45-degree view; the whole dish centered with enough margins for a square center crop. Soft natural window light, realistic textures, warm inviting editorial food photography. Match the listed ingredients and cooking method faithfully. No extra garnish, unrelated sides, packaging, utensils, hands, people, text, watermark, logos or collage. Soup in a bowl. Rice/noodles only when listed in ingredients. Cooked proteins should look fully cooked; no raw egg unless the recipe explicitly calls for it."
+  },
+  {
+    "recipeKey": "sausage_pot_au_feu",
+    "title": "ソーセージと野菜のポトフ",
+    "file": "App/Resources/meal-images/sausage_pot_au_feu.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline recipe card food photograph for a Japanese home cooking iOS app. Landscape 3:2 image. Elevated 45-degree view, one complete dish centered, generous but not excessive rim visible for square thumbnail crops. Warm natural daylight, soft shadows, off-white tabletop, simple ivory tableware. Realistic home-cooked texture, appetizing but natural. No text, logos, people, hands, cutlery, extra dishes, props or ingredients not specified. Primary subject: A deep ivory bowl of clear golden pot-au-feu broth with three small browned sausages, large soft cabbage wedges, potato chunks, carrot rounds and onion wedges. No herb garnish."
+  },
+  {
+    "recipeKey": "onion_gratin_soup",
+    "title": "オニオングラタンスープ",
+    "file": "App/Resources/meal-images/onion_gratin_soup.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline recipe card food photograph for a Japanese home cooking iOS app. Landscape 3:2 image. Elevated 45-degree view, one complete dish centered, generous but not excessive rim visible for square thumbnail crops. Warm natural daylight, soft shadows, off-white tabletop, simple ivory tableware. Realistic home-cooked texture, appetizing but natural. No text, logos, people, hands, cutlery, extra dishes, props or ingredients not specified. Primary subject: A single small ivory ovenproof soup crock with caramelized onion broth, one square piece of toasted white bread covered with bubbling golden melted cheese. Broth and onion visible around bread. No parsley."
+  },
+  {
+    "recipeKey": "spinach_bacon_quiche",
+    "title": "ほうれん草とベーコンのキッシュ",
+    "file": "App/Resources/meal-images/spinach_bacon_quiche.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline recipe card food photograph for a Japanese home cooking iOS app. Landscape 3:2 image. Elevated 45-degree view, one complete dish centered, generous but not excessive rim visible for square thumbnail crops. Warm natural daylight, soft shadows, off-white tabletop, simple ivory tableware. Realistic home-cooked texture, appetizing but natural. No text, logos, people, hands, cutlery, extra dishes, props or ingredients not specified. Primary subject: A small individual round spinach and bacon quiche with flaky golden puff pastry crust, set pale golden egg cream custard, visible chopped spinach, bacon and onion, a little browned cheese on top. One wedge slightly separated to reveal the cooked cross-section, on an ivory plate. No salad garnish."
+  },
+  {
+    "recipeKey": "nicoise_salad",
+    "title": "ツナと卵のニース風サラダ",
+    "file": "App/Resources/meal-images/nicoise_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline recipe card food photograph for a Japanese home cooking iOS app. Landscape 3:2 image. Elevated 45-degree view, one complete dish centered, generous but not excessive rim visible for square thumbnail crops. Warm natural daylight, soft shadows, off-white tabletop, simple ivory tableware. Realistic home-cooked texture, appetizing but natural. No text, logos, people, hands, cutlery, extra dishes, props or ingredients not specified. Primary subject: An ivory plate of Nicoise-style salad: flaky canned tuna, one hard-boiled egg cut into four wedges, ripe tomato wedges, cucumber slices, crisp lettuce and a few sliced pitted black olives, lightly dressed in grainy mustard vinaigrette. No potatoes, anchovies, green beans or extra herbs."
+  },
+  {
+    "recipeKey": "carottes_rapees",
+    "title": "キャロットラペ",
+    "file": "App/Resources/meal-images/carottes_rapees.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline recipe card food photograph for a Japanese home cooking iOS app. Landscape 3:2 image. Elevated 45-degree view, one complete dish centered, generous but not excessive rim visible for square thumbnail crops. Warm natural daylight, soft shadows, off-white tabletop, simple ivory tableware. Realistic home-cooked texture, appetizing but natural. No text, logos, people, hands, cutlery, extra dishes, props or ingredients not specified. Primary subject: A small ivory bowl of fine julienned orange carrot salad, lightly glossy with vinegar olive oil dressing and tiny whole-grain mustard seeds. Loose natural thin carrot strands, no raisins, nuts, herbs or other vegetables."
+  },
+  {
+    "recipeKey": "potato_dauphinois",
+    "title": "じゃがいものドフィノア風グラタン",
+    "file": "App/Resources/meal-images/potato_dauphinois.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline recipe card food photograph for a Japanese home cooking iOS app. Landscape 3:2 image. Elevated 45-degree view, one complete dish centered, generous but not excessive rim visible for square thumbnail crops. Warm natural daylight, soft shadows, off-white tabletop, simple ivory tableware. Realistic home-cooked texture, appetizing but natural. No text, logos, people, hands, cutlery, extra dishes, props or ingredients not specified. Primary subject: A small shallow ivory gratin dish of dauphinois-style potatoes: thin overlapping potato slices in a thick pale creamy milk sauce, lightly browned melted cheese surface, tender layered edges visible. No bacon or garnish."
+  },
+  {
+    "recipeKey": "caprese_salad",
+    "title": "トマトとモッツァレラのカプレーゼ",
+    "file": "App/Resources/meal-images/caprese_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline recipe card food photograph for a Japanese home cooking iOS app. Landscape 3:2 image. Elevated 45-degree view, one complete dish centered, generous but not excessive rim visible for square thumbnail crops. Warm natural daylight, soft shadows, off-white tabletop, simple ivory tableware. Realistic home-cooked texture, appetizing but natural. No text, logos, people, hands, cutlery, extra dishes, props or ingredients not specified. Primary subject: Classic Caprese salad on an ivory plate: alternating thick red tomato and soft fresh white mozzarella slices, fresh green basil leaves and a delicate sheen of olive oil with black pepper. No balsamic glaze or extra vegetables."
+  },
+  {
+    "recipeKey": "vegetable_minestrone",
+    "title": "野菜たっぷりミネストローネ",
+    "file": "App/Resources/meal-images/vegetable_minestrone.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline recipe card food photograph for a Japanese home cooking iOS app. Landscape 3:2 image. Elevated 45-degree view, one complete dish centered, generous but not excessive rim visible for square thumbnail crops. Warm natural daylight, soft shadows, off-white tabletop, simple ivory tableware. Realistic home-cooked texture, appetizing but natural. No text, logos, people, hands, cutlery, extra dishes, props or ingredients not specified. Primary subject: An ivory bowl of tomato minestrone soup with small evenly diced carrot, potato, onion, celery, zucchini and small bacon pieces. Rich red tomato broth, no pasta, beans, cheese or herb garnish."
+  },
+  {
+    "recipeKey": "cod_acqua_pazza",
+    "title": "たらとあさりのアクアパッツァ",
+    "file": "App/Resources/meal-images/cod_acqua_pazza.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline recipe card food photograph for a Japanese home cooking iOS app. Landscape 3:2 image. Elevated 45-degree view, one complete dish centered, generous but not excessive rim visible for square thumbnail crops. Warm natural daylight, soft shadows, off-white tabletop, simple ivory tableware. Realistic home-cooked texture, appetizing but natural. No text, logos, people, hands, cutlery, extra dishes, props or ingredients not specified. Primary subject: One cooked flaky cod fillet with lightly golden skin, several small opened clams in shells and halved red cherry tomatoes in clear glossy garlic olive oil cooking broth on a shallow ivory plate, tiny chopped parsley. No lemon wedge, wine glass or bread."
+  },
+  {
+    "recipeKey": "penne_arrabbiata",
+    "title": "ペンネ・アラビアータ",
+    "file": "App/Resources/meal-images/penne_arrabbiata.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline recipe card food photograph for a Japanese home cooking iOS app. Landscape 3:2 image. Elevated 45-degree view, one complete dish centered, generous but not excessive rim visible for square thumbnail crops. Warm natural daylight, soft shadows, off-white tabletop, simple ivory tableware. Realistic home-cooked texture, appetizing but natural. No text, logos, people, hands, cutlery, extra dishes, props or ingredients not specified. Primary subject: An ivory pasta bowl of ridged penne coated in thick glossy red arrabbiata tomato sauce, tiny garlic and red chili flecks, a modest sprinkle of finely chopped parsley. No cheese or basil leaves."
+  },
+  {
+    "recipeKey": "potato_frittata",
+    "title": "じゃがいものフリッタータ",
+    "file": "App/Resources/meal-images/potato_frittata.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline recipe card food photograph for a Japanese home cooking iOS app. Landscape 3:2 image. Elevated 45-degree view, one complete dish centered, generous but not excessive rim visible for square thumbnail crops. Warm natural daylight, soft shadows, off-white tabletop, simple ivory tableware. Realistic home-cooked texture, appetizing but natural. No text, logos, people, hands, cutlery, extra dishes, props or ingredients not specified. Primary subject: A thick small round Italian potato frittata on an ivory plate, golden egg surface with visible thin potato half-moons and soft onion, one wedge cut to show fully set yellow egg and tender potato inside. No green herbs, salad or bacon."
+  },
+  {
+    "recipeKey": "mushroom_risotto",
+    "title": "きのこのチーズリゾット",
+    "file": "App/Resources/meal-images/mushroom_risotto.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: offline recipe card food photograph for a Japanese home cooking iOS app. Landscape 3:2 image. Elevated 45-degree view, one complete dish centered, generous but not excessive rim visible for square thumbnail crops. Warm natural daylight, soft shadows, off-white tabletop, simple ivory tableware. Realistic home-cooked texture, appetizing but natural. No text, logos, people, hands, cutlery, extra dishes, props or ingredients not specified. Primary subject: A shallow ivory bowl of creamy mushroom cheese risotto with clearly distinct cooked rice grains, sliced browned button mushrooms and small shimeji mushrooms throughout, glossy pale golden sauce with subtle black pepper. No parsley or shaved cheese garnish."
+  },
+  {
+    "recipeKey": "caesar_salad",
+    "title": "シーザーサラダ",
+    "file": "App/Resources/meal-images/caesar_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic appetizing Japanese home cooking recipe app food photograph. Landscape 3:2, elevated 45 degree view, centered complete small serving dish fully inside frame with margin for cropping, softly lit warm ivory tabletop, natural window light, realistic textures, calm composition. One dish only. No text, labels, logo, watermark, hands, people, utensils or surrounding ingredients. A shallow ivory bowl of crisp torn green lettuce with homemade toasted golden bread cube croutons, creamy white Caesar-style dressing, finely grated Parmesan cheese and black pepper. No bacon, egg, tomato, anchovies or other toppings."
+  },
+  {
+    "recipeKey": "choregi_salad",
+    "title": "チョレギサラダ",
+    "file": "App/Resources/meal-images/choregi_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic appetizing Japanese home cooking recipe app food photograph. Landscape 3:2, elevated 45 degree view, centered complete small serving dish fully inside frame with margin for cropping, softly lit warm ivory tabletop, natural window light, realistic textures, calm composition. One dish only. No text, labels, logo, watermark, hands, people, utensils or surrounding ingredients. A small ivory bowl of Korean-style choregi salad: crisp torn green lettuce, thin diagonal cucumber slices, small torn black nori seaweed pieces, fine ground sesame and lightly glossy sesame-soy dressing. No red chili or other toppings."
+  },
+  {
+    "recipeKey": "burdock_sesame_salad",
+    "title": "ごぼうサラダ",
+    "file": "App/Resources/meal-images/burdock_sesame_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic appetizing Japanese home cooking recipe app food photograph. Landscape 3:2, elevated 45 degree view, centered complete small serving dish fully inside frame with margin for cropping, softly lit warm ivory tabletop, natural window light, realistic textures, calm composition. One dish only. No text, labels, logo, watermark, hands, people, utensils or surrounding ingredients. A small ivory bowl of Japanese creamy burdock salad: fine slender beige burdock root matchsticks and orange carrot matchsticks evenly coated with light sesame mayonnaise, tiny specks of ground sesame. No cucumber, herbs or other toppings."
+  },
+  {
+    "recipeKey": "pumpkin_salad",
+    "title": "かぼちゃサラダ",
+    "file": "App/Resources/meal-images/pumpkin_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic appetizing Japanese home cooking recipe app food photograph. Landscape 3:2, elevated 45 degree view, centered complete small serving dish fully inside frame with margin for cropping, softly lit warm ivory tabletop, natural window light, realistic textures, calm composition. One dish only. No text, labels, logo, watermark, hands, people, utensils or surrounding ingredients. A small ivory bowl of Japanese kabocha pumpkin salad: rustic bright golden-orange partially mashed pumpkin with a few dark green skin edges, thin cucumber rounds, lightly creamy mayonnaise dressing and a tiny pinch of black pepper. No nuts, raisins, onion, egg or other toppings."
+  },
+  {
+    "recipeKey": "daikon_salad",
+    "title": "大根サラダ",
+    "file": "App/Resources/meal-images/daikon_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic appetizing Japanese home cooking recipe app food photograph. Landscape 3:2, elevated 45 degree view, centered complete small serving dish fully inside frame with margin for cropping, softly lit warm ivory tabletop, natural window light, realistic textures, calm composition. One dish only. No text, labels, logo, watermark, hands, people, utensils or surrounding ingredients. A shallow ivory bowl of fresh Japanese daikon salad: fine crisp white radish matchsticks lightly glossy with soy-sesame vinaigrette, topped with delicate tan bonito flakes and thin black nori seaweed strips, a little fine ground sesame. No lettuce, cucumber, sprouts or other toppings."
+  },
+  {
+    "recipeKey": "chinese_glass_noodle_salad",
+    "title": "中華風春雨サラダ",
+    "file": "App/Resources/meal-images/chinese_glass_noodle_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic appetizing Japanese home cooking recipe app food photograph. Landscape 3:2, elevated 45 degree view, centered complete small serving dish fully inside frame with margin for cropping, softly lit warm ivory tabletop, natural window light, realistic textures, calm composition. One dish only. No text, labels, logo, watermark, hands, people, utensils or surrounding ingredients. A small ivory bowl of Japanese Chinese-style glass noodle salad: glossy translucent thin vermicelli glass noodles tossed with fine cucumber matchsticks, thin orange carrot matchsticks and narrow pink cooked ham strips, light soy-vinegar-sesame dressing and tiny ground sesame specks. No shrimp, chili, egg or herbs."
+  },
+  {
+    "recipeKey": "tofu_wakame_salad",
+    "title": "豆腐とわかめのサラダ",
+    "file": "App/Resources/meal-images/tofu_wakame_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic appetizing Japanese home cooking recipe app food photograph. Landscape 3:2, elevated 45 degree view, centered complete small serving dish fully inside frame with margin for cropping, softly lit warm ivory tabletop, natural window light, realistic textures, calm composition. One dish only. No text, labels, logo, watermark, hands, people, utensils or surrounding ingredients. A shallow ivory bowl of Japanese tofu wakame salad: chunky white tofu cubes, glossy dark green hydrated wakame seaweed, thin cucumber slices, bright red tomato bite-size wedges, lightly dressed in soy-sesame vinaigrette with tiny fine ground sesame specks. No lettuce or other toppings."
+  },
+  {
+    "recipeKey": "cobb_salad",
+    "title": "コブサラダ",
+    "file": "App/Resources/meal-images/cobb_salad.png",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic appetizing Japanese home cooking recipe app food photograph. Landscape 3:2, elevated 45 degree view, centered complete small serving dish fully inside frame with margin for cropping, softly lit warm ivory tabletop, natural window light, realistic textures, calm composition. One dish only. No text, labels, logo, watermark, hands, people, utensils or surrounding ingredients. A shallow ivory bowl of home-style Cobb salad: torn green lettuce bed, tidy neighboring rows of fully cooked golden chicken breast cubes, hard-boiled egg wedges with firm yellow yolks, red tomato chunks and green avocado cubes; modest thin drizzle of pale pink creamy dressing. No bacon, olives, corn, blue cheese or other toppings."
+  },
+  {
+    "recipeKey": "chicken_soboro_bowl",
+    "title": "鶏そぼろ丼",
+    "file": "App/Resources/meal-images/chicken_soboro_bowl.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Create a new appetizing realistic food photograph of Japanese 鶏そぼろ丼. One modest ivory ceramic rice bowl, white rice topped with two clear equal sections: finely crumbled fully cooked sweet soy-seasoned ground chicken and finely scrambled fully cooked golden egg. Tiny rice edge visible. No green garnish or peas, no yolk, no extra ingredients. Warm off-white tabletop, soft window light, tasteful natural home-cooking editorial photo. Landscape 3:2 elevated 45-degree view, entire bowl centered with generous safe margins for square thumbnail cropping. No text, logos, watermark, people, utensils, packaging, collage or extra dishes.",
+    "generatedAt": "2026-10-14"
+  },
+  {
+    "recipeKey": "egg_fried_rice",
+    "title": "卵チャーハン",
+    "file": "App/Resources/meal-images/egg_fried_rice.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Create a new appetizing realistic food photograph of Japanese 卵チャーハン. A simple small mound of golden egg fried rice on an ivory ceramic plate, clearly separated cooked rice grains with generous soft fully cooked scrambled egg pieces and a modest amount of finely chopped Japanese long onion. No carrots, peas, ham, shrimp, meat, corn or other unlisted ingredients. Warm off-white tabletop and soft natural window light, realistic home-cooked texture. Landscape 3:2 elevated 45-degree view, entire dish centered with generous margins for square thumbnail cropping. No text, logos, watermark, people, utensils, packaging, collage or extra dishes.",
+    "generatedAt": "2026-10-14"
+  },
+  {
+    "recipeKey": "tomato_egg_stir_fry",
+    "title": "トマトと卵の炒め物",
+    "file": "App/Resources/meal-images/tomato_egg_stir_fry.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Create a new appetizing realistic food photograph of トマトと卵の炒め物, Chinese home-style stir-fried tomato and egg. A shallow ivory ceramic bowl filled with juicy red tomato wedges and fluffy golden fully cooked scrambled egg, lightly glossy from a small amount of oil and tomato juice. No green garnish, meat, rice, onion, cheese or other ingredients. Warm off-white tabletop, soft natural window light, natural modest home-cooked portion. Landscape 3:2 elevated 45-degree view, entire dish centered with generous margins for square thumbnail cropping. No text, logos, watermark, people, utensils, packaging, collage or extra dishes.",
+    "generatedAt": "2026-10-14"
+  },
+  {
+    "recipeKey": "napa_pork_layered_pot",
+    "title": "白菜と豚バラのミルフィーユ鍋",
+    "file": "App/Resources/meal-images/napa_pork_layered_pot.png",
+    "tool": "built-in image_gen",
+    "prompt": "A small ivory ceramic hotpot of Japanese napa cabbage and pork belly mille-feuille nabe. Napa cabbage leaves and fully cooked thin pork belly arranged in alternating upright layers with their cut edges visible in light clear dashi broth. Only napa cabbage and cooked pork; no other vegetables, rice or garnish. Use case: photorealistic-natural. Asset type: iOS recipe hero and square thumbnail. Create one new appetizing realistic editorial food photograph of this dish. One-person home-cooked portion, warm off-white tabletop, soft natural window light, landscape 3:2, elevated 45-degree view, whole vessel centered with generous safe margins for square cropping. No utensils, hands, people, logos, text, watermark, packaging, collage or extra dishes.",
+    "generatedAt": "2026-10-14"
+  },
+  {
+    "recipeKey": "napa_tuna_simmer",
+    "title": "白菜とツナのさっと煮",
+    "file": "App/Resources/meal-images/napa_tuna_simmer.png",
+    "tool": "built-in image_gen",
+    "prompt": "A shallow ivory bowl of tender simmered napa cabbage and canned tuna flakes in a little light soy dashi broth. Pale green wilted leaves, translucent white stems, beige tuna flakes. No other vegetables, rice or garnish. Use case: photorealistic-natural. Asset type: iOS recipe hero and square thumbnail. Create one new appetizing realistic editorial food photograph of this dish. One-person home-cooked portion, warm off-white tabletop, soft natural window light, landscape 3:2, elevated 45-degree view, whole vessel centered with generous safe margins for square cropping. No utensils, hands, people, logos, text, watermark, packaging, collage or extra dishes.",
+    "generatedAt": "2026-10-14"
+  },
+  {
+    "recipeKey": "napa_atsuage_simmer",
+    "title": "白菜と厚揚げのうま煮",
+    "file": "App/Resources/meal-images/napa_atsuage_simmer.png",
+    "tool": "built-in image_gen",
+    "prompt": "A shallow ivory bowl of Japanese simmered napa cabbage and thick fried tofu. Clear golden brown outer skin and white interior of large fried tofu cubes, tender pale-green and white napa cabbage pieces, a small amount of glossy light soy dashi sauce. No meat, mushrooms, rice or garnish. Use case: photorealistic-natural. Asset type: iOS recipe hero and square thumbnail. Create one new appetizing realistic editorial food photograph of this dish. One-person home-cooked portion, warm off-white tabletop, soft natural window light, landscape 3:2, elevated 45-degree view, whole vessel centered with generous safe margins for square cropping. No utensils, hands, people, logos, text, watermark, packaging, collage or extra dishes.",
+    "generatedAt": "2026-10-14"
+  },
+  {
+    "recipeKey": "napa_sesame_side",
+    "title": "白菜のごま和え",
+    "file": "App/Resources/meal-images/napa_sesame_side.png",
+    "tool": "built-in image_gen",
+    "prompt": "A small ivory bowl of tender napa cabbage goma-ae, pale green leaves and white stems cut into short strips, lightly coated in beige ground sesame dressing with a few small visible sesame flecks. Simple Japanese home-cooked vegetable side. No other vegetables, meat, rice or garnish. Use case: photorealistic-natural. Asset type: iOS recipe hero and square thumbnail. Create one new appetizing realistic editorial food photograph of this dish. One-person home-cooked portion, warm off-white tabletop, soft natural window light, landscape 3:2, elevated 45-degree view, whole vessel centered with generous safe margins for square cropping. No utensils, hands, people, logos, text, watermark, packaging, collage or extra dishes.",
+    "generatedAt": "2026-10-14"
+  },
+  {
+    "recipeKey": "napa_bacon_soup",
+    "title": "白菜とベーコンのコンソメスープ",
+    "file": "App/Resources/meal-images/napa_bacon_soup.png",
+    "tool": "built-in image_gen",
+    "prompt": "An ivory soup bowl of clear pale-golden consomme broth containing tender napa cabbage leaves and white stems plus modest bite-size pink-brown cooked bacon strips. No carrots, potatoes, cream, herbs, rice or other ingredients. Use case: photorealistic-natural. Asset type: iOS recipe hero and square thumbnail. Create one new appetizing realistic editorial food photograph of this dish. One-person home-cooked portion, warm off-white tabletop, soft natural window light, landscape 3:2, elevated 45-degree view, whole vessel centered with generous safe margins for square cropping. No utensils, hands, people, logos, text, watermark, packaging, collage or extra dishes.",
+    "generatedAt": "2026-10-14"
+  },
+  {
+    "recipeKey": "napa_enoki_miso_soup",
+    "title": "白菜とえのきのみそ汁",
+    "file": "App/Resources/meal-images/napa_enoki_miso_soup.png",
+    "tool": "built-in image_gen",
+    "prompt": "An ivory soup bowl of light cloudy tan Japanese miso soup, tender pale-green napa cabbage and white stems plus short delicate white enoki mushrooms with tiny caps, visibly fully cooked. No tofu, meat, wakame, green onions, rice or extra ingredients. Use case: photorealistic-natural. Asset type: iOS recipe hero and square thumbnail. Create one new appetizing realistic editorial food photograph of this dish. One-person home-cooked portion, warm off-white tabletop, soft natural window light, landscape 3:2, elevated 45-degree view, whole vessel centered with generous safe margins for square cropping. No utensils, hands, people, logos, text, watermark, packaging, collage or extra dishes.",
+    "generatedAt": "2026-10-14"
+  },
+  {
+    "recipeKey": "pork_thigh_ginger",
+    "title": "豚ももの生姜焼き",
+    "file": "App/Resources/meal-images/pork_thigh_ginger.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: one appetizing realistic food photograph of 豚ももの生姜焼き. Subject: Thin irregular slices of fully cooked lean pork thigh with translucent sliced onion, lightly browned and coated in a glossy ginger soy sauce. No cabbage side, rice, sesame seeds or garnish. Scene/backdrop: quiet warm off-white tabletop, simple unbranded ivory ceramic dish, realistic modest one-person home-cooked portion. Composition/framing: landscape 3:2, elevated 45-degree view, whole dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, realistic textures and subtle shadows. Constraints: only the finished dish and the specified ingredients; no people, text, logo, watermark, packaging, collage or side dishes. Meat must look thoroughly cooked.",
+    "originalGeneratedFile": "local-originals/exec-64cd0f26-68ce-457a-8efc-9c97200cacec.png"
+  },
+  {
+    "recipeKey": "pork_thigh_cabbage_miso",
+    "title": "豚ももとキャベツのみそ炒め",
+    "file": "App/Resources/meal-images/pork_thigh_cabbage_miso.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: one appetizing realistic food photograph of 豚ももとキャベツのみそ炒め. Subject: Thin irregular slices of fully cooked lean pork thigh stir-fried with chunky wilted green cabbage and sliced onion, coated in a modest glossy brown miso sauce. No carrots, rice or garnish. Scene/backdrop: quiet warm off-white tabletop, simple unbranded ivory ceramic dish, realistic modest one-person home-cooked portion. Composition/framing: landscape 3:2, elevated 45-degree view, whole dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, realistic textures and subtle shadows. Constraints: only the finished dish and the specified ingredients; no people, text, logo, watermark, packaging, collage or side dishes. Meat must look thoroughly cooked.",
+    "originalGeneratedFile": "local-originals/exec-d2f758fa-5922-4c9a-a6af-926da0ad8ab4.png"
+  },
+  {
+    "recipeKey": "pork_thigh_pepper_stir",
+    "title": "豚ももとピーマンの細切り炒め",
+    "file": "App/Resources/meal-images/pork_thigh_pepper_stir.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: one appetizing realistic food photograph of 豚ももとピーマンの細切り炒め. Subject: Thin strips of fully cooked lean pork thigh and green bell pepper strips stir-fried with finely sliced ginger in a light glossy oyster soy sauce. No bamboo shoots, red peppers, rice or garnish. Scene/backdrop: quiet warm off-white tabletop, simple unbranded ivory ceramic dish, realistic modest one-person home-cooked portion. Composition/framing: landscape 3:2, elevated 45-degree view, whole dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, realistic textures and subtle shadows. Constraints: only the finished dish and the specified ingredients; no people, text, logo, watermark, packaging, collage or side dishes. Meat must look thoroughly cooked.",
+    "originalGeneratedFile": "local-originals/exec-60b25223-b9e2-4634-826c-6276514742bd.png"
+  },
+  {
+    "recipeKey": "pork_thigh_napa_simmer",
+    "title": "豚ももと白菜のうま煮",
+    "file": "App/Resources/meal-images/pork_thigh_napa_simmer.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: one appetizing realistic food photograph of 豚ももと白菜のうま煮. Subject: Thin irregular slices of fully cooked lean pork thigh simmered with soft napa cabbage, thin carrot half moons and shimeji mushrooms in a lightly thickened pale savory sauce. A shallow ivory bowl, not a soup. No rice or garnish. Scene/backdrop: quiet warm off-white tabletop, simple unbranded ivory ceramic dish, realistic modest one-person home-cooked portion. Composition/framing: landscape 3:2, elevated 45-degree view, whole dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, realistic textures and subtle shadows. Constraints: only the finished dish and the specified ingredients; no people, text, logo, watermark, packaging, collage or side dishes. Meat must look thoroughly cooked.",
+    "originalGeneratedFile": "local-originals/exec-1501641a-60d5-4dcc-9854-3054d09bbfb8.png"
+  },
+  {
+    "recipeKey": "pork_thigh_sprout_steam",
+    "title": "豚ももともやしの蒸ししゃぶ",
+    "file": "App/Resources/meal-images/pork_thigh_sprout_steam.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: one appetizing realistic food photograph of 豚ももともやしの蒸ししゃぶ. Subject: Thin fully cooked lean pork thigh slices loosely spread over steamed white bean sprouts, lightly dressed with translucent amber ponzu sauce. Pork is opaque pale beige, never pink. No scallions, sesame seeds, rice or extra vegetables. Scene/backdrop: quiet warm off-white tabletop, simple unbranded ivory ceramic dish, realistic modest one-person home-cooked portion. Composition/framing: landscape 3:2, elevated 45-degree view, whole dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, realistic textures and subtle shadows. Constraints: only the finished dish and the specified ingredients; no people, text, logo, watermark, packaging, collage or side dishes. Meat must look thoroughly cooked.",
+    "originalGeneratedFile": "local-originals/exec-65dc7e44-7fba-496d-9c12-0c5ffe2d67e1.png"
+  },
+  {
+    "recipeKey": "pork_thigh_mushroom_ponzu",
+    "title": "豚ももときのこのポン酢炒め",
+    "file": "App/Resources/meal-images/pork_thigh_mushroom_ponzu.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: one appetizing realistic food photograph of 豚ももときのこのポン酢炒め. Subject: Thin irregular slices of fully cooked lean pork thigh stir-fried with shimeji mushrooms and enoki mushrooms, coated with a light glossy amber ponzu sauce. No green onions, rice, sesame seeds or garnish. Scene/backdrop: quiet warm off-white tabletop, simple unbranded ivory ceramic dish, realistic modest one-person home-cooked portion. Composition/framing: landscape 3:2, elevated 45-degree view, whole dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, realistic textures and subtle shadows. Constraints: only the finished dish and the specified ingredients; no people, text, logo, watermark, packaging, collage or side dishes. Meat must look thoroughly cooked.",
+    "originalGeneratedFile": "local-originals/exec-d06f7316-77a4-4208-b6f1-6b5d83c2e429.png"
+  },
+  {
+    "recipeKey": "pork_thigh_bowl",
+    "title": "豚ももの豚丼",
+    "file": "App/Resources/meal-images/pork_thigh_bowl.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: one appetizing realistic food photograph of 豚ももの豚丼. Subject: A single ivory ceramic bowl of steamed Japanese white rice topped with thin irregular fully cooked lean pork thigh slices and tender onion in a glossy sweet soy sauce. Rice visible at the edges. No egg, pickles, green onions or garnish. Scene/backdrop: quiet warm off-white tabletop, simple unbranded ivory ceramic dish, realistic modest one-person home-cooked portion. Composition/framing: landscape 3:2, elevated 45-degree view, whole dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, realistic textures and subtle shadows. Constraints: only the finished dish and the specified ingredients; no people, text, logo, watermark, packaging, collage or side dishes. Meat must look thoroughly cooked.",
+    "originalGeneratedFile": "local-originals/exec-c13ff8c9-da7a-4b0a-be77-dbfc41562e20.png"
+  },
+  {
+    "recipeKey": "pork_thigh_daikon_simmer",
+    "title": "豚ももと大根の甘辛煮",
+    "file": "App/Resources/meal-images/pork_thigh_daikon_simmer.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero and thumbnail. Primary request: one appetizing realistic food photograph of 豚ももと大根の甘辛煮. Subject: Thin irregular slices of fully cooked lean pork thigh and tender thick half-moon daikon pieces gently simmered in a warm amber sweet soy ginger broth. Moist home-style simmered main dish in a shallow ivory bowl, not pork belly chunks. No carrots, rice or garnish. Scene/backdrop: quiet warm off-white tabletop, simple unbranded ivory ceramic dish, realistic modest one-person home-cooked portion. Composition/framing: landscape 3:2, elevated 45-degree view, whole dish centered with generous margins for square thumbnail cropping. Lighting: soft natural window light, realistic textures and subtle shadows. Constraints: only the finished dish and the specified ingredients; no people, text, logo, watermark, packaging, collage or side dishes. Meat must look thoroughly cooked.",
+    "originalGeneratedFile": "local-originals/exec-289bdb25-99ff-43dc-a052-65c1224c4d17.png"
+  },
+  {
+    "recipeKey": "hamburg_mushroom_stew",
+    "title": "きのこの煮込みハンバーグ",
+    "file": "App/Resources/meal-images/hamburg_mushroom_stew.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero image and thumbnail. One appetizing realistic food photograph, landscape 3:2. Soft natural window light, warm off-white tabletop, simple unbranded ivory ceramic dish. Elevated 45-degree view, entire dish centered with margins for square thumbnail cropping. Realistic modest one-person home-cooked portion. No people, text, logo, watermark, packaging, collage, props, side dishes or unlisted garnishes. Meat and seafood must look fully cooked. One oval Japanese-style hamburger steak of beef-pork mixed mince, thoroughly cooked and covered with glossy reddish brown ketchup-Worcestershire pan sauce, sliced brown button mushrooms and softened onion in the sauce. Shallow ivory bowl. No cheese, cream, rice, parsley or vegetables on the side.",
+    "originalGeneratedFile": "local-originals/exec-01a5684d-c742-4671-b155-9a7a25b01bb1.png"
+  },
+  {
+    "recipeKey": "pork_chap",
+    "title": "ポークチャップ",
+    "file": "App/Resources/meal-images/pork_chap.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero image and thumbnail. One appetizing realistic food photograph, landscape 3:2. Soft natural window light, warm off-white tabletop, simple unbranded ivory ceramic dish. Elevated 45-degree view, entire dish centered with margins for square thumbnail cropping. Realistic modest one-person home-cooked portion. No people, text, logo, watermark, packaging, collage, props, side dishes or unlisted garnishes. Meat and seafood must look fully cooked. Bite-size thin slices of cooked pork loin and soft sliced onion coated in glossy red-orange tomato ketchup Worcestershire sauce. A modest home-style pork chap main dish on a round plate, not a whole pork chop. No rice, salad or garnish.",
+    "originalGeneratedFile": "local-originals/exec-8d46348f-1cca-45e0-91dc-610ab2b39556.png"
+  },
+  {
+    "recipeKey": "chicken_cheese_piccata",
+    "title": "鶏むね肉のチーズピカタ",
+    "file": "App/Resources/meal-images/chicken_cheese_piccata.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero image and thumbnail. One appetizing realistic food photograph, landscape 3:2. Soft natural window light, warm off-white tabletop, simple unbranded ivory ceramic dish. Elevated 45-degree view, entire dish centered with margins for square thumbnail cropping. Realistic modest one-person home-cooked portion. No people, text, logo, watermark, packaging, collage, props, side dishes or unlisted garnishes. Meat and seafood must look fully cooked. Five thin pieces of chicken breast coated in tender golden-yellow egg and fine grated cheese, pan-fried with small golden brown patches. A small dab of tomato ketchup on the same plate, with no other accompaniment. Not breadcrumb cutlets, not whole chicken breast.",
+    "originalGeneratedFile": "local-originals/exec-e02a1ecb-c07f-47dc-b1d3-38acb23cce7c.png"
+  },
+  {
+    "recipeKey": "salmon_spinach_cream_pasta",
+    "title": "鮭とほうれん草のクリームパスタ",
+    "file": "App/Resources/meal-images/salmon_spinach_cream_pasta.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero image and thumbnail. One appetizing realistic food photograph, landscape 3:2. Soft natural window light, warm off-white tabletop, simple unbranded ivory ceramic dish. Elevated 45-degree view, entire dish centered with margins for square thumbnail cropping. Realistic modest one-person home-cooked portion. No people, text, logo, watermark, packaging, collage, props, side dishes or unlisted garnishes. Meat and seafood must look fully cooked. Spaghetti in a glossy light ivory milk cream sauce with bite-size fully cooked pink salmon chunks, dark green cooked spinach leaves and a little translucent sliced onion. In a shallow white pasta bowl. No roe, cheese sprinkles, lemon, herbs or bread.",
+    "originalGeneratedFile": "local-originals/exec-170a877b-2b14-4e7e-ac0f-32345d5a4cd0.png"
+  },
+  {
+    "recipeKey": "shrimp_broccoli_gratin",
+    "title": "えびとブロッコリーのマカロニグラタン",
+    "file": "App/Resources/meal-images/shrimp_broccoli_gratin.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero image and thumbnail. One appetizing realistic food photograph, landscape 3:2. Soft natural window light, warm off-white tabletop, simple unbranded ivory ceramic dish. Elevated 45-degree view, entire dish centered with margins for square thumbnail cropping. Realistic modest one-person home-cooked portion. No people, text, logo, watermark, packaging, collage, props, side dishes or unlisted garnishes. Meat and seafood must look fully cooked. A small white oval ceramic baking dish with elbow macaroni, fully cooked pink shrimp, small broccoli florets and translucent sliced onion in creamy white milk sauce, topped with melted golden-brown shredded cheese. Plenty of visible shrimp and broccoli amid the browned cheese. No tomato, parsley, salad or bread.",
+    "originalGeneratedFile": "local-originals/exec-1edb89ed-f7ce-4621-b2ea-aa89aca281d7.png"
+  },
+  {
+    "recipeKey": "beef_mushroom_hayashi",
+    "title": "牛肉ときのこのハヤシライス",
+    "file": "App/Resources/meal-images/beef_mushroom_hayashi.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero image and thumbnail. One appetizing realistic food photograph, landscape 3:2. Soft natural window light, warm off-white tabletop, simple unbranded ivory ceramic dish. Elevated 45-degree view, entire dish centered with margins for square thumbnail cropping. Realistic modest one-person home-cooked portion. No people, text, logo, watermark, packaging, collage, props, side dishes or unlisted garnishes. Meat and seafood must look fully cooked. Hayashi rice on a wide ivory plate: white cooked short-grain Japanese rice on one half, glossy reddish-brown sauce with thin fully cooked beef slices, translucent sliced onions and sliced button mushrooms on the other half. Rustic home-made ketchup-Worcestershire sauce, not curry. No green peas, herbs, pickles or vegetables on the side.",
+    "originalGeneratedFile": "local-originals/exec-a83aac54-2c2a-47b8-a7b5-b701f8736e98.png"
+  },
+  {
+    "recipeKey": "cod_lemon_meuniere",
+    "title": "たらのムニエル レモンバター",
+    "file": "App/Resources/meal-images/cod_lemon_meuniere.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero image and thumbnail. One appetizing realistic food photograph, landscape 3:2. Soft natural window light, warm off-white tabletop, simple unbranded ivory ceramic dish. Elevated 45-degree view, entire dish centered with margins for square thumbnail cropping. Realistic modest one-person home-cooked portion. No people, text, logo, watermark, packaging, collage, props, side dishes or unlisted garnishes. Meat and seafood must look fully cooked. One fully cooked cod fillet lightly dusted with flour and pan-fried, delicate golden crust with opaque white flaky fish flesh, glistening with a small pool of clear lemon-butter sauce. Simple white plate. Lemon juice is in the sauce; no lemon slices, garnish, parsley, vegetables or rice.",
+    "originalGeneratedFile": "local-originals/exec-b61bcab4-3f98-465d-a843-60e9d0d80292.png"
+  },
+  {
+    "recipeKey": "german_potato",
+    "title": "ジャーマンポテト",
+    "file": "App/Resources/meal-images/german_potato.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero image and thumbnail. One appetizing realistic food photograph, landscape 3:2. Soft natural window light, warm off-white tabletop, simple unbranded ivory ceramic dish. Elevated 45-degree view, entire dish centered with margins for square thumbnail cropping. Realistic modest one-person home-cooked portion. No people, text, logo, watermark, packaging, collage, props, side dishes or unlisted garnishes. Meat and seafood must look fully cooked. Japanese home-style German potatoes: golden pan-fried thick half-moon potato slices with softened sliced onion and small browned pieces of bacon, a few fine black pepper specks, simply seasoned, not coated in cream. White plate. No green herbs, cheese, eggs, lettuce or side dishes.",
+    "originalGeneratedFile": "local-originals/exec-140d0287-b680-44cd-9c3d-9d6002c544a7.png"
+  },
+  {
+    "recipeKey": "mushroom_marinade",
+    "title": "きのこのマリネ",
+    "file": "App/Resources/meal-images/mushroom_marinade.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero image and thumbnail. One appetizing realistic food photograph, landscape 3:2. Soft natural window light, warm off-white tabletop, simple unbranded ivory ceramic dish. Elevated 45-degree view, entire dish centered with margins for square thumbnail cropping. Realistic modest one-person home-cooked portion. No people, text, logo, watermark, packaging, collage, props, side dishes or unlisted garnishes. Meat and seafood must look fully cooked. A small mound of cooked shimeji mushroom clusters and sliced king oyster eringi mushrooms, lightly glossy with olive oil and a clear vinegar marinade with tiny minced garlic bits. Small shallow white bowl, moist yet not swimming in liquid. No chilies, herbs, carrots, bell peppers or unlisted vegetables.",
+    "originalGeneratedFile": "local-originals/exec-178a81a1-7532-45ab-a284-03ce50fcf331.png"
+  },
+  {
+    "recipeKey": "corn_potage",
+    "title": "コーンポタージュ",
+    "file": "App/Resources/meal-images/corn_potage.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: iOS recipe hero image and thumbnail. One appetizing realistic food photograph, landscape 3:2. Soft natural window light, warm off-white tabletop, simple unbranded ivory ceramic dish. Elevated 45-degree view, entire dish centered with margins for square thumbnail cropping. Realistic modest one-person home-cooked portion. No people, text, logo, watermark, packaging, collage, props, side dishes or unlisted garnishes. Meat and seafood must look fully cooked. A cup of warm creamy pale golden-yellow corn potage, smooth blended corn and milk soup with very fine corn texture and a few small soft onion pieces, a restrained soft sheen. Simple ivory ceramic soup cup with one handle on a matching plain saucer. No cream swirl, parsley, whole corn garnish, croutons, bread or utensils.",
+    "originalGeneratedFile": "local-originals/exec-f29b39f4-e4a2-4d34-b50d-b7fd59a9c772.png"
+  }
+]

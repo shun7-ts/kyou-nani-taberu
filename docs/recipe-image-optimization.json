@@ -1,0 +1,3321 @@
+{
+  "maxEdge": 1280,
+  "jpegQuality": 84,
+  "beforeFolderBytes": 337306013,
+  "afterFolderBytes": 51657840,
+  "removedUnusedFiles": [
+    "chicken_soboro_bowl.jpg",
+    "egg_fried_rice.jpg",
+    "tomato_egg_stir_fry.jpg"
+  ],
+  "images": [
+    {
+      "recipeKey": "oyakodon",
+      "originalFile": "oyakodon.jpg",
+      "file": "oyakodon.jpg",
+      "originalBytes": 219129,
+      "bytes": 219129,
+      "originalSHA256": "fb1f68b0f654ca549a9fb9acc6a3268a96e6e208e36733478eab7ea63c808e53",
+      "sha256": "fb1f68b0f654ca549a9fb9acc6a3268a96e6e208e36733478eab7ea63c808e53",
+      "originalSize": [
+        1280,
+        854
+      ],
+      "size": [
+        1280,
+        854
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "pork_ginger",
+      "originalFile": "pork_ginger.jpg",
+      "file": "pork_ginger.jpg",
+      "originalBytes": 264692,
+      "bytes": 264692,
+      "originalSHA256": "4c6d800ab00f5a13a5258332c0654c7bc40b21608bfc99bc5696625cc339a973",
+      "sha256": "4c6d800ab00f5a13a5258332c0654c7bc40b21608bfc99bc5696625cc339a973",
+      "originalSize": [
+        1280,
+        850
+      ],
+      "size": [
+        1280,
+        850
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "gyudon",
+      "originalFile": "gyudon.jpg",
+      "file": "gyudon.jpg",
+      "originalBytes": 241210,
+      "bytes": 241210,
+      "originalSHA256": "5de1763813f307c569d1fdc304ee7402cb5c9bd91f02f630a392f7bc1f177b51",
+      "sha256": "5de1763813f307c569d1fdc304ee7402cb5c9bd91f02f630a392f7bc1f177b51",
+      "originalSize": [
+        1280,
+        850
+      ],
+      "size": [
+        1280,
+        850
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "curry_rice",
+      "originalFile": "curry_rice.jpg",
+      "file": "curry_rice.jpg",
+      "originalBytes": 224303,
+      "bytes": 224303,
+      "originalSHA256": "66835d475c65aaf1cda9622e7c1410bf620e10dbe90fc504037b393a9cb3365c",
+      "sha256": "66835d475c65aaf1cda9622e7c1410bf620e10dbe90fc504037b393a9cb3365c",
+      "originalSize": [
+        1280,
+        960
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "sauce_yakisoba",
+      "originalFile": "sauce_yakisoba.png",
+      "file": "sauce_yakisoba.jpg",
+      "originalBytes": 2451089,
+      "bytes": 343602,
+      "originalSHA256": "b8b366986fd71cb2e40ac686a8c3b3c2117c4dab822b2edf418cb633e0cd03c4",
+      "sha256": "51c591473016b2dd9786fe3d3ccf1725e0ea608e7bd0995db061cf419468189b",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "tuna_mayo_bowl",
+      "originalFile": "tuna_mayo_bowl.png",
+      "file": "tuna_mayo_bowl.jpg",
+      "originalBytes": 2018188,
+      "bytes": 236558,
+      "originalSHA256": "4b23faa6567dc6964a8c7a372d2f7ceef46cbbb704cf23024b061485dea4e622",
+      "sha256": "366cbc1beae060431fcd9c0a65c017fd39506b18fb0ac6b93cba863f8e2cb1ad",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "tofu_egg_bowl",
+      "originalFile": "tofu_egg_bowl.png",
+      "file": "tofu_egg_bowl.jpg",
+      "originalBytes": 2138516,
+      "bytes": 266995,
+      "originalSHA256": "fac159dcee091248c589eb2a6cc69ae77b223cc06e0fd78b27fbd8accba6daae",
+      "sha256": "5c83101421ae96f580bd3ab140a980e6ba0fd09fe783e84057c727cdc4f469cd",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "teriyaki_chicken",
+      "originalFile": "teriyaki_chicken.png",
+      "file": "teriyaki_chicken.jpg",
+      "originalBytes": 2470249,
+      "bytes": 354563,
+      "originalSHA256": "8e90b41d90152f6edf3cabda537a1ee76c67db919f01e0c38b3cb57c9c6fd432",
+      "sha256": "e02226b9a95691a8b6535a7e03efd1849aa405bc17524e480e7076429d66b124",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "miso_pork_cabbage",
+      "originalFile": "miso_pork_cabbage.png",
+      "file": "miso_pork_cabbage.jpg",
+      "originalBytes": 2374594,
+      "bytes": 316139,
+      "originalSHA256": "c32fd8b91b32a7cf90c62c8adc278860711ac3220c40fb8015d8bacf94f0cb67",
+      "sha256": "b6863356359fba2a8e3774f3b4dabb875991ecd799e389d552ad4967f4b0cd2f",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "mapo_tofu_bowl",
+      "originalFile": "mapo_tofu_bowl.png",
+      "file": "mapo_tofu_bowl.jpg",
+      "originalBytes": 2399422,
+      "bytes": 342800,
+      "originalSHA256": "b2d339fc62e350be730d00d95f0921be1bc7b3b332064dbe5570c294b4494d1b",
+      "sha256": "4d1f275d909aee6a4da643d71f0349deac269b48bf4b396954da1d7050fcc644",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "egg_fried_rice",
+      "originalFile": "egg_fried_rice.png",
+      "file": "egg_fried_rice.jpg",
+      "originalBytes": 2186047,
+      "bytes": 264044,
+      "originalSHA256": "d6a6b54534f27e04cf57c559352178776875f1a8fb0d36683a2173713d6f14ce",
+      "sha256": "f7d23377cae2e55b5fc21b52441d91db6d92966a81e85051e0baa8412db94158",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_kimchi_hotpot",
+      "originalFile": "pork_kimchi_hotpot.jpg",
+      "file": "pork_kimchi_hotpot.jpg",
+      "originalBytes": 478348,
+      "bytes": 478348,
+      "originalSHA256": "6eef1ff49f83fd54765a85f2a178191ad160f0f8b85e88b76fa081b48d28a91b",
+      "sha256": "6eef1ff49f83fd54765a85f2a178191ad160f0f8b85e88b76fa081b48d28a91b",
+      "originalSize": [
+        1280,
+        1280
+      ],
+      "size": [
+        1280,
+        1280
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "chicken_soboro_bowl",
+      "originalFile": "chicken_soboro_bowl.png",
+      "file": "chicken_soboro_bowl.jpg",
+      "originalBytes": 2149935,
+      "bytes": 269178,
+      "originalSHA256": "4875d3191fb1ffbf0fc567eb5d83a8dd531fa3abe5ead7b3eea74c555a33ed53",
+      "sha256": "6a9171b9f695716ceb7899460225b9dc7e1b5e724834a07d1b3d52b6526247a9",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_kimchi_bowl",
+      "originalFile": "pork_kimchi_bowl.png",
+      "file": "pork_kimchi_bowl.jpg",
+      "originalBytes": 2228082,
+      "bytes": 292730,
+      "originalSHA256": "43dbedc64cf1a8cb39a42294704dce527d7668d1eec1fae707f8591edd8192a6",
+      "sha256": "a58beb989f997c0ed629d765d3008940e702b71c6e40883b95449fbf766429e2",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "omurice",
+      "originalFile": "omurice.png",
+      "file": "omurice.jpg",
+      "originalBytes": 2106786,
+      "bytes": 254301,
+      "originalSHA256": "a6974bde4d001b9037d97e4b69a9e2cb5bbdc528867910dc8f62f19bdd98a199",
+      "sha256": "c7814f5b32ce0d43b39a7966233435a80e8eed4a73991b891a02bc08cc7b0cb7",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "napolitan",
+      "originalFile": "napolitan.jpg",
+      "file": "napolitan.jpg",
+      "originalBytes": 253998,
+      "bytes": 253998,
+      "originalSHA256": "781493e761a0ca6b6f712f692564c23bd4704792757f4f2bc838cddcaef12031",
+      "sha256": "781493e761a0ca6b6f712f692564c23bd4704792757f4f2bc838cddcaef12031",
+      "originalSize": [
+        1280,
+        850
+      ],
+      "size": [
+        1280,
+        850
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "chilled_tofu",
+      "originalFile": "chilled_tofu.jpg",
+      "file": "chilled_tofu.jpg",
+      "originalBytes": 228228,
+      "bytes": 228228,
+      "originalSHA256": "ec5af8a4316286e869c74e115011fd47660c9517266e1bd8151058dfca71d3a6",
+      "sha256": "ec5af8a4316286e869c74e115011fd47660c9517266e1bd8151058dfca71d3a6",
+      "originalSize": [
+        1280,
+        960
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "spinach_sesame_salad",
+      "originalFile": "spinach_sesame_salad.jpg",
+      "file": "spinach_sesame_salad.jpg",
+      "originalBytes": 50670,
+      "bytes": 50670,
+      "originalSHA256": "e727cddbfdc35139b52a8bd6654b0d543733e4fdd126fc8707b9e7a48fdf00d4",
+      "sha256": "e727cddbfdc35139b52a8bd6654b0d543733e4fdd126fc8707b9e7a48fdf00d4",
+      "originalSize": [
+        640,
+        480
+      ],
+      "size": [
+        640,
+        480
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "chicken_karaage",
+      "originalFile": "chicken_karaage.jpg",
+      "file": "chicken_karaage.jpg",
+      "originalBytes": 327802,
+      "bytes": 327802,
+      "originalSHA256": "a1a1d7856aa75aa890a10796e921cc9fa6dfc6c6f8b15d0b9eca034c959d31e0",
+      "sha256": "a1a1d7856aa75aa890a10796e921cc9fa6dfc6c6f8b15d0b9eca034c959d31e0",
+      "originalSize": [
+        1280,
+        850
+      ],
+      "size": [
+        1280,
+        850
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "french_toast",
+      "originalFile": "french_toast.jpg",
+      "file": "french_toast.jpg",
+      "originalBytes": 177814,
+      "bytes": 177814,
+      "originalSHA256": "9457347f07910fabf777ce75545133dad798b0cdaff443188737a350a921b45b",
+      "sha256": "9457347f07910fabf777ce75545133dad798b0cdaff443188737a350a921b45b",
+      "originalSize": [
+        1280,
+        850
+      ],
+      "size": [
+        1280,
+        850
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "potato_salad",
+      "originalFile": "potato_salad.jpg",
+      "file": "potato_salad.jpg",
+      "originalBytes": 161215,
+      "bytes": 161215,
+      "originalSHA256": "9d4fb19ea254e6a50df613a1e0a997c5169a1bc4e8a4eb0ef8702e547a6b14aa",
+      "sha256": "9d4fb19ea254e6a50df613a1e0a997c5169a1bc4e8a4eb0ef8702e547a6b14aa",
+      "originalSize": [
+        1280,
+        960
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "simmered_kiriboshi",
+      "originalFile": "simmered_kiriboshi.jpg",
+      "file": "simmered_kiriboshi.jpg",
+      "originalBytes": 232448,
+      "bytes": 232448,
+      "originalSHA256": "2f152dbffe00df4426726a19d44426749e46cf99b58696ae929361ade6ddc784",
+      "sha256": "2f152dbffe00df4426726a19d44426749e46cf99b58696ae929361ade6ddc784",
+      "originalSize": [
+        1280,
+        960
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "spinach_ohitashi",
+      "originalFile": "spinach_ohitashi.jpg",
+      "file": "spinach_ohitashi.jpg",
+      "originalBytes": 203620,
+      "bytes": 203620,
+      "originalSHA256": "253a58071d3bf68db4f550c8a6431298e4f490eab877a5c193b7f8597ebd7a65",
+      "sha256": "253a58071d3bf68db4f550c8a6431298e4f490eab877a5c193b7f8597ebd7a65",
+      "originalSize": [
+        1280,
+        960
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "ratatouille",
+      "originalFile": "ratatouille.jpg",
+      "file": "ratatouille.jpg",
+      "originalBytes": 300247,
+      "bytes": 300247,
+      "originalSHA256": "f5022ecaa9d9b402946dc9ac6d904404a12af6a776f831bc79f6b44bf153b104",
+      "sha256": "f5022ecaa9d9b402946dc9ac6d904404a12af6a776f831bc79f6b44bf153b104",
+      "originalSize": [
+        1280,
+        1076
+      ],
+      "size": [
+        1280,
+        1076
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "carrot_shirishiri",
+      "originalFile": "carrot_shirishiri.jpg",
+      "file": "carrot_shirishiri.jpg",
+      "originalBytes": 279194,
+      "bytes": 279194,
+      "originalSHA256": "0e68e041ea2b80631eef795b232a0401b5e76455a23d462f074ee9b93c2a71a6",
+      "sha256": "0e68e041ea2b80631eef795b232a0401b5e76455a23d462f074ee9b93c2a71a6",
+      "originalSize": [
+        1280,
+        960
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "bok_choy_shrimp",
+      "originalFile": "bok_choy_shrimp.png",
+      "file": "bok_choy_shrimp.jpg",
+      "originalBytes": 2527536,
+      "bytes": 364765,
+      "originalSHA256": "b8e69e4d986bd159641e1dcb2f9bd4a3749d9c9f3efd38c645892741fde70e9f",
+      "sha256": "ade6ec65d7cf7119eb8d388d84961cdba252a88bd06d130af23bc63cabb4dbf8",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "curry_udon",
+      "originalFile": "curry_udon.jpg",
+      "file": "curry_udon.jpg",
+      "originalBytes": 260188,
+      "bytes": 260188,
+      "originalSHA256": "166d84a6d7d91586ebe7d86e9a9da583541b4278f900b66fd5e86358b57ff0fa",
+      "sha256": "166d84a6d7d91586ebe7d86e9a9da583541b4278f900b66fd5e86358b57ff0fa",
+      "originalSize": [
+        1280,
+        960
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "pork_cabbage_yakiudon",
+      "originalFile": "pork_cabbage_yakiudon.jpg",
+      "file": "pork_cabbage_yakiudon.jpg",
+      "originalBytes": 301415,
+      "bytes": 301415,
+      "originalSHA256": "6a6874a1489e0bf15574f172ea20a40ade9ca746c4640588bd9566294bcc632f",
+      "sha256": "6a6874a1489e0bf15574f172ea20a40ade9ca746c4640588bd9566294bcc632f",
+      "originalSize": [
+        1280,
+        960
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "peperoncino",
+      "originalFile": "peperoncino.jpg",
+      "file": "peperoncino.jpg",
+      "originalBytes": 444572,
+      "bytes": 444572,
+      "originalSHA256": "0aaad64eff64b981ffc304982d7e96c5698afd3c99d8223bbf495ffc63bb300a",
+      "sha256": "0aaad64eff64b981ffc304982d7e96c5698afd3c99d8223bbf495ffc63bb300a",
+      "originalSize": [
+        1280,
+        1117
+      ],
+      "size": [
+        1280,
+        1117
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "tomato_egg_stir_fry",
+      "originalFile": "tomato_egg_stir_fry.png",
+      "file": "tomato_egg_stir_fry.jpg",
+      "originalBytes": 2184553,
+      "bytes": 270022,
+      "originalSHA256": "e6bda24189795b50fb6a2271a78fdd8fb1cc1de5c8f423a427ab39ca24072dab",
+      "sha256": "b75e2721918b3a3aab35b0215977b3e97920a0f03cd79fad1241e4ba7a3b84a8",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "mackerel_miso_simmer",
+      "originalFile": "mackerel_miso_simmer.jpg",
+      "file": "mackerel_miso_simmer.jpg",
+      "originalBytes": 332296,
+      "bytes": 332296,
+      "originalSHA256": "ee5a02bcd22f10b25658471a45decceeaff709544f11005c41cd2de6d969d24e",
+      "sha256": "ee5a02bcd22f10b25658471a45decceeaff709544f11005c41cd2de6d969d24e",
+      "originalSize": [
+        1280,
+        960
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "goya_champuru",
+      "originalFile": "goya_champuru.jpg",
+      "file": "goya_champuru.jpg",
+      "originalBytes": 241946,
+      "bytes": 241946,
+      "originalSHA256": "9ba43698c8dd30046282b584d44a5288c968eefdb0a18cf89c5a53017d30d324",
+      "sha256": "9ba43698c8dd30046282b584d44a5288c968eefdb0a18cf89c5a53017d30d324",
+      "originalSize": [
+        1280,
+        850
+      ],
+      "size": [
+        1280,
+        850
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "tarako_pasta",
+      "originalFile": "tarako_pasta.jpg",
+      "file": "tarako_pasta.jpg",
+      "originalBytes": 235396,
+      "bytes": 235396,
+      "originalSHA256": "06512ac5f59bbbc03934d10c466b4438ebe522f59bceeb25fde02320626495e3",
+      "sha256": "06512ac5f59bbbc03934d10c466b4438ebe522f59bceeb25fde02320626495e3",
+      "originalSize": [
+        1280,
+        850
+      ],
+      "size": [
+        1280,
+        850
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "simmered_pumpkin",
+      "originalFile": "simmered_pumpkin.jpg",
+      "file": "simmered_pumpkin.jpg",
+      "originalBytes": 222110,
+      "bytes": 222110,
+      "originalSHA256": "fa0a9134ff1f21a1ecb74a22185020c63d7e23a5f1fa69e52482dcac7c777641",
+      "sha256": "fa0a9134ff1f21a1ecb74a22185020c63d7e23a5f1fa69e52482dcac7c777641",
+      "originalSize": [
+        1280,
+        1166
+      ],
+      "size": [
+        1280,
+        1166
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "macaroni_salad",
+      "originalFile": "macaroni_salad.jpg",
+      "file": "macaroni_salad.jpg",
+      "originalBytes": 223920,
+      "bytes": 223920,
+      "originalSHA256": "90c821c0ea524a5f61ca097e99dfae261d46fb450b27599258c3eae8ac966ffa",
+      "sha256": "90c821c0ea524a5f61ca097e99dfae261d46fb450b27599258c3eae8ac966ffa",
+      "originalSize": [
+        1280,
+        960
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "asari_miso_soup",
+      "originalFile": "asari_miso_soup.jpg",
+      "file": "asari_miso_soup.jpg",
+      "originalBytes": 168966,
+      "bytes": 168966,
+      "originalSHA256": "ec4fc1fda7c2597dad2bb5fcb3d9ba8bd2ab14137ee37aca33567efc01a788a1",
+      "sha256": "ec4fc1fda7c2597dad2bb5fcb3d9ba8bd2ab14137ee37aca33567efc01a788a1",
+      "originalSize": [
+        1280,
+        963
+      ],
+      "size": [
+        1280,
+        963
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "kenchin_soup",
+      "originalFile": "kenchin_soup.jpg",
+      "file": "kenchin_soup.jpg",
+      "originalBytes": 249290,
+      "bytes": 249290,
+      "originalSHA256": "02561c9a0133ef11a4275b61745dcb2ffc47285639ab6333dca1846fcac69fc6",
+      "sha256": "02561c9a0133ef11a4275b61745dcb2ffc47285639ab6333dca1846fcac69fc6",
+      "originalSize": [
+        1280,
+        1024
+      ],
+      "size": [
+        1280,
+        1024
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "hiyashi_chuka",
+      "originalFile": "hiyashi_chuka.jpg",
+      "file": "hiyashi_chuka.jpg",
+      "originalBytes": 315301,
+      "bytes": 315301,
+      "originalSHA256": "1593b42a739accc1395cff1a645dadff0b116a0d22646f33b1f7013199eb9aad",
+      "sha256": "1593b42a739accc1395cff1a645dadff0b116a0d22646f33b1f7013199eb9aad",
+      "originalSize": [
+        1280,
+        855
+      ],
+      "size": [
+        1280,
+        855
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "nikujaga",
+      "originalFile": "nikujaga.jpg",
+      "file": "nikujaga.jpg",
+      "originalBytes": 244036,
+      "bytes": 244036,
+      "originalSHA256": "3cff835a1c8ffcf9070cf3d2fa28c600f19969f70b6a18e3ef6d7786839e47d5",
+      "sha256": "3cff835a1c8ffcf9070cf3d2fa28c600f19969f70b6a18e3ef6d7786839e47d5",
+      "originalSize": [
+        1280,
+        857
+      ],
+      "size": [
+        1280,
+        857
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "tonkatsu",
+      "originalFile": "tonkatsu.jpg",
+      "file": "tonkatsu.jpg",
+      "originalBytes": 426851,
+      "bytes": 426851,
+      "originalSHA256": "f615d9230a6789e70c24e97fc07436275aad0f2dc20fbfdad07c2cb549d4698c",
+      "sha256": "f615d9230a6789e70c24e97fc07436275aad0f2dc20fbfdad07c2cb549d4698c",
+      "originalSize": [
+        1280,
+        960
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "bonito_tataki_salad",
+      "originalFile": "bonito_tataki_salad.jpg",
+      "file": "bonito_tataki_salad.jpg",
+      "originalBytes": 275294,
+      "bytes": 275294,
+      "originalSHA256": "87f22ace17925d058929e34911896c09e56f0ddf9e1bd42136a0d5a4d8d19928",
+      "sha256": "87f22ace17925d058929e34911896c09e56f0ddf9e1bd42136a0d5a4d8d19928",
+      "originalSize": [
+        1280,
+        960
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "tuna_soy_pasta",
+      "originalFile": "tuna_soy_pasta.png",
+      "file": "tuna_soy_pasta.jpg",
+      "originalBytes": 2353664,
+      "bytes": 299772,
+      "originalSHA256": "fa11f4b035ff7341a5af5593482a2423e6fcc4d5a9209881a7b5e71fed06d744",
+      "sha256": "d0e125669f7c8d6367c29e3330ea84fba1b70922b142b295e308015ae945f55b",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "butter_soy_salmon",
+      "originalFile": "butter_soy_salmon.png",
+      "file": "butter_soy_salmon.jpg",
+      "originalBytes": 2393857,
+      "bytes": 314075,
+      "originalSHA256": "34b5f8da52d56f032d079d0ae7b4b0d788df87de8a8786fab746f9382426ce5d",
+      "sha256": "7d98608c798f62b6da763dba7daacf151f279d63c300fe35b1272ba8343419c0",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "natto_egg_rice",
+      "originalFile": "natto_egg_rice.png",
+      "file": "natto_egg_rice.jpg",
+      "originalBytes": 2037965,
+      "bytes": 227523,
+      "originalSHA256": "fe495f6caf5ab3698b8ed9a4cf938680460ae077cbe43d372d9e89476fa56549",
+      "sha256": "14346f9ab554b6ff4c075176235c0d7ec6c7b163993e368c0a6861c9c0f4cf82",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "salt_pork_bean_sprouts",
+      "originalFile": "salt_pork_bean_sprouts.png",
+      "file": "salt_pork_bean_sprouts.jpg",
+      "originalBytes": 2284283,
+      "bytes": 288352,
+      "originalSHA256": "4880969cfdd4992d9ff9d0e9cd0e1a7154844b973139af494f548e2440fa6ef8",
+      "sha256": "79f09bcf48edde0f6efb9b1e43629366e51aa12f2b3670549d22a5118b678358",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "green_onion_salt_chicken",
+      "originalFile": "green_onion_salt_chicken.png",
+      "file": "green_onion_salt_chicken.jpg",
+      "originalBytes": 2690371,
+      "bytes": 376528,
+      "originalSHA256": "6fd5328193243671bcfebe74a5815c0ae126e92016c265310d043af14ee2e702",
+      "sha256": "2440e1894c3f8f3218a5bf90fd57d9d1daa9a7f55d1bd667cce4eb872babfe51",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "tomato_stewed_chicken",
+      "originalFile": "tomato_stewed_chicken.png",
+      "file": "tomato_stewed_chicken.jpg",
+      "originalBytes": 2420027,
+      "bytes": 331141,
+      "originalSHA256": "52e1f1fe627f61f9cbe939ba5c3baf9ccd1c01027152761b40c80643d0d79f80",
+      "sha256": "9131219da9e3311066adb0c3b2d73e4d7070f3438437264b6797a61440066fbd",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "tofu_ground_pork_sauce",
+      "originalFile": "tofu_ground_pork_sauce.png",
+      "file": "tofu_ground_pork_sauce.jpg",
+      "originalBytes": 2303180,
+      "bytes": 292279,
+      "originalSHA256": "2c75238b4ee8e09a8e4835b4493290615440d2c9a4fc689a82ef35fe32fc7ff4",
+      "sha256": "e733919a3ae7c8de8dc48d3fa782379408ae0b77a4d9b8893bc3622e2a46a5e3",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "steamed_cabbage_tuna",
+      "originalFile": "steamed_cabbage_tuna.png",
+      "file": "steamed_cabbage_tuna.jpg",
+      "originalBytes": 2561995,
+      "bytes": 337572,
+      "originalSHA256": "496e680ffbc6f9757fd51642d0de50d66a26b359dab71f8acb00ee9f91b7e3e3",
+      "sha256": "25e35b5e0b32183a45f9442f5f41c394c974daaa2aa932c2179537cfef83aef6",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "miso_mackerel_cabbage",
+      "originalFile": "miso_mackerel_cabbage.png",
+      "file": "miso_mackerel_cabbage.jpg",
+      "originalBytes": 2328078,
+      "bytes": 297934,
+      "originalSHA256": "cb0cc3f1045790602e4374fcd9c2a14ba556bf98af077927ef022204d1ef3313",
+      "sha256": "2a4c47ac469b449be81f1c481125f43a13a8a7c27bccf00984f2830c38dc7514",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "egg_ankake_udon",
+      "originalFile": "egg_ankake_udon.png",
+      "file": "egg_ankake_udon.jpg",
+      "originalBytes": 2100362,
+      "bytes": 250998,
+      "originalSHA256": "c804adc093a53e906c9413323aeb2bcbd07db8b64411e5e5437ba225fff708ed",
+      "sha256": "d78dcc97f449a807d6dbe985abd56feda04e16915e4af07e4ddfb1bdb69306ea",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "mushroom_butter_soy_pasta",
+      "originalFile": "mushroom_butter_soy_pasta.png",
+      "file": "mushroom_butter_soy_pasta.jpg",
+      "originalBytes": 2294324,
+      "bytes": 293504,
+      "originalSHA256": "d28e961955a1e60f2340df904d61536c642ae8ad7d67d5316a228f7f66cbb3d6",
+      "sha256": "a444e2d5e33a758d2d4ea7632d899500985cdda0606f0a2ffb3fc81e24b4d191",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "tonjiru_rice_set",
+      "originalFile": "tonjiru_rice_set.png",
+      "file": "tonjiru_rice_set.jpg",
+      "originalBytes": 2316165,
+      "bytes": 277216,
+      "originalSHA256": "5a20e310e1ee4ea142beb7609533f4173e4d206d5d0fec1f33156d861cdccb1f",
+      "sha256": "5fdb9bfe172e51f1d0d86a04090f9dafeef24638b7752f66f25386a4a55becba",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "minestrone_pasta",
+      "originalFile": "minestrone_pasta.png",
+      "file": "minestrone_pasta.jpg",
+      "originalBytes": 2290284,
+      "bytes": 302105,
+      "originalSHA256": "7be913cdcf014dfbd890b1b474a4c7bb88ed982cd218364f4de573634789f63d",
+      "sha256": "166760a84893ac2993323493478968cb9915d8724ec23696ab23c36e50588872",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "tofu_wakame_miso_soup",
+      "originalFile": "tofu_wakame_miso_soup.png",
+      "file": "tofu_wakame_miso_soup.jpg",
+      "originalBytes": 1977648,
+      "bytes": 217658,
+      "originalSHA256": "7ac6e2ac39531599537a0ed28a124b889bf54ce0f7443af63a115356611f9b8c",
+      "sha256": "52d19ea58002baa92f813363bc76e9b4dac5bac9721214513c6b3b678187179a",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "egg_green_onion_soup",
+      "originalFile": "egg_green_onion_soup.png",
+      "file": "egg_green_onion_soup.jpg",
+      "originalBytes": 2092314,
+      "bytes": 240518,
+      "originalSHA256": "f19cc6cd4d81fba429ad718083352f8f8af59b4233735b7926e87b78f9dda884",
+      "sha256": "61ac6314db0e6856972cf538917a588fb859380cd16f94aceccbf12a4396b04a",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "komatsuna_sesame_salad",
+      "originalFile": "komatsuna_sesame_salad.png",
+      "file": "komatsuna_sesame_salad.jpg",
+      "originalBytes": 2269880,
+      "bytes": 286783,
+      "originalSHA256": "88ade1d3211dce80bc7d67f9ad0dade1f09a0e5d980fd29a27264800d55f2a94",
+      "sha256": "bd4387d43008795a5a3a9e247b0f593e3d1b4ee3329cb2371ebfa9a2595bac42",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "cabbage_coleslaw",
+      "originalFile": "cabbage_coleslaw.png",
+      "file": "cabbage_coleslaw.jpg",
+      "originalBytes": 2013310,
+      "bytes": 239751,
+      "originalSHA256": "6d24a27df931059bc15484a5672305c6995f510fb34c5138f48f7ae28e569594",
+      "sha256": "779f21ce125acf3543d7cecf1d9022c09de2cf8a60c6153e103060f17aee0556",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "butter_potato",
+      "originalFile": "butter_potato.png",
+      "file": "butter_potato.jpg",
+      "originalBytes": 2127370,
+      "bytes": 235047,
+      "originalSHA256": "99f3c2a7dcbe2a045d932f16f99ece0dbb9d061bdc748e254c6eac91a2e16478",
+      "sha256": "0b4f933865421c75486cddff4526c427a58b9a1f752273952c5f48daa985f877",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "cucumber_sunomono",
+      "originalFile": "cucumber_sunomono.png",
+      "file": "cucumber_sunomono.jpg",
+      "originalBytes": 2240550,
+      "bytes": 265310,
+      "originalSHA256": "b3b3b1ad9500f331832e7e218286fa89afe60c75aeb2b106923e54f36a58b24b",
+      "sha256": "1f778df42f77ec64da7d79081a5e1f67a3f74e283b024d00ac218db398de401b",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "tomato_cucumber_salad",
+      "originalFile": "tomato_cucumber_salad.png",
+      "file": "tomato_cucumber_salad.jpg",
+      "originalBytes": 2273566,
+      "bytes": 283727,
+      "originalSHA256": "8496bae8334b5c2f13fa9663ad9d83ba19c54d9261392b4788a7ce912988cda9",
+      "sha256": "f5f4222a24be149b1fea73f9e4c4f455717189cfa3385340a14f55e332bc05ff",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "wafu_hamburger",
+      "originalFile": "wafu_hamburger.png",
+      "file": "wafu_hamburger.jpg",
+      "originalBytes": 2337405,
+      "bytes": 282149,
+      "originalSHA256": "70fdc7dd57fd552767f80a05ef91c16bb12d45b6d4086e2322e8fbdff5caff67",
+      "sha256": "26ae30a041114f3a298aab22ce7de92066ec4d59d9500640b8d14f3c8125d02f",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "yellowtail_teriyaki",
+      "originalFile": "yellowtail_teriyaki.png",
+      "file": "yellowtail_teriyaki.jpg",
+      "originalBytes": 2414211,
+      "bytes": 312628,
+      "originalSHA256": "d3ac52f0a08acf10f2744ed85653a77f696a77b44be6f1cc3320455ae81e5ff6",
+      "sha256": "8e759c0b635a097efde1ecbdb81b977e582108a08acec2b0e55ef808adf8bca2",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "chinjaorosu",
+      "originalFile": "chinjaorosu.png",
+      "file": "chinjaorosu.jpg",
+      "originalBytes": 2299101,
+      "bytes": 298201,
+      "originalSHA256": "6ecdcd37165ebe77b9968c61f7d511edb3b5e2c7eda5b71ebbd94e7bac8a81bf",
+      "sha256": "7ba2026571b60ab08403b20bcea799ed64d7a84f9ee5e524624fb6aaa58bef32",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "shrimp_chili",
+      "originalFile": "shrimp_chili.png",
+      "file": "shrimp_chili.jpg",
+      "originalBytes": 2502293,
+      "bytes": 338839,
+      "originalSHA256": "5e9e378792db357771b16ce450adc0ff0de491203f133f260e7bd14f3df7995e",
+      "sha256": "82a90d09203470e6bd140f09a43eafed70ce191a93f8dfd8f64c3ced2477cc34",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "agedashi_tofu",
+      "originalFile": "agedashi_tofu.png",
+      "file": "agedashi_tofu.jpg",
+      "originalBytes": 2338031,
+      "bytes": 291219,
+      "originalSHA256": "a3124682c258eb8f4d1f164d318438306b1e860d251e7d218f1aa9bd443529fe",
+      "sha256": "3a07b0c4d510d8edf4ee8e815e709a73790a887c2d947076b444ad708425c167",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "spinach_tuna_pasta",
+      "originalFile": "spinach_tuna_pasta.png",
+      "file": "spinach_tuna_pasta.jpg",
+      "originalBytes": 2333573,
+      "bytes": 300291,
+      "originalSHA256": "8b901e953e32ed35400cab142092fb57db1af05359b804c1505359c149285abd",
+      "sha256": "c367abe2ae1bd7d04b935b9024c2cf5c6ca5da64180db5258f0809a0eeed822c",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "broccoli_chicken_oyster",
+      "originalFile": "broccoli_chicken_oyster.png",
+      "file": "broccoli_chicken_oyster.jpg",
+      "originalBytes": 2298035,
+      "bytes": 287550,
+      "originalSHA256": "53aeb6482b8967528441bd0b55cf48e8ce3d6424f682be13d82b6efe84beb686",
+      "sha256": "16e41ed26fc8fb78f73338f4187904d361b0f1fa8b47e384838d7cd9c25f88f0",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "eggplant_pork_miso",
+      "originalFile": "eggplant_pork_miso.png",
+      "file": "eggplant_pork_miso.jpg",
+      "originalBytes": 2339720,
+      "bytes": 299169,
+      "originalSHA256": "cc0d138bf559b913bd82bd6e37a5c24c4ccfd1f7fdc7e781b858eec9d380a559",
+      "sha256": "a7a73127eef59a909dda98802cb460a23ecc7c208d42e5b7e0327bd000113451",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "tofu_broccoli_ankake",
+      "originalFile": "tofu_broccoli_ankake.png",
+      "file": "tofu_broccoli_ankake.jpg",
+      "originalBytes": 2128283,
+      "bytes": 247443,
+      "originalSHA256": "6a11a650ac4fed8f72ab35be92c32f306e6ece8653cfcf449bfca754bc9997ee",
+      "sha256": "464bb88923a6dab9ac1751bc502c4c3ed05e81ae5b56eff47a706d68d55ee8fd",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "lettuce_egg_fried_rice",
+      "originalFile": "lettuce_egg_fried_rice.png",
+      "file": "lettuce_egg_fried_rice.jpg",
+      "originalBytes": 2254028,
+      "bytes": 286327,
+      "originalSHA256": "37a2d4132f84b62cff8e2aa386ca5fbacb5ffadcf092c777150fcd64eb2690b3",
+      "sha256": "c50d697045a1645bd7a3857f2142e3db8a01800bb97891ca68277b641b98b20c",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "eggplant_tuna_pasta",
+      "originalFile": "eggplant_tuna_pasta.png",
+      "file": "eggplant_tuna_pasta.jpg",
+      "originalBytes": 2316150,
+      "bytes": 287857,
+      "originalSHA256": "30b40b04ae8fb37c72d8e881167fe5c90c13a8e81999869e744c4577d474ca1b",
+      "sha256": "25bc6e6c6392da5a457c04a2a346e9e896cbcdc2b193553df65278fe386d284d",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "salmon_broccoli_steam",
+      "originalFile": "salmon_broccoli_steam.png",
+      "file": "salmon_broccoli_steam.jpg",
+      "originalBytes": 2422422,
+      "bytes": 310980,
+      "originalSHA256": "c2583b9b50048637bb80e4f776fd909c9ac8ea0de9139140d569f6550d49cc57",
+      "sha256": "7f1bb5f36c3f4c307ea6192c49d8bbb697177e28a9519c364d2587090aa5c37f",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "broccoli_tuna_salad",
+      "originalFile": "broccoli_tuna_salad.png",
+      "file": "broccoli_tuna_salad.jpg",
+      "originalBytes": 2284497,
+      "bytes": 275154,
+      "originalSHA256": "36c5e064b58f55e36ee8238ab3c7690d543ad01e2fca61b03c6ba7155834a2d1",
+      "sha256": "e7ca2ef2524f586e919f4a24947e6b47069bc4ec8eda06f79b9b67f7fa71bb80",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "eggplant_ginger_soy",
+      "originalFile": "eggplant_ginger_soy.png",
+      "file": "eggplant_ginger_soy.jpg",
+      "originalBytes": 2372421,
+      "bytes": 284608,
+      "originalSHA256": "11b9494a6dc2f3b88f3209c20c501150b98768b908d1a08d3524bb41a3a585e1",
+      "sha256": "11ca1261044729110ddf1c8dd22091a00eac6543577799a619b79c32d532d625",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "lettuce_sesame_salad",
+      "originalFile": "lettuce_sesame_salad.png",
+      "file": "lettuce_sesame_salad.jpg",
+      "originalBytes": 2256754,
+      "bytes": 275109,
+      "originalSHA256": "e15156f30baecb39732ed93a3d31d7a8114cc9b4f852b1327f3d58b67dc77318",
+      "sha256": "d304789d207798db781a9efe6bb60b32ffdb758c04ab434a3a7b2fc6b4ee7f08",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "lotus_root_kinpira",
+      "originalFile": "lotus_root_kinpira.png",
+      "file": "lotus_root_kinpira.jpg",
+      "originalBytes": 2275259,
+      "bytes": 283138,
+      "originalSHA256": "c4acc7c6f8b066618d7b603e721f6849413a0c26df503d859290b35c6a4b4b90",
+      "sha256": "43ef9f55b7c6c3118c7ac5bb6d335cb96993ad74ef3eca7a0ecc1585401b6a6e",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "burdock_carrot_kinpira",
+      "originalFile": "burdock_carrot_kinpira.png",
+      "file": "burdock_carrot_kinpira.jpg",
+      "originalBytes": 2182925,
+      "bytes": 264153,
+      "originalSHA256": "d90e9225dc8de9c36684d72def6a5cc5393e1cffc21d82f4bd3bead77ed8693e",
+      "sha256": "1d355deeb7ea7d3720c0be4255699340cee78e30286216258ed283ab6e7e5124",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "sweet_potato_lemon",
+      "originalFile": "sweet_potato_lemon.png",
+      "file": "sweet_potato_lemon.jpg",
+      "originalBytes": 2058398,
+      "bytes": 218692,
+      "originalSHA256": "f9e02fec9afb64495ba0fb2b3fb510912c68009aac468f15ecd116bd280b21f1",
+      "sha256": "99e83dfb059b3f5a84f69741b7dc7e1b684f8136118005e9d8f6dc8b1ff51504",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "spinach_tofu_miso_soup",
+      "originalFile": "spinach_tofu_miso_soup.png",
+      "file": "spinach_tofu_miso_soup.jpg",
+      "originalBytes": 2216648,
+      "bytes": 263384,
+      "originalSHA256": "da351708935471f88551896e9b9e4bf2ca77c67d73944d5017f42b29c4a647c5",
+      "sha256": "9fb6d88ce8c53f986885c4604e6a2e13bd4f5618b43fe225bdb4d9f165e1313a",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "tomato_egg_soup",
+      "originalFile": "tomato_egg_soup.png",
+      "file": "tomato_egg_soup.jpg",
+      "originalBytes": 2228604,
+      "bytes": 263987,
+      "originalSHA256": "81ce2502102c780201eab7d00b162e6c330a1b46a7f0da4c53dcd338e1043d0b",
+      "sha256": "b9cbea8063700e7a6a06aa8ea246d91184cd42e93bb62373b313e7de1cd16164",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "broccoli_consomme_soup",
+      "originalFile": "broccoli_consomme_soup.png",
+      "file": "broccoli_consomme_soup.jpg",
+      "originalBytes": 2062125,
+      "bytes": 232160,
+      "originalSHA256": "ab4e2d1cf6beef4b61cb4c5daa68ca331f933dcecbfae58bc80fbb839f7962c2",
+      "sha256": "ef0c41772305d3ac00b945d542d5e66d3d72bbc7d64dedb4e75a066a3532a173",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "burdock_carrot_miso_soup",
+      "originalFile": "burdock_carrot_miso_soup.png",
+      "file": "burdock_carrot_miso_soup.jpg",
+      "originalBytes": 1989743,
+      "bytes": 211555,
+      "originalSHA256": "599834031cc5db7c1d06b8ec0c5ca35b003f03a88e40094151b1fa1d9a9ab40a",
+      "sha256": "56d57614318f79c8fb3c45070d542eb49f35f19bbcc776a37f92251723fc4615",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "stuffed_green_peppers",
+      "originalFile": "stuffed_green_peppers.png",
+      "file": "stuffed_green_peppers.jpg",
+      "originalBytes": 2397252,
+      "bytes": 305758,
+      "originalSHA256": "2b4d1fb6a03db5525251ce485a04062349b66f69bbb600d368bd3a6980ab0274",
+      "sha256": "39a5dd793fbcb9a4412c494936d3dde65ec5e85fa9a07aa645d153862d425a28",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "chicken_banbanji",
+      "originalFile": "chicken_banbanji.png",
+      "file": "chicken_banbanji.jpg",
+      "originalBytes": 2354580,
+      "bytes": 292420,
+      "originalSHA256": "16a92640747b2061b065b79ab69972fdd11b54a51d05f50577d266226f454c04",
+      "sha256": "5b50c2f0d9ca39411a318ab72508b8178a9bedfed3daa2ac12e38e1d760f5ab9",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "simmered_hijiki",
+      "originalFile": "simmered_hijiki.png",
+      "file": "simmered_hijiki.jpg",
+      "originalBytes": 2146913,
+      "bytes": 252527,
+      "originalSHA256": "c9e25610fb8de0b764513a98f5046e9ab415f548ceb8c72bbb038783037c0f59",
+      "sha256": "364cdcbcff87aa8e6131b03cede87830a0d400228e4b2e222185ad7fb50c59f9",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "enoki_nametake",
+      "originalFile": "enoki_nametake.png",
+      "file": "enoki_nametake.jpg",
+      "originalBytes": 2178733,
+      "bytes": 256939,
+      "originalSHA256": "9b2af72e4cb8ed502b3451901628f3b4cdb406600811eee581d511d93d230ac5",
+      "sha256": "f418f565fac87a52d0fab0c946a7dfa7f797ceb995b46488e9d46a9532374099",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "asari_sake_steam",
+      "originalFile": "asari_sake_steam.png",
+      "file": "asari_sake_steam.jpg",
+      "originalBytes": 2218882,
+      "bytes": 256960,
+      "originalSHA256": "8d4674f56a444c59bfbe2fd6182704b6c0ffeedc9777838a005977eebf209b50",
+      "sha256": "1662bba724e55339dc9751c1a0df42d1ebf2fbf409c08ca465339383e82920b0",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "nameko_tofu_miso_soup",
+      "originalFile": "nameko_tofu_miso_soup.jpg",
+      "file": "nameko_tofu_miso_soup.jpg",
+      "originalBytes": 224656,
+      "bytes": 224656,
+      "originalSHA256": "927b405c49b4951c3ffe1e1ca1742cca27a01442494eaa8209133b7179b80f7b",
+      "sha256": "927b405c49b4951c3ffe1e1ca1742cca27a01442494eaa8209133b7179b80f7b",
+      "originalSize": [
+        1280,
+        960
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "asparagus_bacon_mustard",
+      "originalFile": "asparagus_bacon_mustard.png",
+      "file": "asparagus_bacon_mustard.jpg",
+      "originalBytes": 2405914,
+      "bytes": 317460,
+      "originalSHA256": "4653f3685d3d0a0512fe6e93ea79b3b6d068648d177ca09c0daa330ee9a08ddc",
+      "sha256": "074432f549c1d103fb33dbfac94877a66fdfd21b5b25007bf2b5d607aa013944",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_liver_chives",
+      "originalFile": "pork_liver_chives.png",
+      "file": "pork_liver_chives.jpg",
+      "originalBytes": 2529828,
+      "bytes": 339757,
+      "originalSHA256": "8001932bfbbfc2c84ac56e98c457ec2bf3f23e50e7591b3a1ea640b7a9fcc281",
+      "sha256": "8628601fd626cdc29cc95133d0f9d0d33b2c7bf2bc2c0f6819da283d37f00496",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pea_shoot_atsuage_namul",
+      "originalFile": "pea_shoot_atsuage_namul.png",
+      "file": "pea_shoot_atsuage_namul.jpg",
+      "originalBytes": 2384729,
+      "bytes": 305089,
+      "originalSHA256": "d96a58af51bc9c31cb2079d931fee231db0fc48b499c48ebfae31595441be198",
+      "sha256": "414216bef8d2650abe92a03b2a875dedecb20111f52f6da7cd41956265e74d44",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "okra_nagaimo_ponzu",
+      "originalFile": "okra_nagaimo_ponzu.png",
+      "file": "okra_nagaimo_ponzu.jpg",
+      "originalBytes": 2205092,
+      "bytes": 260942,
+      "originalSHA256": "f6f33ee55c5ff4afd3ae04168ba2fac38a5fbcd2ed47f2153fd5b04093429cf3",
+      "sha256": "9351c387f801fa4991d5694faebc5fc95d46cfe11384ec12cc63a1a5b9e057f8",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "mizuna_tenderloin_salad",
+      "originalFile": "mizuna_tenderloin_salad.png",
+      "file": "mizuna_tenderloin_salad.jpg",
+      "originalBytes": 2224050,
+      "bytes": 271259,
+      "originalSHA256": "27565f5645e9c7c1043951dcd13f90359a6cf1ae83fe1b76b366f26e534955d1",
+      "sha256": "db495aa4f2a698735882a29e4fb25c54c77141aec9e38b7ba5fce79707b9df30",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "green_bean_snap_pea_sesame",
+      "originalFile": "green_bean_snap_pea_sesame.png",
+      "file": "green_bean_snap_pea_sesame.jpg",
+      "originalBytes": 2310935,
+      "bytes": 298593,
+      "originalSHA256": "8d71582351662e525ff496b560a02512514e89585f9615fa16a443c753542bd7",
+      "sha256": "4d8e3e21009acbd479ec63833a9d5d6e0255fde9c313ca3bd72be55da8133222",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "three_mushroom_butter",
+      "originalFile": "three_mushroom_butter.png",
+      "file": "three_mushroom_butter.jpg",
+      "originalBytes": 2301353,
+      "bytes": 282523,
+      "originalSHA256": "b9ce439337c723ded9b77a71cb8c364e2e78a7783f0d7c0c461971ae6c591c46",
+      "sha256": "32d0031d0b48bf1bea14cadeec07c26ac88920ade2725bf6939f50bf357baff6",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "corn_edamame_rice",
+      "originalFile": "corn_edamame_rice.png",
+      "file": "corn_edamame_rice.jpg",
+      "originalBytes": 2034275,
+      "bytes": 222832,
+      "originalSHA256": "19ce47095f1a2ad82d44c0a5fb0e36b7278e9bb8a06b1eaec7419686b636600b",
+      "sha256": "2b2b04a1a6b5f1ddcaf1699c79ff4770fda278b9a1ad2009789ba0fd4e44cca1",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "cod_mushroom_foil",
+      "originalFile": "cod_mushroom_foil.png",
+      "file": "cod_mushroom_foil.jpg",
+      "originalBytes": 2457834,
+      "bytes": 311707,
+      "originalSHA256": "476e1066a8fa7c16ca7371cdb3b357812b95d56ceef6cf286ffc2069b402d8ac",
+      "sha256": "4827a23a0d0cca13a6e826f6abd698d4112c187f1348bc90276fd86a4059c0ee",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "aji_nanban",
+      "originalFile": "aji_nanban.png",
+      "file": "aji_nanban.jpg",
+      "originalBytes": 2258604,
+      "bytes": 273002,
+      "originalSHA256": "82359e775e5c8f4aaffc5c37f52385062410e64ab86d223375fb6f36dbb2b718",
+      "sha256": "8ede4ede62d24ddb2b5b69ef035114dd6695b2c99347aaac2b622afc4c54d72c",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "sardine_ginger_simmer",
+      "originalFile": "sardine_ginger_simmer.jpg",
+      "file": "sardine_ginger_simmer.jpg",
+      "originalBytes": 246368,
+      "bytes": 246368,
+      "originalSHA256": "3a56e26599237ba0639853abd17ba943dbd923458e6bfed5bfcdb2b85080e0cf",
+      "sha256": "3a56e26599237ba0639853abd17ba943dbd923458e6bfed5bfcdb2b85080e0cf",
+      "originalSize": [
+        1280,
+        850
+      ],
+      "size": [
+        1280,
+        850
+      ],
+      "hasAlpha": false,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "milk_carbonara",
+      "originalFile": "milk_carbonara.png",
+      "file": "milk_carbonara.jpg",
+      "originalBytes": 2299016,
+      "bytes": 442929,
+      "originalSHA256": "81cff3d90816068ee7c48a389314947b8fc90d33b212687f21a2761338d0707e",
+      "sha256": "3cda138689b37c0dcedf5f5be3ab9ae2a2cdca5509481c505cdcdcd13d225e17",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        1280,
+        1280
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pumpkin_potage",
+      "originalFile": "pumpkin_potage.png",
+      "file": "pumpkin_potage.jpg",
+      "originalBytes": 1887571,
+      "bytes": 302045,
+      "originalSHA256": "1e1f365676754ecf225bcfef86e3de783721a4ec2a9d5a888e04acaba0cade70",
+      "sha256": "04c795fa026cd9995ef8a643e5c1b01d2ae162843a2534b535031c9d198a70f8",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        1280,
+        1280
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "drumette_vinegar_simmer",
+      "originalFile": "drumette_vinegar_simmer.png",
+      "file": "drumette_vinegar_simmer.jpg",
+      "originalBytes": 2152333,
+      "bytes": 376824,
+      "originalSHA256": "2ab5c866b8b9a4886b04b1c353a44b36ab01af45c9448a6371101b4058b0ae86",
+      "sha256": "31611978f619f1b9bfc5215edb60000228e5e50c9fd98a4c48fe8cd2f49a0476",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        1280,
+        1280
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "plain_rice",
+      "originalFile": "plain-rice-tray-illustration-v1.png",
+      "file": "plain-rice-tray-illustration-v1.png",
+      "originalBytes": 1863425,
+      "bytes": 1863425,
+      "originalSHA256": "64670c9908d81c1690441ed9db73f6f59ea106a5f3cf0ed701387c7315c80b03",
+      "sha256": "64670c9908d81c1690441ed9db73f6f59ea106a5f3cf0ed701387c7315c80b03",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "hasAlpha": true,
+      "transformation": "Unchanged"
+    },
+    {
+      "recipeKey": "saury_salt_grill",
+      "originalFile": "saury_salt_grill.png",
+      "file": "saury_salt_grill.jpg",
+      "originalBytes": 2364660,
+      "bytes": 279678,
+      "originalSHA256": "e79e38ad946facc6c979cc9a64ff39c966f4db780c32266569801d6bb2482e10",
+      "sha256": "d874305f5f59ca0d3d3ed56eac244ed117da10149fd4df6e6ab1da060b1d9e96",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "squid_celery_stir",
+      "originalFile": "squid_celery_stir.png",
+      "file": "squid_celery_stir.jpg",
+      "originalBytes": 2280215,
+      "bytes": 292702,
+      "originalSHA256": "902f75b692382539941d7ba036545f8fe0e2e06eaac336f58c23fd484d326e36",
+      "sha256": "e3c665d619e7c27466e88da548148179cf92bfe8d8c41b223afa2251103f03ad",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "octopus_cucumber_sunomono",
+      "originalFile": "octopus_cucumber_sunomono.png",
+      "file": "octopus_cucumber_sunomono.jpg",
+      "originalBytes": 2212665,
+      "bytes": 267473,
+      "originalSHA256": "99b3d2b61311ee3ee8dc47baf2c5a5bf756e13cd7213a0c4895dddb6fece15d0",
+      "sha256": "b7908e574e7d29fec1515fbed0b1bb960a4f53e71927a0be052cfbc983242b7b",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "wings_shichimi_grill",
+      "originalFile": "wings_shichimi_grill.png",
+      "file": "wings_shichimi_grill.jpg",
+      "originalBytes": 2459252,
+      "bytes": 340633,
+      "originalSHA256": "5fa4a4393585e7d8dcb4ab9bf42eb0726c6f5e91c0096f50eee4f755c1c8d7d8",
+      "sha256": "1bffaa8be70f287e2f15f460d1c730cd56243acc81ecb2139812ec5a5f28d862",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_shoulder_mustard",
+      "originalFile": "pork_shoulder_mustard.png",
+      "file": "pork_shoulder_mustard.jpg",
+      "originalBytes": 2548342,
+      "bytes": 352855,
+      "originalSHA256": "ddeba2ad3ebc00191a99950ceb084355674dca186d2899d906dc7789e6dfa6f8",
+      "sha256": "77b9f6352acb52374f8072a35fcd4df2f4bbe6039136c80e206eed5f68bb1019",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "beef_keema",
+      "originalFile": "beef_keema.png",
+      "file": "beef_keema.jpg",
+      "originalBytes": 2357145,
+      "bytes": 313736,
+      "originalSHA256": "01d77f3fa562c72117a284ba841e1e6af391be44ad13bfb1e66ea1b39027eb84",
+      "sha256": "29a6e1ab1fae909650bab25d8e7fffc036a9bda368e2021c98f991a271d84136",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "steak_balsamic_mushroom",
+      "originalFile": "steak_balsamic_mushroom.png",
+      "file": "steak_balsamic_mushroom.jpg",
+      "originalBytes": 2551788,
+      "bytes": 349355,
+      "originalSHA256": "40c9a3d0ae7c1cd45ad890119d889371d479d645dd51a0188f91958f1a5a3c4c",
+      "sha256": "a40f41a331aac95c004c9b5883e29303065615289e4fe29b6308e551873d8089",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "chicken_soba",
+      "originalFile": "chicken_soba.png",
+      "file": "chicken_soba.jpg",
+      "originalBytes": 2326684,
+      "bytes": 297856,
+      "originalSHA256": "74d71cccc1a8852622bcfd92add4742c6a57e28bf681ca8c0ae72a27f330b9cc",
+      "sha256": "9c6dcb50f5954b5f55aea809eff37a43d5e31681e435581f41c95d477ecdca03",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "vietnamese_somen",
+      "originalFile": "vietnamese_somen.png",
+      "file": "vietnamese_somen.jpg",
+      "originalBytes": 2121974,
+      "bytes": 257428,
+      "originalSHA256": "6a15ae27fcd13f5dbf44152e373a47828c0f3a9b0b9aaa15920d06e1f1d93429",
+      "sha256": "3a179b0dcd5c308cc49169a74aeee859624199da0ec87d2d93d735bcdaeef62c",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "koya_shiitake_simmer",
+      "originalFile": "koya_shiitake_simmer.png",
+      "file": "koya_shiitake_simmer.jpg",
+      "originalBytes": 2152262,
+      "bytes": 255738,
+      "originalSHA256": "7e0901b6e32a2aa52ce7fa742807e7f472bde0bc12fe3416eef0546d6f7c17e5",
+      "sha256": "e5ebff6dcf0db697ff44b4bc598aa06a2f3baf41ab3deec2ab38695527a4a365",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "okara_simmer",
+      "originalFile": "okara_simmer.png",
+      "file": "okara_simmer.jpg",
+      "originalBytes": 2374059,
+      "bytes": 312484,
+      "originalSHA256": "499a1556762422828d7775a4e39cf7e15bfc27e2eb0c329a2742146d9b1e1ef9",
+      "sha256": "06ec3433146267e2cf679f2b8a7e05bb04b2dabb170d391f5d3e17abd162e126",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "konjac_satsuma_simmer",
+      "originalFile": "konjac_satsuma_simmer.png",
+      "file": "konjac_satsuma_simmer.jpg",
+      "originalBytes": 2316119,
+      "bytes": 282788,
+      "originalSHA256": "5b966e050cc8cea9151529338ffbdc6d1b9919f933d4dd6175ebd272dbcc1413",
+      "sha256": "5a6a80729a71f934cb0b87c8d4098a979f7e2e7a2409d9a14ee07b65c4f4745d",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "beef_shirataki_sukiyaki",
+      "originalFile": "beef_shirataki_sukiyaki.png",
+      "file": "beef_shirataki_sukiyaki.jpg",
+      "originalBytes": 2298694,
+      "bytes": 308187,
+      "originalSHA256": "ce4853d98185c368eaa7d62a0052d7aca1db1718da00b88698ccc36326fb7347",
+      "sha256": "0d476385af484523f77c454dd591a20a018375a38bcbb33f1afcd417273c88ff",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "soy_milk_penne",
+      "originalFile": "soy_milk_penne.png",
+      "file": "soy_milk_penne.jpg",
+      "originalBytes": 2358088,
+      "bytes": 302976,
+      "originalSHA256": "0e02abd2d7ad74da246f0dfd83e183640fc0eb18c1590612b5db81aea2bc87da",
+      "sha256": "bc318041ff7d34f562c4269adb4f5e76c4aa2ce0bd66295f84895dcfabc56bb1",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "avocado_tuna_sandwich",
+      "originalFile": "avocado_tuna_sandwich.png",
+      "file": "avocado_tuna_sandwich.jpg",
+      "originalBytes": 2379079,
+      "bytes": 302507,
+      "originalSHA256": "917d74acdee24ae441f2679ce149a5905145ceaa69fdf05fc8c8a06b898361af",
+      "sha256": "991963aac133b8841a987ecc6b723871d4f2a9c4070f39112ed2b10aafc52a25",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "banana_yogurt_oatmeal",
+      "originalFile": "banana_yogurt_oatmeal.png",
+      "file": "banana_yogurt_oatmeal.jpg",
+      "originalBytes": 2006186,
+      "bytes": 221583,
+      "originalSHA256": "f3e5df0cb0eaf225927249c2a23ff2cff5ae3cc6dcd09daf7878795a2b832bb9",
+      "sha256": "9affdd2a4396a7e2c18ea779c911d77d216b028dd456d4da7229370df43ff14b",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "salmon_can_doria",
+      "originalFile": "salmon_can_doria.png",
+      "file": "salmon_can_doria.jpg",
+      "originalBytes": 2601802,
+      "bytes": 342128,
+      "originalSHA256": "84ae2937d05796908fa6c1b0bc98080472e0fbff5049afb5cfc26478aca68c51",
+      "sha256": "8dded696a2de7cee856e1b0db675ea39dccf120c496bf9b1410f57511587461d",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "canned_sardine_tomato",
+      "originalFile": "canned_sardine_tomato.png",
+      "file": "canned_sardine_tomato.jpg",
+      "originalBytes": 2476714,
+      "bytes": 346425,
+      "originalSHA256": "1b94ad54ea4e464cb3d33eb1b8f7cb9e60686935faf44fa191041a5e54dfc319",
+      "sha256": "a8e7ee5513f9cb6a2ba5017c363a123d35c8e98dc0f5ae57286334f7be2c08ab",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "chikuwa_cucumber_salad",
+      "originalFile": "chikuwa_cucumber_salad.png",
+      "file": "chikuwa_cucumber_salad.jpg",
+      "originalBytes": 2108402,
+      "bytes": 258164,
+      "originalSHA256": "9ee888bf1ab54b4619b05e96dbc74d8c318642a194ab69aeeee3badf32d9b448",
+      "sha256": "8f3d997f47f6a0fe433321d315218dd2bd5d7b9652c6c9c03b4b2212f0df4212",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "scallop_spinach_cream",
+      "originalFile": "scallop_spinach_cream.png",
+      "file": "scallop_spinach_cream.jpg",
+      "originalBytes": 2387828,
+      "bytes": 298141,
+      "originalSHA256": "6ed8486a1afa3cc370fc274cec59754fc4c6fb373bb761688f176fd303c3bcbf",
+      "sha256": "f9bd9b060d7de982c4bb7606a0f4f1d0fd4863ed9c481f1aa3c87fe27222f0ac",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "tuna_avocado_rice",
+      "originalFile": "tuna_avocado_rice.png",
+      "file": "tuna_avocado_rice.jpg",
+      "originalBytes": 2192120,
+      "bytes": 276584,
+      "originalSHA256": "68cfe1f24aa7fab4a13573950d9dbabc526677e022e852407ede770b1064c60e",
+      "sha256": "9ff377b7221bad0d93b502c6b885b771f34e6318e5a6764f86cd59729858a6b0",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "flounder_simmer",
+      "originalFile": "flounder_simmer.png",
+      "file": "flounder_simmer.jpg",
+      "originalBytes": 2591541,
+      "bytes": 325519,
+      "originalSHA256": "cc3b5efc3163b5c10444d0ed8d8b83bbf5b363f9e522a9e863f682c846b77daa",
+      "sha256": "d3f90257d381bfc97d1caf5d911e17a85a9d51c0f98f2f312feab92b3eae2216",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "shirasu_shiso_rice",
+      "originalFile": "shirasu_shiso_rice.png",
+      "file": "shirasu_shiso_rice.jpg",
+      "originalBytes": 2199136,
+      "bytes": 277637,
+      "originalSHA256": "f674d07b13d370e457d31405116ccd7b31e2076c93cb173150fc298d2b4333ba",
+      "sha256": "f4bf2931a2ba2e93108f4a87f708395b4be31d0cec3fab368bbd6cc6083f95d1",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "mentaiko_mochi_pizza",
+      "originalFile": "mentaiko_mochi_pizza.png",
+      "file": "mentaiko_mochi_pizza.jpg",
+      "originalBytes": 2336009,
+      "bytes": 299301,
+      "originalSHA256": "83c3918f05a5f10ecc1426fc8510bacb82f6630fc0356128a9e716c9fef819de",
+      "sha256": "97ac31433b84dcc23c0f717164d2b542de812befd89a28a51f1016704ba96bcb",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "turnip_white_dashi_soup",
+      "originalFile": "turnip_white_dashi_soup.png",
+      "file": "turnip_white_dashi_soup.jpg",
+      "originalBytes": 2043450,
+      "bytes": 219399,
+      "originalSHA256": "00d37e34c2c070c0466cdebd1e22d35e968439d3740d5c9da840b878333b1ed7",
+      "sha256": "320c46c15256287b607ba54041e93a36ec98ca8f0340c895e23f42454e73dd3f",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "chicken_seri_soup",
+      "originalFile": "chicken_seri_soup.png",
+      "file": "chicken_seri_soup.jpg",
+      "originalBytes": 2259090,
+      "bytes": 279266,
+      "originalSHA256": "5e2847d759465fc3366c73783d755cd3595f6489cb3760690345510ace65fe10",
+      "sha256": "73e80c0f82a1657d87ecff57e9f8d832374afbb3f1a75eda6f0ec7ac3b132126",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "molokheiya_egg_soup",
+      "originalFile": "molokheiya_egg_soup.png",
+      "file": "molokheiya_egg_soup.jpg",
+      "originalBytes": 2218775,
+      "bytes": 270136,
+      "originalSHA256": "79cb12c52a86c5ff4ef2f1cde4c06d14fef1ed5e5a0bcd551244c8b9078934b4",
+      "sha256": "618123e885a9b061bbf65d2b45c75d3ac965732f2ccccc8ac8e878f8f27d8d76",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "beef_round_garlic",
+      "originalFile": "beef_round_garlic.png",
+      "file": "beef_round_garlic.jpg",
+      "originalBytes": 2552730,
+      "bytes": 341789,
+      "originalSHA256": "6ef53d1508ad5233b00ac92801b517e94cc92f827613266cbb297ce26b61bbb4",
+      "sha256": "79357386662096a99e64d09e973cb01c3e2ef91dc6dcf176e10d674d1e8e0f8f",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_tenderloin_piccata",
+      "originalFile": "pork_tenderloin_piccata.png",
+      "file": "pork_tenderloin_piccata.jpg",
+      "originalBytes": 2429364,
+      "bytes": 314935,
+      "originalSHA256": "b30e08eba865cf97f1890b8d339cd5c3835cfde9789fdb969514c4ddde988df8",
+      "sha256": "48527d0191ba5d11db05fa8833517486a9590122488dfdadf9dd24c638f152f4",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "shrimp_glass_noodle_salad",
+      "originalFile": "shrimp_glass_noodle_salad.png",
+      "file": "shrimp_glass_noodle_salad.jpg",
+      "originalBytes": 2263453,
+      "bytes": 289836,
+      "originalSHA256": "1e3ebae737f18a6f356a21cef9dff86ac8ea999201b3902a04eb4b8830805706",
+      "sha256": "b97d8cc70e73824da0b47a6b4cdf5398a564431fd8c0a6d060c499744cc32cd7",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "rice_vermicelli_stir",
+      "originalFile": "rice_vermicelli_stir.png",
+      "file": "rice_vermicelli_stir.jpg",
+      "originalBytes": 2470862,
+      "bytes": 335843,
+      "originalSHA256": "1ab13cce225202fc4dd82d5195732c343dd4e24bae1412316ba88de28d1175e4",
+      "sha256": "39205b796bebe99521081ac68f99a5e98fb27bc6813444165f46ee84a8b8a6e7",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "lentil_tomato_soup",
+      "originalFile": "lentil_tomato_soup.png",
+      "file": "lentil_tomato_soup.jpg",
+      "originalBytes": 2227283,
+      "bytes": 278124,
+      "originalSHA256": "f70cf09b3437f5e86b139c380f57e2e8409b20dc25e2649c55d730751b34b31f",
+      "sha256": "3aa7fbd213365058eb56d6378d3be49faae1d18c1313ae4fa82947524e669a34",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "soybean_curry_salad",
+      "originalFile": "soybean_curry_salad.png",
+      "file": "soybean_curry_salad.jpg",
+      "originalBytes": 2112998,
+      "bytes": 255439,
+      "originalSHA256": "ea6679adc343f40a9b58430cc1a3957dfa4b80f4e95f69ca7644e9e8b650df85",
+      "sha256": "c88acfa5817efae7bce7be35271a1cfef65f81ca5df610d33f84d579a2e74b17",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "cauliflower_sprout_cheese",
+      "originalFile": "cauliflower_sprout_cheese.png",
+      "file": "cauliflower_sprout_cheese.jpg",
+      "originalBytes": 2403609,
+      "bytes": 320178,
+      "originalSHA256": "b33bea6ab9bae758685c80960b4c93f119bfce74d99c67a17a60f748524dd810",
+      "sha256": "c6c28e9ef80ac24ce641a0d9aeac8146bf98755ba08f4632838cbcbe15c79524",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_daikon_simmer",
+      "originalFile": "pork_daikon_simmer.png",
+      "file": "pork_daikon_simmer.jpg",
+      "originalBytes": 2401535,
+      "bytes": 312210,
+      "originalSHA256": "e088368204192bcefac427bd8c88046d8c3a0a824db998b95e60dfc28cb28c06",
+      "sha256": "1ce51906e55e00790a00eab077a72e79fecd6cc76ac0dc46f4739e2da339dfee",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "chicken_nanban",
+      "originalFile": "chicken_nanban.png",
+      "file": "chicken_nanban.jpg",
+      "originalBytes": 2361197,
+      "bytes": 309723,
+      "originalSHA256": "1a8f2a61b4a40ffb0254ca2a103dc636bea0fd300e5021560134717e48a2ec64",
+      "sha256": "52c2eb08bd0c3b9a416976e607590448aa95044ba001e2b0302708297b4aa7f8",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "salmon_chanchan",
+      "originalFile": "salmon_chanchan.png",
+      "file": "salmon_chanchan.jpg",
+      "originalBytes": 2601569,
+      "bytes": 367250,
+      "originalSHA256": "e37330be35802dfe076252eb7f4432e73457a9ab2d4d617106ef4f48a23d1ac1",
+      "sha256": "381883aff8147a9d5f471ae2d08b87df51572831a8d10f25ce562d69a379ed17",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "atsuage_komatsuna_simmer",
+      "originalFile": "atsuage_komatsuna_simmer.png",
+      "file": "atsuage_komatsuna_simmer.jpg",
+      "originalBytes": 2261423,
+      "bytes": 287307,
+      "originalSHA256": "557c0714185c60b7ccd581bf1f7974c08fa2d74bd30b6dfeeea28754710fe06d",
+      "sha256": "bae2662299be5cb2d95d2aeabcf1c98cae1ce6bca3a6aa8239e309e45f59db76",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "chicken_yurinchi",
+      "originalFile": "chicken_yurinchi.png",
+      "file": "chicken_yurinchi.jpg",
+      "originalBytes": 2421018,
+      "bytes": 327081,
+      "originalSHA256": "46e12784879ef8648c53c138302e464cf3bd06d78cf73c16caa29b8363bedd9a",
+      "sha256": "8e39950d58a6b830be8c315162c87264cbc452b685b14e2e1e568c49af8a85a8",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "chicken_daikon",
+      "originalFile": "chicken_daikon.png",
+      "file": "chicken_daikon.jpg",
+      "originalBytes": 2264088,
+      "bytes": 284601,
+      "originalSHA256": "c22a61584d16c70bdb0d4e0b56654ba117e77afcb0f5932a17adf4ec64f9e6f9",
+      "sha256": "072f6f986aee1e5c679faa67d42a3b9d73ce03f64021e891e52a408114da83d8",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "chikuzenni",
+      "originalFile": "chikuzenni.png",
+      "file": "chikuzenni.jpg",
+      "originalBytes": 2332525,
+      "bytes": 299996,
+      "originalSHA256": "1cdda29aae82d9558b785a24fdce7c701d9f2eb2fdf24f99ed885c1a8af2810d",
+      "sha256": "95fd02a39e807d02ca73aaed9c01335942a7e230fa81d8be9becc2a616b70867",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "chicken_napa_cream",
+      "originalFile": "chicken_napa_cream.png",
+      "file": "chicken_napa_cream.jpg",
+      "originalBytes": 2210412,
+      "bytes": 265401,
+      "originalSHA256": "790258f4d550e1146fd40241487370e9f6f4bb9385a47f9c8e9eedb475136f80",
+      "sha256": "8f3b293f9dfed5cc31c13f78e62ce033f62c2eccaf4d6acd3412ac08d18c3415",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "garlic_chicken_saute",
+      "originalFile": "garlic_chicken_saute.png",
+      "file": "garlic_chicken_saute.jpg",
+      "originalBytes": 2587667,
+      "bytes": 355754,
+      "originalSHA256": "7bb63606ea63dfa1af8630eae393f4921cbfa28b7a19ec99476866b70220d3f8",
+      "sha256": "064a9b9ea159d56c705e2d8eb4e35e306b0aa91f40fa51b0827c91d7190411fe",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "chicken_cabbage_miso",
+      "originalFile": "chicken_cabbage_miso.png",
+      "file": "chicken_cabbage_miso.jpg",
+      "originalBytes": 2409594,
+      "bytes": 330945,
+      "originalSHA256": "e92e1a54b90a9b9698f0e5fe347072936a978422fdf0a6ad03f30d9e80d847f1",
+      "sha256": "b583327f9b94026f06203b58d38d9fb7ff3aad516aa2c4ca916079633d5ff2eb",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "sausage_pot_au_feu",
+      "originalFile": "sausage_pot_au_feu.png",
+      "file": "sausage_pot_au_feu.jpg",
+      "originalBytes": 2212106,
+      "bytes": 262975,
+      "originalSHA256": "691c56e9ecc6a9d9c197c27816053606ac6492ab9c4d25403a359912326f4eba",
+      "sha256": "9431d0b639020ca7971f3b8e534a69c0f88d31e8db9fb337f4f3362319404499",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "onion_gratin_soup",
+      "originalFile": "onion_gratin_soup.png",
+      "file": "onion_gratin_soup.jpg",
+      "originalBytes": 2174886,
+      "bytes": 252742,
+      "originalSHA256": "be2081effb879f65d24d97aff48664d7162f3c530cebf23f3013ae7c266ba1a2",
+      "sha256": "95ffd3dc4efa95c1a8916d1b9d5e503af4cda0d97c4bcf5933d836f2b2168666",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "spinach_bacon_quiche",
+      "originalFile": "spinach_bacon_quiche.png",
+      "file": "spinach_bacon_quiche.jpg",
+      "originalBytes": 2440502,
+      "bytes": 325217,
+      "originalSHA256": "625af9dce01cf4b3eacf3818b0ae4e9f25654af4e0325fb3fb98d9d72b2c36fb",
+      "sha256": "12181ab2efa07221c0d9d8ef9e22335f4e486e1a1bdb04ccfe3471c791f74c43",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "nicoise_salad",
+      "originalFile": "nicoise_salad.png",
+      "file": "nicoise_salad.jpg",
+      "originalBytes": 2669187,
+      "bytes": 382353,
+      "originalSHA256": "0fe7d335eb3fbb3d79314afe955d84cd3a3f73c67e0718a18a467a24c4dd7255",
+      "sha256": "aedb08588cebee4c31ae12511c6cab8fe4d265414cee793bda47ba132436c902",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "carottes_rapees",
+      "originalFile": "carottes_rapees.png",
+      "file": "carottes_rapees.jpg",
+      "originalBytes": 2121549,
+      "bytes": 268933,
+      "originalSHA256": "20ff66cb8ae8ed7fc28cf34870800c087998b22b77295febdbd3cbe6263c32f3",
+      "sha256": "22626ef9570e3779432496cb967991d2afe37a1cbf751d44a213d1599d36bc81",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "potato_dauphinois",
+      "originalFile": "potato_dauphinois.png",
+      "file": "potato_dauphinois.jpg",
+      "originalBytes": 2375794,
+      "bytes": 308297,
+      "originalSHA256": "e596995714a0e296636fce366896e33695b4659c7faeb8ccb943433fd167457a",
+      "sha256": "eec041e808abd9d5ee10f27c649f7aec1bc3ffa1393766f933b1240193b39356",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "caprese_salad",
+      "originalFile": "caprese_salad.png",
+      "file": "caprese_salad.jpg",
+      "originalBytes": 2379846,
+      "bytes": 315139,
+      "originalSHA256": "07fad9043a67296fd8c7311a331352959f397b7efce42a734fb6646ddf26ac85",
+      "sha256": "ffefe79d3021018996871d3300d19acae118d26e4c6bb22ea3dff5df37204218",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "vegetable_minestrone",
+      "originalFile": "vegetable_minestrone.png",
+      "file": "vegetable_minestrone.jpg",
+      "originalBytes": 2242580,
+      "bytes": 276167,
+      "originalSHA256": "3ef5ecc3f91c3b3829e193c665ae8c299a194ed06c0e972baf06d194bf57f654",
+      "sha256": "3ab9236a7cab115512d21098cdaf58417164fa6673cd71a99402573ffe7dd125",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "cod_acqua_pazza",
+      "originalFile": "cod_acqua_pazza.png",
+      "file": "cod_acqua_pazza.jpg",
+      "originalBytes": 2499376,
+      "bytes": 335327,
+      "originalSHA256": "ca851c8026c09779035a0f7374a572495e599961100d502da5799456b6ee666b",
+      "sha256": "7e0ef00aca3a7ed8e2d8fdf9827f60c5392927bcf7889a1200002784dca7ed62",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "penne_arrabbiata",
+      "originalFile": "penne_arrabbiata.png",
+      "file": "penne_arrabbiata.jpg",
+      "originalBytes": 2416026,
+      "bytes": 329421,
+      "originalSHA256": "16c2733f56777effc32e54b3f54d4099a46302d39575c92aa67f82f1709f960b",
+      "sha256": "ebbb4f86f744db10d3d560c6b42d632dab50001a42199a73d1259823568b6a64",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "potato_frittata",
+      "originalFile": "potato_frittata.png",
+      "file": "potato_frittata.jpg",
+      "originalBytes": 2401134,
+      "bytes": 314693,
+      "originalSHA256": "9ff78af6adf3a231d1e4ec342fac446374d9faf2a174d5875468960866efbffa",
+      "sha256": "62802020bbdf799c4ef0f9e4a4e18d8e3448a2048efae776b0d8542f2d54ca14",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "mushroom_risotto",
+      "originalFile": "mushroom_risotto.png",
+      "file": "mushroom_risotto.jpg",
+      "originalBytes": 2345104,
+      "bytes": 293410,
+      "originalSHA256": "5e73aab19c59360e44564749956dee06adc8d58f0d9a05858388a72f91b7977c",
+      "sha256": "cf08bbcac0b850a37c29de79a3627338bafd6a8f2e0b441f646383dc59aae9d4",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "caesar_salad",
+      "originalFile": "caesar_salad.png",
+      "file": "caesar_salad.jpg",
+      "originalBytes": 2460469,
+      "bytes": 341746,
+      "originalSHA256": "39c14550e1e77809c6fa1f4c035078bbc76e112bb1d3e4a16af7c3e09c810760",
+      "sha256": "e0dd2b63de56849c57a5349990e786145e322dce4daa847d619aa37d4d0ffa75",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "choregi_salad",
+      "originalFile": "choregi_salad.png",
+      "file": "choregi_salad.jpg",
+      "originalBytes": 2467970,
+      "bytes": 336845,
+      "originalSHA256": "eac171d9a2c47697a5bc563bdf756d0818d6bfcff25d5c86fecdb44cbf0df352",
+      "sha256": "37d395bc75c8fb8a811867d5d0dc9405d243d2480b6db98c6dea6f9bdddc1edf",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "burdock_sesame_salad",
+      "originalFile": "burdock_sesame_salad.png",
+      "file": "burdock_sesame_salad.jpg",
+      "originalBytes": 2309222,
+      "bytes": 299916,
+      "originalSHA256": "6120800e59a58d89185abdd78d98798f3efbd01e41f759a07bdc5ba3ed40c93d",
+      "sha256": "f44c3a760b71cfb5029bdd8ebaf5d525b24c8e00d2030da2a7fee82775f20447",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pumpkin_salad",
+      "originalFile": "pumpkin_salad.png",
+      "file": "pumpkin_salad.jpg",
+      "originalBytes": 2178342,
+      "bytes": 267586,
+      "originalSHA256": "15d6e3be203410108ff6ae6a8f303c04d54585e789b002abf9fcc499403697b8",
+      "sha256": "83d98d9ff2af87f9456bfe1786f3e57b3aeb8c8b7c5ea6aa6762ce0eacdd5fa4",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "daikon_salad",
+      "originalFile": "daikon_salad.png",
+      "file": "daikon_salad.jpg",
+      "originalBytes": 2444256,
+      "bytes": 332418,
+      "originalSHA256": "844a8b878bb036d17aecc95abec9d390106e9c994bea28ee9e3f9b2bb138f444",
+      "sha256": "7fdbdff5d0cd0ede14a55af71afa566b1eadbd15596776ddb9bfbd680894f22d",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "chinese_glass_noodle_salad",
+      "originalFile": "chinese_glass_noodle_salad.png",
+      "file": "chinese_glass_noodle_salad.jpg",
+      "originalBytes": 2192861,
+      "bytes": 280906,
+      "originalSHA256": "65b7bb8dea0ebb0f464dbda292d4120db4ee8ac434dce23e4b1bf1dca59106ce",
+      "sha256": "cfd2e7d9be43887dd8cdbf399395975aba1fe92b614e0b448b060dfba0d088bd",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "tofu_wakame_salad",
+      "originalFile": "tofu_wakame_salad.png",
+      "file": "tofu_wakame_salad.jpg",
+      "originalBytes": 2500309,
+      "bytes": 338495,
+      "originalSHA256": "d0a43e9c4caa64e8a7376a0e3461cd29a7964964c33012e6ace601a1d4da9140",
+      "sha256": "25c2ccc1cbd55cc09bf28018df031603f8611f5ae2e7393dd84e34e494909bf7",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "cobb_salad",
+      "originalFile": "cobb_salad.png",
+      "file": "cobb_salad.jpg",
+      "originalBytes": 2394767,
+      "bytes": 325636,
+      "originalSHA256": "0770e9d0125fa961bb09b5ec58d96e4d0f01e55e300d6eb839a42f6365fe51fd",
+      "sha256": "5d6cc19ffc31e26ed9e3d53bd0b96db648e3fe8e1fe48dd65d714ce907e89605",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "napa_pork_layered_pot",
+      "originalFile": "napa_pork_layered_pot.png",
+      "file": "napa_pork_layered_pot.jpg",
+      "originalBytes": 2142710,
+      "bytes": 267238,
+      "originalSHA256": "86f6baa09fd6063b4ab587655a68125d95ac0f9837cd51e705a4a04cc0101582",
+      "sha256": "601e4d0be43596493bf1972c1bbf447fc49fcfe0f8c8d38782dc0f611b218f4a",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "napa_tuna_simmer",
+      "originalFile": "napa_tuna_simmer.png",
+      "file": "napa_tuna_simmer.jpg",
+      "originalBytes": 2261430,
+      "bytes": 274481,
+      "originalSHA256": "87f8bc532192375dcbec8e90acfe401fef35fe75a0b0073fec7c686472416679",
+      "sha256": "79f4449baeb2da0eafa576d669e7e8f67ecd8264a0347b11be0e317402f58dcc",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "napa_atsuage_simmer",
+      "originalFile": "napa_atsuage_simmer.png",
+      "file": "napa_atsuage_simmer.jpg",
+      "originalBytes": 2334839,
+      "bytes": 288611,
+      "originalSHA256": "ff6d0629ac287546569240f874bfaab5f17d4190ee5e5c40050e33db3b1f0e51",
+      "sha256": "e578b4fcaa5788c04e23cb493125ad995e6eaaa15231908054140b48a94a257d",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "napa_sesame_side",
+      "originalFile": "napa_sesame_side.png",
+      "file": "napa_sesame_side.jpg",
+      "originalBytes": 2053512,
+      "bytes": 235925,
+      "originalSHA256": "b35021168456e4890abce2f1d94e8dbeb67b26689e9eaedcd38d06a79efae73c",
+      "sha256": "a691c0a9efa1fee2e11e84d73f26e8263b04661654d8656103038f646174eea9",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "napa_bacon_soup",
+      "originalFile": "napa_bacon_soup.png",
+      "file": "napa_bacon_soup.jpg",
+      "originalBytes": 2184926,
+      "bytes": 262598,
+      "originalSHA256": "d15bbceefdb7b8029ba0b5acc0d70bab3a802b12edbfccfd730f6742a7cae4f9",
+      "sha256": "0f3b97e165a527247c09310dbd1007a304e29c082c6d60fd1c55ac8556156ce4",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "napa_enoki_miso_soup",
+      "originalFile": "napa_enoki_miso_soup.png",
+      "file": "napa_enoki_miso_soup.jpg",
+      "originalBytes": 2090757,
+      "bytes": 246801,
+      "originalSHA256": "f2db8fcac6e9edb926b4773502599035a6ba420bf2f1ef2b26b01e033ffd5e52",
+      "sha256": "c8bbbcf331c708e48936ba952037a10029af0aea373cb24d44e115c9047136ea",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    }
+  ],
+  "preparedAt": "2026-10-15",
+  "originalBackup": "${HOME}/Developer/Backups/IOSアプリ制作-20261015-094320-before-release/working-copy/App/Resources/meal-images"
+}

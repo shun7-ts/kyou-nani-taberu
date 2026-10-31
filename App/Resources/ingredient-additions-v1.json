@@ -1,0 +1,4548 @@
+{
+  "catalogVersion": "1.8.0",
+  "aliasesByKey": {
+    "water": [
+      "みず"
+    ],
+    "cooked_rice": [
+      "はくまい",
+      "ご飯",
+      "御飯",
+      "白ご飯",
+      "炊いたご飯"
+    ],
+    "frozen_udon": [
+      "れいとううどん"
+    ],
+    "yakisoba_noodles": [
+      "やきそば",
+      "やきそばめん"
+    ],
+    "tofu": [
+      "とうふ",
+      "もめんどうふ",
+      "きぬごしどうふ"
+    ],
+    "chicken_thigh": [
+      "とりももにく",
+      "とりにく",
+      "鶏肉"
+    ],
+    "pork_slices": [
+      "ぶたこま",
+      "ぶたにく",
+      "豚肉"
+    ],
+    "ground_pork": [
+      "ぶたひきにく",
+      "ぶたひき"
+    ],
+    "salmon_fillet": [
+      "さけ",
+      "しゃけ",
+      "さけのきりみ"
+    ],
+    "canned_tuna": [
+      "つな",
+      "つなかん"
+    ],
+    "green_onion": [
+      "ながねぎ"
+    ],
+    "potato_starch": [
+      "かたくりこ"
+    ],
+    "salt": [
+      "しお"
+    ],
+    "sugar": [
+      "さとう"
+    ],
+    "vinegar": [
+      "す"
+    ],
+    "cooking_sake": [
+      "りょうりしゅ",
+      "さけ"
+    ],
+    "neutral_oil": [
+      "さらだあぶら"
+    ],
+    "sesame_oil": [
+      "ごまあぶら"
+    ],
+    "chuno_sauce": [
+      "ちゅうのうそーす"
+    ],
+    "dashi_granules": [
+      "わふうだしのもと",
+      "だし"
+    ],
+    "chicken_stock_powder": [
+      "とりがらすーぷのもと",
+      "とりがら"
+    ],
+    "doubanjiang": [
+      "とうばんじゃん"
+    ],
+    "dried_wakame": [
+      "かんそうわかめ"
+    ],
+    "whole_grain_mustard": [
+      "つぶますたーど"
+    ],
+    "balsamic_vinegar": [
+      "ばるさみこす"
+    ],
+    "milk": [
+      "ぎゅうにゅう"
+    ],
+    "ground_chicken": [
+      "とりひきにく",
+      "とりひき"
+    ],
+    "beef_slices": [
+      "ぎゅうこま",
+      "ぎゅうにく",
+      "牛肉"
+    ],
+    "lemon_juice": [
+      "れもんじる"
+    ],
+    "canned_tomatoes": [
+      "とまとかん"
+    ],
+    "canned_mackerel": [
+      "さば",
+      "さばかん"
+    ],
+    "dried_chili": [
+      "かんそうとうがらし",
+      "とうがらし"
+    ]
+  },
+  "ingredients": [
+    {
+      "id": "10000000-0000-4000-8000-000000000065",
+      "key": "spinach",
+      "canonicalName": "ほうれん草",
+      "aliases": [
+        "ほうれんそう",
+        "ホウレンソウ"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bunch",
+      "allowedUnits": [
+        "bunch",
+        "gram",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000066",
+      "key": "broccoli",
+      "canonicalName": "ブロッコリー",
+      "aliases": [
+        "ぶろっこりー"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000067",
+      "key": "tomato",
+      "canonicalName": "トマト",
+      "aliases": [
+        "とまと",
+        "生トマト"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000068",
+      "key": "eggplant",
+      "canonicalName": "なす",
+      "aliases": [
+        "ナス",
+        "茄子"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000069",
+      "key": "lettuce",
+      "canonicalName": "レタス",
+      "aliases": [
+        "れたす"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000070",
+      "key": "lotus_root",
+      "canonicalName": "れんこん",
+      "aliases": [
+        "レンコン",
+        "蓮根"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "piece",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000071",
+      "key": "burdock",
+      "canonicalName": "ごぼう",
+      "aliases": [
+        "ゴボウ",
+        "牛蒡"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "stalk",
+      "allowedUnits": [
+        "stalk",
+        "gram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000072",
+      "key": "sweet_potato",
+      "canonicalName": "さつまいも",
+      "aliases": [
+        "サツマイモ",
+        "薩摩芋"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000073",
+      "key": "pumpkin",
+      "canonicalName": "かぼちゃ",
+      "aliases": [
+        "カボチャ",
+        "南瓜"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000074",
+      "key": "bell_pepper",
+      "canonicalName": "パプリカ",
+      "aliases": [
+        "ぱぷりか"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000075",
+      "key": "zucchini",
+      "canonicalName": "ズッキーニ",
+      "aliases": [
+        "ずっきーに"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000076",
+      "key": "turnip",
+      "canonicalName": "かぶ",
+      "aliases": [
+        "カブ",
+        "蕪"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000077",
+      "key": "taro",
+      "canonicalName": "里芋",
+      "aliases": [
+        "さといも",
+        "サトイモ"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000078",
+      "key": "bitter_melon",
+      "canonicalName": "ゴーヤ",
+      "aliases": [
+        "ごーや",
+        "苦瓜",
+        "にがうり"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000079",
+      "key": "asparagus",
+      "canonicalName": "アスパラガス",
+      "aliases": [
+        "あすぱらがす",
+        "アスパラ"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "stalk",
+      "allowedUnits": [
+        "stalk",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000080",
+      "key": "celery",
+      "canonicalName": "セロリ",
+      "aliases": [
+        "せろり"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "stalk",
+      "allowedUnits": [
+        "stalk",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000081",
+      "key": "nagaimo",
+      "canonicalName": "長芋",
+      "aliases": [
+        "ながいも",
+        "ナガイモ"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "stalk",
+      "allowedUnits": [
+        "stalk",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000082",
+      "key": "corn",
+      "canonicalName": "とうもろこし",
+      "aliases": [
+        "トウモロコシ",
+        "コーン"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "stalk",
+      "allowedUnits": [
+        "stalk",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000083",
+      "key": "chinese_chives",
+      "canonicalName": "にら",
+      "aliases": [
+        "ニラ",
+        "韮"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bunch",
+      "allowedUnits": [
+        "bunch",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000084",
+      "key": "mizuna",
+      "canonicalName": "水菜",
+      "aliases": [
+        "みずな",
+        "ミズナ"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bunch",
+      "allowedUnits": [
+        "bunch",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000085",
+      "key": "bok_choy",
+      "canonicalName": "チンゲン菜",
+      "aliases": [
+        "ちんげんさい",
+        "青梗菜",
+        "チンゲンサイ"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bunch",
+      "allowedUnits": [
+        "bunch",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000086",
+      "key": "pea_shoots",
+      "canonicalName": "豆苗",
+      "aliases": [
+        "とうみょう",
+        "トウミョウ"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bunch",
+      "allowedUnits": [
+        "bunch",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000087",
+      "key": "small_green_onion",
+      "canonicalName": "小ねぎ",
+      "aliases": [
+        "こねぎ",
+        "小ネギ",
+        "万能ねぎ",
+        "青ねぎ"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bunch",
+      "allowedUnits": [
+        "bunch",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000088",
+      "key": "okra",
+      "canonicalName": "オクラ",
+      "aliases": [
+        "おくら"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bag",
+      "allowedUnits": [
+        "bag",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000089",
+      "key": "snap_peas",
+      "canonicalName": "スナップえんどう",
+      "aliases": [
+        "すなっぷえんどう",
+        "スナップエンドウ"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bag",
+      "allowedUnits": [
+        "bag",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000090",
+      "key": "green_beans",
+      "canonicalName": "いんげん",
+      "aliases": [
+        "インゲン",
+        "いんげん豆"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bag",
+      "allowedUnits": [
+        "bag",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000091",
+      "key": "edamame",
+      "canonicalName": "枝豆",
+      "aliases": [
+        "えだまめ",
+        "エダマメ"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bag",
+      "allowedUnits": [
+        "bag",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000092",
+      "key": "shiso",
+      "canonicalName": "大葉",
+      "aliases": [
+        "おおば",
+        "オオバ",
+        "青じそ",
+        "しそ"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "slice",
+      "allowedUnits": [
+        "slice",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000093",
+      "key": "enoki",
+      "canonicalName": "えのき",
+      "aliases": [
+        "エノキ",
+        "えのきだけ",
+        "えのき茸"
+      ],
+      "category": "mushroom",
+      "defaultUnit": "pack",
+      "allowedUnits": [
+        "pack",
+        "gram",
+        "piece",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000094",
+      "key": "shiitake",
+      "canonicalName": "しいたけ",
+      "aliases": [
+        "シイタケ",
+        "椎茸"
+      ],
+      "category": "mushroom",
+      "defaultUnit": "pack",
+      "allowedUnits": [
+        "pack",
+        "gram",
+        "piece",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000095",
+      "key": "maitake",
+      "canonicalName": "まいたけ",
+      "aliases": [
+        "マイタケ",
+        "舞茸"
+      ],
+      "category": "mushroom",
+      "defaultUnit": "pack",
+      "allowedUnits": [
+        "pack",
+        "gram",
+        "piece",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000096",
+      "key": "eringi",
+      "canonicalName": "エリンギ",
+      "aliases": [
+        "えりんぎ"
+      ],
+      "category": "mushroom",
+      "defaultUnit": "pack",
+      "allowedUnits": [
+        "pack",
+        "gram",
+        "piece",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000097",
+      "key": "button_mushroom",
+      "canonicalName": "マッシュルーム",
+      "aliases": [
+        "まっしゅるーむ"
+      ],
+      "category": "mushroom",
+      "defaultUnit": "pack",
+      "allowedUnits": [
+        "pack",
+        "gram",
+        "piece",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000098",
+      "key": "chicken_breast",
+      "canonicalName": "鶏むね肉",
+      "aliases": [
+        "とりむねにく",
+        "鶏胸肉",
+        "鶏ムネ肉",
+        "とりむね"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "chicken"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000099",
+      "key": "chicken_tenderloin",
+      "canonicalName": "鶏ささみ",
+      "aliases": [
+        "とりささみ",
+        "ささみ",
+        "ササミ"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "chicken"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000100",
+      "key": "chicken_wings",
+      "canonicalName": "鶏手羽先",
+      "aliases": [
+        "とりてばさき",
+        "手羽先",
+        "てばさき"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "chicken"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000101",
+      "key": "chicken_drumettes",
+      "canonicalName": "鶏手羽元",
+      "aliases": [
+        "とりてばもと",
+        "手羽元",
+        "てばもと"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "chicken"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000102",
+      "key": "pork_belly",
+      "canonicalName": "豚バラ肉",
+      "aliases": [
+        "ぶたばらにく",
+        "豚ばら肉",
+        "ぶたばら"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "pork"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000103",
+      "key": "pork_loin",
+      "canonicalName": "豚ロース肉",
+      "aliases": [
+        "ぶたろーすにく",
+        "豚ロース",
+        "ぶたろーす"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "pork"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000104",
+      "key": "pork_shoulder",
+      "canonicalName": "豚肩ロース肉",
+      "aliases": [
+        "ぶたかたろーすにく",
+        "豚肩ロース",
+        "ぶたかたろーす"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "pork"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000105",
+      "key": "ground_beef",
+      "canonicalName": "牛ひき肉",
+      "aliases": [
+        "ぎゅうひきにく",
+        "牛挽き肉",
+        "ぎゅうひき"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "beef"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000106",
+      "key": "beef_steak",
+      "canonicalName": "牛ステーキ肉",
+      "aliases": [
+        "ぎゅうすてーきにく",
+        "牛ステーキ用肉",
+        "ステーキ用牛肉"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "beef"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000107",
+      "key": "ground_mixed",
+      "canonicalName": "合いびき肉",
+      "aliases": [
+        "あいびきにく",
+        "合挽き肉",
+        "合挽肉",
+        "あいびき"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "beef",
+        "pork"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000108",
+      "key": "mackerel_fillet",
+      "canonicalName": "さばの切り身",
+      "aliases": [
+        "鯖",
+        "サバの切り身",
+        "さば",
+        "生さば"
+      ],
+      "category": "fish",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "mackerel"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000109",
+      "key": "cod_fillet",
+      "canonicalName": "たらの切り身",
+      "aliases": [
+        "鱈",
+        "タラ",
+        "たら"
+      ],
+      "category": "fish",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000110",
+      "key": "yellowtail_fillet",
+      "canonicalName": "ぶりの切り身",
+      "aliases": [
+        "鰤",
+        "ブリ",
+        "ぶり"
+      ],
+      "category": "fish",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000111",
+      "key": "horse_mackerel",
+      "canonicalName": "あじ",
+      "aliases": [
+        "アジ",
+        "鯵"
+      ],
+      "category": "fish",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000112",
+      "key": "sardine",
+      "canonicalName": "いわし",
+      "aliases": [
+        "イワシ",
+        "鰯"
+      ],
+      "category": "fish",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000113",
+      "key": "saury",
+      "canonicalName": "さんま",
+      "aliases": [
+        "サンマ",
+        "秋刀魚"
+      ],
+      "category": "fish",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000114",
+      "key": "shrimp",
+      "canonicalName": "えび",
+      "aliases": [
+        "エビ",
+        "海老",
+        "むきえび"
+      ],
+      "category": "fish",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "shrimp"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000115",
+      "key": "squid",
+      "canonicalName": "いか",
+      "aliases": [
+        "イカ",
+        "烏賊"
+      ],
+      "category": "fish",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "squid"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000116",
+      "key": "octopus",
+      "canonicalName": "たこ",
+      "aliases": [
+        "タコ",
+        "蛸",
+        "ゆでだこ"
+      ],
+      "category": "fish",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "octopus"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000117",
+      "key": "asari_clams",
+      "canonicalName": "あさり",
+      "aliases": [
+        "アサリ",
+        "浅蜊"
+      ],
+      "category": "fish",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000118",
+      "key": "raw_rice",
+      "canonicalName": "米",
+      "aliases": [
+        "こめ",
+        "コメ",
+        "精米",
+        "生米"
+      ],
+      "category": "staple",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000119",
+      "key": "bread",
+      "canonicalName": "食パン",
+      "aliases": [
+        "しょくぱん",
+        "ショクパン"
+      ],
+      "category": "staple",
+      "defaultUnit": "slice",
+      "allowedUnits": [
+        "slice",
+        "bag",
+        "gram"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000120",
+      "key": "soba",
+      "canonicalName": "そば",
+      "aliases": [
+        "ソバ",
+        "蕎麦",
+        "そば麺"
+      ],
+      "category": "staple",
+      "defaultUnit": "portion",
+      "allowedUnits": [
+        "portion",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "buckwheat",
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000121",
+      "key": "somen",
+      "canonicalName": "そうめん",
+      "aliases": [
+        "ソウメン",
+        "素麺"
+      ],
+      "category": "staple",
+      "defaultUnit": "portion",
+      "allowedUnits": [
+        "portion",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000122",
+      "key": "ramen_noodles",
+      "canonicalName": "中華麺",
+      "aliases": [
+        "ちゅうかめん",
+        "ラーメン麺",
+        "らーめんめん"
+      ],
+      "category": "staple",
+      "defaultUnit": "portion",
+      "allowedUnits": [
+        "portion",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000123",
+      "key": "rice_cake",
+      "canonicalName": "切り餅",
+      "aliases": [
+        "きりもち",
+        "切りもち",
+        "餅",
+        "もち"
+      ],
+      "category": "staple",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000124",
+      "key": "wheat_flour",
+      "canonicalName": "小麦粉",
+      "aliases": [
+        "こむぎこ",
+        "薄力粉",
+        "はくりきこ"
+      ],
+      "category": "staple",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000125",
+      "key": "breadcrumbs",
+      "canonicalName": "パン粉",
+      "aliases": [
+        "ぱんこ",
+        "パンコ"
+      ],
+      "category": "staple",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000126",
+      "key": "oatmeal",
+      "canonicalName": "オートミール",
+      "aliases": [
+        "おーとみーる"
+      ],
+      "category": "staple",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000127",
+      "key": "plain_yogurt",
+      "canonicalName": "プレーンヨーグルト",
+      "aliases": [
+        "ぷれーんよーぐると",
+        "無糖ヨーグルト",
+        "ヨーグルト"
+      ],
+      "category": "egg_dairy",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "milk"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000128",
+      "key": "shredded_cheese",
+      "canonicalName": "ピザ用チーズ",
+      "aliases": [
+        "ぴざようちーず",
+        "シュレッドチーズ",
+        "とろけるチーズ"
+      ],
+      "category": "egg_dairy",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "milk"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000129",
+      "key": "sliced_cheese",
+      "canonicalName": "スライスチーズ",
+      "aliases": [
+        "すらいすちーず"
+      ],
+      "category": "egg_dairy",
+      "defaultUnit": "slice",
+      "allowedUnits": [
+        "slice",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "milk"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000130",
+      "key": "cream",
+      "canonicalName": "生クリーム",
+      "aliases": [
+        "なまくりーむ",
+        "動物性クリーム"
+      ],
+      "category": "egg_dairy",
+      "defaultUnit": "milliliter",
+      "allowedUnits": [
+        "milliliter",
+        "liter",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "milk"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000131",
+      "key": "aburaage",
+      "canonicalName": "油揚げ",
+      "aliases": [
+        "あぶらあげ",
+        "アブラアゲ"
+      ],
+      "category": "soy_product",
+      "defaultUnit": "slice",
+      "allowedUnits": [
+        "slice",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "soy"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000132",
+      "key": "atsuage",
+      "canonicalName": "厚揚げ",
+      "aliases": [
+        "あつあげ",
+        "アツアゲ"
+      ],
+      "category": "soy_product",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "soy"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000133",
+      "key": "koya_tofu",
+      "canonicalName": "高野豆腐",
+      "aliases": [
+        "こうやどうふ",
+        "凍り豆腐"
+      ],
+      "category": "soy_product",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "soy"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000134",
+      "key": "okara",
+      "canonicalName": "おから",
+      "aliases": [
+        "オカラ",
+        "卯の花"
+      ],
+      "category": "soy_product",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "soy"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000135",
+      "key": "soy_milk",
+      "canonicalName": "豆乳",
+      "aliases": [
+        "とうにゅう",
+        "トウニュウ"
+      ],
+      "category": "soy_product",
+      "defaultUnit": "milliliter",
+      "allowedUnits": [
+        "milliliter",
+        "liter",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "soy"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000136",
+      "key": "ham",
+      "canonicalName": "ハム",
+      "aliases": [
+        "はむ",
+        "ロースハム"
+      ],
+      "category": "processed",
+      "defaultUnit": "slice",
+      "allowedUnits": [
+        "slice",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "pork"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000137",
+      "key": "bacon",
+      "canonicalName": "ベーコン",
+      "aliases": [
+        "べーこん"
+      ],
+      "category": "processed",
+      "defaultUnit": "slice",
+      "allowedUnits": [
+        "slice",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "pork"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000138",
+      "key": "chikuwa",
+      "canonicalName": "ちくわ",
+      "aliases": [
+        "チクワ",
+        "竹輪"
+      ],
+      "category": "processed",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000139",
+      "key": "kamaboko",
+      "canonicalName": "かまぼこ",
+      "aliases": [
+        "カマボコ",
+        "蒲鉾"
+      ],
+      "category": "processed",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "slice",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000140",
+      "key": "satsuma_age",
+      "canonicalName": "さつま揚げ",
+      "aliases": [
+        "さつまあげ",
+        "薩摩揚げ"
+      ],
+      "category": "processed",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000141",
+      "key": "konjac",
+      "canonicalName": "こんにゃく",
+      "aliases": [
+        "コンニャク",
+        "蒟蒻"
+      ],
+      "category": "processed",
+      "defaultUnit": "block",
+      "allowedUnits": [
+        "block",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000142",
+      "key": "shirataki",
+      "canonicalName": "しらたき",
+      "aliases": [
+        "シラタキ",
+        "白滝"
+      ],
+      "category": "processed",
+      "defaultUnit": "bag",
+      "allowedUnits": [
+        "bag",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000143",
+      "key": "nori",
+      "canonicalName": "焼きのり",
+      "aliases": [
+        "やきのり",
+        "焼き海苔",
+        "のり",
+        "海苔"
+      ],
+      "category": "processed",
+      "defaultUnit": "slice",
+      "allowedUnits": [
+        "slice",
+        "gram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000144",
+      "key": "frozen_mixed_vegetables",
+      "canonicalName": "冷凍ミックスベジタブル",
+      "aliases": [
+        "れいとうみっくすべじたぶる",
+        "ミックスベジタブル"
+      ],
+      "category": "processed",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "frozen",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000145",
+      "key": "mentsuyu",
+      "canonicalName": "めんつゆ",
+      "aliases": [
+        "メンツユ",
+        "麺つゆ"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "milliliter",
+      "allowedUnits": [
+        "milliliter",
+        "liter",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000146",
+      "key": "ponzu",
+      "canonicalName": "ぽん酢",
+      "aliases": [
+        "ぽんず",
+        "ポン酢",
+        "ポン酢しょうゆ"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "milliliter",
+      "allowedUnits": [
+        "milliliter",
+        "liter",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000147",
+      "key": "white_dashi",
+      "canonicalName": "白だし",
+      "aliases": [
+        "しろだし",
+        "シロダシ"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "milliliter",
+      "allowedUnits": [
+        "milliliter",
+        "liter",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000148",
+      "key": "tonkatsu_sauce",
+      "canonicalName": "とんかつソース",
+      "aliases": [
+        "トンカツソース",
+        "豚カツソース"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "milliliter",
+      "allowedUnits": [
+        "milliliter",
+        "liter",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000149",
+      "key": "worcester_sauce",
+      "canonicalName": "ウスターソース",
+      "aliases": [
+        "うすたーそーす"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "milliliter",
+      "allowedUnits": [
+        "milliliter",
+        "liter",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000150",
+      "key": "sesame_dressing",
+      "canonicalName": "ごまドレッシング",
+      "aliases": [
+        "ゴマドレッシング",
+        "胡麻ドレッシング"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "milliliter",
+      "allowedUnits": [
+        "milliliter",
+        "liter",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "sesame",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000151",
+      "key": "yakiniku_sauce",
+      "canonicalName": "焼肉のたれ",
+      "aliases": [
+        "やきにくのたれ",
+        "焼き肉のたれ"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "milliliter",
+      "allowedUnits": [
+        "milliliter",
+        "liter",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "soy",
+        "wheat",
+        "sesame"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000152",
+      "key": "honey",
+      "canonicalName": "はちみつ",
+      "aliases": [
+        "ハチミツ",
+        "蜂蜜"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "milliliter",
+      "allowedUnits": [
+        "milliliter",
+        "liter",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000153",
+      "key": "curry_powder",
+      "canonicalName": "カレー粉",
+      "aliases": [
+        "かれーこ"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000154",
+      "key": "shichimi",
+      "canonicalName": "七味唐辛子",
+      "aliases": [
+        "しちみとうがらし",
+        "七味",
+        "しちみ"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000155",
+      "key": "apple",
+      "canonicalName": "りんご",
+      "aliases": [
+        "リンゴ",
+        "林檎"
+      ],
+      "category": "other",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "apple"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000156",
+      "key": "banana",
+      "canonicalName": "バナナ",
+      "aliases": [
+        "ばなな"
+      ],
+      "category": "other",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "banana"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000157",
+      "key": "orange",
+      "canonicalName": "みかん",
+      "aliases": [
+        "ミカン",
+        "蜜柑"
+      ],
+      "category": "other",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000158",
+      "key": "lemon",
+      "canonicalName": "レモン",
+      "aliases": [
+        "れもん"
+      ],
+      "category": "other",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000159",
+      "key": "strawberry",
+      "canonicalName": "いちご",
+      "aliases": [
+        "イチゴ",
+        "苺"
+      ],
+      "category": "other",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000160",
+      "key": "avocado",
+      "canonicalName": "アボカド",
+      "aliases": [
+        "あぼかど"
+      ],
+      "category": "other",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000161",
+      "key": "cherry_tomato",
+      "canonicalName": "ミニトマト",
+      "aliases": [
+        "みにとまと",
+        "プチトマト"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000162",
+      "key": "sunny_lettuce",
+      "canonicalName": "サニーレタス",
+      "aliases": [
+        "さにーれたす",
+        "赤葉レタス"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000163",
+      "key": "cauliflower",
+      "canonicalName": "カリフラワー",
+      "aliases": [
+        "かりふらわー"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000164",
+      "key": "brussels_sprouts",
+      "canonicalName": "芽キャベツ",
+      "aliases": [
+        "めきゃべつ",
+        "メキャベツ"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000165",
+      "key": "bamboo_shoots",
+      "canonicalName": "たけのこ",
+      "aliases": [
+        "タケノコ",
+        "筍",
+        "竹の子"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000166",
+      "key": "beet",
+      "canonicalName": "ビーツ",
+      "aliases": [
+        "びーつ",
+        "ビート"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000167",
+      "key": "yamatoimo",
+      "canonicalName": "大和芋",
+      "aliases": [
+        "やまといも",
+        "ヤマトイモ"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000168",
+      "key": "shungiku",
+      "canonicalName": "春菊",
+      "aliases": [
+        "しゅんぎく",
+        "シュンギク"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bunch",
+      "allowedUnits": [
+        "bunch",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000169",
+      "key": "parsley",
+      "canonicalName": "パセリ",
+      "aliases": [
+        "ぱせり"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bunch",
+      "allowedUnits": [
+        "bunch",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000170",
+      "key": "basil",
+      "canonicalName": "生バジル",
+      "aliases": [
+        "なまばじる",
+        "フレッシュバジル",
+        "バジル"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bunch",
+      "allowedUnits": [
+        "bunch",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000171",
+      "key": "kale",
+      "canonicalName": "ケール",
+      "aliases": [
+        "けーる"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bunch",
+      "allowedUnits": [
+        "bunch",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000172",
+      "key": "molokheiya",
+      "canonicalName": "モロヘイヤ",
+      "aliases": [
+        "もろへいや"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bunch",
+      "allowedUnits": [
+        "bunch",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000173",
+      "key": "seri",
+      "canonicalName": "せり",
+      "aliases": [
+        "セリ",
+        "芹"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bunch",
+      "allowedUnits": [
+        "bunch",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000174",
+      "key": "snow_peas",
+      "canonicalName": "絹さや",
+      "aliases": [
+        "きぬさや",
+        "キヌサヤ",
+        "さやえんどう"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "bag",
+      "allowedUnits": [
+        "bag",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000175",
+      "key": "kaiware",
+      "canonicalName": "かいわれ大根",
+      "aliases": [
+        "かいわれだいこん",
+        "カイワレ",
+        "貝割れ大根"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "pack",
+      "allowedUnits": [
+        "pack",
+        "gram"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000176",
+      "key": "radish",
+      "canonicalName": "ラディッシュ",
+      "aliases": [
+        "らでぃっしゅ",
+        "二十日大根",
+        "はつかだいこん"
+      ],
+      "category": "vegetable",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000177",
+      "key": "nameko",
+      "canonicalName": "なめこ",
+      "aliases": [
+        "ナメコ"
+      ],
+      "category": "mushroom",
+      "defaultUnit": "pack",
+      "allowedUnits": [
+        "pack",
+        "gram",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000178",
+      "key": "dried_kikurage",
+      "canonicalName": "乾燥きくらげ",
+      "aliases": [
+        "かんそうきくらげ",
+        "干しきくらげ",
+        "乾燥木耳"
+      ],
+      "category": "mushroom",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000179",
+      "key": "dried_shiitake",
+      "canonicalName": "干ししいたけ",
+      "aliases": [
+        "ほししいたけ",
+        "干し椎茸",
+        "乾燥しいたけ"
+      ],
+      "category": "mushroom",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "piece",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000180",
+      "key": "fresh_tuna",
+      "canonicalName": "まぐろ",
+      "aliases": [
+        "マグロ",
+        "鮪",
+        "生まぐろ"
+      ],
+      "category": "fish",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000181",
+      "key": "bonito",
+      "canonicalName": "かつお",
+      "aliases": [
+        "カツオ",
+        "鰹",
+        "生かつお"
+      ],
+      "category": "fish",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000182",
+      "key": "sea_bream",
+      "canonicalName": "たい",
+      "aliases": [
+        "タイ",
+        "鯛",
+        "真鯛",
+        "まだい"
+      ],
+      "category": "fish",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000183",
+      "key": "spanish_mackerel",
+      "canonicalName": "さわら",
+      "aliases": [
+        "サワラ",
+        "鰆"
+      ],
+      "category": "fish",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000184",
+      "key": "hokke",
+      "canonicalName": "ほっけ",
+      "aliases": [
+        "ホッケ"
+      ],
+      "category": "fish",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000185",
+      "key": "shishamo",
+      "canonicalName": "ししゃも",
+      "aliases": [
+        "シシャモ"
+      ],
+      "category": "fish",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000186",
+      "key": "flounder",
+      "canonicalName": "かれい",
+      "aliases": [
+        "カレイ",
+        "鰈"
+      ],
+      "category": "fish",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000187",
+      "key": "scallops",
+      "canonicalName": "ほたて",
+      "aliases": [
+        "ホタテ",
+        "帆立",
+        "ほたて貝柱"
+      ],
+      "category": "fish",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "piece",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000188",
+      "key": "oysters",
+      "canonicalName": "かき",
+      "aliases": [
+        "カキ",
+        "牡蠣",
+        "むき牡蠣"
+      ],
+      "category": "fish",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "piece",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000189",
+      "key": "shirasu",
+      "canonicalName": "釜揚げしらす",
+      "aliases": [
+        "かまあげしらす",
+        "しらす",
+        "シラス"
+      ],
+      "category": "fish",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000190",
+      "key": "beef_belly",
+      "canonicalName": "牛バラ肉",
+      "aliases": [
+        "ぎゅうばらにく",
+        "牛ばら肉"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "beef"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000191",
+      "key": "beef_shoulder",
+      "canonicalName": "牛肩ロース肉",
+      "aliases": [
+        "ぎゅうかたろーすにく",
+        "牛肩ロース"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "beef"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000192",
+      "key": "beef_round",
+      "canonicalName": "牛もも肉",
+      "aliases": [
+        "ぎゅうももにく",
+        "牛モモ肉"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "beef"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000193",
+      "key": "pork_tenderloin",
+      "canonicalName": "豚ヒレ肉",
+      "aliases": [
+        "ぶたひれにく",
+        "豚ひれ肉"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "pork"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000194",
+      "key": "chicken_liver",
+      "canonicalName": "鶏レバー",
+      "aliases": [
+        "とりればー",
+        "鶏肝"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "chicken"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000195",
+      "key": "pork_liver",
+      "canonicalName": "豚レバー",
+      "aliases": [
+        "ぶたればー",
+        "豚肝"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "pork"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000196",
+      "key": "dried_soybeans",
+      "canonicalName": "乾燥大豆",
+      "aliases": [
+        "かんそうだいず",
+        "乾燥だいず",
+        "乾燥ダイズ"
+      ],
+      "category": "soy_product",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "soy"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000197",
+      "key": "boiled_soybeans",
+      "canonicalName": "大豆の水煮",
+      "aliases": [
+        "だいずのみずに",
+        "大豆水煮",
+        "蒸し大豆"
+      ],
+      "category": "soy_product",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "soy"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000198",
+      "key": "dried_red_beans",
+      "canonicalName": "乾燥小豆",
+      "aliases": [
+        "かんそうあずき",
+        "乾燥あずき"
+      ],
+      "category": "other",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000199",
+      "key": "dried_kidney_beans",
+      "canonicalName": "乾燥金時豆",
+      "aliases": [
+        "かんそうきんときまめ",
+        "乾燥きんとき豆"
+      ],
+      "category": "other",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000200",
+      "key": "dried_chickpeas",
+      "canonicalName": "乾燥ひよこ豆",
+      "aliases": [
+        "かんそうひよこまめ",
+        "乾燥ヒヨコ豆"
+      ],
+      "category": "other",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000201",
+      "key": "dried_lentils",
+      "canonicalName": "乾燥レンズ豆",
+      "aliases": [
+        "かんそうれんずまめ",
+        "乾燥レンズマメ"
+      ],
+      "category": "other",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000202",
+      "key": "dried_udon",
+      "canonicalName": "乾麺うどん",
+      "aliases": [
+        "かんめんうどん",
+        "乾燥うどん",
+        "干しうどん"
+      ],
+      "category": "staple",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "portion",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000203",
+      "key": "chilled_udon",
+      "canonicalName": "ゆでうどん",
+      "aliases": [
+        "ゆでうどんめん",
+        "茹でうどん",
+        "チルドうどん"
+      ],
+      "category": "staple",
+      "defaultUnit": "portion",
+      "allowedUnits": [
+        "portion",
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000204",
+      "key": "penne",
+      "canonicalName": "ペンネ",
+      "aliases": [
+        "ぺんね"
+      ],
+      "category": "staple",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000205",
+      "key": "macaroni",
+      "canonicalName": "マカロニ",
+      "aliases": [
+        "まかろに"
+      ],
+      "category": "staple",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000206",
+      "key": "rice_vermicelli",
+      "canonicalName": "ビーフン",
+      "aliases": [
+        "びーふん"
+      ],
+      "category": "staple",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000207",
+      "key": "glass_noodles",
+      "canonicalName": "春雨",
+      "aliases": [
+        "はるさめ",
+        "ハルサメ"
+      ],
+      "category": "staple",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000208",
+      "key": "bread_flour",
+      "canonicalName": "強力粉",
+      "aliases": [
+        "きょうりきこ",
+        "キョウリキコ"
+      ],
+      "category": "staple",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "wheat"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000209",
+      "key": "rolled_barley",
+      "canonicalName": "押し麦",
+      "aliases": [
+        "おしむぎ",
+        "オシムギ"
+      ],
+      "category": "staple",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000210",
+      "key": "brown_rice",
+      "canonicalName": "玄米",
+      "aliases": [
+        "げんまい",
+        "ゲンマイ"
+      ],
+      "category": "staple",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000211",
+      "key": "cream_cheese",
+      "canonicalName": "クリームチーズ",
+      "aliases": [
+        "くりーむちーず"
+      ],
+      "category": "egg_dairy",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "milk"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000212",
+      "key": "cottage_cheese",
+      "canonicalName": "カッテージチーズ",
+      "aliases": [
+        "かってーじちーず"
+      ],
+      "category": "egg_dairy",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "milk"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000213",
+      "key": "powdered_cheese",
+      "canonicalName": "粉チーズ",
+      "aliases": [
+        "こなちーず",
+        "パルメザンチーズ"
+      ],
+      "category": "egg_dairy",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "milk"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000214",
+      "key": "skim_milk_powder",
+      "canonicalName": "スキムミルク",
+      "aliases": [
+        "すきむみるく",
+        "脱脂粉乳",
+        "だっしふんにゅう"
+      ],
+      "category": "egg_dairy",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "bag"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "milk"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000215",
+      "key": "canned_corn",
+      "canonicalName": "コーン缶",
+      "aliases": [
+        "こーんかん",
+        "とうもろこし缶"
+      ],
+      "category": "processed",
+      "defaultUnit": "can",
+      "allowedUnits": [
+        "can",
+        "gram"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000216",
+      "key": "canned_sardines",
+      "canonicalName": "いわし缶",
+      "aliases": [
+        "いわしかん",
+        "イワシ缶"
+      ],
+      "category": "processed",
+      "defaultUnit": "can",
+      "allowedUnits": [
+        "can",
+        "gram"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000217",
+      "key": "canned_salmon",
+      "canonicalName": "さけ缶",
+      "aliases": [
+        "さけかん",
+        "鮭缶",
+        "サーモン缶"
+      ],
+      "category": "processed",
+      "defaultUnit": "can",
+      "allowedUnits": [
+        "can",
+        "gram"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "salmon"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000218",
+      "key": "chirimen_jako",
+      "canonicalName": "ちりめんじゃこ",
+      "aliases": [
+        "チリメンジャコ",
+        "じゃこ",
+        "縮緬雑魚"
+      ],
+      "category": "processed",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000219",
+      "key": "tarako",
+      "canonicalName": "たらこ",
+      "aliases": [
+        "タラコ",
+        "鱈子"
+      ],
+      "category": "processed",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000220",
+      "key": "mentaiko",
+      "canonicalName": "明太子",
+      "aliases": [
+        "めんたいこ",
+        "メンタイコ"
+      ],
+      "category": "processed",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000221",
+      "key": "kani_kama",
+      "canonicalName": "かにかま",
+      "aliases": [
+        "カニカマ",
+        "カニ風味かまぼこ"
+      ],
+      "category": "processed",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000222",
+      "key": "hanpen",
+      "canonicalName": "はんぺん",
+      "aliases": [
+        "ハンペン"
+      ],
+      "category": "processed",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish",
+        "egg"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000223",
+      "key": "fish_sausage",
+      "canonicalName": "魚肉ソーセージ",
+      "aliases": [
+        "ぎょにくそーせーじ",
+        "魚肉ウインナー"
+      ],
+      "category": "processed",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000224",
+      "key": "hijiki",
+      "canonicalName": "乾燥ひじき",
+      "aliases": [
+        "かんそうひじき",
+        "ひじき",
+        "干しひじき"
+      ],
+      "category": "processed",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000225",
+      "key": "kiriboshi_daikon",
+      "canonicalName": "切り干し大根",
+      "aliases": [
+        "きりぼしだいこん",
+        "切干大根",
+        "切り干しだいこん"
+      ],
+      "category": "processed",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000226",
+      "key": "kombu",
+      "canonicalName": "だし昆布",
+      "aliases": [
+        "だしこんぶ",
+        "昆布",
+        "こんぶ"
+      ],
+      "category": "processed",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000227",
+      "key": "bonito_flakes",
+      "canonicalName": "かつお節",
+      "aliases": [
+        "かつおぶし",
+        "鰹節",
+        "削り節"
+      ],
+      "category": "processed",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "fish"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000228",
+      "key": "frozen_french_fries",
+      "canonicalName": "冷凍フライドポテト",
+      "aliases": [
+        "れいとうふらいどぽてと",
+        "冷凍ポテト"
+      ],
+      "category": "processed",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "bag",
+        "pack"
+      ],
+      "defaultStorage": "frozen",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000229",
+      "key": "rice_vinegar",
+      "canonicalName": "米酢",
+      "aliases": [
+        "こめず",
+        "コメズ"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "milliliter",
+      "allowedUnits": [
+        "milliliter",
+        "liter",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000230",
+      "key": "white_pepper",
+      "canonicalName": "白こしょう",
+      "aliases": [
+        "しろこしょう",
+        "ホワイトペッパー"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000231",
+      "key": "baking_powder",
+      "canonicalName": "ベーキングパウダー",
+      "aliases": [
+        "べーきんぐぱうだー"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000232",
+      "key": "roasted_sesame",
+      "canonicalName": "いりごま",
+      "aliases": [
+        "イリゴマ",
+        "炒りごま"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "sesame"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000233",
+      "key": "ichimi",
+      "canonicalName": "一味唐辛子",
+      "aliases": [
+        "いちみとうがらし",
+        "一味",
+        "いちみ"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000234",
+      "key": "karashi",
+      "canonicalName": "練りからし",
+      "aliases": [
+        "ねりからし",
+        "練り辛子",
+        "からし"
+      ],
+      "category": "seasoning",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "rough",
+      "isPantryStaple": true,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000235",
+      "key": "kiwi",
+      "canonicalName": "キウイ",
+      "aliases": [
+        "きうい",
+        "キウイフルーツ"
+      ],
+      "category": "other",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "kiwifruit"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000236",
+      "key": "melon",
+      "canonicalName": "メロン",
+      "aliases": [
+        "めろん"
+      ],
+      "category": "other",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000237",
+      "key": "grapes",
+      "canonicalName": "ぶどう",
+      "aliases": [
+        "ブドウ",
+        "葡萄"
+      ],
+      "category": "other",
+      "defaultUnit": "pack",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000238",
+      "key": "pear",
+      "canonicalName": "梨",
+      "aliases": [
+        "なし",
+        "ナシ"
+      ],
+      "category": "other",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000239",
+      "key": "pineapple",
+      "canonicalName": "パイナップル",
+      "aliases": [
+        "ぱいなっぷる"
+      ],
+      "category": "other",
+      "defaultUnit": "piece",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000240",
+      "key": "blueberries",
+      "canonicalName": "ブルーベリー",
+      "aliases": [
+        "ぶるーべりー"
+      ],
+      "category": "other",
+      "defaultUnit": "pack",
+      "allowedUnits": [
+        "piece",
+        "gram",
+        "pack",
+        "bag"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000241",
+      "key": "mozzarella",
+      "canonicalName": "モッツァレラチーズ",
+      "aliases": [
+        "もっつぁれら",
+        "モッツァレラ",
+        "モッツアレラ",
+        "モッツァレラチーズ"
+      ],
+      "category": "egg_dairy",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "milk"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000242",
+      "key": "black_olives",
+      "canonicalName": "ブラックオリーブ",
+      "aliases": [
+        "ぶらっくおりーぶ",
+        "黒オリーブ",
+        "種抜きブラックオリーブ"
+      ],
+      "category": "processed",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "room_temperature",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000243",
+      "key": "puff_pastry",
+      "canonicalName": "冷凍パイシート",
+      "aliases": [
+        "れいとうぱいしーと",
+        "パイシート",
+        "ぱいしーと",
+        "パイ生地"
+      ],
+      "category": "staple",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "pack"
+      ],
+      "defaultStorage": "frozen",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "wheat",
+        "milk"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000244",
+      "key": "pork_thigh",
+      "canonicalName": "豚もも肉",
+      "aliases": [
+        "豚もも",
+        "豚モモ",
+        "豚モモ肉",
+        "豚もも薄切り",
+        "豚もも切り落とし",
+        "豚もも切落し",
+        "豚もも切落",
+        "豚モモ切り落とし",
+        "豚モモ切落し",
+        "豚モモ切落",
+        "豚腿肉",
+        "ぶたももにく",
+        "ぶたもも",
+        "ぶたももきりおとし"
+      ],
+      "category": "meat",
+      "defaultUnit": "gram",
+      "allowedUnits": [
+        "gram",
+        "kilogram",
+        "pack"
+      ],
+      "defaultStorage": "refrigerated",
+      "stockMode": "exact",
+      "isPantryStaple": false,
+      "trackInventory": true,
+      "shoppingEligible": true,
+      "allergens": [
+        "pork"
+      ],
+      "status": "active"
+    }
+  ]
+}

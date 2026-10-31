@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kyounanitaberu.local/schemas/calculation-test-cases.schema.json",
+  "title": "今日何食べる？ Calculation Test Cases",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "recipeCatalogVersion",
+    "unitConversions",
+    "scalingCases",
+    "availabilityCases"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "recipeCatalogVersion": { "type": "string" },
+    "unitConversions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "sourceQuantity", "sourceUnit", "targetUnit", "expectedStatus"],
+        "properties": {
+          "id": { "type": "string" },
+          "sourceQuantity": { "type": "number", "exclusiveMinimum": 0 },
+          "sourceUnit": { "type": "string" },
+          "targetUnit": { "type": "string" },
+          "expectedStatus": { "enum": ["converted", "unsupported"] },
+          "expectedQuantity": { "type": "number", "minimum": 0 }
+        }
+      }
+    },
+    "scalingCases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "recipeKey", "servings", "ingredientKey", "expectedQuantity", "expectedUnit"],
+        "properties": {
+          "id": { "type": "string" },
+          "recipeKey": { "type": "string" },
+          "servings": { "type": "integer", "minimum": 1, "maximum": 4 },
+          "ingredientKey": { "type": "string" },
+          "expectedQuantity": { "type": "number", "exclusiveMinimum": 0 },
+          "expectedUnit": { "type": "string" }
+        }
+      }
+    },
+    "availabilityCases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "recipeKey", "servings", "ingredientKey", "lots", "expected"],
+        "properties": {
+          "id": { "type": "string" },
+          "recipeKey": { "type": "string" },
+          "servings": { "type": "integer", "minimum": 1, "maximum": 4 },
+          "ingredientKey": { "type": "string" },
+          "lots": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id"],
+              "properties": {
+                "id": { "type": "string" },
+                "quantity": { "type": "number", "exclusiveMinimum": 0 },
+                "unit": { "type": "string" },
+                "roughState": { "enum": ["available", "low", "none"] },
+                "expiresInDays": { "type": ["integer", "null"] },
+                "storage": { "enum": ["refrigerated", "frozen", "room_temperature"] }
+              }
+            }
+          },
+          "expected": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["status"],
+            "properties": {
+              "status": { "enum": ["available", "shortage", "confirmation", "optional_missing", "ignored"] },
+              "shortageQuantity": { "type": "number", "minimum": 0 },
+              "unit": { "type": "string" },
+              "consumptionOrder": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "thawing": { "enum": ["none", "cook_from_frozen", "thaw_before_cooking"] }
+            }
+          }
+        }
+      }
+    }
+  }
+}

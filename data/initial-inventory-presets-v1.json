@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "1.0.0",
+  "ingredientCatalogVersion": "1.3.0",
+  "locale": "ja-JP",
+  "sections": [
+    {
+      "id": "basic_seasonings",
+      "mode": "seasonings",
+      "title": "基本の調味料",
+      "order": 1,
+      "collapsedByDefault": false,
+      "groupSelectionEnabled": true,
+      "items": [
+        { "ingredientKey": "salt", "label": "塩", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "sugar", "label": "砂糖", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "soy_sauce", "label": "しょうゆ", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "miso", "label": "みそ", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "vinegar", "label": "酢", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "mirin", "label": "みりん", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "cooking_sake", "label": "料理酒", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "black_pepper", "label": "こしょう", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" }
+      ]
+    },
+    {
+      "id": "oils_and_sauces",
+      "mode": "seasonings",
+      "title": "油・ソース",
+      "order": 2,
+      "collapsedByDefault": false,
+      "groupSelectionEnabled": false,
+      "items": [
+        { "ingredientKey": "neutral_oil", "label": "サラダ油", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "sesame_oil", "label": "ごま油", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "olive_oil", "label": "オリーブ油", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "mayonnaise", "label": "マヨネーズ", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "ketchup", "label": "ケチャップ", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "chuno_sauce", "label": "中濃ソース", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" }
+      ]
+    },
+    {
+      "id": "specialty_seasonings",
+      "mode": "seasonings",
+      "title": "こだわり・海外調味料",
+      "order": 3,
+      "collapsedByDefault": true,
+      "groupSelectionEnabled": false,
+      "items": [
+        { "ingredientKey": "oyster_sauce", "label": "オイスターソース", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "fish_sauce", "label": "ナンプラー", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "doubanjiang", "label": "豆板醤", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "gochujang", "label": "コチュジャン", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "whole_grain_mustard", "label": "粒マスタード", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "balsamic_vinegar", "label": "バルサミコ酢", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" }
+      ]
+    },
+    {
+      "id": "common_foods",
+      "mode": "foods",
+      "title": "冷蔵庫によくあるもの",
+      "order": 4,
+      "collapsedByDefault": false,
+      "groupSelectionEnabled": false,
+      "items": [
+        { "ingredientKey": "egg", "label": "卵", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "milk", "label": "牛乳", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "tofu", "label": "豆腐", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "natto", "label": "納豆", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "cabbage", "label": "キャベツ", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "carrot", "label": "にんじん", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "onion", "label": "玉ねぎ", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "potato", "label": "じゃがいも", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "green_onion", "label": "長ねぎ", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "frozen_udon", "label": "冷凍うどん", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "chicken_thigh", "label": "鶏もも肉", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" },
+        { "ingredientKey": "pork_slices", "label": "豚こま切れ肉", "initialInventoryMode": "rough", "roughState": "available", "storageStrategy": "master_default" }
+      ]
+    }
+  ]
+}

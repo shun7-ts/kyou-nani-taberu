@@ -1,0 +1,20 @@
+# macOS / Xcode
+.DS_Store
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Node tooling
+node_modules/
+
+# Temporary workspace artifacts
+tmp/

@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kyounanitaberu.local/schemas/ingredient-master.schema.json",
+  "title": "今日何食べる？ Ingredient Master",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "catalogVersion",
+    "locale",
+    "masterIdNamespace",
+    "ingredients"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "catalogVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "locale": { "const": "ja-JP" },
+    "masterIdNamespace": { "type": "string", "minLength": 1 },
+    "ingredients": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/ingredient" }
+    }
+  },
+  "$defs": {
+    "unit": {
+      "enum": [
+        "piece",
+        "gram",
+        "kilogram",
+        "milliliter",
+        "liter",
+        "pack",
+        "bag",
+        "can",
+        "block",
+        "bunch",
+        "stalk",
+        "clove",
+        "slice",
+        "serving",
+        "portion",
+        "tablespoon",
+        "teaspoon"
+      ]
+    },
+    "ingredient": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "key",
+        "canonicalName",
+        "aliases",
+        "category",
+        "defaultUnit",
+        "allowedUnits",
+        "defaultStorage",
+        "stockMode",
+        "isPantryStaple",
+        "trackInventory",
+        "shoppingEligible",
+        "allergens",
+        "status"
+      ],
+      "properties": {
+        "id": { "type": "string", "format": "uuid" },
+        "key": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "canonicalName": { "type": "string", "minLength": 1 },
+        "aliases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "category": {
+          "enum": [
+            "staple",
+            "vegetable",
+            "mushroom",
+            "meat",
+            "fish",
+            "egg_dairy",
+            "soy_product",
+            "processed",
+            "seasoning",
+            "other"
+          ]
+        },
+        "defaultUnit": { "$ref": "#/$defs/unit" },
+        "allowedUnits": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/unit" }
+        },
+        "defaultStorage": {
+          "enum": ["refrigerated", "frozen", "room_temperature"]
+        },
+        "stockMode": { "enum": ["exact", "rough"] },
+        "isPantryStaple": { "type": "boolean" },
+        "trackInventory": { "type": "boolean" },
+        "shoppingEligible": { "type": "boolean" },
+        "allergens": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "status": { "enum": ["active", "deprecated"] }
+      }
+    }
+  }
+}

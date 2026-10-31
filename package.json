@@ -1,0 +1,12 @@
+{
+  "name": "kyou-nani-taberu-data",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Seed data and validation for 今日何食べる？",
+  "scripts": {
+    "test": "node ./scripts/validate-ingredient-master.mjs && node ./scripts/validate-recipe-seeds.mjs && node ./scripts/validate-initial-inventory-presets.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

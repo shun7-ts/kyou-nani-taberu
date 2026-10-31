@@ -1,0 +1,199 @@
+{
+  "maxEdge": 1280,
+  "jpegQuality": 84,
+  "beforeFolderBytes": 23462933,
+  "afterFolderBytes": 3014606,
+  "removedUnusedFiles": [],
+  "images": [
+    {
+      "recipeKey": "hamburg_mushroom_stew",
+      "originalFile": "hamburg_mushroom_stew.png",
+      "file": "hamburg_mushroom_stew.jpg",
+      "originalBytes": 2397913,
+      "bytes": 315825,
+      "originalSHA256": "c4d04ec5320c2eb5856dd5f3078a5298d833c2b4a2286d471ae62c1e0f862c34",
+      "sha256": "0aad2405b12285d9439b1f7e66febc97654a48d1a618009107931104e3e70a26",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "pork_chap",
+      "originalFile": "pork_chap.png",
+      "file": "pork_chap.jpg",
+      "originalBytes": 2443558,
+      "bytes": 330492,
+      "originalSHA256": "bcec0a4aab56c0bdde17edec3d798bce11d42ab4f10fa8a3be94e653d0228f44",
+      "sha256": "7c1a21033ddfdbd795b13f37ddddf3763799c99ef365fa0d95549b057477d879",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "chicken_cheese_piccata",
+      "originalFile": "chicken_cheese_piccata.png",
+      "file": "chicken_cheese_piccata.jpg",
+      "originalBytes": 2480753,
+      "bytes": 334806,
+      "originalSHA256": "77b51acf80ad2c4ee7797c6784233077cb8f825845a189b90a2a7fab0c306de7",
+      "sha256": "de3dafa6e8ba45e2e59d60eb0ffcfb4c41919c05859f361805f6a2ccf32a78cb",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "salmon_spinach_cream_pasta",
+      "originalFile": "salmon_spinach_cream_pasta.png",
+      "file": "salmon_spinach_cream_pasta.jpg",
+      "originalBytes": 2403810,
+      "bytes": 302527,
+      "originalSHA256": "c94d85e8782f90c2e66b55fa87e4eb95e92de4fd08e56623c45159a74db05783",
+      "sha256": "48b68a5631897b934395b17cb2133156f27d7d81556d9b851a8d39dd3234c5fc",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "shrimp_broccoli_gratin",
+      "originalFile": "shrimp_broccoli_gratin.png",
+      "file": "shrimp_broccoli_gratin.jpg",
+      "originalBytes": 2405598,
+      "bytes": 334666,
+      "originalSHA256": "ae5ac6758e6e5c8c27708523aefacac1b946ba10cee95b6fd0ead1cd3b5d1dc7",
+      "sha256": "70e4458f62ee8f148b1715339090617da2dbd7aa6a0fe834abe160c83518b6e6",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "beef_mushroom_hayashi",
+      "originalFile": "beef_mushroom_hayashi.png",
+      "file": "beef_mushroom_hayashi.jpg",
+      "originalBytes": 2391111,
+      "bytes": 319598,
+      "originalSHA256": "ef8f0ffe2416fd4c52c84e8dc6028bb7826ea6926c5c097f0eb1be32d5e547b0",
+      "sha256": "d9de6afd27315cfeda868157194b875563aa353e0c5e7efbd1b4ba0637af5c93",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "cod_lemon_meuniere",
+      "originalFile": "cod_lemon_meuniere.png",
+      "file": "cod_lemon_meuniere.jpg",
+      "originalBytes": 2245771,
+      "bytes": 278294,
+      "originalSHA256": "d42b2e8073ecae945c8b1ee46761bd6d7ae6657b47ef0bc22bd097fa344a06d2",
+      "sha256": "beb86727c8ffd8929c3d82e0cd39fc5c78617652a3845beb6b0a20648e0637df",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "german_potato",
+      "originalFile": "german_potato.png",
+      "file": "german_potato.jpg",
+      "originalBytes": 2477864,
+      "bytes": 334106,
+      "originalSHA256": "585067fa69d1a245c5b635b27adbf66fb1c3e9cae775098d61331efdec46f6d1",
+      "sha256": "11995b70f8ba10844a72b850b4caa07b10603be49d258f0dde5fe184f67fd4f8",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "mushroom_marinade",
+      "originalFile": "mushroom_marinade.png",
+      "file": "mushroom_marinade.jpg",
+      "originalBytes": 2181869,
+      "bytes": 256490,
+      "originalSHA256": "e836db923fcdeeb33a40e23c433e0fdee6febeac845150301993d6d1649c7ff9",
+      "sha256": "5adafb9cff28b3e0cc1190161122873de11e50b670cacafaa67f8db0dc34a486",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    },
+    {
+      "recipeKey": "corn_potage",
+      "originalFile": "corn_potage.png",
+      "file": "corn_potage.jpg",
+      "originalBytes": 2031886,
+      "bytes": 205002,
+      "originalSHA256": "712d14d484d504e6c4a40cb65c65813c5097b2602fd907a65d66bb3216309f7e",
+      "sha256": "93d4a9f33b0e7b5986d06ab24c0d49063fcbddb32107c22d7303fb76aefbd012",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1280,
+        853
+      ],
+      "hasAlpha": false,
+      "transformation": "JPEG quality 84; maximum edge 1280; aspect ratio retained"
+    }
+  ]
+}

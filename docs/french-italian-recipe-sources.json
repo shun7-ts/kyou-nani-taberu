@@ -1,0 +1,98 @@
+[
+  {
+    "recipeKey": "sausage_pot_au_feu",
+    "title": "ソーセージと野菜のポトフ",
+    "country": "フランス",
+    "url": "https://www.sbfoods.co.jp/recipe/detail/09110.html",
+    "checkedAt": "2026-10-13",
+    "adaptation": "ベーコンとローレルを省き、1人分で根菜の火通りを確認する構成へ独自編集。"
+  },
+  {
+    "recipeKey": "onion_gratin_soup",
+    "title": "オニオングラタンスープ",
+    "country": "フランス",
+    "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00056781/",
+    "checkedAt": "2026-10-13",
+    "adaptation": "あめ色玉ねぎとパン・チーズの仕上げを参考。しょうゆ・みりん・電子レンジを使わず、食パンとコンソメへ変更。"
+  },
+  {
+    "recipeKey": "spinach_bacon_quiche",
+    "title": "ほうれん草とベーコンのキッシュ",
+    "country": "フランス",
+    "url": "https://www.sbfoods.co.jp/recipe/detail/02312.html",
+    "checkedAt": "2026-10-13",
+    "adaptation": "小型1人分に独自編集し、具の冷却・中心の焼き上がり・生地の解凍を明記。ナツメッグとコンソメは不使用。"
+  },
+  {
+    "recipeKey": "nicoise_salad",
+    "title": "ツナと卵のニース風サラダ",
+    "country": "フランス",
+    "url": "https://www.sbfoods.co.jp/recipe/detail/02335.html",
+    "checkedAt": "2026-10-13",
+    "adaptation": "じゃがいも・アンチョビ・複数ハーブを省いた家庭向けニース風。卵は固ゆで、オリーブは種抜きと明記。"
+  },
+  {
+    "recipeKey": "carottes_rapees",
+    "title": "キャロットラペ",
+    "country": "フランス",
+    "url": "https://www.sbfoods.co.jp/craftstyle/topping/carottesrape/",
+    "checkedAt": "2026-10-13",
+    "adaptation": "スパイスやリンゴ酢を使わず、通常の酢と粒マスタード、塩もみを使った独自の家庭用原稿。待ち時間も合計に含む。"
+  },
+  {
+    "recipeKey": "potato_dauphinois",
+    "title": "じゃがいものドフィノア風グラタン",
+    "country": "フランス",
+    "url": "https://www.sbfoods.co.jp/recipe/detail/04499.html",
+    "checkedAt": "2026-10-13",
+    "adaptation": "生クリームとにんにくを加え、ピザ用チーズとトースターで作るドフィノア風に編集。水にさらさずでんぷんでとろみを出す。"
+  },
+  {
+    "recipeKey": "caprese_salad",
+    "title": "トマトとモッツァレラのカプレーゼ",
+    "country": "イタリア",
+    "url": "https://www.morinagamilk.co.jp/recipe/detail/recipe.php?id=76026K",
+    "checkedAt": "2026-10-13",
+    "adaptation": "1人分の副菜へ独自編集。モッツァレラを別マスターに追加し、ピザ用チーズで代用しない。"
+  },
+  {
+    "recipeKey": "vegetable_minestrone",
+    "title": "野菜たっぷりミネストローネ",
+    "country": "イタリア",
+    "url": "https://www.sbfoods.co.jp/recipe/detail/10308.html",
+    "checkedAt": "2026-10-13",
+    "adaptation": "既存のミネストローネパスタとは別の汁物。コンソメを使った少量版へ編集し、ハーブは省略。"
+  },
+  {
+    "recipeKey": "cod_acqua_pazza",
+    "title": "たらとあさりのアクアパッツァ",
+    "country": "イタリア",
+    "url": "https://www.kikkoman.co.jp/homecook/search/recipe/00003384/",
+    "checkedAt": "2026-10-13",
+    "adaptation": "たら・砂抜き済みあさり・ミニトマト版へ独自編集。しょうゆ・唐辛子・ワインは使わない。"
+  },
+  {
+    "recipeKey": "penne_arrabbiata",
+    "title": "ペンネ・アラビアータ",
+    "country": "イタリア",
+    "url": "https://www.giallozafferano.com/recipes/Penne-all-arrabbiata.html",
+    "checkedAt": "2026-10-13",
+    "adaptation": "1人分でトマト缶を少量にし、順に作る目安時間へ編集。ゆで時間は包装表示を優先。チーズは加えない。"
+  },
+  {
+    "recipeKey": "potato_frittata",
+    "title": "じゃがいものフリッタータ",
+    "country": "イタリア",
+    "url": "https://www.giallozafferano.com/recipes/potato-frittata.html",
+    "checkedAt": "2026-10-13",
+    "adaptation": "じゃがいもの下ゆでを電子レンジへ置換し、小型フライパン・少量版に編集。卵は中心まで加熱する。"
+  },
+  {
+    "recipeKey": "mushroom_risotto",
+    "title": "きのこのチーズリゾット",
+    "country": "イタリア",
+    "url": "https://www.asahikei.co.jp/recipe/html/recipe_2175.html",
+    "checkedAt": "2026-10-13",
+    "adaptation": "ワインとポルチーニを省き、一般的な米・マッシュルーム・しめじ・粉チーズで作る1人分へ編集。ごはんではなく米の在庫を参照。"
+  }
+]

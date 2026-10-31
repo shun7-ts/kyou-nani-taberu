@@ -1,0 +1,66 @@
+{
+  "catalogVersion": "1.3.0",
+  "purpose": "優先12レシピがIngredientMaster v1だけで表現できることを確認するための材料対応表。分量・手順は次工程で定義する。",
+  "recipes": [
+    {
+      "key": "tofu_egg_bowl",
+      "title": "豆腐と卵のふわとろ丼",
+      "ingredientKeys": ["cooked_rice", "tofu", "egg", "green_onion", "soy_sauce", "mirin", "dashi_granules", "potato_starch", "water"]
+    },
+    {
+      "key": "oyakodon",
+      "title": "親子丼",
+      "ingredientKeys": ["cooked_rice", "chicken_thigh", "egg", "onion", "soy_sauce", "mirin", "sugar", "dashi_granules", "water"]
+    },
+    {
+      "key": "pork_ginger",
+      "title": "豚肉と玉ねぎの生姜焼き",
+      "ingredientKeys": ["pork_slices", "onion", "ginger", "soy_sauce", "mirin", "cooking_sake", "sugar", "neutral_oil"]
+    },
+    {
+      "key": "teriyaki_chicken",
+      "title": "鶏の照り焼き",
+      "ingredientKeys": ["chicken_thigh", "soy_sauce", "mirin", "cooking_sake", "sugar", "neutral_oil"]
+    },
+    {
+      "key": "miso_pork_cabbage",
+      "title": "豚肉とキャベツのみそ炒め",
+      "ingredientKeys": ["pork_slices", "cabbage", "miso", "soy_sauce", "mirin", "sugar", "neutral_oil"]
+    },
+    {
+      "key": "mapo_tofu_bowl",
+      "title": "麻婆豆腐丼",
+      "ingredientKeys": ["cooked_rice", "tofu", "ground_pork", "green_onion", "garlic", "ginger", "doubanjiang", "soy_sauce", "chicken_stock_powder", "sesame_oil", "potato_starch", "water"]
+    },
+    {
+      "key": "egg_fried_rice",
+      "title": "卵チャーハン",
+      "ingredientKeys": ["cooked_rice", "egg", "green_onion", "soy_sauce", "chicken_stock_powder", "neutral_oil", "salt", "black_pepper"]
+    },
+    {
+      "key": "sauce_yakisoba",
+      "title": "ソース焼きそば",
+      "ingredientKeys": ["yakisoba_noodles", "pork_slices", "cabbage", "carrot", "onion", "chuno_sauce", "neutral_oil", "salt", "black_pepper"]
+    },
+    {
+      "key": "curry_udon",
+      "title": "カレーうどん",
+      "ingredientKeys": ["frozen_udon", "pork_slices", "onion", "green_onion", "curry_roux", "soy_sauce", "dashi_granules", "water"]
+    },
+    {
+      "key": "tuna_soy_pasta",
+      "title": "ツナしょうゆパスタ",
+      "ingredientKeys": ["spaghetti", "canned_tuna", "onion", "shimeji", "soy_sauce", "butter", "salt", "black_pepper"]
+    },
+    {
+      "key": "butter_soy_salmon",
+      "title": "鮭のバターしょうゆ焼き",
+      "ingredientKeys": ["salmon_fillet", "shimeji", "butter", "soy_sauce", "cooking_sake", "salt", "black_pepper"]
+    },
+    {
+      "key": "pork_kimchi_hotpot",
+      "title": "豚キムチ鍋",
+      "ingredientKeys": ["pork_slices", "kimchi", "napa_cabbage", "tofu", "green_onion", "shimeji", "miso", "soy_sauce", "chicken_stock_powder", "sesame_oil", "water"]
+    }
+  ]
+}
